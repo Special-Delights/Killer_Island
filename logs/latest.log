@@ -1,0 +1,1415 @@
+[01:29:56] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01:29:56] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[01:29:57] [Worker-Main-2/INFO]: Loaded 7 recipes
+[01:29:58] [Server thread/INFO]: Starting minecraft server version 1.17.1
+[01:29:58] [Server thread/INFO]: Loading properties
+[01:29:58] [Server thread/INFO]: This server is running Paper version git-Paper-310 (MC: 1.17.1) (Implementing API version 1.17.1-R0.1-SNAPSHOT) (Git: 0cdeeef)
+[01:29:58] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:29:58] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:29:58] [Server thread/INFO]: Default game type: SURVIVAL
+[01:29:58] [Server thread/INFO]: Generating keypair
+[01:29:58] [Server thread/INFO]: Starting Minecraft server on 147.135.65.157:25596
+[01:29:58] [Server thread/INFO]: Using default channel type
+[01:29:58] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
+[01:29:58] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[01:29:59] [Server thread/ERROR]: Could not load 'plugins\SereneSeasons-1.17.1-5.0.0.6-universal.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:178) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:160) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.loadPlugins(CraftServer.java:419) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:277) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1212) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[patched_1.17.1.jar:git-Paper-310]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 7 more
+[01:29:59] [Server thread/ERROR]: [STDERR] [org.bukkit.craftbukkit.v1_17_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[01:30:02] [Server thread/WARN]: Legacy plugin DeathCounter v1.1 does not specify an api-version.
+[01:30:02] [Server thread/INFO]: Custom heat values reloaded into calculator
+[01:30:02] [Server thread/INFO]: radius 0
+[01:30:02] [Server thread/INFO]: fire 0
+[01:30:02] [Server thread/INFO]: torch 0
+[01:30:02] [Server thread/WARN]: Legacy plugin Dynmap-GriefPrevention v0.80 does not specify an api-version.
+[01:30:02] [Server thread/INFO]: [DeathCounter] Loading DeathCounter v1.1
+[01:30:02] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.55
+[01:30:03] [Server thread/INFO]: [OpenInv] Loading OpenInv v4.1.8
+[01:30:03] [Server thread/INFO]: [BuycraftX] Loading BuycraftX v12.0.7
+[01:30:03] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.7.0
+[01:30:04] [Server thread/INFO]: [NBTAPI] Loading NBTAPI v2.8.0
+[01:30:04] [Server thread/INFO]: [NBTAPI] bStats disabled
+[01:30:04] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_17_R1! Trying to find NMS support
+[01:30:04] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_17_R1' loaded!
+[01:30:04] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Gson: class com.google.gson.Gson
+[01:30:04] [Server thread/INFO]: [floodgate] Loading floodgate v2.0-SNAPSHOT
+[01:30:04] [Thread-6/INFO]: [NBTAPI] [NBTAPI] The NBT-API seems to be up-to-date!
+[01:30:04] [Server thread/INFO]: [floodgate] Took 278ms to boot Floodgate
+[01:30:04] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[01:30:04] [Server thread/INFO]: [MiniBlocks] Loading MiniBlocks v1.1.1
+[01:30:04] [Server thread/INFO]: [dynmap] Loading dynmap v3.2-526
+[01:30:04] [Server thread/INFO]: [dynmap] version=git-Paper-310 (MC: 1.17.1)
+[01:30:04] [Server thread/INFO]: [dynmap] Mod Support API available
+[01:30:04] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.6+4b2d1e7
+[01:30:04] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5de23c28]
+[01:30:04] [Server thread/INFO]: [Chunky] Loading Chunky v1.2.86
+[01:30:04] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.0
+[01:30:04] [Server thread/INFO]: [Trey's Command Blocker] Loading CommandBlocker v2.1.1
+[01:30:04] [Server thread/INFO]: [DropHeads] Loading DropHeads v3.6.11.2
+[01:30:04] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.0-b846
+[01:30:04] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.6-beta1+0b66f3e
+[01:30:04] [Server thread/INFO]: [PlayerStatueBuilderX] Loading PlayerStatueBuilderX v1.11
+[01:30:04] [Server thread/INFO]: [Shopkeepers] Loading Shopkeepers v2.13.3
+[01:30:04] [Server thread/INFO]: [Shopkeepers] Loaded all plugin classes (192 ms)
+[01:30:04] [Server thread/INFO]: [Shopkeepers] Loading config.
+[01:30:05] [Server thread/INFO]: [Shopkeepers] Loading language file: language-en-default.yml
+[01:30:05] [Server thread/INFO]: [Shopkeepers] Registering WorldGuard flag 'allow-shop'.
+[01:30:05] [Server thread/INFO]: [Shopkeepers] Registering defaults.
+[01:30:05] [Server thread/INFO]: [Multiverse-Inventories] Loading Multiverse-Inventories v4.2.2-b500
+[01:30:05] [Server thread/INFO]: [Multiverse-SignPortals] Loading Multiverse-SignPortals v4.2.0-b762
+[01:30:05] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.19.0
+[01:30:05] [Server thread/INFO]: [SLEEP] Loading Sleep v1.0.8
+[01:30:05] [Server thread/INFO]: [dynmap-structures] Loading dynmap-structures v2.4.0
+[01:30:05] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v1.4.3-SNAPSHOT
+[01:30:05] [Server thread/INFO]: [mcMMO] Loading mcMMO v2.1.202
+[01:30:05] [Server thread/INFO]: [mcMMO] Registered WG flags successfully!
+[01:30:05] [Server thread/INFO]: [Multiverse-Portals] Loading Multiverse-Portals v4.2.1-b834
+[01:30:05] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.17.1-2b69191
+[01:30:05] [Server thread/INFO]: [PvPManager] Loading PvPManager v3.8.4
+[01:30:05] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v20.1
+[01:30:05] [Server thread/INFO]: [Wild] Loading Wild v2.29-7da6164
+[01:30:05] [Server thread/INFO]: [Disease] Loading Disease v3.2.2
+[01:30:05] [Server thread/INFO]: [Lasso] Loading Lasso v1.5
+[01:30:05] [Server thread/INFO]: [Lasso] WorldGuard is installed
+[01:30:05] [Server thread/INFO]: [Skript] Loading Skript v2.6-beta3
+[01:30:05] [Server thread/INFO]: [LevelledMobs] Loading LevelledMobs v3.1.8 b517
+[01:30:05] [Server thread/INFO]: LevelledMobs: ~ Initiating start-up procedure ~
+[01:30:05] [Server thread/INFO]: [EssentialsDiscord] Loading EssentialsDiscord v2.19.0
+[01:30:05] [Server thread/INFO]: [CMILib] Loading CMILib v1.0.3.11
+[01:30:05] [Server thread/INFO]: [uSkyBlock] Loading uSkyBlock v2.9.0
+[01:30:05] [Server thread/INFO]: [Jobs] Loading Jobs v5.0.0.8
+[01:30:05] [Server thread/INFO]: [SkQuery] Loading SkQuery v4.1.3
+[01:30:05] [Server thread/INFO]: [DeadChest] Loading DeadChest v4.7.0
+[01:30:05] [Server thread/INFO]: [DeadChest] Worldguard support disabled by user
+[01:30:05] [Server thread/INFO]: [SilkSpawners] Loading SilkSpawners v7.1.0
+[01:30:05] [Server thread/INFO]: [DeadlyDisasters] Loading DeadlyDisasters v4.3
+[01:30:05] [Server thread/INFO]: [Plan] Loading Plan v5.4 build 1366
+[01:30:05] [Server thread/INFO]: [Dynmap-GriefPrevention] Loading Dynmap-GriefPrevention v0.80
+[01:30:05] [Server thread/INFO]: [TreeAssist] Loading TreeAssist v7.2.30
+[01:30:05] [Server thread/INFO]: [TreeAssist] Loading main config file: \config.yml
+[01:30:05] [Server thread/INFO]: [Multiverse-NetherPortals] Loading Multiverse-NetherPortals v4.2.1-b786
+[01:30:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:30:05] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.55
+[01:30:05] [Server thread/INFO]:         __    
+[01:30:05] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.55
+[01:30:05] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[01:30:05] [Server thread/INFO]: 
+[01:30:05] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[01:30:05] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[01:30:05] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[01:30:06] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[01:30:06] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 971ms)
+[01:30:06] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.7.0
+[01:30:06] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[01:30:06] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[01:30:06] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.19.0 which is not a depend, softdepend or loadbefore of this plugin.
+[01:30:06] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[01:30:06] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[01:30:06] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[01:30:06] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[01:30:06] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.6+4b2d1e7
+[01:30:06] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[01:30:06] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[01:30:06] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_17_R1_2 as the Bukkit adapter
+[01:30:06] [Server thread/INFO]: [uSkyBlock] Enabling uSkyBlock v2.9.0
+[01:30:07] [Server thread/INFO]: [us.talabrek.ultimateskyblock.island.IslandGenerator] [uSkyBlock] 1 schematics loaded.
+[01:30:07] [Server thread/INFO]: [us.talabrek.ultimateskyblock.utils.po.I18nUtil] Loaded 0 translations.
+[01:30:07] [Server thread/INFO]: Preparing level "Killer_Island"
+[01:30:07] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:30:07] [Server thread/INFO]: Time elapsed: 147 ms
+[01:30:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[01:30:07] [Server thread/INFO]: Time elapsed: 51 ms
+[01:30:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[01:30:07] [Server thread/INFO]: Time elapsed: 54 ms
+[01:30:07] [Server thread/INFO]: [DeathCounter] Enabling DeathCounter v1.1*
+[01:30:07] [Server thread/INFO]: [OpenInv] Enabling OpenInv v4.1.8
+[01:30:07] [Server thread/INFO]: [BuycraftX] Enabling BuycraftX v12.0.7
+[01:30:07] [Server thread/INFO]: [BuycraftX] Validating your server key...
+[01:30:08] [Server thread/INFO]: [BuycraftX] Fetching all server packages...
+[01:30:08] [Server thread/INFO]: [NBTAPI] Enabling NBTAPI v2.8.0
+[01:30:08] [Server thread/INFO]: [NBTAPI] Adding listeners...
+[01:30:08] [Server thread/INFO]: [NBTAPI] Gson:
+[01:30:08] [Server thread/INFO]: [NBTAPI] Checking bindings...
+[01:30:08] [Server thread/INFO]: [NBTAPI] All Classes were able to link!
+[01:30:08] [Server thread/INFO]: [NBTAPI] All Methods were able to link!
+[01:30:08] [Server thread/INFO]: [NBTAPI] Running NBT reflection test...
+[01:30:08] [Server thread/INFO]: [NBTAPI] MergeTest: Ok
+[01:30:08] [Server thread/INFO]: [NBTAPI] EntityTest: Ok
+[01:30:08] [Server thread/INFO]: [NBTAPI] ItemMergingTest: Ok
+[01:30:08] [Server thread/INFO]: [NBTAPI] DirectApplyTest: Ok
+[01:30:08] [Server thread/INFO]: [NBTAPI] EntityCustomNbtPersistentTest: Ok
+[01:30:08] [Server thread/INFO]: [NBTAPI] EqualsTest: Ok
+[01:30:08] [Server thread/INFO]: [NBTAPI] MergeTileSubCompoundTest: Ok
+[01:30:08] [Server thread/INFO]: [NBTAPI] RemovingKeys: Ok
+[01:30:08] [Server thread/INFO]: [NBTAPI] TilesCustomNBTPersistentTest: Ok
+[01:30:08] [Server thread/INFO]: [NBTAPI] GetterSetterTest: Ok
+[01:30:08] [Server thread/INFO]: [NBTAPI] BlockNBTTest: Ok
+[01:30:08] [Server thread/INFO]: [NBTAPI] SpawnEntityCustomNbtInjectorTest: Ok
+[01:30:08] [Server thread/INFO]: [NBTAPI] SubCompoundsTest: Ok
+[01:30:08] [Server thread/INFO]: [NBTAPI] TilesCustomNBTInjectorTest: Ok
+[01:30:08] [Server thread/INFO]: [NBTAPI] EntityCustomNbtInjectorTest: Ok
+[01:30:08] [Server thread/INFO]: [NBTAPI] TileTest: Ok
+[01:30:08] [Server thread/INFO]: [NBTAPI] ForEachTest: Ok
+[01:30:08] [Server thread/INFO]: [NBTAPI] IteratorTest: Ok
+[01:30:08] [Server thread/INFO]: [NBTAPI] ChunkNBTPersistentTest: Ok
+[01:30:08] [Server thread/INFO]: [NBTAPI] NBTFileTest: Ok
+[01:30:08] [Server thread/INFO]: [NBTAPI] ListTest: Ok
+[01:30:08] [Server thread/INFO]: [NBTAPI] GameprofileTest: Ok
+[01:30:08] [Server thread/INFO]: [NBTAPI] TypeTest: Ok
+[01:30:08] [Server thread/INFO]: [NBTAPI] StreamTest: Ok
+[01:30:08] [Server thread/INFO]: [NBTAPI] EmptyItemTest: Ok
+[01:30:08] [Server thread/INFO]: [NBTAPI] WorldDataTest: Ok
+[01:30:08] [Server thread/INFO]: [NBTAPI] ItemConvertionTest: Ok
+[01:30:08] [Server thread/INFO]: [NBTAPI] Success! This version of NBT-API is compatible with your server.
+[01:30:08] [Server thread/INFO]: [floodgate] Enabling floodgate v2.0-SNAPSHOT
+[01:30:08] [Server thread/INFO]: [MiniBlocks] Enabling MiniBlocks v1.1.1
+[01:30:09] [Server thread/INFO]: [MiniBlocks] Registered 148 trades for the Wandering Trader.
+[01:30:09] [Server thread/INFO]: [dynmap] Enabling dynmap v3.2-526
+[01:30:09] [Server thread/INFO]: [dynmap] Added 2 custom biome mappings
+[01:30:09] [Server thread/INFO]: [dynmap] Using LuckPerms 5.3.55 for access control
+[01:30:09] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[01:30:09] [Server thread/ERROR]: [dynmap] Block minecraft:candle[candles=1,lit=true,waterlogged=true] - not enough textures for faces (10 > 6)
+[01:30:09] [Server thread/INFO]: [dynmap] Loaded 25 shaders.
+[01:30:09] [Server thread/INFO]: [dynmap] Loaded 82 perspectives.
+[01:30:09] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
+[01:30:09] [Server thread/INFO]: [dynmap] Starting enter/exit processing
+[01:30:10] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
+[01:30:10] [Server thread/INFO]: [dynmap] Web server started on address 147.135.65.157:8543
+[01:30:10] [Server thread/INFO]: [dynmap] version 3.2-526 is enabled - core version 3.2-526
+[01:30:10] [Server thread/INFO]: [dynmap] For support, visit https://reddit.com/r/Dynmap or our Discord at https://discord.gg/s3rd5qn
+[01:30:10] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[01:30:10] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[01:30:10] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'Killer_Island'.
+[01:30:10] [Server thread/INFO]: [dynmap] Loaded 27 pending tile renders for world 'Killer_Island'
+[01:30:10] [Server thread/INFO]: [dynmap] Full render for world 'Killer_Island' restored
+[01:30:10] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'Killer_Island_nether'.
+[01:30:10] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'Killer_Island_the_end'.
+[01:30:10] [Server thread/INFO]: [dynmap] Enabled
+[01:30:10] [Server thread/INFO]: [Chunky] Enabling Chunky v1.2.86
+[01:30:10] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.0
+[01:30:10] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[01:30:10] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[01:30:10] [Server thread/INFO]: [Essentials] Loaded 36837 items from items.json.
+[01:30:10] [Server thread/INFO]: [Essentials] Using locale en_US
+[01:30:10] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[01:30:10] [Server thread/INFO]: [Essentials] Metrics disabled per bStats config.
+[01:30:10] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[01:30:10] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[01:30:10] [Server thread/INFO]: [Trey's Command Blocker] Enabling CommandBlocker v2.1.1
+[01:30:11] [Server thread/INFO]: [DropHeads] Enabling DropHeads v3.6.11.2
+[01:30:11] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.0-b846
+[01:30:11] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.0-b846" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[01:30:11] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[01:30:11] [Server thread/INFO]: Preparing start region for dimension minecraft:skyworld_nether
+[01:30:11] [Server thread/INFO]: Preparing spawn area: 0%
+[01:30:11] [Server thread/INFO]: Time elapsed: 393 ms
+[01:30:11] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'skyworld_nether'.
+[01:30:12] [Server thread/INFO]: Preparing start region for dimension minecraft:creative_nether
+[01:30:12] [Server thread/INFO]: Preparing spawn area: 0%
+[01:30:12] [Server thread/INFO]: Time elapsed: 298 ms
+[01:30:12] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'creative_nether'.
+[01:30:12] [Server thread/INFO]: Preparing start region for dimension minecraft:skyworld
+[01:30:12] [Server thread/INFO]: Preparing spawn area: 0%
+[01:30:12] [Server thread/INFO]: Time elapsed: 216 ms
+[01:30:12] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'skyworld'.
+[01:30:12] [Server thread/INFO]: Preparing start region for dimension minecraft:creative
+[01:30:12] [Server thread/INFO]: Preparing spawn area: 0%
+[01:30:12] [Server thread/INFO]: Time elapsed: 106 ms
+[01:30:12] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'creative'.
+[01:30:12] [Server thread/INFO]: Preparing start region for dimension minecraft:supersurvival_the_end
+[01:30:13] [Server thread/INFO]: Time elapsed: 116 ms
+[01:30:13] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'supersurvival_the_end'.
+[01:30:13] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'flat'.
+[01:30:13] [Server thread/INFO]: Preparing start region for dimension minecraft:supersurvival_nether
+[01:30:13] [Server thread/INFO]: Preparing spawn area: 0%
+[01:30:13] [Server thread/INFO]: Time elapsed: 211 ms
+[01:30:13] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'supersurvival_nether'.
+[01:30:13] [Server thread/INFO]: Preparing start region for dimension minecraft:spawn
+[01:30:13] [Server thread/INFO]: Preparing spawn area: 0%
+[01:30:13] [Server thread/INFO]: Time elapsed: 120 ms
+[01:30:13] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'Spawn'.
+[01:30:13] [Server thread/INFO]: Preparing start region for dimension minecraft:creative_the_end
+[01:30:13] [Server thread/INFO]: Preparing spawn area: 0%
+[01:30:14] [Server thread/INFO]: Time elapsed: 477 ms
+[01:30:14] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'creative_the_end'.
+[01:30:14] [Server thread/INFO]: Preparing start region for dimension minecraft:supersurvival
+[01:30:14] [Server thread/INFO]: Preparing spawn area: 0%
+[01:30:14] [Server thread/INFO]: Time elapsed: 83 ms
+[01:30:14] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'supersurvival'.
+[01:30:14] [Server thread/INFO]: [Multiverse-Core] 13 - World(s) loaded.
+[01:30:14] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[01:30:14] [Server thread/INFO]: [Multiverse-Core] Version 4.3.0-b846 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[01:30:14] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.6-beta1+0b66f3e
+[01:30:15] [Server thread/INFO]: [WorldGuard] (Killer_Island) TNT ignition is PERMITTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] (Killer_Island) Lighters are PERMITTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] (Killer_Island) Lava fire is PERMITTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] (Killer_Island) Fire spread is UNRESTRICTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Killer_Island'
+[01:30:15] [Server thread/INFO]: [WorldGuard] (Killer_Island_nether) TNT ignition is PERMITTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] (Killer_Island_nether) Lighters are PERMITTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] (Killer_Island_nether) Lava fire is PERMITTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] (Killer_Island_nether) Fire spread is UNRESTRICTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Killer_Island_nether'
+[01:30:15] [Server thread/INFO]: [WorldGuard] (Killer_Island_the_end) TNT ignition is PERMITTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] (Killer_Island_the_end) Lighters are PERMITTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] (Killer_Island_the_end) Lava fire is PERMITTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] (Killer_Island_the_end) Fire spread is UNRESTRICTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Killer_Island_the_end'
+[01:30:15] [Server thread/INFO]: [WorldGuard] (skyworld_nether) TNT ignition is PERMITTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] (skyworld_nether) Lighters are PERMITTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] (skyworld_nether) Lava fire is PERMITTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] (skyworld_nether) Fire spread is UNRESTRICTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'skyworld_nether'
+[01:30:15] [Server thread/INFO]: [WorldGuard] (creative_nether) TNT ignition is PERMITTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] (creative_nether) Lighters are PERMITTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] (creative_nether) Lava fire is PERMITTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] (creative_nether) Fire spread is UNRESTRICTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'creative_nether'
+[01:30:15] [Server thread/INFO]: [WorldGuard] (skyworld) TNT ignition is PERMITTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] (skyworld) Lighters are PERMITTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] (skyworld) Lava fire is PERMITTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] (skyworld) Fire spread is UNRESTRICTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'skyworld'
+[01:30:15] [Server thread/INFO]: [WorldGuard] (creative) TNT ignition is PERMITTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] (creative) Lighters are PERMITTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] (creative) Lava fire is PERMITTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] (creative) Fire spread is UNRESTRICTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'creative'
+[01:30:15] [Server thread/INFO]: [WorldGuard] (supersurvival_the_end) TNT ignition is PERMITTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] (supersurvival_the_end) Lighters are PERMITTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] (supersurvival_the_end) Lava fire is PERMITTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] (supersurvival_the_end) Fire spread is UNRESTRICTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'supersurvival_the_end'
+[01:30:15] [Server thread/INFO]: [WorldGuard] (flat) TNT ignition is PERMITTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] (flat) Lighters are PERMITTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] (flat) Lava fire is PERMITTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] (flat) Fire spread is UNRESTRICTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'flat'
+[01:30:15] [Server thread/INFO]: [WorldGuard] (supersurvival_nether) TNT ignition is PERMITTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] (supersurvival_nether) Lighters are PERMITTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] (supersurvival_nether) Lava fire is PERMITTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] (supersurvival_nether) Fire spread is UNRESTRICTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'supersurvival_nether'
+[01:30:15] [Server thread/INFO]: [WorldGuard] (Spawn) TNT ignition is PERMITTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] (Spawn) Lighters are PERMITTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] (Spawn) Lava fire is PERMITTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] (Spawn) Fire spread is UNRESTRICTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Spawn'
+[01:30:15] [Server thread/INFO]: [WorldGuard] (creative_the_end) TNT ignition is PERMITTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] (creative_the_end) Lighters are PERMITTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] (creative_the_end) Lava fire is PERMITTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] (creative_the_end) Fire spread is UNRESTRICTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'creative_the_end'
+[01:30:15] [Server thread/INFO]: [WorldGuard] (supersurvival) TNT ignition is PERMITTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] (supersurvival) Lighters are PERMITTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] (supersurvival) Lava fire is PERMITTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] (supersurvival) Fire spread is UNRESTRICTED.
+[01:30:15] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'supersurvival'
+[01:30:15] [Server thread/INFO]: [WorldGuard] Loading region data...
+[01:30:15] [Server thread/INFO]: [PlayerStatueBuilderX] Enabling PlayerStatueBuilderX v1.11
+[01:30:15] [Server thread/INFO]: [PlayerStatueBuilderX] [STDOUT] [PlayerStatueBuilderX]: Config.yml found, loading!
+[01:30:15] [Server thread/WARN]: Nag author(s): '[SkyTechBytes]' of 'PlayerStatueBuilderX' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[01:30:15] [Server thread/INFO]: [PlayerStatueBuilderX] [STDOUT] [PlayerStatueBuilderX]: Worldguard detected!
+[01:30:15] [Server thread/INFO]: [PlayerStatueBuilderX] [STDOUT] [PlayerStatueBuilderX]: Vault detected!
+[01:30:15] [Server thread/INFO]: [PlayerStatueBuilderX] [STDOUT] [PlayerStatueBuilderX]: Loading texture /chainmail_armor.png
+[01:30:15] [Server thread/INFO]: [PlayerStatueBuilderX] [STDOUT] [PlayerStatueBuilderX]: Loading texture /iron_armor.png
+[01:30:15] [Server thread/INFO]: [PlayerStatueBuilderX] [STDOUT] [PlayerStatueBuilderX]: Loading texture /golden_armor.png
+[01:30:15] [Server thread/INFO]: [PlayerStatueBuilderX] [STDOUT] [PlayerStatueBuilderX]: Loading texture /diamond_armor.png
+[01:30:15] [Server thread/INFO]: [Shopkeepers] Enabling Shopkeepers v2.13.3
+[01:30:15] [Server thread/INFO]: [Shopkeepers] Loading data of 10 shopkeepers..
+[01:30:15] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v4.2.2-b500
+[01:30:15] [Server thread/INFO]: [Multiverse-Inventories 4.2.2-b500] enabled.
+[01:30:15] [Server thread/INFO]: [Multiverse-SignPortals] Enabling Multiverse-SignPortals v4.2.0-b762
+[01:30:15] [Server thread/INFO]: [Multiverse-SignPortals 4.2.0-b762]  Enabled - By Rigby and fernferret
+[01:30:15] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.19.0
+[01:30:15] [Server thread/INFO]: [EssentialsChat] Metrics disabled per bStats config.
+[01:30:15] [Server thread/INFO]: [SLEEP] Enabling Sleep v1.0.8
+[01:30:15] [Server thread/INFO]: [dynmap-structures] Enabling dynmap-structures v2.4.0
+[01:30:15] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v1.4.3-SNAPSHOT
+[01:30:15] [Server thread/INFO]: [Geyser-Spigot] Auto-loaded Floodgate key
+[01:30:15] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[01:30:15] [Server thread/INFO]: [Geyser-Spigot] 
+[01:30:15] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 1.4.3-SNAPSHOT (git-master-82bb6ad)
+[01:30:15] [Server thread/INFO]: [Geyser-Spigot] 
+[01:30:15] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[01:30:16] [Server thread/INFO]: [Geyser-Spigot] Loaded Floodgate key!
+[01:30:17] [Network Listener - #1/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:25590
+[01:30:17] [Server thread/INFO]: [Geyser-Spigot] Done (1.324s)! Run /geyser help for help!
+[01:30:17] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.1.202
+[01:30:17] [Server thread/INFO]: [mcMMO] [Debug] Loading mcMMO config.yml File...
+[01:30:17] [Server thread/INFO]: [mcMMO] [Debug] No errors found in config.yml!
+[01:30:17] [Server thread/INFO]: [mcMMO] Loading locale from plugins\mcMMO\locales\locale_override.properties
+[01:30:17] [Server thread/INFO]: [mcMMO] [Debug] Loading mcMMO advanced.yml File...
+[01:30:17] [Server thread/INFO]: [mcMMO] [Debug] No errors found in advanced.yml!
+[01:30:17] [Server thread/INFO]: [mcMMO] Platform String: 1.17.1-R0.1-SNAPSHOT
+[01:30:17] [Server thread/INFO]: [mcMMO] Minecraft version determined to be - 1.17.1
+[01:30:17] [Server thread/INFO]: [mcMMO] Loading compatibility layers...
+[01:30:17] [Server thread/INFO]: [mcMMO] Finished loading compatibility layers.
+[01:30:17] [Server thread/INFO]: [mcMMO] Registering enchantments for Fishing Book...
+[01:30:18] [Server thread/INFO]: [mcMMO] (plugins\mcMMO\flatfile\mcmmo.users) Validating database file..
+[01:30:18] [Server thread/INFO]: [mcMMO] Enabling Acrobatics Skills
+[01:30:18] [Server thread/INFO]: [mcMMO] Registered subskill: Roll
+[01:30:18] [Server thread/INFO]: [mcMMO] 0 entries in mcMMO World Blacklist
+[01:30:19] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v4.2.1-b834
+[01:30:19] [Server thread/INFO]: [Multiverse-Portals] 9 - Portals(s) loaded
+[01:30:19] [Server thread/INFO]: [Multiverse-Portals] Found WorldEdit. Using it for selections.
+[01:30:19] [Server thread/INFO]: [Multiverse-Portals 4.2.1-b834]  Enabled - By Rigby and fernferret
+[01:30:19] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.17.1-2b69191
+[01:30:19] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[01:30:19] [Server thread/INFO]: [GriefPrevention] 93 total claims loaded.
+[01:30:19] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[01:30:19] [Server thread/INFO]: [GriefPrevention] Successfully hooked into WorldGuard.
+[01:30:19] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[01:30:19] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[01:30:19] [Server thread/INFO]: [PvPManager] Enabling PvPManager v3.8.4
+[01:30:19] [Server thread/INFO]: [PvPManager] Loaded 6 players from users file
+[01:30:19] [Server thread/INFO]: [PvPManager] WorldGuard Found! Enabling Support For WorldGuard Regions
+[01:30:19] [Server thread/INFO]: [PvPManager] Essentials Found! Hooked successfully
+[01:30:19] [Server thread/INFO]: [PvPManager] Vault Found! Using it for currency related features
+[01:30:19] [Server thread/WARN]: [PvPManager] GriefPrevention has been detected. GriefPrevention has some combat features without showing any feedback messages. Make sure to disable Punish Logout and set tag time to 0 seconds in GP config. Issues with those features often get wrongly blamed on PvPManager and cause conflicts due to the lack of GP feedback messages.
+[01:30:19] [Server thread/INFO]: [PvPManager] PvPManager Enabled (54 ms)
+[01:30:19] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v20.1
+[01:30:20] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[01:30:20] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[01:30:20] [Server thread/INFO]: --------------------
+[01:30:20] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[01:30:20] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[01:30:20] [Server thread/INFO]: --------------------
+[01:30:20] [Server thread/INFO]: [Wild] Enabling Wild v2.29-7da6164
+[01:30:20] [Server thread/INFO]: [Disease] Enabling Disease v3.2.2
+[01:30:20] [Server thread/INFO]: [Disease] Plugin Loading
+[01:30:20] [Server thread/INFO]: [Disease] Loading configuration file
+[01:30:20] [Server thread/INFO]: [Disease] Loading Language file
+[01:30:20] [Server thread/INFO]: [Disease] Temperature module loaded
+[01:30:20] [Server thread/INFO]: [Disease] Adding allowed world: supersurvival
+[01:30:20] [Server thread/INFO]: [Disease] Adding allowed world: supersurvival_nether
+[01:30:20] [Server thread/INFO]: [Disease] Adding allowed world: supersurvival_the_end
+[01:30:20] [Server thread/INFO]: [Disease] Loading choking items: [APPLE, BREAD, PORKCHOP, COOKED_PORKCHOP, FISH, COOKED_FISH, BEEF, COOKED_BEEF, CHICKEN, COOKED_CHICKEN, CARROT, POTATO, BAKED_POTATO, RABBIT, RABBIT_STEW, MUTTON, COOKED_MUTTON]
+[01:30:20] [Server thread/INFO]: Creating Bandage Recipe
+[01:30:20] [Server thread/INFO]: Creating LegSplint Recipe
+[01:30:20] [Server thread/INFO]: Creating vaccines Recipe
+[01:30:20] [Server thread/INFO]: Creating Syringe Recipe
+[01:30:20] [Server thread/INFO]: Creating boiling milk recipe
+[01:30:20] [Server thread/INFO]: Creating cold water recipe
+[01:30:20] [Server thread/INFO]: Creating Disease Vial Recipe
+[01:30:20] [Server thread/INFO]: Creating Disease Arrow Recipe
+[01:30:20] [Server thread/INFO]: [Disease] Loading custom remedies: MAGMA_CREAM
+[01:30:20] [Server thread/INFO]: Creating WarmGel recipe
+[01:30:20] [Server thread/INFO]: Creating custom Sweetwort recipe
+[01:30:20] [Server thread/INFO]: Creating custom Smoothwater recipe
+[01:30:20] [Server thread/INFO]: Creating custom Bitterwort recipe
+[01:30:20] [Server thread/INFO]: Creating custom Brightwater recipe
+[01:30:20] [Server thread/INFO]: Creating custom Blackbrew recipe
+[01:30:20] [Server thread/INFO]: Creating custom SoothingPotion recipe
+[01:30:20] [Server thread/INFO]: Creating custom LycanPotion recipe
+[01:30:20] [Server thread/INFO]: Creating custom SweetBrine recipe
+[01:30:20] [Server thread/INFO]: [Disease] Thanks for using the BYTE Disease plugin - www.byte.org.uk!
+[01:30:20] [Server thread/INFO]: [Disease] BYTE scoreboard disabled in config
+[01:30:20] [Server thread/INFO]: [Disease] Scoreboard Stats not Found
+[01:30:20] [Server thread/INFO]: [Disease] Citizens plugin not Found
+[01:30:20] [Server thread/INFO]: [Disease] Vault plugin Found
+[01:30:20] [Server thread/INFO]: [Disease] Vault Enabled
+[01:30:20] [Server thread/INFO]: [Disease] World Guard Enabled
+[01:30:20] [Server thread/INFO]: [Disease] timer at 500
+[01:30:20] [Server thread/INFO]: [Lasso] Enabling Lasso v1.5
+[01:30:20] [Server thread/INFO]: [Lasso] Using NMS version v1_17_R1
+[01:30:20] [Server thread/INFO]: [Lasso] Enabling WorldGuard Integration
+[01:30:20] [Server thread/INFO]: [Lasso] Enabling GriefPrevention Integration
+[01:30:20] [Server thread/INFO]: [Skript] Enabling Skript v2.6-beta3
+[01:30:20] [ForkJoinPool.commonPool-worker-19/INFO]: [Skript] You're currently running the latest stable version of Skript.
+[01:30:23] [Server thread/INFO]: [Skript] Loaded 143125 aliases in 3139ms
+[01:30:23] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[01:30:23] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v3.1.8 b517
+[01:30:23] [Server thread/INFO]: LevelledMobs: Compatibility Checker: Checking compatibility with your server...
+[01:30:23] [Server thread/INFO]: LevelledMobs: Compatibility Checker: No incompatibilities found.
+[01:30:23] [Server thread/INFO]: LevelledMobs: File Loader: Loading files...
+[01:30:23] [Server thread/INFO]: LevelledMobs: File Loader: Loading file 'rules.yml'...
+[01:30:23] [Server thread/INFO]: LevelledMobs: File Loader: Loading file 'settings.yml'...
+[01:30:23] [Server thread/INFO]: LevelledMobs: File Loader: Loading file 'messages.yml'...
+[01:30:23] [Server thread/INFO]: LevelledMobs: File Loader: Loading file 'customdrops.yml'...
+[01:30:23] [Server thread/INFO]: LevelledMobs: Listeners: Registering event listeners...
+[01:30:23] [Server thread/INFO]: LevelledMobs: Commands: Registering commands...
+[01:30:23] [Server thread/INFO]: LevelledMobs: Start-up: Running misc procedures...
+[01:30:23] [Server thread/INFO]: LevelledMobs: Tasks: Starting async nametag auto update task...
+[01:30:23] [Server thread/INFO]: LevelledMobs: ~ Start-up complete, took 71ms ~
+[01:30:23] [Server thread/INFO]: [EssentialsDiscord] Enabling EssentialsDiscord v2.19.0
+[01:30:23] [Server thread/INFO]: [EssentialsDiscord] Metrics disabled per bStats config.
+[01:30:23] [Server thread/INFO]: [EssentialsDiscord] Attempting to login to Discord...
+[01:30:24] [Server thread/INFO]: [net.essentialsx.dep.net.dv8tion.jda.api.JDA] Login Successful!
+[01:30:24] [JDA MainWS-ReadThread/INFO]: [net.essentialsx.dep.net.dv8tion.jda.internal.requests.WebSocketClient] Connected to WebSocket
+[01:30:24] [JDA MainWS-ReadThread/INFO]: [net.essentialsx.dep.net.dv8tion.jda.api.JDA] Finished Loading!
+[01:30:24] [Server thread/INFO]: [EssentialsDiscord] Successfully logged in as KI Bot#7258
+[01:30:24] [Server thread/INFO]: [CMILib] Enabling CMILib v1.0.3.11
+[01:30:24] [Server thread/INFO]: Server version: v1_17_R1 - 1.17.1 - paper
+[01:30:25] [Server thread/INFO]: Updated (EN) language file. Took 26ms
+[01:30:25] [Server thread/INFO]: [Jobs] Enabling Jobs v5.0.0.8
+[01:30:25] [Server thread/INFO]: [Jobs] Loaded 8 titles!
+[01:30:25] [Server thread/INFO]: [Jobs] Loaded 69 protected blocks timers!
+[01:30:25] [Server thread/INFO]: [Jobs] Loaded 1228 custom item names!
+[01:30:25] [Server thread/INFO]: [Jobs] Loaded 75 custom entity names!
+[01:30:25] [Server thread/INFO]: [Jobs] Loaded 2 custom MythicMobs names!
+[01:30:25] [Server thread/INFO]: [Jobs] Loaded 38 custom enchant names!
+[01:30:25] [Server thread/INFO]: [Jobs] Loaded 16 custom color names!
+[01:30:25] [Server thread/INFO]: [Jobs] Loaded 7 top list signs
+[01:30:26] [Server thread/INFO]: [Jobs] Loaded 4 shop items!
+[01:30:26] [Server thread/INFO]: [Jobs] Loaded 1 quests for Crafter
+[01:30:26] [Server thread/INFO]: [Jobs] Loaded 1 quests for Farmer
+[01:30:26] [Server thread/INFO]: [Jobs] Loaded 1 quests for Hunter
+[01:30:26] [Server thread/INFO]: [Jobs] Loaded 1 quests for Builder
+[01:30:26] [Server thread/INFO]: [Jobs] Loaded 1 quests for Brewer
+[01:30:26] [Server thread/INFO]: [Jobs] Loaded 1 quests for Enchanter
+[01:30:26] [Server thread/INFO]: [Jobs] Loaded 1 quests for Miner
+[01:30:26] [Server thread/INFO]: [Jobs] Loaded 1 quests for Fisherman
+[01:30:26] [Server thread/INFO]: [Jobs] Loaded 1 quests for Weaponsmith
+[01:30:26] [Server thread/INFO]: [Jobs] Loaded 1 quests for Digger
+[01:30:26] [Server thread/INFO]: [Jobs] Loaded 1 quests for Woodcutter
+[01:30:26] [Server thread/INFO]: [Jobs] Loaded 1 quests for Explorer
+[01:30:26] [Server thread/INFO]: [Jobs] Loaded 12 jobs!
+[01:30:26] [Server thread/INFO]: [Jobs] Loaded 0 boosted items!
+[01:30:26] [Server thread/INFO]: [Jobs] Loaded 297 furnace for reassigning.
+[01:30:26] [Server thread/INFO]: [Jobs] Loaded 33 brewing for reassigning.
+[01:30:26] [Jobs-DatabaseSaveTask/INFO]: [Jobs] Started database save task.
+[01:30:26] [Jobs-BufferedPaymentThread/INFO]: [Jobs] Started buffered payment thread.
+[01:30:26] [Server thread/INFO]: [Jobs] Preloaded 81 players data in 0.0
+[01:30:26] [Server thread/INFO]: [Jobs] mcMMO2.1.202 was found - Enabling capabilities.
+[01:30:26] [Server thread/INFO]: [Jobs] Registered McMMO 2.x listener
+[01:30:26] [Server thread/INFO]: [Jobs] WorldGuard detected.
+[01:30:26] [Server thread/INFO]: [Jobs] Loaded 111 block protection entries. 26ms
+[01:30:26] [Server thread/INFO]: [Jobs] Loading explorer data
+[01:30:26] [Server thread/INFO]: [Jobs] Loaded explorer data (41517)
+[01:30:26] [Server thread/INFO]: [Jobs] Plugin has been enabled successfully.
+[01:30:26] [Server thread/INFO]: [SkQuery] Enabling SkQuery v4.1.3
+[01:30:26] [Server thread/INFO]: [skQuery] Locating classes from SkQuery...
+[01:30:26] [Server thread/INFO]: [skQuery] Beginning to process a total of 139 from SkQuery
+[01:30:26] [Server thread/INFO]: [skQuery] Out of 139 classes, 137 classes were loaded from SkQuery
+[01:30:26] [Server thread/INFO]: [DeadChest] Enabling DeadChest v4.7.0
+[01:30:26] [Server thread/INFO]: [SilkSpawners] Enabling SilkSpawners v7.1.0
+[01:30:26] [Server thread/INFO]: [SilkSpawners] WorldGuard was found and support is enabled
+[01:30:26] [Server thread/INFO]: [SilkSpawners] Loading support for v1_17_R1
+[01:30:26] [Server thread/INFO]: [SilkSpawners] AutoUpdater is enabled and now running.
+[01:30:26] [Server thread/INFO]: [SilkSpawners] BarAPI is disabled due to config setting.
+[01:30:26] [Server thread/INFO]: [DeadlyDisasters] Enabling DeadlyDisasters v4.3
+[01:30:26] [Server thread/INFO]: [DeadlyDisasters] Successfully hooked into World Guard
+[01:30:26] [Server thread/INFO]: [DeadlyDisasters] Successfully hooked into CoreProtect
+[01:30:26] [Server thread/INFO]: [DeadlyDisasters] Successfully hooked into GriefPrevention
+[01:30:26] [Server thread/INFO]: [DeadlyDisasters] Checking for update...
+[01:30:26] [Server thread/INFO]: [Plan] Enabling Plan v5.4 build 1366
+[01:30:26] [Server thread/INFO]: [Plan] 
+[01:30:26] [Server thread/INFO]: [Plan]            ???
+[01:30:26] [Server thread/INFO]: [Plan]      ???   ???
+[01:30:26] [Server thread/INFO]: [Plan]   ????????????  Player Analytics
+[01:30:26] [Server thread/INFO]: [Plan]   ????????????  v5.4 build 1366
+[01:30:26] [Server thread/INFO]: [Plan] 
+[01:30:26] [Server thread/INFO]: [Plan] Locale: 'English' by AuroraLS3
+[01:30:26] [Server thread/INFO]: [Plan] SQLite-database connection established.
+[01:30:26] [Server thread/INFO]: [Plan] WebServer: Certificate KeyStore File not Found: plugins\Plan\Cert.jks
+[01:30:26] [Server thread/INFO]: [Plan] WebServer: No Certificate -> Using HTTP-server for Visualization.
+[01:30:26] [Server thread/INFO]: [Plan] WebServer: User Authorization Disabled! (Not secure over HTTP)
+[01:30:26] [Server thread/INFO]: [Plan] Webserver running on PORT 8804 ( http://147.135.65.157:8804 )
+[01:30:26] [Server thread/INFO]: [Plan] Loading server identifying information
+[01:30:27] [Server thread/INFO]: [Plan] Registered extension: Buycraft
+[01:30:27] [Server thread/INFO]: [Plan] Registered extension: Essentials
+[01:30:27] [Server thread/INFO]: [Plan] Registered extension: GriefPrevention
+[01:30:27] [Server thread/INFO]: [Plan] Registered extension: Jobs
+[01:30:27] [Server thread/INFO]: [Plan] Registered extension: LuckPerms
+[01:30:27] [Server thread/INFO]: [Plan] Registered extension: mcMMO
+[01:30:27] [Server thread/INFO]: [Plan] Registered extension: Economy (Vault)
+[01:30:27] [Server thread/INFO]: [Plan] Registered extension: Permission Groups (Vault)
+[01:30:27] [Server thread/INFO]: [Plan] Player Analytics Enabled.
+[01:30:27] [Server thread/INFO]: [Dynmap-GriefPrevention] Enabling Dynmap-GriefPrevention v0.80*
+[01:30:27] [Server thread/INFO]: [Dynmap-GriefPrevention] initializing
+[01:30:27] [Server thread/INFO]: [Dynmap-GriefPrevention] version 0.80 is activated
+[01:30:27] [Server thread/INFO]: [TreeAssist] Enabling TreeAssist v7.2.30
+[01:30:27] [Server thread/INFO]: [TreeAssist] debugging: off
+[01:30:27] [Server thread/INFO]: [TreeAssist] Updates deactivated. Please check spigotmc.org for updates
+[01:30:27] [Server thread/INFO]: [Multiverse-NetherPortals] Enabling Multiverse-NetherPortals v4.2.1-b786
+[01:30:27] [Server thread/INFO]: [Multiverse-NetherPortals 4.2.1-b786]  Enabled - By Rigby and fernferret
+[01:30:27] [Server thread/INFO]: Running delayed init tasks
+[01:30:27] [Craft Scheduler Thread - 4 - PvPManager/INFO]: [PvPManager] Checking for updates...
+[01:30:27] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
+[01:30:27] [Craft Scheduler Thread - 0 - mcMMO/INFO]: [mcMMO] Cleaned backup files. Deleted 10 of 21 files.
+[01:30:27] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[01:30:27] [Craft Scheduler Thread - 4 - PvPManager/INFO]: [PvPManager] No update found
+[01:30:27] [Craft Scheduler Thread - 10 - Plan/INFO]: [Plan] You're using the latest version.
+[01:30:27] [Server thread/INFO]: [CoreProtect] WorldEdit logging successfully initialized.
+[01:30:27] [Server thread/INFO]: [Skript] Loading variables...
+[01:30:27] [Server thread/INFO]: [Skript] Loaded 932 variables in 0.0 seconds
+[01:30:30] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[01:30:30] [Server thread/INFO]: [Skript] Loaded 1 script with a total of 13 triggers and 8 commands in 2.32 seconds
+[01:30:30] [Server thread/INFO]: [Skript] Finished loading.
+[01:30:30] [Server thread/INFO]: [Jobs] Successfully linked with Vault.
+[01:30:30] [Server thread/INFO]: [SilkSpawners] Result from AutoUpdater is: NO_UPDATE
+[01:30:30] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
+[01:30:30] [Server thread/INFO]: Done (31.871s)! For help, type "help"
+[01:30:30] [Server thread/INFO]: Timings Reset
+[01:30:30] [Craft Scheduler Thread - 16 - Vault/INFO]: [Vault] Checking for Updates ... 
+[01:30:30] [Craft Scheduler Thread - 16 - Vault/INFO]: [Vault] No new version available
+[01:30:32] [Server thread/INFO]: [Anti-Xray] Version 2.0.0 has been loaded...
+[01:30:32] [Server thread/INFO]: [Anti-Xray] Please leave a 5 star review!
+[01:30:32] [Craft Scheduler Thread - 16 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[01:30:32] [Craft Scheduler Thread - 16 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[01:30:33] [Server thread/INFO]: [uSkyBlock] Found Multiverse-Core.
+[01:30:33] [Server thread/INFO]: [uSkyBlock] Found Multiverse-Inventories.
+[01:30:33] [Server thread/INFO]: [uSkyBlock] Hooked into Multiverse-Core
+[01:30:33] [Server thread/INFO]: [uSkyBlock] Using EssentialsX Economy as economy provider.
+[01:30:33] [Server thread/INFO]: [uSkyBlock] Hooked into Vault economy
+[01:30:33] [Server thread/INFO]: [uSkyBlock] Using LuckPerms as permission provider.
+[01:30:33] [Server thread/INFO]: [uSkyBlock] Hooked into Vault permissions.
+[01:30:33] [Server thread/INFO]: Flushed 0 islands, 0 players and 0 challenge-completions.
+[01:30:33] [Server thread/INFO]: [uSkyBlock] Name: uSkyBlock
+Version: 2.9.0
+Description: Ultimate SkyBlock v2.9.0-7cf840c
+Language: en (en)
+  State: d=128, r=64, i=8, p=9, n=true, awe=false
+Server: Paper git-Paper-310 (MC: 1.17.1)
+  State: online=true, bungee=false
+------------------------------
+Vault 1.7.3-b131 (N/A)
+WorldEdit 7.2.6+4b2d1e7 (N/A)
+WorldGuard 7.0.6-beta1+0b66f3e (N/A)
+Multiverse-Core 4.3.0-b846 (N/A)
+Multiverse-Portals 4.2.1-b834 (N/A)
+Multiverse-NetherPortals 4.2.1-b786 (N/A)
+------------------------------
+
+[01:30:33] [Network Listener - #1/INFO]: [Geyser-Spigot] /73.24.22.233:45979 tried to connect!
+[01:30:34] [Network Listener - #1/INFO]: [Geyser-Spigot] Player connected with username Stabaho187
+[01:30:39] [Geyser player thread-2-1/INFO]: [Geyser-Spigot] Attempting to login using floodgate mode... authentication will be encrypted.
+[01:30:39] [defaultEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Stabaho187 (logged in as: Stabaho187) has connected to the Java server
+[01:30:39] [Geyser Spigot connection thread-3-2/INFO]: UUID of player -Stabaho187 is 00000000-0000-0000-0009-000007c38676
+[01:30:40] [Server thread/INFO]: [floodgate] Floodgate player logged in as -Stabaho187 joined (UUID: 00000000-0000-0000-0009-000007c38676)
+[01:30:40] [Geyser player thread-2-1/INFO]: [Geyser-Spigot] Registering bedrock skin for -Stabaho187 (00000000-0000-0000-0009-000007c38676)
+[01:30:41] [Server thread/INFO]: [Disease] Loading player -Stabaho187
+[01:30:41] [Server thread/INFO]: -Stabaho187 joined the game
+[01:30:41] [Server thread/INFO]: -Stabaho187[/73.24.22.233:0] logged in with entity id 165 at ([Killer_Island]313.12802, 121.5, 660.69999)
+[01:30:45] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'skyworld_nether' have been background saved
+[01:30:45] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'skyworld' have been background saved
+[01:31:02] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:31:02] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:31:02] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:31:27] [Craft Scheduler Thread - 23 - BuycraftX/INFO]: [BuycraftX] Sending 1 analytic events
+[01:31:35] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:31:35] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:31:35] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:32:08] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:32:08] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:32:08] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:32:28] [Craft Scheduler Thread - 25 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[01:32:28] [Craft Scheduler Thread - 25 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[01:32:40] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:32:40] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:32:40] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:33:06] [Server thread/INFO]: World name is required
+[01:33:13] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:33:13] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:33:13] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:33:18] [Server thread/INFO]: Full render of world 'Killer_Island' already active.
+[01:33:42] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'flat' of 'Killer_Island' in progress - 18100 tiles rendered (96.12 msec/tile, 40.09 msec per render)
+[01:33:45] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:33:45] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:33:45] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:34:18] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:34:18] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:34:18] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:34:28] [Craft Scheduler Thread - 25 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[01:34:28] [Craft Scheduler Thread - 25 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[01:34:51] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:34:51] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:34:51] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:35:23] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:35:23] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:35:23] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:35:56] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:35:56] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:35:56] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:36:28] [Craft Scheduler Thread - 32 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[01:36:28] [Craft Scheduler Thread - 32 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[01:36:29] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:36:29] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:36:29] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:37:01] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:37:01] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:37:01] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:37:34] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:37:34] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:37:34] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:38:07] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:38:07] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:38:07] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:38:28] [Craft Scheduler Thread - 35 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[01:38:28] [Craft Scheduler Thread - 35 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[01:38:39] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:38:39] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:38:39] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:39:12] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:39:12] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:39:12] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:39:44] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:39:44] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:39:44] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:39:55] [Server thread/INFO]: Saving is already turned on
+[01:39:55] [Server thread/INFO]: Saving the game (this may take a moment!)
+[01:39:55] [Server thread/INFO]: Saved the game
+[01:40:17] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:40:17] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:40:17] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:40:28] [Craft Scheduler Thread - 35 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[01:40:28] [Craft Scheduler Thread - 35 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[01:40:50] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:40:50] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:40:50] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:41:22] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:41:22] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:41:22] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:41:55] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:41:55] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:41:55] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:42:28] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:42:28] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:42:28] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:42:28] [Craft Scheduler Thread - 42 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[01:42:29] [Craft Scheduler Thread - 42 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[01:43:00] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:43:00] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:43:00] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:43:33] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:43:33] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:43:33] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:44:06] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:44:06] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:44:06] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:44:29] [Craft Scheduler Thread - 45 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[01:44:29] [Craft Scheduler Thread - 45 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[01:44:38] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:44:38] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:44:38] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:45:11] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:45:11] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:45:11] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:45:44] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:45:44] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:45:44] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:46:16] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:46:16] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:46:16] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:46:29] [Craft Scheduler Thread - 47 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[01:46:29] [Craft Scheduler Thread - 47 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[01:46:49] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:46:49] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:46:49] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:47:21] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:47:21] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:47:21] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:47:54] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:47:54] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:47:54] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:48:27] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:48:27] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:48:27] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:48:29] [Craft Scheduler Thread - 51 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[01:48:29] [Craft Scheduler Thread - 51 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[01:48:59] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:48:59] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:48:59] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:49:32] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:49:32] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:49:32] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:49:58] [Server thread/INFO]: Saving is already turned on
+[01:49:58] [Server thread/INFO]: Saving the game (this may take a moment!)
+[01:49:58] [Server thread/INFO]: Saved the game
+[01:50:05] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:50:05] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:50:05] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:50:23] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'flat' of 'Killer_Island' in progress - 18200 tiles rendered (96.15 msec/tile, 54.43 msec per render)
+[01:50:29] [Craft Scheduler Thread - 54 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[01:50:29] [Craft Scheduler Thread - 54 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[01:50:37] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:50:37] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:50:37] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:51:10] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:51:10] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:51:10] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:51:43] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:51:43] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:51:43] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:52:15] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:52:15] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:52:15] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:52:29] [Craft Scheduler Thread - 60 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[01:52:29] [Craft Scheduler Thread - 60 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[01:52:48] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:52:48] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:52:48] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:53:20] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:53:20] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:53:20] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:53:53] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:53:53] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:53:53] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:54:26] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:54:26] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:54:26] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:54:29] [Craft Scheduler Thread - 66 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[01:54:29] [Craft Scheduler Thread - 66 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[01:54:58] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:54:58] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:54:58] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:55:31] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:55:31] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:55:31] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:56:04] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:56:04] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:56:04] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:56:29] [Craft Scheduler Thread - 67 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[01:56:29] [Craft Scheduler Thread - 67 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[01:56:36] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:56:36] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:56:36] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:57:09] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:57:09] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:57:09] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:57:42] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:57:42] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:57:42] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:58:14] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:58:14] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:58:14] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:58:29] [Craft Scheduler Thread - 66 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[01:58:29] [Craft Scheduler Thread - 66 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[01:58:47] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:58:47] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:58:47] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:59:20] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:59:20] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:59:20] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[01:59:52] [Server thread/INFO]: CONSOLE issued server command: /list 
+[01:59:52] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[01:59:52] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:00:00] [Server thread/INFO]: Saving is already turned on
+[02:00:00] [Server thread/INFO]: Saving the game (this may take a moment!)
+[02:00:00] [Server thread/INFO]: Saved the game
+[02:00:25] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:00:25] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:00:25] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:00:29] [Craft Scheduler Thread - 79 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[02:00:30] [Craft Scheduler Thread - 79 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:00:57] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:00:57] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:00:57] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:01:30] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:01:30] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:01:30] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:02:03] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:02:03] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:02:03] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:02:29] [Craft Scheduler Thread - 83 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[02:02:30] [Craft Scheduler Thread - 83 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:02:35] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:02:35] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:02:35] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:03:08] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:03:08] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:03:08] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:03:41] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:03:41] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:03:41] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:04:13] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:04:13] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:04:13] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:04:30] [Craft Scheduler Thread - 85 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[02:04:30] [Craft Scheduler Thread - 85 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:04:46] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:04:46] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:04:46] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:05:19] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:05:19] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:05:19] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:05:51] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:05:51] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:05:51] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:06:24] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:06:24] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:06:24] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:06:30] [Craft Scheduler Thread - 92 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[02:06:30] [Craft Scheduler Thread - 92 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:06:56] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:06:56] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:06:56] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:07:03] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'flat' of 'Killer_Island' in progress - 18300 tiles rendered (96.13 msec/tile, 52.63 msec per render)
+[02:07:29] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:07:29] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:07:29] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:08:02] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:08:02] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:08:02] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:08:30] [Craft Scheduler Thread - 92 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[02:08:30] [Craft Scheduler Thread - 92 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:08:34] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:08:34] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:08:34] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:09:07] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:09:07] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:09:07] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:09:40] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:09:40] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:09:40] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:10:03] [Server thread/INFO]: Saving is already turned on
+[02:10:03] [Server thread/INFO]: Saving the game (this may take a moment!)
+[02:10:03] [Server thread/INFO]: Saved the game
+[02:10:12] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:10:12] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:10:12] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:10:30] [Craft Scheduler Thread - 102 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[02:10:30] [Craft Scheduler Thread - 102 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:10:45] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:10:45] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:10:45] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:11:18] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:11:18] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:11:18] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:11:50] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:11:50] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:11:50] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:12:23] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:12:23] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:12:23] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:12:30] [Craft Scheduler Thread - 106 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[02:12:30] [Craft Scheduler Thread - 106 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:12:55] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:12:55] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:12:55] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:13:28] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:13:28] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:13:28] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:14:01] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:14:01] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:14:01] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:14:30] [Craft Scheduler Thread - 106 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[02:14:31] [Craft Scheduler Thread - 106 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:14:33] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:14:33] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:14:33] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:15:06] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:15:06] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:15:06] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:15:39] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:15:39] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:15:39] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:16:11] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:16:11] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:16:11] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:16:31] [Craft Scheduler Thread - 112 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[02:16:31] [Craft Scheduler Thread - 112 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:16:44] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:16:44] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:16:44] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:17:17] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:17:17] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:17:17] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:17:49] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:17:49] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:17:49] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:18:22] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:18:22] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:18:22] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:18:31] [Craft Scheduler Thread - 117 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[02:18:31] [Craft Scheduler Thread - 117 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:18:55] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:18:55] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:18:55] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:19:27] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:19:27] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:19:27] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:20:00] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:20:00] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:20:00] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:20:06] [Server thread/INFO]: Saving is already turned on
+[02:20:06] [Server thread/INFO]: Saving the game (this may take a moment!)
+[02:20:06] [Server thread/INFO]: Saved the game
+[02:20:31] [Craft Scheduler Thread - 126 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[02:20:31] [Craft Scheduler Thread - 126 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:20:32] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:20:32] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:20:32] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:21:05] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:21:05] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:21:05] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:21:38] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:21:38] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:21:38] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:22:10] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:22:10] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:22:10] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:22:31] [Craft Scheduler Thread - 131 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[02:22:31] [Craft Scheduler Thread - 131 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:22:43] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:22:43] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:22:43] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:23:16] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:23:16] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:23:16] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:23:43] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'flat' of 'Killer_Island' in progress - 18400 tiles rendered (96.04 msec/tile, 49.66 msec per render)
+[02:23:48] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:23:48] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:23:48] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:24:21] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:24:21] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:24:21] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:24:31] [Craft Scheduler Thread - 135 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[02:24:31] [Craft Scheduler Thread - 135 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:24:54] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:24:54] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:24:54] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:25:26] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:25:26] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:25:26] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:25:59] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:25:59] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:25:59] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:26:31] [Craft Scheduler Thread - 133 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[02:26:31] [Craft Scheduler Thread - 133 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:26:31] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:26:31] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:26:31] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:27:04] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:27:04] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:27:04] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:27:37] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:27:37] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:27:37] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:28:09] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:28:09] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:28:09] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:28:31] [Craft Scheduler Thread - 146 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[02:28:31] [Craft Scheduler Thread - 146 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:28:42] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:28:42] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:28:42] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:29:15] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:29:15] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:29:15] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:29:47] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:29:47] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:29:47] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:30:08] [Server thread/INFO]: Saving is already turned on
+[02:30:08] [Server thread/INFO]: Saving the game (this may take a moment!)
+[02:30:08] [Server thread/INFO]: Saved the game
+[02:30:20] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:30:20] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:30:20] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:30:31] [Craft Scheduler Thread - 146 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[02:30:32] [Craft Scheduler Thread - 146 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:30:53] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:30:53] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:30:53] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:31:25] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:31:25] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:31:25] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:31:58] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:31:58] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:31:58] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:32:30] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:32:30] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:32:30] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:32:32] [Craft Scheduler Thread - 156 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[02:32:32] [Craft Scheduler Thread - 156 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:33:03] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:33:03] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:33:03] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:33:36] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:33:36] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:33:36] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:34:08] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:34:08] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:34:08] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:34:32] [Craft Scheduler Thread - 159 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[02:34:32] [Craft Scheduler Thread - 159 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:34:41] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:34:41] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:34:41] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:35:14] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:35:14] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:35:14] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:35:46] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:35:46] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:35:46] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:36:19] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:36:19] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:36:19] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:36:32] [Craft Scheduler Thread - 162 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[02:36:32] [Craft Scheduler Thread - 162 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:36:52] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:36:52] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:36:52] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:37:24] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:37:24] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:37:24] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:37:57] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:37:57] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:37:57] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:38:29] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:38:29] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:38:29] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:38:32] [Craft Scheduler Thread - 165 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[02:38:32] [Craft Scheduler Thread - 165 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:39:02] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:39:02] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:39:02] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:39:35] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:39:35] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:39:35] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:40:07] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:40:07] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:40:07] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:40:11] [Server thread/INFO]: Saving is already turned on
+[02:40:11] [Server thread/INFO]: Saving the game (this may take a moment!)
+[02:40:11] [Server thread/INFO]: Saved the game
+[02:40:23] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'flat' of 'Killer_Island' in progress - 18500 tiles rendered (95.91 msec/tile, 44.75 msec per render)
+[02:40:32] [Craft Scheduler Thread - 166 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[02:40:32] [Craft Scheduler Thread - 166 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:40:40] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:40:40] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:40:40] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:41:13] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:41:13] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:41:13] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:41:45] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:41:45] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:41:45] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:42:18] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:42:18] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:42:18] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:42:32] [Craft Scheduler Thread - 170 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[02:42:33] [Craft Scheduler Thread - 170 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:42:51] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:42:51] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:42:51] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:43:23] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:43:23] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:43:23] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:43:56] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:43:56] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:43:56] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:44:29] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:44:29] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:44:29] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:44:33] [Craft Scheduler Thread - 176 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[02:44:33] [Craft Scheduler Thread - 176 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:45:01] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:45:01] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:45:01] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:45:34] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:45:34] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:45:34] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:46:06] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:46:06] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:46:06] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:46:33] [Craft Scheduler Thread - 181 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[02:46:33] [Craft Scheduler Thread - 181 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:46:39] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:46:39] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:46:39] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:47:12] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:47:12] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:47:12] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:47:44] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:47:44] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:47:44] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:48:17] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:48:17] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:48:17] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:48:33] [Craft Scheduler Thread - 181 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[02:48:33] [Craft Scheduler Thread - 181 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:48:50] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:48:50] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:48:50] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:49:22] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:49:22] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:49:22] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:49:55] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:49:55] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:49:55] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:50:13] [Server thread/INFO]: Saving is already turned on
+[02:50:13] [Server thread/INFO]: Saving the game (this may take a moment!)
+[02:50:14] [Server thread/INFO]: Saved the game
+[02:50:28] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:50:28] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:50:28] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:50:30] [Server thread/INFO]: -Stabaho187 issued server command: /fly
+[02:50:33] [Craft Scheduler Thread - 181 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[02:50:33] [Craft Scheduler Thread - 181 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:50:42] [Server thread/INFO]: -Stabaho187 issued server command: /fly
+[02:51:00] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:51:00] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:51:00] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:51:33] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:51:33] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:51:33] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:52:05] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:52:05] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:52:05] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:52:33] [Craft Scheduler Thread - 194 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[02:52:33] [Craft Scheduler Thread - 194 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:52:38] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:52:38] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:52:38] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:53:11] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:53:11] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:53:11] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:53:37] [Server thread/INFO]: -Stabaho187 issued server command: /warp storage
+[02:53:43] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:53:43] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:53:43] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:54:16] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:54:16] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:54:16] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:54:33] [Craft Scheduler Thread - 181 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[02:54:33] [Craft Scheduler Thread - 181 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:54:49] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:54:49] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:54:49] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:55:21] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:55:21] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:55:21] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:55:54] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:55:54] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:55:54] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:56:27] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:56:27] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:56:27] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:56:33] [Craft Scheduler Thread - 205 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[02:56:33] [Craft Scheduler Thread - 205 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:56:59] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:56:59] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:56:59] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:57:03] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'flat' of 'Killer_Island' in progress - 18600 tiles rendered (95.80 msec/tile, 43.12 msec per render)
+[02:57:32] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:57:32] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:57:32] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:58:04] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:58:04] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:58:04] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:58:33] [Craft Scheduler Thread - 207 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[02:58:33] [Craft Scheduler Thread - 207 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:58:37] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:58:37] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:58:37] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:59:10] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:59:10] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:59:10] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[02:59:42] [Server thread/INFO]: CONSOLE issued server command: /list 
+[02:59:42] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[02:59:42] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:00:15] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:00:15] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:00:15] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:00:16] [Server thread/INFO]: Saving is already turned on
+[03:00:16] [Server thread/INFO]: Saving the game (this may take a moment!)
+[03:00:16] [Server thread/INFO]: Saved the game
+[03:00:33] [Craft Scheduler Thread - 210 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[03:00:33] [Craft Scheduler Thread - 210 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[03:00:48] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:00:48] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:00:48] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:01:20] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:01:20] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:01:20] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:01:53] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:01:53] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:01:53] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:02:26] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:02:26] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:02:26] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:02:33] [Craft Scheduler Thread - 211 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[03:02:33] [Craft Scheduler Thread - 211 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[03:02:58] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:02:58] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:02:58] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:03:31] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:03:31] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:03:31] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:04:04] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:04:04] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:04:04] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:04:33] [Craft Scheduler Thread - 215 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[03:04:33] [Craft Scheduler Thread - 215 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[03:04:36] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:04:36] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:04:36] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:05:09] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:05:09] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:05:09] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:05:41] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:05:41] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:05:41] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:06:14] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:06:14] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:06:14] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:06:33] [Craft Scheduler Thread - 222 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[03:06:33] [Craft Scheduler Thread - 222 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[03:06:47] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:06:47] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:06:47] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:07:19] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:07:19] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:07:19] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:07:52] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:07:52] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:07:52] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:08:25] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:08:25] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:08:25] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:08:33] [Craft Scheduler Thread - 223 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[03:08:34] [Craft Scheduler Thread - 223 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[03:08:57] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:08:57] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:08:57] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:09:30] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:09:30] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:09:30] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:10:03] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:10:03] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:10:03] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:10:19] [Server thread/INFO]: Saving is already turned on
+[03:10:19] [Server thread/INFO]: Saving the game (this may take a moment!)
+[03:10:19] [Server thread/INFO]: Saved the game
+[03:10:33] [Craft Scheduler Thread - 230 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[03:10:34] [Craft Scheduler Thread - 230 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[03:10:35] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:10:35] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:10:35] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:11:08] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:11:08] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:11:08] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:11:40] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:11:40] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:11:40] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:12:13] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:12:13] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:12:13] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:12:34] [Craft Scheduler Thread - 246 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[03:12:34] [Craft Scheduler Thread - 246 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[03:12:46] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:12:46] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:12:46] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:13:18] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:13:18] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:13:18] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:13:43] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'flat' of 'Killer_Island' in progress - 18700 tiles rendered (95.82 msec/tile, 45.09 msec per render)
+[03:13:51] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:13:51] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:13:51] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:14:24] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:14:24] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:14:24] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:14:34] [Craft Scheduler Thread - 256 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[03:14:34] [Craft Scheduler Thread - 256 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[03:14:56] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:14:56] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:14:56] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:15:29] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:15:29] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:15:29] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:16:02] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:16:02] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:16:02] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:16:34] [Craft Scheduler Thread - 260 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[03:16:34] [Craft Scheduler Thread - 260 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[03:16:34] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:16:34] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:16:34] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:17:07] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:17:07] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:17:07] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:17:40] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:17:40] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:17:40] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:18:12] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:18:12] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:18:12] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:18:34] [Craft Scheduler Thread - 264 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[03:18:34] [Craft Scheduler Thread - 264 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[03:18:45] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:18:45] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:18:45] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:19:17] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:19:17] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:19:17] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:19:50] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:19:50] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:19:50] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:20:21] [Server thread/INFO]: Saving is already turned on
+[03:20:21] [Server thread/INFO]: Saving the game (this may take a moment!)
+[03:20:21] [Server thread/INFO]: Saved the game
+[03:20:23] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:20:23] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:20:23] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:20:34] [Craft Scheduler Thread - 264 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[03:20:34] [Craft Scheduler Thread - 264 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[03:20:55] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:20:55] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:20:55] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:21:28] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:21:28] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:21:28] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:22:01] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:22:01] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:22:01] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:22:33] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:22:33] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:22:33] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:22:34] [Craft Scheduler Thread - 265 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[03:22:34] [Craft Scheduler Thread - 265 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[03:23:06] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:23:06] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:23:06] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:23:39] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:23:39] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:23:39] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:24:11] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:24:11] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:24:11] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:24:34] [Craft Scheduler Thread - 272 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[03:24:34] [Craft Scheduler Thread - 272 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[03:24:44] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:24:44] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:24:44] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:25:16] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:25:16] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:25:16] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:25:49] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:25:49] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:25:49] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:26:22] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:26:22] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:26:22] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:26:34] [Craft Scheduler Thread - 279 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[03:26:35] [Craft Scheduler Thread - 279 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[03:26:54] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:26:54] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:26:54] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:27:27] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:27:27] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:27:27] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:28:00] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:28:00] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:28:00] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:28:32] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:28:32] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:28:32] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:28:35] [Craft Scheduler Thread - 280 - BuycraftX/INFO]: [BuycraftX] Fetching all due players...
+[03:28:35] [Craft Scheduler Thread - 280 - BuycraftX/INFO]: [BuycraftX] Fetched due players (0 found).
+[03:29:05] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:29:05] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:29:05] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
+[03:29:38] [Server thread/INFO]: CONSOLE issued server command: /list 
+[03:29:38] [Server thread/INFO]: There are 1 out of maximum 48 players online.
+[03:29:38] [Server thread/INFO]: [MVP]: [MVP]~Stabaho
