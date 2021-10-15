@@ -1,0 +1,22 @@
+{
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2021-07-27 13:18:20 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2021-07-27 13:09:57 -0700",
+      "minecraft:plains": "2021-07-27 13:08:28 -0700"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2021-07-27 13:12:55 -0700"
+    },
+    "done": true
+  },
+  "DataVersion": 2730
+}
