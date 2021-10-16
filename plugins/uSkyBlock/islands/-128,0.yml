@@ -1,0 +1,33 @@
+general:
+  level: 0
+  warpLocationX: 0
+  warpLocationY: 0
+  warpLocationZ: 0
+  warpActive: false
+  regionVersion: 14 en
+  schematicName: default
+blocks:
+  leafBreaks: 0
+  hopperCount: 0
+version: 3
+log:
+- 1631765320381;The island has been created.
+- 1631765318158;The island has been created.
+party:
+  leader: TurtleDuck840
+  leader-uuid: 5525ff22-130d-4c18-a503-5314c178eda5
+  members:
+    5525ff22-130d-4c18-a503-5314c178eda5:
+      canChangeBiome: true
+      canToggleLock: true
+      canChangeWarp: true
+      canToggleWarp: true
+      canInviteOthers: true
+      canKickOthers: true
+      canBanOthers: true
+      name: TurtleDuck840
+      maxAnimals: 64
+      maxMonsters: 50
+      maxVillagers: 16
+      maxGolems: 5
+  currentSize: 1

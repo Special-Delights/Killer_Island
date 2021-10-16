@@ -1,0 +1,40 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 73.24.22.233
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1634390178901
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1634390406368
+  login: 1634389929823
+  kits:
+    stabaho: 1634239738338
+money: '2222.42850342857193596'
+last-account-name: Stabaho187
+lastlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer_Island
+  x: -3508.5085
+  y: 104.68174
+  z: 88.75606
+  yaw: -10.1571044921875
+  pitch: 34.476593017578125
+logoutlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer_Island
+  x: -1112.206
+  y: 68.38172
+  z: 1053.7418
+  yaw: 87.82015991210938
+  pitch: 11.575515747070312

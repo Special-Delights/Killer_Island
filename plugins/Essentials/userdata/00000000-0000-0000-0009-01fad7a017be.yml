@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 71.67.36.198
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1630907163526
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1630909117851
+  login: 1630897661850
+money: '0'
+last-account-name: -RudyDrills0222
+logoutlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer Island
+  x: -465.1713
+  y: 75.0
+  z: 1831.8262
+  yaw: -132.06063842773438
+  pitch: 14.386138916015625
+lastlocation:
+  world: de51b376-9cec-448c-9231-b3b573852bb7
+  world-name: Killer Island_the_end
+  x: 103.69999
+  y: 1.0
+  z: 41.171566
+  yaw: -179.35797119140625
+  pitch: 22.771728515625

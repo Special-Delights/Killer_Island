@@ -1,0 +1,56 @@
+general:
+  level: 11.17
+  warpLocationX: 0
+  warpLocationY: 0
+  warpLocationZ: 0
+  warpActive: false
+  regionVersion: 14 en
+  schematicName: default
+  locked: false
+blocks:
+  leafBreaks: 1
+  hopperCount: 0
+version: 3
+log:
+- 1631612631325;§b{0}§d unlocked the island.;-Stabaho187
+- 1631612627374;§b{0}§d deactivated the island warp.;-Stabaho187
+- 1631612627374;§b{0}§d locked the island.;-Stabaho187
+- 1631611905348;{0} created an area with {1} biome;-Stabaho187;OCEAN
+- 1631507802399;{0} created an area with {1} biome;-Stabaho187;FLOWER_FOREST
+- 1631497554589;§b{0}§d activated the island warp.;-Stabaho187
+- 1631497553542;§b{0}§d deactivated the island warp.;-Stabaho187
+- 1631497552242;§b{0}§d activated the island warp.;-Stabaho187
+- 1631497522136;§b{0}§d has joined your island group.;[DEMI]-MrsShmeeThumb§r
+- 1631497510076;{0}§d invited {1};[VIP]§4~Stabaho§r;[DEMI]-MrsShmeeThumb§r
+party:
+  leader: -Stabaho187
+  leader-uuid: 00000000-0000-0000-0009-000007c38676
+  members:
+    00000000-0000-0000-0009-000007c38676:
+      canChangeBiome: true
+      canToggleLock: true
+      canChangeWarp: true
+      canToggleWarp: true
+      canInviteOthers: false
+      canKickOthers: true
+      canBanOthers: true
+      name: -Stabaho187
+      maxPartySizePermission: 5
+      maxAnimals: 84
+      maxMonsters: 60
+      maxVillagers: 20
+      maxGolems: 6
+    00000000-0000-0000-0009-01f70c26f232:
+      name: -MrsShmeeThumb
+      canChangeBiome: false
+      canToggleLock: false
+      canChangeWarp: false
+      canToggleWarp: false
+      canInviteOthers: false
+      canKickOthers: false
+      canBanOthers: false
+      maxAnimals: 64
+      maxMonsters: 50
+      maxVillagers: 16
+      maxGolems: 5
+  currentSize: 2

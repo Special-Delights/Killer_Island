@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 142.117.74.104
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1634265121968
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1634351167786
+  login: 1634348149737
+money: '20479.34993339371654053'
+last-account-name: -TurningCupid
+logoutlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer_Island
+  x: 9811.886
+  y: 74.0
+  z: 6627.544
+  yaw: 102.60528564453125
+  pitch: 38.79869079589844
+homes:
+  home:
+    world: e7230443-6d71-40f5-9c81-adf10de976c9
+    world-name: Killer_Island
+    x: 9838.634
+    y: 52.0
+    z: 7554.261
+    yaw: -154.9056396484375
+    pitch: 17.2576904296875
+lastlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer_Island
+  x: 9779.677
+  y: 87.99998
+  z: 6881.517
+  yaw: -5.0966796875
+  pitch: 16.522506713867188

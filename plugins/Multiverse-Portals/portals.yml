@@ -1,0 +1,90 @@
+portals:
+  pvpportal:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: -Stabaho187
+    location: -937.0,13.0,1343.0:-937.0,13.0,1343.0
+    world: Killer_Island
+  killer_island_spawn:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: -Stabaho187
+    location: -1166.0,65.0,1049.0:-1163.0,69.0,1049.0
+    world: Killer_Island
+    destination: p:spawn_killer_island
+  spawn_killer_island:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: -Stabaho187
+    location: -358.0,3.0,-156.0:-358.0,7.0,-153.0
+    world: Spawn
+    destination: p:killer_island_spawn
+  spawn_supersurvival:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: -Stabaho187
+    location: -358.0,3.0,-146.0:-358.0,7.0,-143.0
+    world: Spawn
+    destination: p:supersurvival_spawn
+  spawn_creative:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: -Stabaho187
+    location: -358.0,3.0,-151.0:-358.0,7.0,-148.0
+    world: Spawn
+    destination: p:creative_spawn
+  creative_spawn:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: -Stabaho187
+    location: 15.0,63.0,-47.0:18.0,67.0,-47.0
+    world: creative
+    destination: p:spawn_creative
+  supersurvival_spawn:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: -Stabaho187
+    location: 764.0,71.0,-1325.0:767.0,75.0,-1325.0
+    world: supersurvival
+    destination: p:spawn_supersurvival
+  skyblock_spawn:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: -Stabaho187
+    location: -8.0,149.0,3.0:-8.0,153.0,6.0
+    world: skyworld
+    destination: p:spawn_skyblock
+  spawn_skyblock:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: -Stabaho187
+    location: -363.0,3.0,-122.0:-363.0,7.0,-118.0
+    world: Spawn
+    destination: p:skyblock_spawn

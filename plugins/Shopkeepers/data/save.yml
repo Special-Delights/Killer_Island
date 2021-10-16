@@ -1,0 +1,1033 @@
+# This file is not intended to be manually modified! If you want to manually edit this file anyways, ensure that the server is not running currently and that you have prepared a backup of this file.
+data-version: 2|2730
+'1':
+  uniqueId: ce198fc7-dcf3-4b45-a67b-31a05ef008ee
+  name: Candle Shop
+  world: Killer Island
+  x: -944
+  y: 73
+  z: 986
+  type: admin
+  object:
+    type: villager
+    baby: false
+    profession: NITWIT
+    villagerType: DESERT
+    villagerLevel: 1
+  recipes:
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: RED_CANDLE
+        amount: 64
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ORANGE_CANDLE
+        amount: 64
+    '3':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: YELLOW_CANDLE
+        amount: 64
+    '4':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: LIME_CANDLE
+        amount: 64
+    '5':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: GREEN_CANDLE
+        amount: 64
+    '6':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: CYAN_CANDLE
+        amount: 64
+    '7':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: LIGHT_BLUE_CANDLE
+        amount: 64
+    '8':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: BLUE_CANDLE
+        amount: 64
+    '9':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: PURPLE_CANDLE
+        amount: 64
+    '10':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: MAGENTA_CANDLE
+        amount: 64
+    '11':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: PINK_CANDLE
+        amount: 64
+    '12':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: WHITE_CANDLE
+        amount: 64
+    '13':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: LIGHT_GRAY_CANDLE
+        amount: 64
+    '14':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: GRAY_CANDLE
+        amount: 64
+    '15':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: BLACK_CANDLE
+        amount: 64
+    '16':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: BROWN_CANDLE
+        amount: 64
+    '17':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: CANDLE
+        amount: 64
+'2':
+  uniqueId: 772e0ef4-9ebc-46db-9e2a-b8b3b1b96d2e
+  name: Book Shop
+  world: Killer Island
+  x: -964
+  y: 77
+  z: 945
+  type: admin
+  object:
+    type: villager
+    baby: true
+    profession: NONE
+    villagerType: SAVANNA
+    villagerLevel: 5
+  recipes:
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND
+        amount: 9
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            PROTECTION_FALL: 4
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND
+        amount: 9
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            FROST_WALKER: 2
+    '3':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND
+        amount: 9
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            ARROW_INFINITE: 1
+    '4':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND
+        amount: 9
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            SILK_TOUCH: 1
+    '5':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND
+        amount: 9
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            DAMAGE_ALL: 5
+    '6':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND
+        amount: 9
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            LOOT_BONUS_BLOCKS: 3
+    '7':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND
+        amount: 9
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            DURABILITY: 3
+    '8':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND
+        amount: 9
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            DIG_SPEED: 5
+    '9':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND
+        amount: 9
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            WATER_WORKER: 1
+    '10':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND
+        amount: 9
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            MENDING: 1
+    '11':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND
+        amount: 9
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            DEPTH_STRIDER: 3
+    '12':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND
+        amount: 9
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            LOYALTY: 3
+    '13':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND
+        amount: 9
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            OXYGEN: 3
+    '14':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND
+        amount: 27
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            SOUL_SPEED: 3
+'3':
+  uniqueId: d8c2aca9-5b03-4f66-b33e-ae61ef7c4a87
+  name: ''
+  world: Killer Island
+  x: -1039
+  y: 72
+  z: 967
+  type: sell
+  object:
+    type: villager
+    baby: false
+    profession: NONE
+    villagerType: PLAINS
+    villagerLevel: 1
+  owner uuid: 00000000-0000-0000-0009-000007c38676
+  owner: -Stabaho187
+  chestx: -1041
+  chesty: 72
+  chestz: 967
+  offers:
+    '1':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ELYTRA
+      price: 29
+    '2':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: TRIDENT
+      price: 10
+    '3':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: WARPED_FUNGUS_ON_A_STICK
+      price: 10
+    '4':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: CARROT_ON_A_STICK
+      price: 10
+    '5':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: FISHING_ROD
+      price: 10
+    '6':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: CHISELED_NETHER_BRICKS
+      price: 10
+    '7':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: SMOOTH_STONE_SLAB
+      price: 10
+    '8':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ANVIL
+      price: 10
+    '9':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DARK_OAK_FENCE
+      price: 10
+'6':
+  uniqueId: f8457a8e-37f3-430c-a73f-245d498fb34f
+  name: Shulker Shop
+  world: Killer Island_nether
+  x: 6
+  y: 117
+  z: 4
+  type: sell
+  object:
+    type: villager
+    baby: false
+    profession: NONE
+    villagerType: SWAMP
+    villagerLevel: 5
+  owner uuid: 00000000-0000-0000-0009-000005d695cb
+  owner: -Gryffydd89
+  chestx: 7
+  chesty: 117
+  chestz: 6
+  offers:
+    '1':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: SHULKER_BOX
+      price: 1
+'11':
+  uniqueId: aafc1f94-a6c6-4295-9db7-0f6b8c4d913c
+  name: Shulker Shop
+  world: Killer_Island_nether
+  x: 9
+  y: 117
+  z: 4
+  type: sell
+  object:
+    type: villager
+    baby: false
+    profession: NONE
+    villagerType: SNOW
+    villagerLevel: 5
+  owner uuid: 00000000-0000-0000-0009-000007c38676
+  owner: -Stabaho187
+  chestx: 7
+  chesty: 117
+  chestz: 6
+  offers:
+    '1':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: SHULKER_BOX
+      price: 2
+'12':
+  uniqueId: f8cbdbd3-e84b-4b4d-b58a-252a33bede38
+  name: ''
+  world: Killer_Island
+  x: 529
+  y: 64
+  z: 625
+  type: admin
+  object:
+    type: villager
+    baby: false
+    profession: NONE
+    villagerType: SAVANNA
+    villagerLevel: 5
+  recipes:
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: POISONOUS_POTATO
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: SPLASH_POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:weakness
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: POISONOUS_POTATO
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: GOLDEN_APPLE
+        amount: 10
+'14':
+  uniqueId: f689b0c0-eaf8-4642-81a5-345f434ce6df
+  name: ''
+  world: Killer_Island_nether
+  x: -272
+  y: 117
+  z: -7
+  type: sell
+  object:
+    type: villager
+    baby: false
+    profession: NITWIT
+    villagerType: SNOW
+    villagerLevel: 4
+  owner uuid: 18024028-0734-4790-bf8b-7a5b1db9f218
+  owner: Athwee
+  chestx: -272
+  chesty: 116
+  chestz: -11
+  offers:
+    '1':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            MULTISHOT: 1
+      price: 1
+    '2':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            SILK_TOUCH: 1
+      price: 1
+    '3':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            ARROW_KNOCKBACK: 2
+      price: 1
+    '4':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            OXYGEN: 2
+      price: 1
+    '5':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            DAMAGE_UNDEAD: 4
+      price: 1
+    '6':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            PROTECTION_FIRE: 3
+      price: 1
+    '7':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            FIRE_ASPECT: 1
+      price: 1
+    '8':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            CHANNELING: 1
+      price: 1
+    '9':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            ARROW_INFINITE: 1
+      price: 1
+    '10':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            ARROW_DAMAGE: 3
+      price: 1
+    '11':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            LOOT_BONUS_MOBS: 2
+            PIERCING: 4
+      price: 1
+    '12':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            LOYALTY: 2
+      price: 1
+    '13':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            PROTECTION_FALL: 4
+      price: 1
+    '14':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: MOSS_BLOCK
+        amount: 64
+      price: 1
+    '15':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DIAMOND_SHOVEL
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            LOOT_BONUS_BLOCKS: 2
+      price: 1
+'16':
+  uniqueId: 5eed3362-93c5-4619-9c7e-d8359bba6763
+  name: BigBeasts Shop of Wonders
+  world: Killer_Island
+  x: -1141
+  y: 66
+  z: 1030
+  type: sell
+  object:
+    type: villager
+    baby: false
+    profession: CARTOGRAPHER
+    villagerType: PLAINS
+    villagerLevel: 1
+  owner uuid: 35016980-8de5-4af4-903a-06a442c010f1
+  owner: BigBeast89
+  chestx: -1140
+  chesty: 66
+  chestz: 1029
+  offers:
+    '1':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: STONE
+        amount: 64
+      price: 1
+    '2':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: MUSIC_DISC_CAT
+      price: 5
+    '3':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: MUSIC_DISC_13
+      price: 5
+'17':
+  uniqueId: 544d37dc-b9ab-4c5c-b3a9-49d766a71ab7
+  name: Random Goods
+  world: Killer_Island
+  x: -1140
+  y: 66
+  z: 1026
+  type: sell
+  object:
+    type: villager
+    baby: false
+    profession: NONE
+    villagerType: DESERT
+    villagerLevel: 5
+  owner uuid: 5525ff22-130d-4c18-a503-5314c178eda5
+  owner: TurtleDuck840
+  chestx: -1140
+  chesty: 63
+  chestz: 1023
+  offers:
+    '1':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: TOTEM_OF_UNDYING
+      price: 8
+    '2':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: MOSS_BLOCK
+        amount: 64
+      price: 2
+    '3':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: FLOWERING_AZALEA
+        amount: 5
+      price: 2
+    '4':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: MOSS_CARPET
+        amount: 32
+      price: 1
+    '5':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: AZALEA
+        amount: 5
+      price: 1
+    '6':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: SMOOTH_BASALT
+        amount: 16
+      price: 1
+    '7':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: CALCITE
+        amount: 32
+      price: 2
+    '8':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: CRYING_OBSIDIAN
+        amount: 4
+      price: 1
+    '9':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: BEACON
+      price: 15
+    '10':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: SPAWNER
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Blaze
+            "},{"italic":false,"color":"white","text":"Spawner"}],"text":""}'
+          internal: H4sIAAAAAAAA/+NiYOBi4AnOzMkOLkgsz0stKuZgYEvNK8ksqWRgTcpJrEoFyvM55eQnZ7uCRUMS07kYOOFsDgamzBQG/tzMvNTkosS0EiuYHk6weS6JJYk4lHAwcEBM8UyB2gRRyJ2bnxRfDHEMFwM/2JiA/BKQmxJzihkYGAC097ZAswAAAA==
+          blockMaterial: SPAWNER
+      price: 8
+    '11':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: QUARTZ
+        amount: 64
+      price: 1
+'18':
+  uniqueId: c7a853a9-c4d7-48d4-994b-98e9f8ae120e
+  name: Rads
+  world: Killer_Island
+  x: -1139
+  y: 67
+  z: 1017
+  type: sell
+  object:
+    type: villager
+    baby: false
+    profession: NONE
+    villagerType: PLAINS
+    villagerLevel: 1
+  owner uuid: 211e16ad-bbca-4b93-8f85-9fd61bd241f7
+  owner: RadmobileGaming
+  chestx: -1139
+  chesty: 66
+  chestz: 1018
+  offers:
+    '1':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DARK_PRISMARINE
+        amount: 32
+      price: 1
+    '2':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: PRISMARINE
+        amount: 64
+      price: 1
+    '3':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: PRISMARINE_BRICKS
+        amount: 64
+      price: 1
+    '4':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: SEA_LANTERN
+        amount: 64
+      price: 1
+    '5':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: BLAZE_ROD
+        amount: 64
+      price: 1
+    '6':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENDER_CHEST
+      price: 1
+    '7':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            MENDING: 1
+      price: 1
+    '8':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            DIG_SPEED: 5
+      price: 2
+    '9':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            SILK_TOUCH: 1
+      price: 1
+'20':
+  uniqueId: 7c7991da-4122-4601-ac1e-cabf3bb4be46
+  name: Hank
+  world: Killer_Island
+  x: -1723
+  y: 66
+  z: 345
+  type: sell
+  object:
+    type: villager
+    baby: false
+    profession: NONE
+    villagerType: PLAINS
+    villagerLevel: 1
+  owner uuid: 00000000-0000-0000-0009-01fdb2ffd1bd
+  owner: -IAmFriendBesto
+  chestx: -1727
+  chesty: 66
+  chestz: 349
+  offers:
+    '1':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: COMPARATOR
+        amount: 10
+      price: 2
+    '2':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: REPEATER
+        amount: 10
+      price: 2
+    '3':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: REDSTONE_TORCH
+        amount: 64
+      price: 3

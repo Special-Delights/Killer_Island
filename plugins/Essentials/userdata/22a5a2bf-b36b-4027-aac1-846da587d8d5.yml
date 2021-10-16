@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 152.97.162.156
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1629243085672
+  login: 1629242769837
+money: '0'
+last-account-name: LucidLullaby
+logoutlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer Island
+  x: -279.14462641314276
+  y: 69.0
+  z: 315.5630050471483
+  yaw: -110.61920166015625
+  pitch: 31.649961471557617

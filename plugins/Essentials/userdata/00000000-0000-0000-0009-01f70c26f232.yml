@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 73.78.197.152
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1634267226589
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1634267622489
+  login: 1634261233967
+money: '69.40364116666668231'
+last-account-name: -MrsShmeeThumb
+logoutlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer_Island
+  x: 361.82755
+  y: 101.0
+  z: 296.08728
+  yaw: -160.875732421875
+  pitch: -23.903152465820312
+lastlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer_Island
+  x: 373.16742
+  y: 88.0
+  z: 335.33984
+  yaw: -135.13287353515625
+  pitch: 9.648590087890625
+homes:
+  home:
+    world: e7230443-6d71-40f5-9c81-adf10de976c9
+    world-name: Killer_Island
+    x: 363.5
+    y: 101.0
+    z: 295.5
+    yaw: -139.0960693359375
+    pitch: 0.0

@@ -1,0 +1,48 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 71.32.137.66
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1633211119280
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1633211571366
+  login: 1633210324916
+money: '1828.07438743422609132'
+last-account-name: XxTROY_90xX
+lastlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer_Island
+  x: -48.096733722646206
+  y: 64.0
+  z: 764.1677493375538
+  yaw: -141.44189453125
+  pitch: 37.499900817871094
+logoutlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer_Island
+  x: -63.329438170450835
+  y: 64.0
+  z: 737.3000000119209
+  yaw: 83.65814208984375
+  pitch: 19.348745346069336
+homes:
+  home:
+    world: e7230443-6d71-40f5-9c81-adf10de976c9
+    world-name: Killer_Island
+    x: -61.749171972454036
+    y: 65.0
+    z: 768.9505364097449
+    yaw: 174.13343811035156
+    pitch: 43.198673248291016
+nickname: Troy

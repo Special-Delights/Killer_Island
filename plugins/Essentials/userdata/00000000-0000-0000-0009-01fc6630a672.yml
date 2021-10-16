@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 5.65.121.244
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1631616405770
+  login: 1631615790515
+money: '0'
+last-account-name: -BluntBaby666
+logoutlocation:
+  world: 95fd92ff-5ca6-47c0-a4db-233da6afee27
+  world-name: Killer_Island_nether
+  x: 6.946182
+  y: 70.0
+  z: 0.65468514
+  yaw: -117.37002563476562
+  pitch: 30.6143798828125

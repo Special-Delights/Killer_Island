@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 174.126.159.17
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1633202747167
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1634340225896
+  login: 1634338177251
+money: '0'
+last-account-name: -IAmFriendBesto
+logoutlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer_Island
+  x: -1743.663
+  y: 66.5625
+  z: 353.275
+  yaw: -122.8831787109375
+  pitch: 52.57353210449219
+lastlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer_Island
+  x: -1989.9711
+  y: 47.0
+  z: 472.28354
+  yaw: 108.01715087890625
+  pitch: 5.8192291259765625

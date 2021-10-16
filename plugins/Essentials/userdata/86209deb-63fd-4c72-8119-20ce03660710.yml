@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 68.56.114.167
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1631767591632
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1631767725267
+  login: 1631759429709
+money: '0'
+last-account-name: MysteryShac
+lastlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer_Island
+  x: -552.612451076588
+  y: 20.0
+  z: 2018.5193172954005
+  yaw: 172.94873046875
+  pitch: 14.84998893737793
+logoutlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer_Island
+  x: -14.311471460453676
+  y: 64.0
+  z: 1484.1071552590613
+  yaw: 99.7503890991211
+  pitch: 28.3497257232666

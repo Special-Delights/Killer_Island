@@ -1,0 +1,35 @@
+testing:
+  Leader: 00000000-0000-0000-0009-000007c38676|-Stabaho187
+  Password: abc
+  Locked: true
+  Level: 10
+  Xp: 0
+  Ally: ''
+  ExpShareMode: NONE
+  ItemShareMode: NONE
+  ItemShareType:
+    LOOT: true
+    MINING: true
+    HERBALISM: true
+    WOODCUTTING: true
+    MISC: true
+  Members:
+  - 00000000-0000-0000-0009-000007c38676|-Stabaho187
+  - 5525ff22-130d-4c18-a503-5314c178eda5|TurtleDuck840
+TRS:
+  Leader: 211e16ad-bbca-4b93-8f85-9fd61bd241f7|RadmobileGaming
+  Locked: true
+  Level: 10
+  Xp: 0
+  Ally: ''
+  ExpShareMode: NONE
+  ItemShareMode: NONE
+  ItemShareType:
+    LOOT: true
+    MINING: true
+    HERBALISM: true
+    WOODCUTTING: true
+    MISC: true
+  Members:
+  - 211e16ad-bbca-4b93-8f85-9fd61bd241f7|RadmobileGaming
+  - 687cdac7-f97f-4a19-a900-1d8e9ab88748|SquishieDragon

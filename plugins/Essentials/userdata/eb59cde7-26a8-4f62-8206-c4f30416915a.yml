@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 47.189.251.96
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1632557633262
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1632603931597
+  login: 1632603664045
+money: '19799.51884776527587261'
+last-account-name: Papi_Grande2214
+logoutlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer_Island
+  x: -1167.2862996820977
+  y: 12.0
+  z: 475.9443767632867
+  yaw: 44.05584716796875
+  pitch: 45.149696350097656
+lastlocation:
+  world: 95fd92ff-5ca6-47c0-a4db-233da6afee27
+  world-name: Killer_Island_nether
+  x: -58.698681758489315
+  y: 34.2113341170209
+  z: 84.02787573850202
+  yaw: 148.93429565429688
+  pitch: 80.54969024658203

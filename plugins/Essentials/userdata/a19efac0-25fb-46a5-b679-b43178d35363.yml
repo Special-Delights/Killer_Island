@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 112.204.170.242
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1630297743312
+  login: 1630297310804
+money: '0'
+last-account-name: Elohim9822
+logoutlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer Island
+  x: -255.53394311998673
+  y: 67.0
+  z: 173.46281947831633
+  yaw: -77.54756164550781
+  pitch: 6.750516891479492

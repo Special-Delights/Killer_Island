@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 208.38.207.165
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1629438115897
+  login: 1629434772752
+money: '0'
+last-account-name: XGalacticGodX
+lastlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer Island
+  x: 626.3654524225547
+  y: 68.02442408821369
+  z: 651.5327695627756
+  yaw: 11.5166015625
+  pitch: 14.480704307556152
+logoutlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer Island
+  x: -1090.9184676835075
+  y: 72.0
+  z: 976.1878162612874
+  yaw: -96.06417846679688
+  pitch: 17.786909103393555

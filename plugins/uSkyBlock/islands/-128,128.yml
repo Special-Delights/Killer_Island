@@ -1,0 +1,33 @@
+general:
+  level: 0
+  warpLocationX: 0
+  warpLocationY: 0
+  warpLocationZ: 0
+  warpActive: false
+  regionVersion: 14 en
+  schematicName: default
+blocks:
+  leafBreaks: 1
+  hopperCount: 0
+version: 3
+log:
+- 1632105386267;The island has been created.
+- 1632105383239;The island has been created.
+party:
+  leader: -IKKAKU420235
+  leader-uuid: 00000000-0000-0000-0009-01f3ccb3d09c
+  members:
+    00000000-0000-0000-0009-01f3ccb3d09c:
+      canChangeBiome: true
+      canToggleLock: true
+      canChangeWarp: true
+      canToggleWarp: true
+      canInviteOthers: true
+      canKickOthers: true
+      canBanOthers: true
+      name: -IKKAKU420235
+      maxAnimals: 64
+      maxMonsters: 50
+      maxVillagers: 16
+      maxGolems: 5
+  currentSize: 1

@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 47.37.51.87
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1634390754801
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1634390574370
+  login: 1634390622107
+money: '3059.31632135599995782'
+last-account-name: -Miarkraim
+logoutlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer_Island
+  x: -1109.7616
+  y: 65.9375
+  z: 1032.033
+  yaw: 48.72444152832031
+  pitch: 22.4888916015625
+homes:
+  home:
+    world: e7230443-6d71-40f5-9c81-adf10de976c9
+    world-name: Killer_Island
+    x: 10023.5
+    y: 68.0
+    z: 11846.5
+    yaw: -93.7257080078125
+    pitch: 26.647674560546875
+lastlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer_Island
+  x: -1148.4255
+  y: 65.9375
+  z: 1056.1613
+  yaw: 106.4521484375
+  pitch: 0.5113372802734375

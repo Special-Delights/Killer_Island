@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 197.185.101.73
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1634001674302
+  login: 1633999320081
+money: '0'
+last-account-name: -HotAshML
+logoutlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer_Island
+  x: -1110.5289
+  y: 65.9375
+  z: 1030.9597
+  yaw: 3.9295196533203125
+  pitch: 12.019485473632812
+lastlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer_Island
+  x: -2233.4202
+  y: 64.0
+  z: -1305.318
+  yaw: -105.62542724609375
+  pitch: 27.59814453125

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 2.221.146.33
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1634359147650
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1634360896982
+  login: 1634391330167
+money: '0'
+last-account-name: -NixRagnarson
+logoutlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer_Island
+  x: -9587.884
+  y: 10.0
+  z: -4210.69999
+  yaw: -24.207275390625
+  pitch: -37.18060302734375
+lastlocation:
+  world: 95fd92ff-5ca6-47c0-a4db-233da6afee27
+  world-name: Killer_Island_nether
+  x: -1381.95
+  y: 64.56641
+  z: -840.9544
+  yaw: -166.6126708984375
+  pitch: 6.6410369873046875

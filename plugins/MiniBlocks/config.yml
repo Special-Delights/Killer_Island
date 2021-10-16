@@ -1,0 +1,46 @@
+# When you break and place a player head in Vanilla, it reverts the name to "Player Head", which causes the item to no longer stack. This setting enables a fix which preserves names of player heads.
+head-name-fix:
+  # Enable the fix for player heads.
+  player-heads: true
+
+  # Enable the fix for other types of heads, such as creeper, zombie, skeleton, etc. Mainly useful when renaming heads manually in an anvil.
+  mob-heads: true
+
+player-heads:
+  # Player heads will drop on death.
+  enabled: false
+
+  # Whether or not to require a player kill to drop heads - otherwise they will always drop.
+  player-kill-required: true
+
+  # Format strings for the name and lore text. %player_name% is the
+  # player who died, %killer_name% is who killed them. If there was no
+  # killer, that line of text will be skipped.
+  name-format: §r§e%player_name%'s Head
+  lore-format:
+    - Killed by §r§e%killer_name%
+
+wandering-trader:
+  # How many offers should be added to each wandering trader's list.
+  min-offers: 5
+  max-offers: 8
+
+  player-heads:
+    # How many times you can trade before it's sold out.
+    max-trades: 3
+
+    # Whether HermitCraft members should be listed.
+    hermit-craft-members: false
+
+    # Uncomment to add custom members to include as head trades. You can
+    # use <https://mcuuid.net/> to look up UUIDs for this.
+
+    #custom-members:
+    #  - name: Tiffnix
+    #    uuid: aaaa2134-2ae1-486d-ac01-c08237c2cade
+
+  # Enables mini blocks as trades.
+  mini-blocks:
+    enabled: true
+
+    max-trades: 1

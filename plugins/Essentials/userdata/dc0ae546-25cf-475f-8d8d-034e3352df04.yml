@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 47.189.251.96
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1632523679429
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1634271108821
+  login: 1634268525767
+money: '15721.50205275365802174'
+last-account-name: KingKaiterTot
+logoutlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer_Island
+  x: -1507.1430479816295
+  y: 138.0
+  z: 180.16665336415846
+  yaw: 67.2763671875
+  pitch: -52.650230407714844
+lastlocation:
+  world: 95fd92ff-5ca6-47c0-a4db-233da6afee27
+  world-name: Killer_Island_nether
+  x: -662.3350035476177
+  y: 67.0
+  z: -564.7578944834912
+  yaw: 24.897125244140625
+  pitch: 23.849851608276367
+nickname: King

@@ -1,0 +1,46 @@
+# Multiverse-Inventories Groups
+
+
+# To ADD, DELETE, and EDIT groups use the command /mvinv group.
+# No support will be given for those who manually edit these groups.
+groups:
+
+  default:
+
+    worlds:
+
+    - killer_island_nether
+
+    - killer_island
+
+    - killer_island_the_end
+
+    shares:
+
+    - all
+
+  skyblock:
+
+    worlds:
+
+    - skyworld_nether
+
+    - skyworld
+
+    shares:
+
+    - all
+
+  supersurvival:
+
+    worlds:
+
+    - supersurvival_the_end
+
+    - supersurvival_nether
+
+    - supersurvival
+
+    shares:
+
+    - all

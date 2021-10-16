@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 68.149.140.198
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1632382693590
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1632439509594
+  login: 1632439022943
+money: '10844.61982663377801148'
+last-account-name: -Kenpachi4202357
+lastlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer_Island
+  x: 1074.1702
+  y: 92.31323
+  z: -3125.9893
+  yaw: -91.6275634765625
+  pitch: 49.316162109375
+logoutlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer_Island
+  x: 4427.593
+  y: 83.0
+  z: -2266.5386
+  yaw: -101.75030517578125
+  pitch: 28.442245483398438
+nickname: KENPACHI

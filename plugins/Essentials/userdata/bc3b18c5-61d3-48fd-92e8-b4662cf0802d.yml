@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 47.12.130.34
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1634354262412
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1634364723225
+  login: 1634353822339
+money: '55214.96410450291460987'
+last-account-name: BlackCats96
+lastlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer_Island
+  x: 341.6119165939357
+  y: 5.200000047683716
+  z: -2064.70080228546
+  yaw: 2.199183702468872
+  pitch: 16.350536346435547
+logoutlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer_Island
+  x: 390.32328384825297
+  y: 56.875
+  z: -2056.699999988079
+  yaw: -23.42236328125
+  pitch: 15.29996109008789

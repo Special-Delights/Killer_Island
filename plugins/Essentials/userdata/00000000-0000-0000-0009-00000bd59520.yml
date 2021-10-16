@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 70.44.201.231
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1632160531253
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1632225658330
+  login: 1632225392963
+money: '0'
+last-account-name: -earthymama42
+lastlocation:
+  world: 95fd92ff-5ca6-47c0-a4db-233da6afee27
+  world-name: Killer_Island_nether
+  x: 546.055
+  y: 117.0
+  z: -3.3960783
+  yaw: 44.44416809082031
+  pitch: -14.677719116210938
+logoutlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer_Island
+  x: -1966.1953
+  y: 69.0
+  z: 1007.44977
+  yaw: 83.06594848632812
+  pitch: -8.333877563476562

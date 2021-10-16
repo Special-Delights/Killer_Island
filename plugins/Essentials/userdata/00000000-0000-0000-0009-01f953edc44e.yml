@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 174.53.227.200
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1628671096957
+  login: 1628657110672
+money: '0'
+last-account-name: .Skoot2011
+lastlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer Island
+  x: -1066.5
+  y: 72.0
+  z: 970.5
+  yaw: -127.49398803710938
+  pitch: 20.37481689453125
+logoutlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer Island
+  x: -251.96913
+  y: 37.0
+  z: 179.05495
+  yaw: -18.5958251953125
+  pitch: -30.803070068359375

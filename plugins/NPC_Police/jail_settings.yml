@@ -1,0 +1,256 @@
+Killer_Island_the_end:
+  event_commands:
+    player_arrested: []
+    player_escaped: []
+    player_released: []
+    player_wanted: []
+    npc_warning: []
+    npc_alertguards: []
+    npc_noguards: []
+    npc_murdered: []
+    bounty_maximum: []
+creative_nether:
+  event_commands:
+    player_arrested: []
+    player_escaped: []
+    player_released: []
+    player_wanted: []
+    npc_warning: []
+    npc_alertguards: []
+    npc_noguards: []
+    npc_murdered: []
+    bounty_maximum: []
+skyworld_nether:
+  event_commands:
+    player_arrested: []
+    player_escaped: []
+    player_released: []
+    player_wanted: []
+    npc_warning: []
+    npc_alertguards: []
+    npc_noguards: []
+    npc_murdered: []
+    bounty_maximum: []
+new_island:
+  event_commands:
+    player_arrested: []
+    player_escaped: []
+    player_released: []
+    player_wanted: []
+    npc_warning: []
+    npc_alertguards: []
+    npc_noguards: []
+    npc_murdered: []
+    bounty_maximum: []
+Killer_Island:
+  event_commands:
+    player_arrested: []
+    player_escaped: []
+    player_released: []
+    player_wanted: []
+    npc_warning: []
+    npc_alertguards: []
+    npc_noguards: []
+    npc_murdered: []
+    bounty_maximum: []
+skyworld:
+  event_commands:
+    player_arrested: []
+    player_escaped: []
+    player_released: []
+    player_wanted: []
+    npc_warning: []
+    npc_alertguards: []
+    npc_noguards: []
+    npc_murdered: []
+    bounty_maximum: []
+creative:
+  event_commands:
+    player_arrested: []
+    player_escaped: []
+    player_released: []
+    player_wanted: []
+    npc_warning: []
+    npc_alertguards: []
+    npc_noguards: []
+    npc_murdered: []
+    bounty_maximum: []
+supersurvival_the_end:
+  event_commands:
+    player_arrested: []
+    player_escaped: []
+    player_released: []
+    player_wanted: []
+    npc_warning: []
+    npc_alertguards: []
+    npc_noguards: []
+    npc_murdered: []
+    bounty_maximum: []
+flat:
+  event_commands:
+    player_arrested: []
+    player_escaped: []
+    player_released: []
+    player_wanted: []
+    npc_warning: []
+    npc_alertguards: []
+    npc_noguards: []
+    npc_murdered: []
+    bounty_maximum: []
+supersurvival_nether:
+  event_commands:
+    player_arrested: []
+    player_escaped: []
+    player_released: []
+    player_wanted: []
+    npc_warning: []
+    npc_alertguards: []
+    npc_noguards: []
+    npc_murdered: []
+    bounty_maximum: []
+new_island_the_end:
+  event_commands:
+    player_arrested: []
+    player_escaped: []
+    player_released: []
+    player_wanted: []
+    npc_warning: []
+    npc_alertguards: []
+    npc_noguards: []
+    npc_murdered: []
+    bounty_maximum: []
+new_island_nether:
+  event_commands:
+    player_arrested: []
+    player_escaped: []
+    player_released: []
+    player_wanted: []
+    npc_warning: []
+    npc_alertguards: []
+    npc_noguards: []
+    npc_murdered: []
+    bounty_maximum: []
+_GlobalSettings:
+  bounty:
+    damage: 76.0
+    escaped: 1500.0
+    murder: 2400.0
+    jailed_pvp: 10.0
+  respawn:
+    arrest: false
+  times:
+    jailed_bounty: -20.0
+    escaped_bounty: 1.0
+    wanted_bounty: 0.0
+    outofcell_day: 0.0
+    outofcell_night: 0.0
+  wanted:
+    min: NONE
+    max: HIGH
+  npc:
+    max_warning_damage: 3
+    max_distance_guard: 25
+    protect_only_assigned: false
+    min_bounty_wanted: 0
+    monitor_pvp: false
+    los_attack: false
+  player_notices:
+    escaped:
+      distance: 125
+      delay: 0.2
+    arrested:
+      distance: 125
+      delay: 0.4
+    murder:
+      distance: 125
+      delay: 0.3
+  inventory:
+    takeonarrest: false
+    returnonfree: true
+  event_commands:
+    player_arrested: []
+    player_escaped: []
+    player_released: []
+    player_wanted: []
+    npc_warning: []
+    npc_alertguards: []
+    npc_noguards: []
+    npc_murdered: []
+    bounty_maximum: []
+creative_the_end:
+  event_commands:
+    player_arrested: []
+    player_escaped: []
+    player_released: []
+    player_wanted: []
+    npc_warning: []
+    npc_alertguards: []
+    npc_noguards: []
+    npc_murdered: []
+    bounty_maximum: []
+Spawn:
+  event_commands:
+    player_arrested: []
+    player_escaped: []
+    player_released: []
+    player_wanted: []
+    npc_warning: []
+    npc_alertguards: []
+    npc_noguards: []
+    npc_murdered: []
+    bounty_maximum: []
+  jails:
+    myjail:
+      jail_id: 6e56b012-7795-40df-ab66-35f19bdc441a
+      displayname: TownJail
+      region: jaila
+      times:
+        jailed_bounty: 4.9E-324
+        outofcell_day: 4.9E-324
+        outofcell_night: 4.9E-324
+      event_commands:
+        player_arrested: []
+        player_escaped: []
+        player_released: []
+      wanted:
+        min: NONE
+        max: HIGH
+      spawns:
+        exitlocation:
+          world: Spawn
+          x: -319.5
+          y: 5.5
+          z: -140.5
+Cloud_World:
+  event_commands:
+    player_arrested: []
+    player_escaped: []
+    player_released: []
+    player_wanted: []
+    npc_warning: []
+    npc_alertguards: []
+    npc_noguards: []
+    npc_murdered: []
+    bounty_maximum: []
+Killer_Island_nether:
+  event_commands:
+    player_arrested: []
+    player_escaped: []
+    player_released: []
+    player_wanted: []
+    npc_warning: []
+    npc_alertguards: []
+    npc_noguards: []
+    npc_murdered: []
+    bounty_maximum: []
+supersurvival:
+  event_commands:
+    player_arrested: []
+    player_escaped: []
+    player_released: []
+    player_wanted: []
+    npc_warning: []
+    npc_alertguards: []
+    npc_noguards: []
+    npc_murdered: []
+    bounty_maximum: []

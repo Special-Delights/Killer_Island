@@ -1,0 +1,48 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 65.27.80.25
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1634072840017
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1634073255801
+  login: 1634072830837
+money: '0'
+last-account-name: MrzPricey73
+logoutlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer_Island
+  x: 364.24060200569903
+  y: 71.89549714046592
+  z: -2672.2836381379884
+  yaw: -4.3692626953125
+  pitch: 20.716814041137695
+lastlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer_Island
+  x: -1556.9470008892267
+  y: 102.53845373564303
+  z: -6713.028889495867
+  yaw: -72.28921508789062
+  pitch: 15.653074264526367
+homes:
+  home:
+    world: e7230443-6d71-40f5-9c81-adf10de976c9
+    world-name: Killer_Island
+    x: 365.8659854303324
+    y: 63.0
+    z: -2608.690294651139
+    yaw: 91.953369140625
+    pitch: 18.760501861572266
+nickname: priceybish

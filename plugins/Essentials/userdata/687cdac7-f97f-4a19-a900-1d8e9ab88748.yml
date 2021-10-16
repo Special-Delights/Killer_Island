@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 68.2.66.26
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1634184416264
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1634184599350
+  login: 1634176194069
+money: '20637.53631238341585551'
+last-account-name: SquishieDragon
+homes:
+  home:
+    world: e7230443-6d71-40f5-9c81-adf10de976c9
+    world-name: Killer_Island
+    x: 432.91593511548615
+    y: 65.0
+    z: 3221.3344429588624
+    yaw: 65.61184692382812
+    pitch: 0.3275701701641083
+logoutlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer_Island
+  x: 494.2332914872369
+  y: 67.0
+  z: 3345.1442100870704
+  yaw: 1.726043701171875
+  pitch: -12.954240798950195
+lastlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer_Island
+  x: -2075.2137319258763
+  y: 60.82817072191522
+  z: 3577.2838947949936
+  yaw: -0.6822509765625
+  pitch: -12.249550819396973

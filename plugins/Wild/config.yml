@@ -1,0 +1,150 @@
+# Wilderness-Tp configuration file
+# .
+# You can retrieve all those parameters with explanation on the online default config:
+# https://github.com/AcmeProject/WildernessTp/blob/master/src/main/resources/config.yml
+# .
+# Detailled & up2date plugin permissions list can be read here:
+# https://github.com/AcmeProject/WildernessTp/blob/master/src/main/resources/plugin.yml
+# .
+# bonus memo:
+# - Sounds: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html 
+# - Biomes: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/Biome.html
+# - Blocks: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+# - Bar colors: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/boss/BarColor.html
+# - Bar styles: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/boss/BarStyle.html
+# - Gamemodes: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/GameMode.html
+# - Effects: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionEffectType.html
+# FYI, you really should consider using Paper (https://papermc.io)
+# or any fork of it (e.g. Tuinity, Purpur, etc.) so that you benefit from async chunk generation/loading
+# 
+# use "debug: true" to provide debug messages in console/logs to assist in fixing bugs
+debug: false
+cooldownMsgUsesActionBar: true
+enableGUI: true
+enableBar: true
+shareCoolDown: true
+callFiremenInNether: false
+freezeWhileRTP: false
+moveCancelRTP: true
+Sound: ENTITY_ENDERMAN_TELEPORT
+BlockedBiomes:
+- COLD_OCEAN
+- DEEP_COLD_OCEAN
+- DEEP_FROZEN_OCEAN
+- DEEP_LUKEWARM_OCEAN
+- DEEP_OCEAN
+- DEEP_WARM_OCEAN
+- FROZEN_OCEAN
+- FROZEN_OCEAN
+- LUKEWARM_OCEAN
+- OCEAN
+- RIVER
+- WARM_OCEAN
+BlockedBlocks:
+- CACTUS
+- FIRE
+- LAVA
+- MAGMA_BLOCK
+- AIR
+- VOID_AIR
+- CAVE_AIR
+MinXY: -12000
+MaxXY: 12000
+movingBorder: false
+Wait: 0
+Retries: 6
+Cooldown: 0
+Cost: 0
+paidTPconfirmation: 30
+teleportNewPlayers: false
+dropPlayerFromAbove: false
+dropPlayerFromHeight: 255
+DoCommands: false
+PostCommands:
+- title %PLAYER% times 20 100 20
+- title %PLAYER% title ["",{"text":"Wilderness","color":"green","bold":false}]
+- title %PLAYER% subtitle ["",{"text":"Its too dangerous to go alone.","color":"yellow"}]
+useRandomWorlds: false
+randomWorlds:
+  world: 1337
+  world_nether: 42
+useGlobalClaimCheck: false
+useAlternativeGlobalClaimCheck: false
+signTexts:
+  createWith: '[wildtp]'
+  line1: '&4===================='
+  line2: '[&1Wild&0]'
+  line3: '&4===================='
+  costFree: '&b&lFREE'
+  costMoney: '&4%COST% $'
+worldsAliaz:
+  Killer_Island: Killer_Island
+  Killer_Island_nether: Killer_Island_nether
+  Killer_Island_the_end: Killer_Island_the_end
+  creative_nether: creative_nether
+  skyworld_nether: skyworld_nether
+  skyworld: skyworld
+  creative: creative
+  supersurvival_the_end: supersurvival_the_end
+  flat: flat
+  supersurvival_nether: supersurvival_nether
+  creative_the_end: creative_the_end
+  Spawn: Spawn
+  Cloud_World: Cloud_World
+  supersurvival: supersurvival
+  new_island: new_island
+  new_island_the_end: new_island_the_end
+  new_island_nether: new_island_nether
+overrides: {}
+Bypass:
+  cooldown:
+    COMMAND: false
+    GUI: false
+    OTHERGUY: true
+    PORTAL: false
+    SIGN: false
+  cost:
+    COMMAND: false
+    GUI: false
+    OTHERGUY: true
+    PORTAL: false
+    SIGN: false
+  delay:
+    COMMAND: false
+    GUI: false
+    OTHERGUY: true
+    PORTAL: true
+    SIGN: false
+Portals:
+  Gamemodes:
+  - ADVENTURE
+  - SURVIVAL
+  - CREATIVE
+  freezeWhileRTP: false
+  moveCancelRTP: true
+  xMax: 10
+  yMax: 10
+  zMax: 10
+  push: 1.0
+Effects:
+  COMMAND:
+  - BLINDNESS
+  - CONFUSION:99
+  - SLOW_DIGGING:3
+  GUI: []
+  JOIN:
+  - BLINDNESS
+  - CONFUSION
+  OTHERGUY: []
+  PORTAL:
+  - BLINDNESS
+  - CONFUSION
+  - INVISIBILITY
+  - SLOW:2
+  SIGN: []
+barColor:
+  searching: YELLOW
+  waiting: GREEN
+barStyle:
+  searching: SEGMENTED_6
+  waiting: SOLID

@@ -1,0 +1,9 @@
+jails:
+  cell1:
+    world: f3d704ce-82fa-4855-a90f-5a45530296d1
+    world-name: Spawn
+    x: -311.9132
+    y: 4.0
+    z: -142.98041
+    yaw: 68.79623413085938
+    pitch: 29.9954833984375

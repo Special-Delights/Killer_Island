@@ -1,0 +1,6 @@
+# Changing the UUID in this file will make Plan regard your server as a completely new server
+# Tread with caution.
+Server:
+    ID: 1
+    UUID: 633b989a-653b-41ea-9b16-8e511ca1b4d8
+    Web_address: http://147.135.65.157:8804

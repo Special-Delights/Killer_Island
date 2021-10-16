@@ -1,0 +1,12 @@
+player:
+  islandX: 0
+  islandY: 150
+  islandZ: -128
+  homeX: 0
+  homeY: 150
+  homeZ: -128
+  homeYaw: 180.0
+  homePitch: -0.0
+  uuid: 00000000-0000-0000-0009-000005d695cb
+version: 1
+clearInventoryOnNextEntry: true

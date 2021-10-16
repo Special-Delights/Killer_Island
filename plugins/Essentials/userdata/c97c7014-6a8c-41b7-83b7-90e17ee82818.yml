@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 75.136.196.115
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1632826117749
+  login: 1632824169332
+money: '944.0834412299243192'
+last-account-name: Hathorill
+logoutlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer_Island
+  x: 409.01205357038157
+  y: 71.0
+  z: 3072.411565904642
+  yaw: -65.0709228515625
+  pitch: 31.500045776367188
