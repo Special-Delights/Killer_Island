@@ -11,13 +11,13 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1634419895335
+  lastteleport: 1634488470361
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
   logout: 1634423226919
-  login: 1634422485243
+  login: 1634488322543
 money: '0'
 last-account-name: -ShadowGiver902
 logoutlocation:
@@ -31,8 +31,8 @@ logoutlocation:
 lastlocation:
   world: e7230443-6d71-40f5-9c81-adf10de976c9
   world-name: Killer_Island
-  x: -1104.1536
-  y: 11.0
-  z: 246.7864
-  yaw: 69.06216430664062
-  pitch: 23.35626220703125
+  x: -1079.2825
+  y: 119.68604
+  z: 1023.93744
+  yaw: 132.30593872070312
+  pitch: 51.84211730957031

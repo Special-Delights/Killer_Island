@@ -988,100 +988,6 @@ chestData:
   chestLocation: Killer_Island;2990.0;61.0;2975.0
 - ==: ChestData
   playerUUID: 00000000-0000-0000-0009-00000eb38011
-  holographicTimer: Killer_Island_nether;3.5;117.79999995231628;403.5
-  worldName: Killer_Island_nether
-  as_timer_id: ebd5fe87-5d30-4951-86f6-94685ed2f735
-  playerName: -lenr0c86
-  isInfinity: false
-  as_owner_id: 17f04582-08c8-4e7e-89ce-f42e7d9e8553
-  chestDate: 2021-10-16T06:50:26.564Z
-  inventory:
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: IRON_SWORD
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      Damage: 53
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: IRON_PICKAXE
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      Damage: 143
-  - null
-  - null
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: APPLE
-    amount: 10
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: COOKED_BEEF
-    amount: 19
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: IRON_BOOTS
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      Damage: 38
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: IRON_LEGGINGS
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      Damage: 38
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: IRON_CHESTPLATE
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      Damage: 38
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: IRON_HELMET
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      Damage: 38
-  - null
-  chestLocation: Killer_Island_nether;3.0;117.0;403.0
-- ==: ChestData
-  playerUUID: 00000000-0000-0000-0009-00000eb38011
   holographicTimer: Killer_Island;-348.5;80.79999995231628;36.5
   worldName: Killer_Island
   as_timer_id: 3531d7f9-71ff-49d3-9f98-f4b95aa1e40e
@@ -1167,13 +1073,13 @@ chestData:
   chestLocation: Killer_Island;-349.0;80.0;36.0
 - ==: ChestData
   playerUUID: 00000000-0000-0000-0009-01fdb2ffd1bd
-  holographicTimer: Killer_Island_nether;-1289.5;67.79999995231628;1033.5
+  holographicTimer: Killer_Island_nether;-1279.5;25.799999952316284;1044.5
   worldName: Killer_Island_nether
-  as_timer_id: f75c3e48-fc04-46ff-bc24-f3737c524567
+  as_timer_id: 54f417bd-3e6a-4a07-a572-a804acc5ef8a
   playerName: -IAmFriendBesto
   isInfinity: false
-  as_owner_id: 521acbb2-c01f-4a5e-83e2-9678e06f9c49
-  chestDate: 2021-10-17T03:02:30.702Z
+  as_owner_id: 5ba6f616-8f97-4387-b3e5-5f30c6e62765
+  chestDate: 2021-10-17T16:23:19.448Z
   inventory:
   - ==: org.bukkit.inventory.ItemStack
     v: 2730
@@ -1186,12 +1092,8 @@ chestData:
         QUICK_CHARGE: 3
         DURABILITY: 3
       repair-cost: 15
-      Damage: 8
-      charged: true
-      charged-projectiles:
-      - ==: org.bukkit.inventory.ItemStack
-        v: 2730
-        type: ARROW
+      Damage: 10
+      charged: false
   - ==: org.bukkit.inventory.ItemStack
     v: 2730
     type: CROSSBOW
@@ -1205,23 +1107,18 @@ chestData:
         DURABILITY: 3
       repair-cost: 15
       Damage: 8
-      charged: true
-      charged-projectiles:
-      - ==: org.bukkit.inventory.ItemStack
-        v: 2730
-        type: ARROW
+      charged: false
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: ENDER_CHEST
   - ==: org.bukkit.inventory.ItemStack
     v: 2730
     type: COBBLESTONE
-    amount: 49
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: COOKED_BEEF
-    amount: 44
+    amount: 40
   - ==: org.bukkit.inventory.ItemStack
     v: 2730
     type: ENDER_PEARL
-    amount: 6
+    amount: 2
   - ==: org.bukkit.inventory.ItemStack
     v: 2730
     type: DIAMOND_PICKAXE
@@ -1234,15 +1131,7 @@ chestData:
         SILK_TOUCH: 1
         DURABILITY: 3
       repair-cost: 31
-      Damage: 835
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: FIREWORK_ROCKET
-    amount: 45
-    meta:
-      ==: ItemMeta
-      meta-type: FIREWORK
-      power: 1
+      Damage: 837
   - ==: org.bukkit.inventory.ItemStack
     v: 2730
     type: BOW
@@ -1254,7 +1143,7 @@ chestData:
         ARROW_DAMAGE: 4
         DURABILITY: 2
       repair-cost: 15
-      Damage: 115
+      Damage: 120
   - ==: org.bukkit.inventory.ItemStack
     v: 2730
     type: DIAMOND_SWORD
@@ -1271,6 +1160,36 @@ chestData:
       Damage: 230
   - ==: org.bukkit.inventory.ItemStack
     v: 2730
+    type: ARROW
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: NETHER_GOLD_ORE
+    amount: 8
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: COOKED_BEEF
+    amount: 43
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: FIREWORK_ROCKET
+    amount: 42
+    meta:
+      ==: ItemMeta
+      meta-type: FIREWORK
+      power: 1
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: BASALT
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: GOLDEN_APPLE
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: GOLD_BLOCK
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
     type: DIAMOND_BOOTS
     meta:
       ==: ItemMeta
@@ -1281,39 +1200,32 @@ chestData:
         MENDING: 1
         DURABILITY: 3
       repair-cost: 3
+      Damage: 8
   - ==: org.bukkit.inventory.ItemStack
     v: 2730
-    type: ARROW
-    amount: 51
+    type: GOLDEN_CARROT
   - ==: org.bukkit.inventory.ItemStack
     v: 2730
-    type: ENDER_CHEST
+    type: ANCIENT_DEBRIS
   - ==: org.bukkit.inventory.ItemStack
     v: 2730
-    type: NETHER_GOLD_ORE
-    amount: 5
+    type: COOKED_PORKCHOP
   - ==: org.bukkit.inventory.ItemStack
     v: 2730
-    type: NETHERRACK
-    amount: 13
+    type: IRON_BLOCK
+    amount: 2
   - ==: org.bukkit.inventory.ItemStack
     v: 2730
-    type: CRACKED_POLISHED_BLACKSTONE_BRICKS
+    type: SPECTRAL_ARROW
     amount: 11
   - ==: org.bukkit.inventory.ItemStack
     v: 2730
-    type: POLISHED_BLACKSTONE_BRICKS
-    amount: 15
+    type: ARROW
+    amount: 3
   - ==: org.bukkit.inventory.ItemStack
     v: 2730
-    type: BASALT
-    amount: 2
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
+    type: BONE_BLOCK
+    amount: 3
   - null
   - null
   - null
@@ -1339,7 +1251,7 @@ chestData:
         MENDING: 1
         DURABILITY: 3
       repair-cost: 3
-      Damage: 7
+      Damage: 26
   - ==: org.bukkit.inventory.ItemStack
     v: 2730
     type: NETHERITE_LEGGINGS
@@ -1351,7 +1263,7 @@ chestData:
         PROTECTION_ENVIRONMENTAL: 4
         DURABILITY: 3
       repair-cost: 1
-      Damage: 6
+      Damage: 7
   - ==: org.bukkit.inventory.ItemStack
     v: 2730
     type: ELYTRA
@@ -1362,7 +1274,7 @@ chestData:
         MENDING: 1
         DURABILITY: 2
       repair-cost: 3
-      Damage: 79
+      Damage: 25
   - ==: org.bukkit.inventory.ItemStack
     v: 2730
     type: DIAMOND_HELMET
@@ -1375,7 +1287,7 @@ chestData:
         OXYGEN: 3
         DURABILITY: 3
       repair-cost: 3
-      Damage: 7
+      Damage: 20
   - ==: org.bukkit.inventory.ItemStack
     v: 2730
     type: SHIELD
@@ -1386,7 +1298,6 @@ chestData:
         MENDING: 1
         DURABILITY: 3
       repair-cost: 7
-      Damage: 10
       internal: H4sIAAAAAAAA/3XLvQqAIBSG4Y/sx4Tsnor2hm5ARDKyhDxLd19Dw3FofHl4FaCghxDtPp200b2YVaAcTHIAdAs5GyJ3nUm9XUs0X6OwSaAaY4jXKz04ec9IZ3T8X8Sp4yQoM5lvIduAB5H6qjXUAAAA
       blockMaterial: SHIELD
-  chestLocation: Killer_Island_nether;-1290.0;67.0;1033.0
+  chestLocation: Killer_Island_nether;-1280.0;25.0;1044.0

@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1633202747167
+  lastteleport: 1634487339000
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1634440026842
-  login: 1634437716210
+  logout: 1634487825813
+  login: 1634486225762
 money: '0'
 last-account-name: -IAmFriendBesto
 logoutlocation:
-  world: e7230443-6d71-40f5-9c81-adf10de976c9
-  world-name: Killer_Island
-  x: -1742.5
-  y: 66.0
-  z: 354.5
-  yaw: -66.72000122070312
-  pitch: 0.0
+  world: 95fd92ff-5ca6-47c0-a4db-233da6afee27
+  world-name: Killer_Island_nether
+  x: -1279.382
+  y: 25.05326
+  z: 1044.4559
+  yaw: -141.5123291015625
+  pitch: 86.11990356445312
 lastlocation:
   world: 95fd92ff-5ca6-47c0-a4db-233da6afee27
   world-name: Killer_Island_nether
-  x: -1289.3417
-  y: 67.0
-  z: 1033.6407
-  yaw: -73.30035400390625
-  pitch: 11.939407348632812
+  x: -1279.382
+  y: 25.05326
+  z: 1044.4559
+  yaw: -141.5123291015625
+  pitch: 86.11990356445312

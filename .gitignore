@@ -1,5 +1,5 @@
 
 .DS_Store
 plugins/dynmap/web
-plugins/WorldEdit
-plugins/WorldGuard
+plugins/CoreProtect/database.db
+

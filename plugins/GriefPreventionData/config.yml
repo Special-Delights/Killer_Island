@@ -4,30 +4,30 @@ GriefPrevention:
     Killer_Island: -1
     Killer_Island_nether: -1
     Killer_Island_the_end: -1
-    creative_nether: -1
     skyworld_nether: -1
+    creative_nether: -1
     skyworld: -1
     creative: -1
     supersurvival_the_end: -1
     flat: -1
     supersurvival_nether: -1
-    creative_the_end: -1
     Spawn: -1
+    creative_the_end: -1
     supersurvival: -1
   Claims:
     Mode:
-      Killer_Island: Survival
-      Killer_Island_nether: Survival
-      Killer_Island_the_end: Survival
-      supersurvival: Survival
-      supersurvival_nether: Survival
-      supersurvival_the_end: Survival
-      skyworld: Survival
       skyworld_nether: Disabled
+      skyworld: Survival
+      Killer_Island_nether: Survival
+      supersurvival_nether: Survival
       Spawn: Survival
+      Killer_Island_the_end: Survival
+      Killer_Island: Survival
+      creative_nether: Creative
+      supersurvival: Survival
       flat: Survival
       creative: Creative
-      creative_nether: Creative
+      supersurvival_the_end: Survival
       creative_the_end: Creative
     PreventGlobalMonsterEggs: true
     PreventTheft: true
@@ -94,15 +94,15 @@ GriefPrevention:
       Killer_Island: true
       Killer_Island_nether: true
       Killer_Island_the_end: true
-      creative_nether: true
       skyworld_nether: true
+      creative_nether: true
       skyworld: true
       creative: true
       supersurvival_the_end: true
       flat: true
       supersurvival_nether: true
-      creative_the_end: true
       Spawn: false
+      creative_the_end: true
       supersurvival: true
     ProtectFreshSpawns: true
     PunishLogout: false

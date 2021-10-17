@@ -11,23 +11,23 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1634452574223
+  lastteleport: 1634490026679
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1634452714558
-  login: 1634447040663
-money: '256141.90992818308378773'
+  logout: 1634490069528
+  login: 1634486049807
+money: '257235.03191723683365273'
 last-account-name: RadmobileGaming
 logoutlocation:
   world: e7230443-6d71-40f5-9c81-adf10de976c9
   world-name: Killer_Island
-  x: 426.64099897366214
-  y: 64.5
-  z: 3227.5816949267996
-  yaw: 153.43959045410156
-  pitch: 37.649471282958984
+  x: 429.81126963497934
+  y: 65.0
+  z: 3227.378187481556
+  yaw: -12.004222869873047
+  pitch: -4.050297260284424
 homes:
   home:
     world: e7230443-6d71-40f5-9c81-adf10de976c9
@@ -54,10 +54,10 @@ homes:
     yaw: 177.4512176513672
     pitch: 7.049696445465088
 lastlocation:
-  world: e7230443-6d71-40f5-9c81-adf10de976c9
-  world-name: Killer_Island
-  x: -1145.0735600171329
-  y: 65.9375
-  z: 1030.8497608142377
-  yaw: -0.4268121123313904
-  pitch: 9.449775695800781
+  world: 95fd92ff-5ca6-47c0-a4db-233da6afee27
+  world-name: Killer_Island_nether
+  x: 144.72488800005647
+  y: 61.0
+  z: 164.24274961953435
+  yaw: -87.94598388671875
+  pitch: 15.600610733032227
