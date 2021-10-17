@@ -11,30 +11,30 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1634390178901
+  lastteleport: 1634438181391
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1634390406368
-  login: 1634389929823
+  logout: 1634472441386
+  login: 1634470246642
   kits:
     stabaho: 1634239738338
-money: '2222.42850342857193596'
+money: '2737.84440188142902478'
 last-account-name: Stabaho187
 lastlocation:
   world: e7230443-6d71-40f5-9c81-adf10de976c9
   world-name: Killer_Island
-  x: -3508.5085
-  y: 104.68174
-  z: 88.75606
-  yaw: -10.1571044921875
-  pitch: 34.476593017578125
+  x: 1691.5181
+  y: 40.0
+  z: 4134.406
+  yaw: -114.57473754882812
+  pitch: 9.088607788085938
 logoutlocation:
   world: e7230443-6d71-40f5-9c81-adf10de976c9
   world-name: Killer_Island
-  x: -1112.206
-  y: 68.38172
-  z: 1053.7418
-  yaw: 87.82015991210938
-  pitch: 11.575515747070312
+  x: -1144.3911
+  y: 65.9375
+  z: 1019.51483
+  yaw: -65.7740478515625
+  pitch: 4.1276702880859375

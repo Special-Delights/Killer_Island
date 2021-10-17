@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1634270444228
-  login: 1634258932134
-money: '2989.1996368989092756'
+  logout: 1634474479655
+  login: 1634473565961
+money: '3001.4354190005759426'
 last-account-name: -BeardedCocaire
 logoutlocation:
   world: e7230443-6d71-40f5-9c81-adf10de976c9
   world-name: Killer_Island
-  x: 9766.577
-  y: 66.0
-  z: 6739.4756
-  yaw: -78.5894775390625
-  pitch: 30.0557861328125
+  x: 9796.936
+  y: 65.0
+  z: 7518.805
+  yaw: -51.72259521484375
+  pitch: 8.33856201171875
 lastlocation:
   world: e7230443-6d71-40f5-9c81-adf10de976c9
   world-name: Killer_Island

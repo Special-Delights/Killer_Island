@@ -16,23 +16,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1634340225896
-  login: 1634338177251
+  logout: 1634440026842
+  login: 1634437716210
 money: '0'
 last-account-name: -IAmFriendBesto
 logoutlocation:
   world: e7230443-6d71-40f5-9c81-adf10de976c9
   world-name: Killer_Island
-  x: -1743.663
-  y: 66.5625
-  z: 353.275
-  yaw: -122.8831787109375
-  pitch: 52.57353210449219
+  x: -1742.5
+  y: 66.0
+  z: 354.5
+  yaw: -66.72000122070312
+  pitch: 0.0
 lastlocation:
-  world: e7230443-6d71-40f5-9c81-adf10de976c9
-  world-name: Killer_Island
-  x: -1989.9711
-  y: 47.0
-  z: 472.28354
-  yaw: 108.01715087890625
-  pitch: 5.8192291259765625
+  world: 95fd92ff-5ca6-47c0-a4db-233da6afee27
+  world-name: Killer_Island_nether
+  x: -1289.3417
+  y: 67.0
+  z: 1033.6407
+  yaw: -73.30035400390625
+  pitch: 11.939407348632812

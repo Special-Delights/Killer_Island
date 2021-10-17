@@ -1,0 +1,324 @@
+#---------------------------------------------------------------------------#
+#                          Made by: ButterflyBullets                        #
+#---------------------------------------------------------------------------#
+
+
+
+#---------------------------------------------------------------------------#
+#                          {Mob Pack MOBS}                                  #
+#---------------------------------------------------------------------------#
+
+Ghoul:
+  Type: STRAY
+  Display: '&aGhoul Lvl - <mob.level>'
+  Health: 10
+  Damage: 2
+  Skills:
+  - skill{s=Slow} @self ~onAttack 0.5
+  Equipment:
+  - GhastlySword HAND
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 1
+    MaxCombatDistance: 20
+    PreventOtherDrops: true
+    Despawn: false
+  Drops:
+  - GhoulDrops
+  AIGoalSelectors:
+  - 0 clear
+  - 1 lookaround
+  - 2 randomstroll
+  - 3 lookatplayer
+  - 4 meleeattack
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 player
+  - 3 monsters
+  LevelModifiers:
+  - Health: 3
+  - Damage: 0.5
+  KillMessages:
+  - '<target.name> was melted by a <mob.name>'
+
+
+
+SkeletonBrute:
+  Type: SKELETON
+  Display: '&aSkeleton Brute Lvl - <mob.level>'
+  Health: 40
+  Damage: 10
+  Skills:
+  - skill{s=Smash} @self ~onTimer:300 0.5
+  Equipment:
+  - BruteHelmet HEAD
+  - BruteChestplate CHESTPLATE
+  - BruteLeggings LEGS
+  - BruteBoots FEET
+  - BruteAxe HAND
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.1
+    MaxCombatDistance: 20
+    PreventOtherDrops: true
+    Despawn: false
+  Drops:
+  - SkeletonBruteDrops
+  AIGoalSelectors:
+  - 0 clear
+  - 1 lookaround
+  - 2 randomstroll
+  - 3 lookatplayer
+  - 4 meleeattack
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 player
+  LevelModifiers:
+  - Health: 10
+  - Damage: 3
+  KillMessages:
+  - '<target.name> head was split in half by a <mob.name>'
+
+
+
+ZombieCarrier:
+  Type: ZOMBIE
+  Display: '&aZombie Carrier Lvl - <mob.level>'
+  Health: 20
+  Damage: 6
+  Skills:
+  - skill{s=Carrier} @self ~onDeath
+  Equipment:
+  - CarrierSword HAND
+  - CarrierShield OFFHAND
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.1
+    MaxCombatDistance: 20
+    PreventOtherDrops: true
+    Despawn: false
+  Drops:
+  - ZombieCarrierDrops
+  AIGoalSelectors:
+  - 0 clear
+  - 1 lookaround
+  - 2 randomstroll
+  - 3 lookatplayer
+  - 4 meleeattack
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 player
+  LevelModifiers:
+  - Health: 5
+  - Damage: 3
+  KillMessages:
+  - '<target.name> got mauled by a <mob.name>'
+
+
+
+ZombieMinion:
+  Type: BABY_ZOMBIE
+  Display: '&aZombie Minion Lvl - <mob.level>'
+  Health: 10
+  Damage: 3
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.1
+    MaxCombatDistance: 20
+    PreventOtherDrops: true
+    Despawn: false
+  AIGoalSelectors:
+  - 0 clear
+  - 1 lookaround
+  - 2 randomstroll
+  - 3 lookatplayer
+  - 4 meleeattack
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 player
+  LevelModifiers:
+  - Health: 3
+  - Damage: 1
+  KillMessages:
+  - '<target.name> got a deadly disease by a <mob.name>'
+
+#---------------------------------------------------------------------------#
+#                          {Mob Pack SKILLS}                                #
+#---------------------------------------------------------------------------#
+
+#ghoul skills
+Slow:
+  Conditions:
+  - targetwithin 10
+  Skills:
+  - potion{type=SLOW;duration=3;level=2}
+  - effect:flames @self
+
+#brute skills
+Smash:
+  Conditions:
+  - targetwithin 10
+  Skills:
+  - lunge{velocity=15;velocityY=5} @Self
+  - damage{a=10;pkb=false} @Target
+
+
+#carrier skills
+Carrier:
+  Conditions:
+  - targetwithin 10
+  Skills:
+  - summon{type=ZombieMinion;amount=5;radius=4} @self
+  - effect:smoke @self
+  
+#---------------------------------------------------------------------------#
+#                          {Mob Pack ITEMS}                                 #
+#---------------------------------------------------------------------------#
+
+#carrier items
+GhastlySword:
+  id: WOODEN_SWORD
+  Data: 0
+  Amount: 1
+  Display: 'Ghastly Sword'
+  Lore:
+  - 'Very Dull'
+  Enchantments:
+  - MENDING:1
+
+#brute items
+BruteAxe:
+  id: NETHERITE_AXE
+  Data: 0
+  Amount: 1
+  Display: 'Great Axe'
+  Lore:
+  - 'An axe of great power'
+  Enchantments:
+  - KNOCKBACK:3
+  - FIRE_ASPECT:1
+  - MENDING:1
+  
+BruteHelmet:
+  id: IRON_HELMET
+  Data: 0
+  Amount: 1
+  Display: 'Great Helmet'
+  Lore:
+  - 'A helmet of great durability'
+  Enchantments:
+  - UNBREAKING:5
+  - MENDING:1
+  - PROTECTION:2
+  
+BruteChestplate:
+  id: IRON_CHESTPLATE
+  Data: 0
+  Amount: 1
+  Display: 'Great Chestplate'
+  Lore:
+  - 'A chestplate of great durability'
+  Enchantments:
+  - UNBREAKING:5
+  - MENDING:1
+  - PROTECTION:2
+  
+BruteLeggings:
+  id: IRON_LEGGINGS
+  Data: 0
+  Amount: 1
+  Display: 'Great Pants'
+  Lore:
+  - 'Pants of great durability'
+  Enchantments:
+  - UNBREAKING:5
+  - MENDING:1
+  - PROTECTION:2
+  
+BruteBoots:
+  id: IRON_BOOTS
+  Data: 0
+  Amount: 1
+  Display: 'Great Shoes'
+  Lore:
+  - 'Shoes of great durability'
+  Enchantments:
+  - UNBREAKING:5
+  - MENDING:1
+  - PROTECTION:2
+
+CarrierSword:
+  id: STONE_SWORD
+  Data: 0
+  Amount: 1
+  Display: 'Heavy Sword'
+  Lore:
+  - 'Weighs 10000lbs'
+  Enchantments:
+  - UNBREAKING:5
+  - MENDING:1
+  - SHARPNESS:2
+  - KNOCKBACK:1
+
+CarrierShield:
+  id: SHIELD
+  Data: 0
+  Amount: 1
+  Display: 'Heavy Shield'
+  Lore:
+  - 'Weighs 1000lbs'
+  Enchantments:
+  - UNBREAKING:5
+  - MENDING:1
+
+#---------------------------------------------------------------------------#
+#                           {Mob Pack DROPS}                                #
+#---------------------------------------------------------------------------#
+
+GhoulDrops:
+  Conditions:
+  - playerwithin 10
+  Drops:
+  - GhoulItemDrops 1
+  - experience 25
+GhoulItemDrops:
+  MinItems: 1
+  MaxItems: 2
+  Drops:
+  - GhastlySword 1 0.5
+  - BONE 1-5 1
+  
+SkeletonBruteItemDrops:
+  Conditions:
+  - playerwithin 10
+  Drops:
+  - SkeletonBruteItemDrops 1
+  - experience 100
+SkeletonBruteItemDrops:
+  MinItems: 1
+  MaxItems: 6
+  Drops:
+  - BruteAxe 1 0.5
+  - BruteHelmet 1 0.5
+  - BruteChestplate 1 0.5
+  - BruteLeggings 1 0.5
+  - BruteBoots 1 0.5
+  - ARROW 1-10 1
+  
+ZombieCarrierDrops:
+  Conditions:
+  - playerwithin 10
+  Drops:
+  - ZombieCarrierItemDrops 1
+  - experience 100
+ZombieCarrierItemDrops:
+  MinItems: 1
+  MaxItems: 3
+  Drops:
+  - CarrierSword 1 0.5
+  - CarrierShield 1 0.5
+  - ROTTEN_FLESH 1-10 1

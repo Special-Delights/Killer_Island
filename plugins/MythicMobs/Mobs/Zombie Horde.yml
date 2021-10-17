@@ -1,0 +1,660 @@
+############################################
+# MADE BY: ButterflyBullets (please credit)#
+############################################
+
+#---------------------------------------------------------------------------#
+#                              {Zombie Horde}                               #
+#---------------------------------------------------------------------------#
+
+#slow weak zombie
+Walker:
+  Type: ZOMBIE
+  Display: '&aWalker Lvl - <mob.level>'
+  Health: 10
+  Damage: 1
+  Skills:
+  - skill{s=Walker} @self 0.1
+  Equipment:
+  - helmet HEAD
+  - chestplate CHEST
+  - leggings LEGS
+  - boots BOOTS
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.15
+    MaxCombatDistance: 20
+    PreventOtherDrops: true
+    Despawn: false
+  Drops:
+  - WalkerDrops
+  AIGoalSelectors:
+  - 0 clear
+  - 1 lookaround
+  - 2 randomstroll
+  - 3 meleeattack
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  LevelModifiers:
+  - Health: 2.5
+  - Damage: 0.25
+  KillMessages:
+  - '<target.name> was slowly ripped apart by a <mob.name>'
+  
+#fast weak zombie
+Runner:
+  Type: ZOMBIE
+  Display: '&aRunner Lvl - <mob.level>'
+  Health: 20
+  Damage: 2
+  Skills:
+  - skill{s=Runner} @self 0.1
+  Equipment:
+  - Rhelmet HEAD
+  - Rchestplate CHEST
+  - Rleggings LEGS
+  - Rboots BOOTS
+  - Rstick HAND
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.7
+    MaxCombatDistance: 20
+    PreventOtherDrops: true
+    Despawn: false
+  Drops:
+  - RunnerDrops
+  AIGoalSelectors:
+  - 0 clear
+  - 1 lookaround
+  - 2 randomstroll
+  - 3 meleeattack
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  LevelModifiers:
+  - Health: 5
+  - Damage: 0.5
+  KillMessages:
+  - '<target.name> was beaten into the ground by a <mob.name>'
+  
+#archer, fast and moderately strong archer
+Archer:
+  Type: STRAY
+  Display: '&aArcher Lvl - <mob.level>'
+  Health: 20
+  Damage: 2
+  Skills:
+  - skill{s=ArrowBarrage} @self 0.1
+  Equipment:
+  - Ahelmet HEAD
+  - Achestplate CHEST
+  - Aleggings LEGS
+  - Aboots BOOTS
+  - ABow HAND
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.35
+    MaxCombatDistance: 40
+    PreventOtherDrops: true
+    Despawn: false
+  Drops:
+  - ArcherDrops
+  AIGoalSelectors:
+  - 0 clear
+  - 1 lookaround
+  - 2 randomstroll
+  - 3 arrowattack
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  LevelModifiers:
+  - Health: 5
+  - Damage: 0.5
+  KillMessages:
+  - '<target.name> was shot through the heart by an <mob.name>'
+  
+#tank, slow but strong
+Tank:
+  Type: HUSK
+  Display: '&cTank Lvl - <mob.level>'
+  Health: 40
+  Damage: 10
+  Skills:
+  - skill{s=Poison} @self 0.1
+  Equipment:
+  - Thelmet HEAD
+  - Tchestplate CHEST
+  - Tleggings LEGS
+  - Tboots BOOTS
+  - Tsword HAND
+  - Ttotem OFFHAND
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.1
+    MaxCombatDistance: 50
+    PreventOtherDrops: true
+    Despawn: false
+  Drops:
+  - TankDrops
+  AIGoalSelectors:
+  - 0 clear
+  - 1 lookaround
+  - 2 randomstroll
+  - 3 meleeattack
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  LevelModifiers:
+  - Health: 10
+  - Damage: 5
+  KillMessages:
+  - '<target.name> was pummeled to the moon and back by a <mob.name>'
+  
+#ZombBoss, moderate speed and really strong
+ZombBoss:
+  Type: WITHER_SEKELETON
+  Display: '&cZombBoss'
+  Health: 120
+  Damage: 30
+  BossBar:
+    Enabled: true
+    Title: 'ZombBoss'
+    Range: 20
+    Color: RED
+    Style: SEGMENTED_16
+    Skills:
+    - skill{s=DeathGrip} @self 0.1
+  Equipment:
+  - Zsword HAND
+  - Zstaff OFFHAND
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.5
+    MaxCombatDistance: 30
+    PreventOtherDrops: true
+    Despawn: false
+  Drops:
+  - ZombBossDrops
+  AIGoalSelectors:
+  - 0 clear
+  - 1 lookaround
+  - 2 randomstroll
+  - 3 meleeattack
+  - 4 fleesun
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 OtherFaction undead
+  - 3 villagers
+  - 4 golems
+  KillMessages:
+  - '<target.name> got turned inside out by the <mob.name>'
+
+#---------------------------------------------------------------------------#
+#                          {Zombie Horde SKILLS}                            #
+#---------------------------------------------------------------------------#
+
+Walker:
+  Cooldown: 30
+  Conditions:
+  - targetwithin 10
+  Skills:
+  - potion{type=SLOWNESS;duration=15;level=3} @target
+  
+Runner:
+  Cooldown: 15
+  Conditions:
+  - targetwithin 10
+  Skills:
+  - potion{type=POISON;duration=3;level=3} @target
+  
+ArrowBarrage:
+  Cooldown: 30
+  Conditions:
+  - targetwithin 10
+  Skills:
+  - arrowvolley{a=20;s=25;v=10;rd=100} @Target
+  - delay 20
+  - shoot{type=ARROW;velocity=5;damage=5}
+  - delay 20
+  - shoot{type=ARROW;velocity=5;damage=5}
+  - delay 20
+  - shoot{type=ARROW;velocity=5;damage=5}
+  - delay 20
+  - shoot{type=ARROW;velocity=5;damage=5}
+  - delay 10
+  - effect:flames @self ~onTimer:5
+  - damage{amount=2} @target
+  
+Poison:
+  Cooldown: 5
+  Conditions:
+  - targetwithin 4
+  Skills:
+  - potion{type=POISON;duration=10;level=3} @PlayersInRadius{r=5}
+  
+DeathGrip:
+  Cooldown: 30
+  Conditions:
+  - targetwithin 5
+  Skills:
+  - effect:flames @self ~onTimer:5
+  - damage{amount=6} @PlayersInRadius{r=5}
+  - delay 60
+  - effect:flames @self ~onTimer:5
+  - damage{amount=6} @PlayersInRadius{r=5}
+  - effect:bloodyScreen{d=25} @PlayersInRadius{r=15}
+  - delay 100
+  - pull{v=6;to=true} @PIR{r=10}
+  - delay 10
+  - throw{velocity=10;velocityY=10} @PIR{r=10}
+  - damage{a=10;i=false} @PIR{r=10}
+  - effect:particles{p=hugeexplode;a=5;vs=0.5;hs=0.5;s=0;y=1} @Self
+  - effect:sound{s=entity.generic.explode;v=2;p=0.5} @Self
+  - effect:sound{s=entity.generic.explode;v=2;p=1;repeat=7;repeatInterval=2} @Self
+  - effect:particlering{p=largeexplode;a=40;vs=0.5;hs=0.5;s=0;y=0.3;points=20;radius=1} @Self
+  - delay 2
+  - effect:particlering{p=largeexplode;a=40;vs=0.5;hs=0.5;s=0;y=0.3;points=20;radius=3} @Self
+  - delay 2
+  - effect:particlering{p=largeexplode;a=40;vs=0.5;hs=0.5;s=0;y=0.3;points=20;radius=5} @Self
+  - delay 2
+  - effect:particlering{p=largeexplode;a=40;vs=0.5;hs=0.5;s=0;y=0.3;points=20;radius=7} @Self
+  - delay 2
+  - effect:particlering{p=largeexplode;a=40;vs=0.5;hs=0.5;s=0;y=0.3;points=20;radius=9} @Self
+  - delay 2
+  - effect:particlering{p=largeexplode;a=40;vs=0.5;hs=0.5;s=0;y=0.3;points=20;radius=11} @Self
+  - delay 100
+  - sendtitle{title="Beware!";subtitle="Your held item will be deleted...";d=20} @PlayersInRadius{r=10}
+  - sendtitle{title="in";subtitle="3";d=20} @PlayersInRadius{r=10}
+  - sendtitle{title="";subtitle="2";d=20} @PlayersInRadius{r=10}
+  - sendtitle{title="";subtitle="1";d=20} @PlayersInRadius{r=10}
+  - consumeHeldItem{amount=64} @PIR{r=10}
+  - effect:lightning @PIR{r=10}
+
+
+
+#---------------------------------------------------------------------------#
+#                          {Zombie Horde ITEMS}                             #
+#---------------------------------------------------------------------------#
+
+#walker Items
+helmet:
+  id: LEATHER_HELMET
+  Data: 0
+  Amount: 1
+  Display: 'Regular Helmet'
+  
+chestplate:
+  id: LEATHER_CHESTPLATE
+  Data: 0
+  Amount: 1
+  Display: 'Regular Chestplate'
+
+leggings:
+  id: LEATHER_LEGGINGS
+  Data: 0
+  Amount: 1
+  Display: 'Regular Leggings'
+  
+boots:
+  id: LEATHER_BOOTS
+  Data: 0
+  Amount: 1
+  Display: 'Regular Boots'
+
+#Runner Items
+Rhelmet:
+  id: LEATHER_HELMET
+  Data: 0
+  Amount: 1
+  Display: 'Speedy Helmet'
+  Lore:
+  - '&1Protection III'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:3
+  Hide:
+  - ENCHANTS
+  
+Rchestplate:
+  id: LEATHER_CHESTPLATE
+  Data: 0
+  Amount: 1
+  Display: 'Speedy Chestplate'
+  Lore:
+  - '&1Protection III'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:3
+  Hide:
+  - ENCHANTS
+
+Rleggings:
+  id: LEATHER_LEGGINGS
+  Data: 0
+  Amount: 1
+  Display: 'Speedy Leggings'
+  Lore:
+  - '&1Protection III'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:3
+  Hide:
+  - ENCHANTS
+  
+Rboots:
+  id: LEATHER_BOOTS
+  Data: 0
+  Amount: 1
+  Display: 'Speedy Boots'
+  Lore:
+  - '&1Protection III'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:3
+  Hide:
+  - ENCHANTS
+  
+Rstick:
+  id: STICK
+  Data: 0
+  Amount: 1
+  Display: 'Beating Stick'
+  Lore:
+  - '&2Knockback III'
+  Enchantments:
+  - KNOCKBACK:3
+  Hide:
+  - ENCHANTS
+  
+#archer items
+Ahelmet:
+  id: CHAINMAIL_HELMET
+  Data: 0
+  Amount: 1
+  Display: 'Sharp Helmet'
+  Lore:
+  - '&1Protection V'
+  - '&3Thorns III'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:5
+  - THORNS:3
+  Hide:
+  - ENCHANTS
+  
+Achestplate:
+  id: CHAINMAIL_CHESTPLATE
+  Data: 0
+  Amount: 1
+  Display: 'Sharp Chestplate'
+  Lore:
+  - '&1Protection V'
+  - '&3Thorns III'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:5
+  - THORNS:3
+  Hide:
+  - ENCHANTS
+
+Aleggings:
+  id: CHAINMAIL_LEGGINGS
+  Data: 0
+  Amount: 1
+  Display: 'Sharp Leggings'
+  Lore:
+  - '&1Protection V'
+  - '&3Thorns III'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:5
+  - THORNS:3
+  Hide:
+  - ENCHANTS
+  
+Aboots:
+  id: CHAINMAIL_BOOTS
+  Data: 0
+  Amount: 1
+  Display: 'Sharp Boots'
+  Lore:
+  - '&1Protection V'
+  - '&3Thorns III'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:5
+  - THORNS:3
+  Hide:
+  - ENCHANTS
+  
+ABow:
+  id: BOW
+  Data: 0
+  Amount: 1
+  Display: '&4Blood-Thirsty Bow'
+  Lore:
+  - '&7Power III'
+  - '&eFlame I'
+  Enchantments:
+  - POWER:3
+  - FLAME:1
+  Hide:
+  - ENCHANTS
+
+#tank items
+Thelmet:
+  id: NETHERITE_HELMET
+  Data: 0
+  Amount: 1
+  Display: 'Forged from the depths of &4hell&r...'
+  Lore:
+  - '&1Protection X'
+  - '&3Thorns V'
+  - '&2Unbreaking V'
+  - '&5Mending'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:10
+  - THORNS:5
+  - UNBREAKING:5
+  - MENDING:1
+  Hide:
+  - ENCHANTS
+  
+Tchestplate:
+  id: NETHERITE_CHESTPLATE
+  Data: 0
+  Amount: 1
+  Display: 'Forged from the depths of &4hell&r...'
+  Lore:
+  - '&1Protection X'
+  - '&3Thorns V'
+  - '&2Unbreaking V'
+  - '&5Mending'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:10
+  - THORNS:5
+  - UNBREAKING:5
+  - MENDING:1
+  Hide:
+  - ENCHANTS
+
+Tleggings:
+  id: NETHERITE_LEGGINGS
+  Data: 0
+  Amount: 1
+  Display: 'Forged from the depths of &4hell&r...'
+  Lore:
+  - '&1Protection X'
+  - '&3Thorns V'
+  - '&2Unbreaking V'
+  - '&5Mending'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:10
+  - THORNS:5
+  - UNBREAKING:5
+  - MENDING:1
+  Hide:
+  - ENCHANTS
+
+Tboots:
+  id: NETHERITE_BOOTS
+  Data: 0
+  Amount: 1
+  Display: 'Forged from the depths of &4hell&r...'
+  Lore:
+  - '&1Protection X'
+  - '&3Thorns V'
+  - '&2Unbreaking V'
+  - '&5Mending'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:10
+  - THORNS:5
+  - UNBREAKING:5
+  - MENDING:1
+  Hide:
+  - ENCHANTS
+  
+Tsword:
+  id: NETHERITE_SWORD
+  Data: 0
+  Amount: 1
+  Display: 'Forged from the depths of &4hell&r...'
+  Lore:
+  - '&6Sharpness V'
+  - '&5Knockback III'
+  - '&4Fire Aspect III'
+  Enchantments:
+  - DAMAGE_ALL:5
+  - FIRE_ASPECT:3
+  - KNOCKBACK:3
+  Hide:
+  - ENCHANTS
+  
+Ttotem:
+  id: TOTEM_OF_UNDYING
+  Data: 0
+  Amount: 1
+  Display: 'Totem of &2Life'
+  Lore:
+  - 'Grants the holder everlasting life'
+  
+#ZombBoss items
+Zsword:
+  id: NETHERITE_SWORD
+  Data: 0
+  Amount: 1
+  Display: 'Strong enouch to kill any creature'
+  Lore:
+  - '&6Sharpness XXV'
+  - '&5Knockback X'
+  - '&4Fire Aspect X'
+  Enchantments:
+  - DAMAGE_ALL:25
+  - FIRE_ASPECT:10
+  - KNOCKBACK:10
+  Hide:
+  - ENCHANTS
+  
+Zstaff:
+  id: STICK
+  Data: 0
+  Amount: 1
+  Display: '&5&lMagic &dStaff'
+  Lore:
+  - 'Holds the magic of the Universe'
+  Enchantments:
+  - MENDING:1
+  Hide:
+  - ENCHANTS
+
+
+  
+#---------------------------------------------------------------------------#
+#                           {Zombie Horde DROPS}                            #
+#---------------------------------------------------------------------------#
+
+#Walker Drops
+WalkerDrops:
+  Conditions:
+  - playerwithin 20
+  Drops:
+  - WalkerItemDrops 1
+  - experience 25
+WalkerItemDrops:
+  MinItems: 2
+  MaxItems: 6
+  Drops:
+  - ROTTEN_FLESH 1-5 1
+  - helmet 1 0.5
+  - chestplate 1 0.5
+  - leggings 1 0.5
+  - boots 1 0.5
+  - LEATHER 1-3 1
+  
+#Runner Drops
+RunnerDrops:
+  Conditions:
+  - playerwithin 20
+  Drops:
+  - RunnerItemDrops
+  - experience 60
+RunnerItemDrops:
+  MinItems: 1
+  MaxItems: 6
+  Drops:
+  - ROTTEN_FLESH 1-5 1
+  - Rhelmet 1 0.4
+  - Rchestplate 1 0.4
+  - Rleggings 1 0.4
+  - Rboots 1 0.4
+  - Rstick 1-2 0.3
+  
+#Archer Drops
+ArcherDrops:
+  Conditions:
+  - playerwithin 30
+  Drops:
+  - ArcherItemDrops
+  - experience 100
+ArcherItemDrops:
+  MinItems: 2
+  MaxItems: 8
+  Drops:
+  - ROTTEN_FLESH 1-5 1
+  - Ahelmet 1 0.3
+  - Achestplate 1 0.3
+  - Aleggings 1 0.3
+  - Aboots 1 0.3
+  - ABow 1 0.25
+  - ARROW 1-3 1
+  - ARROW_OF_SLOWNESS 1-2 0.75
+  
+#Tank Drops
+TankDrops:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - TankItemDrops
+  - experience 1000
+TankItemDrops:
+  MinItems: 3
+  MaxItems: 10
+  Drops:
+  - Thelmet 1 0.1
+  - Tchestplate 1 0.1
+  - Tleggings 1 0.1
+  - Tboots 1 0.1
+  - Tsword 1 0.1
+  - Ttotem 1 0.1
+  - ROTTEN_FLESH 1-64 1
+  - SHIELD 1 0.9
+  - NETHERITE_INGOT 1-8 0.5
+  - DIAMOND 1-32 1
+  
+#ZombBoss Drops
+TankDrops:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - ZombBossItemDrops
+  - experience 1000
+ZombBossItemDrops:
+  MinItems: 2
+  MaxItems: 3
+  Drops:
+  - Zsword 1 0.1
+  - NETHERITE_BLOCK 1-8 1
+  - Zstaff 1 1

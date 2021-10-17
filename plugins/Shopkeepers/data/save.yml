@@ -636,7 +636,7 @@ data-version: 2|2730
           ==: ItemMeta
           meta-type: ENCHANTED
           stored-enchants:
-            OXYGEN: 2
+            PROTECTION_FIRE: 3
       price: 1
     '5':
       item:
@@ -647,7 +647,7 @@ data-version: 2|2730
           ==: ItemMeta
           meta-type: ENCHANTED
           stored-enchants:
-            DAMAGE_UNDEAD: 4
+            FIRE_ASPECT: 1
       price: 1
     '6':
       item:
@@ -658,7 +658,7 @@ data-version: 2|2730
           ==: ItemMeta
           meta-type: ENCHANTED
           stored-enchants:
-            PROTECTION_FIRE: 3
+            CHANNELING: 1
       price: 1
     '7':
       item:
@@ -669,42 +669,9 @@ data-version: 2|2730
           ==: ItemMeta
           meta-type: ENCHANTED
           stored-enchants:
-            FIRE_ASPECT: 1
-      price: 1
-    '8':
-      item:
-        ==: org.bukkit.inventory.ItemStack
-        v: 2730
-        type: ENCHANTED_BOOK
-        meta:
-          ==: ItemMeta
-          meta-type: ENCHANTED
-          stored-enchants:
-            CHANNELING: 1
-      price: 1
-    '9':
-      item:
-        ==: org.bukkit.inventory.ItemStack
-        v: 2730
-        type: ENCHANTED_BOOK
-        meta:
-          ==: ItemMeta
-          meta-type: ENCHANTED
-          stored-enchants:
-            ARROW_INFINITE: 1
-      price: 1
-    '10':
-      item:
-        ==: org.bukkit.inventory.ItemStack
-        v: 2730
-        type: ENCHANTED_BOOK
-        meta:
-          ==: ItemMeta
-          meta-type: ENCHANTED
-          stored-enchants:
             ARROW_DAMAGE: 3
       price: 1
-    '11':
+    '8':
       item:
         ==: org.bukkit.inventory.ItemStack
         v: 2730
@@ -716,7 +683,7 @@ data-version: 2|2730
             LOOT_BONUS_MOBS: 2
             PIERCING: 4
       price: 1
-    '12':
+    '9':
       item:
         ==: org.bukkit.inventory.ItemStack
         v: 2730
@@ -727,25 +694,14 @@ data-version: 2|2730
           stored-enchants:
             LOYALTY: 2
       price: 1
-    '13':
-      item:
-        ==: org.bukkit.inventory.ItemStack
-        v: 2730
-        type: ENCHANTED_BOOK
-        meta:
-          ==: ItemMeta
-          meta-type: ENCHANTED
-          stored-enchants:
-            PROTECTION_FALL: 4
-      price: 1
-    '14':
+    '10':
       item:
         ==: org.bukkit.inventory.ItemStack
         v: 2730
         type: MOSS_BLOCK
         amount: 64
       price: 1
-    '15':
+    '11':
       item:
         ==: org.bukkit.inventory.ItemStack
         v: 2730
@@ -755,6 +711,17 @@ data-version: 2|2730
           meta-type: UNSPECIFIC
           enchants:
             LOOT_BONUS_BLOCKS: 2
+      price: 1
+    '12':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            DIG_SPEED: 5
       price: 1
 '16':
   uniqueId: 5eed3362-93c5-4619-9c7e-d8359bba6763
@@ -1031,3 +998,130 @@ data-version: 2|2730
         type: REDSTONE_TORCH
         amount: 64
       price: 3
+'23':
+  uniqueId: f4a90d5b-4f81-43f9-91a7-853973639682
+  name: Dazeds Goods
+  world: Killer_Island
+  x: -1150
+  y: 66
+  z: 1033
+  type: sell
+  object:
+    type: villager
+    baby: false
+    profession: NONE
+    villagerType: JUNGLE
+    villagerLevel: 1
+  owner uuid: 00000000-0000-0000-0009-01f8fd4728f3
+  owner: -Dazed6977
+  chestx: -1150
+  chesty: 66
+  chestz: 1031
+  offers:
+    '1':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENCHANTED_GOLDEN_APPLE
+        amount: 2
+      price: 6
+    '2':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"extra":[{"italic":false,"color":"yellow","text":"Jukebox"}],"text":""}'
+          internal: H4sIAAAAAAAA/02PMVKDQBhGfx2diZgDWHsBIQhOyphVs0x2ScgGgS6QjQvsxgwBx6WzyVG8gJWeyLH0BFLafW/eaz4DwID+omyknFXPm1xyA4xu7XhV53x/Br2av9ZNxfcGABz14DRcyYbDB9eemUTCXEeezDR2O2YLU/q42N3gbajTMXax6vxk5E718F/r1KtHR8a2J5LtvElVaE7tQPJJYGVq+ZIwoSiLbdISJynmFlW0pG15TduwoCpQBBGbImyRYqQJwzpuhaDobhCzoKQPS8dHmSaK5gTdi5iFykdPjj/2hpvIBDiHY7zufpy8/w76P1e334evt4vLFD4B/gDRVPvbCQEAAA==
+      price: 2
+    '3':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"extra":[{"italic":false,"color":"yellow","text":"Dropper"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"code:eyJ0ZXh0dXJlcyI6..."}],"text":""}'
+          internal: H4sIAAAAAAAA/02PMVKDQBhGfx2diWhj4S0sViI4KSyiKFkmgBAI7HZJ2AhkN2YIhCwH0CPY2HgHT6Cdt9CTSDq77817zacAKHAyWlScPxRP84wzBZR2rVhRZmx9BJ2SbcuqYGsFAPY6cDie8IrBB5MWonGKktjiM4n1loMR4i7OV1d4OZbTW6xj0fpBXx/K3r9WKyeRxknXSunSq6ZijIZdn7OBfzET4YbmjrDVsLZVUjtmqFLhC9L0a2ostjSyL93Ak7YINcd4bIh6nzp5svPSNmlOIid3g7vabjxJTYu7OzZuMpJZvXmMrgGOYR8n7ZGDV+X77OcLfT6/vOe/52+nAH/gdRoyCgEAAA==
+      price: 2
+    '4':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"extra":[{"italic":false,"color":"yellow","text":"Dark Oak
+            Planks"}],"text":""}'
+          internal: H4sIAAAAAAAA/02PMU+DQBiGP40miP4GR12vIJiadGiE0LtwXG0PBDYKRyi9axsKCu7+HhcHf5mzjG7vk+dZXh1Ah5v1rpNy2RzKrRQ66OM6iqbditMVaK3o264RJx0AzjS4jDLZCfgWA0FpXKEiJjIfsD0yXyPJcH18xPto2DxjG6vRL+a2P0z/tVabvVoyMUmV7l+6jYqQb66kWKwmuQrfmCPrhOcW81JJjRBRB38wnvdJnT8EyjUCzzWpIjvGq4rySKV1Pkl4oZjj9oGBJ0E976kTSFpTlHrhe8BJlQxkWsZoBnAN57gYj1wsb7U7++B//ZS/90+fswzgD09gtMQKAQAA
+      price: 2
+    '5':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"extra":[{"italic":false,"color":"yellow","text":"Enchanting
+            Table"}],"text":""}'
+          internal: H4sIAAAAAAAA/02PT06DQBxGfxpNKrp17cqkCxeUKZjGmNjYaod0BgvDn2HX0qlQZmqlYIAruPEw3sUzeAtZuvte3tt8GoAGF15eSflSvG0yKTTQurUXRZmJwxn0SlGXVSEOGgAc9eA0WMpKwLdobD2OUn0d2TJpsNUx83Tp4O3+Fu+CZvWILaw6Pxtb82b0rzXLZWhKjuw03i2qlQr0OXKlmLmDRPkfMfMNh/GWtjQl7BXFLM6JcnNuuIqEC4O2CaLPNCPsSRFjOiBqatKWI87GQzrxh06IG2Lw2gmnKN7ilrOk5p492kT6PcA5HON1d+Rkct2/efihX5/vv3dX1mUf4A8Np/xgCgEAAA==
+      price: 2
+    '6':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"extra":[{"italic":false,"color":"yellow","text":"Grass
+            Block"}],"text":""}'
+          internal: H4sIAAAAAAAA/02Pu07DMBiFfyqQSuBJmHIhQR0YUAOprcaFNFdvreOSi9NWaQIkAiQGRp6DkaUTD4cwG9v5dD4d6SgACpzOy1aI23qzygVXQJFpy+sm57tjGDb8qWlrvlMA4GAIR+FCtBz2vMMqjTM1jbFgHbIk+3NVzFCxvUDrsFuOkYUq2U+urGk3+ueazSIyRWLgjK7v2mUVqlPDE3ziaawKHmjBzoldmqRnOq2Sjjo3OenTjPhlTx2kuzYzEp9WpE806fVuFGgkkuyHgkReRm1cusX9I9Fx7jpB/7czG+PRKlYvAU5ggFJ55PBn8P282V9/fL28f569vjGAX9oXXsQKAQAA
+      price: 2
+    '7':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"extra":[{"italic":false,"color":"yellow","text":"Sand"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"code:eyJ0ZXh0dXJlcyI6..."}],"text":""}'
+          internal: H4sIAAAAAAAA/02PSU7DMBiFfxBIJXCYINNUXXQRMaQOdUwGMhiE1DYuseOUKgNtcoQuehcklhylOy5Clqze+/S+zdMANLjy80app/JjJRTXQOvbhpe14NUFDGq+q5uSVxoAnAzgPJyrhsM3b22dxZmexrZattjoOfB1RbHcjPA6bBe32MBFv09NY9aO/7nDeh4NVYLsjK3dZlGE+gx5ik+962Xx/EmDe0Qt94ZEXsZkqojlFUTmKCkc4US2oIG5pRETjkw6Is2OSaX6RKRLdjTwcibfuyR6kNQKMxq4W3rnCOLb41WsTwAu4RSn/ZEzfnxBb4fR78/rvpo8fh0B/gAUMJYBCgEAAA==
+      price: 2
+    '8':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"extra":[{"italic":false,"color":"yellow","text":"Netherrack"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"code:eyJ0ZXh0dXJlcyI6..."}],"text":""}'
+          internal: H4sIAAAAAAAA/02PQU6DQBhGf40mFU1MTLyC0d0gAVMTTRqbtEPKIBQoM3HT0mlhmGkbCgrsjFdy4xU8TY8gS3fvy/s2TwPQ4GKaV1K+FttVJrkGWkc7XpQZ359Br+R1WRV8rwHAUQ9Oo7msOHzzxkYsTtEytmXSYKvbwRRJF4vdA95EzeIFW1h1fjywJk3/39cs5zNTUsNO2carFipCE8OXfOzriQrf3RkTZOgrck8NoqLcCTAira1IO9BZkJtUYZ0NE5MGHiIibMkoNNnI+SDKaxyRZlTQ2g28mrZEUbFGHRs0s/urGD0BnMMxXnYhJ1+31+vD3fPv5+Hq7ebn8RLgDyBc7hkKAQAA
+      price: 2
+    '9':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"extra":[{"italic":false,"color":"yellow","text":"Mossy
+            Cobblestone"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"code:eyJ0ZXh0dXJlcyI6..."}],"text":""}'
+          internal: H4sIAAAAAAAA/02PO07DQBRFX1CQgpMWsQ0by0YpQOIX2VZmDM74N11iT+TPmxASO2S8BXpKVsFaqKlZBS7p7j33NFcD0GCyqFvEp93LukShgdanrdg1pdifwagRx6bdib0GAIMRnEZLbAV8CeXpPCn0PPEwU67dd7bQ0Xer7ZW7idTq3rVd2e/OrT1X03+u1SxjC1PTK/jmuV3JSJ+bAQonMDIZHjiblbTLlM9mSFhokpjXpMprHtOCxMSknYe8CqTPHk1ehVbKsKYMe5a9kSo9+uxOEpZe0o4Y5CGXREZIlTddJ/o1wBhO3Lw/Mrz5uHj9PDec99/B989wPAH4Azk/iJkKAQAA
+      price: 2
