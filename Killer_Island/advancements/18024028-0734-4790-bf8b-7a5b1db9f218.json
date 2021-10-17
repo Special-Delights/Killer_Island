@@ -353,6 +353,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2021-10-16 21:56:59 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/brick_stairs": {
     "criteria": {
       "has_bricks": "2021-09-09 11:36:17 -0700"
@@ -1625,7 +1631,9 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
-      "minecraft:cow": "2021-08-19 19:24:16 -0700"
+      "minecraft:cow": "2021-08-19 19:24:16 -0700",
+      "minecraft:bee": "2021-10-17 00:07:01 -0700",
+      "minecraft:axolotl": "2021-10-16 23:37:48 -0700"
     },
     "done": false
   },
@@ -1992,6 +2000,12 @@
   "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
     "criteria": {
       "has_nether_bricks": "2021-10-01 02:50:13 -0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tactical_fishing": {
+    "criteria": {
+      "tropical_fish_bucket": "2021-10-16 23:28:13 -0700"
     },
     "done": true
   },
@@ -2763,6 +2777,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2021-10-16 21:56:59 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/lectern": {
     "criteria": {
       "has_book": "2021-08-25 21:57:13 -0700"
@@ -3295,6 +3315,12 @@
   "minecraft:recipes/misc/yellow_dye_from_dandelion": {
     "criteria": {
       "has_dandelion": "2021-08-18 19:46:16 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2021-10-16 21:56:59 -0700"
     },
     "done": true
   },
