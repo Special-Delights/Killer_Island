@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1634489711725
+  logout: 1634497842977
   login: 1634489790877
 money: '4203.1425209770313922'
 last-account-name: -lenr0c86
@@ -31,11 +31,11 @@ lastlocation:
 logoutlocation:
   world: e7230443-6d71-40f5-9c81-adf10de976c9
   world-name: Killer_Island
-  x: 313.07758
+  x: 313.08923
   y: 121.5
-  z: 659.43567
-  yaw: -0.40692138671875
-  pitch: -2.4220733642578125
+  z: 660.69999
+  yaw: 3.5556640625
+  pitch: 27.244415283203125
 homes:
   nether:
     world: 95fd92ff-5ca6-47c0-a4db-233da6afee27

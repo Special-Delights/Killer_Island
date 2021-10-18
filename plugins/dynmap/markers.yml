@@ -79,6 +79,14 @@ sets:
                 y: 64.0
                 z: 2160.0
                 label: Ruined Portal
+            village,1200,-4528:
+                world: Killer_Island
+                markup: false
+                x: 1200.0
+                icon: structures.village
+                y: 64.0
+                z: -4528.0
+                label: Village
             netherfossil,-1632,-832:
                 world: Killer_Island_nether
                 markup: false
@@ -263,6 +271,14 @@ sets:
                 y: 64.0
                 z: 1584.0
                 label: Ruined Portal
+            junglepyramid,-2448,3712:
+                world: Killer_Island
+                markup: false
+                x: -2448.0
+                icon: structures.junglepyramid
+                y: 64.0
+                z: 3712.0
+                label: Jungle Pyramid
             netherfossil,640,160:
                 world: Killer_Island_nether
                 markup: false
@@ -303,6 +319,14 @@ sets:
                 y: 64.0
                 z: -448.0
                 label: Nether Fossil
+            pillageroutpost,11584,10240:
+                world: Killer_Island
+                markup: false
+                x: 11584.0
+                icon: structures.pillageroutpost
+                y: 64.0
+                z: 10240.0
+                label: Pillager Outpost
             netherfossil,416,-256:
                 world: Killer_Island_nether
                 markup: false
@@ -335,14 +359,6 @@ sets:
                 y: 64.0
                 z: 6064.0
                 label: Ruined Portal
-            ruinedportal,10528,11024:
-                world: Killer_Island
-                markup: false
-                x: 10528.0
-                icon: structures.ruinedportal
-                y: 64.0
-                z: 11024.0
-                label: Ruined Portal
             netherfossil,800,576:
                 world: Killer_Island_nether
                 markup: false
@@ -351,6 +367,14 @@ sets:
                 y: 64.0
                 z: 576.0
                 label: Nether Fossil
+            ruinedportal,10528,11024:
+                world: Killer_Island
+                markup: false
+                x: 10528.0
+                icon: structures.ruinedportal
+                y: 64.0
+                z: 11024.0
+                label: Ruined Portal
             ruinedportal,-8240,-5632:
                 world: Killer_Island
                 markup: false
@@ -503,6 +527,14 @@ sets:
                 y: 64.0
                 z: 128.0
                 label: Nether Fossil
+            ruinedportal,912,-4864:
+                world: Killer_Island
+                markup: false
+                x: 912.0
+                icon: structures.ruinedportal
+                y: 64.0
+                z: -4864.0
+                label: Ruined Portal
             ruinedportal,-4752,-6864:
                 world: Killer_Island
                 markup: false
@@ -551,6 +583,22 @@ sets:
                 y: 64.0
                 z: 608.0
                 label: Nether Fossil
+            bastionremnant,464,-1696:
+                world: Killer_Island_nether
+                markup: false
+                x: 464.0
+                icon: structures.bastionremnant
+                y: 64.0
+                z: -1696.0
+                label: Bastion Remnant
+            ruinedportal,2736,-3840:
+                world: Killer_Island
+                markup: false
+                x: 2736.0
+                icon: structures.ruinedportal
+                y: 64.0
+                z: -3840.0
+                label: Ruined Portal
             ruinedportal,8640,10352:
                 world: Killer_Island
                 markup: false
@@ -695,6 +743,14 @@ sets:
                 y: 64.0
                 z: 9808.0
                 label: Jungle Pyramid
+            ruinedportal,-1088,-5440:
+                world: Killer_Island
+                markup: false
+                x: -1088.0
+                icon: structures.ruinedportal
+                y: 64.0
+                z: -5440.0
+                label: Ruined Portal
             village,-13616,2288:
                 world: Killer_Island
                 markup: false
@@ -935,6 +991,14 @@ sets:
                 y: 64.0
                 z: 448.0
                 label: Nether Fossil
+            village,3136,-4000:
+                world: Killer_Island
+                markup: false
+                x: 3136.0
+                icon: structures.village
+                y: 64.0
+                z: -4000.0
+                label: Village
             ruinedportal,-576,-784:
                 world: Killer_Island_nether
                 markup: false
@@ -1887,6 +1951,14 @@ sets:
                 y: 64.0
                 z: 3920.0
                 label: Ruined Portal
+            ruinedportal,-944,-4816:
+                world: Killer_Island
+                markup: false
+                x: -944.0
+                icon: structures.ruinedportal
+                y: 64.0
+                z: -4816.0
+                label: Ruined Portal
             swamphut,-6848,-3872:
                 world: Killer_Island
                 markup: false
@@ -2183,6 +2255,14 @@ sets:
                 y: 64.0
                 z: -256.0
                 label: Ruined Portal
+            ruinedportal,32,-2752:
+                world: Killer_Island_nether
+                markup: false
+                x: 32.0
+                icon: structures.ruinedportal
+                y: 64.0
+                z: -2752.0
+                label: Ruined Portal
             ruinedportal,2896,-1040:
                 world: Killer_Island
                 markup: false
@@ -2366,6 +2446,14 @@ sets:
                 icon: structures.ruinedportal
                 y: 64.0
                 z: -1904.0
+                label: Ruined Portal
+            ruinedportal,-368,-5552:
+                world: Killer_Island
+                markup: false
+                x: -368.0
+                icon: structures.ruinedportal
+                y: 64.0
+                z: -5552.0
                 label: Ruined Portal
             netherfossil,1056,480:
                 world: Killer_Island_nether
@@ -3567,14 +3655,6 @@ sets:
                 y: 64.0
                 z: -8136.0
                 label: Stronghold
-            netherfossil,-1632,-896:
-                world: Killer_Island_nether
-                markup: false
-                x: -1632.0
-                icon: structures.netherfossil
-                y: 64.0
-                z: -896.0
-                label: Nether Fossil
             netherfossil,-1440,992:
                 world: Killer_Island_nether
                 markup: false
@@ -3582,6 +3662,14 @@ sets:
                 icon: structures.netherfossil
                 y: 64.0
                 z: 992.0
+                label: Nether Fossil
+            netherfossil,-1632,-896:
+                world: Killer_Island_nether
+                markup: false
+                x: -1632.0
+                icon: structures.netherfossil
+                y: 64.0
+                z: -896.0
                 label: Nether Fossil
             village,1152,-3776:
                 world: Killer_Island
@@ -3919,6 +4007,14 @@ sets:
                 y: 64.0
                 z: 1024.0
                 label: Nether Fossil
+            village,10768,9936:
+                world: Killer_Island
+                markup: false
+                x: 10768.0
+                icon: structures.village
+                y: 64.0
+                z: 9936.0
+                label: Village
             ruinedportal,672,3328:
                 world: Killer_Island
                 markup: false
@@ -3974,6 +4070,14 @@ sets:
                 icon: structures.ruinedportal
                 y: 64.0
                 z: 1248.0
+                label: Ruined Portal
+            ruinedportal,2128,-3728:
+                world: Killer_Island
+                markup: false
+                x: 2128.0
+                icon: structures.ruinedportal
+                y: 64.0
+                z: -3728.0
                 label: Ruined Portal
             netherfossil,672,160:
                 world: Killer_Island_nether
@@ -4079,6 +4183,14 @@ sets:
                 y: 64.0
                 z: 960.0
                 label: Nether Fossil
+            ruinedportal,-304,-5040:
+                world: Killer_Island
+                markup: false
+                x: -304.0
+                icon: structures.ruinedportal
+                y: 64.0
+                z: -5040.0
+                label: Ruined Portal
             netherfossil,-1312,1184:
                 world: Killer_Island_nether
                 markup: false
@@ -4134,6 +4246,14 @@ sets:
                 icon: structures.ruinedportal
                 y: 64.0
                 z: 2176.0
+                label: Ruined Portal
+            ruinedportal,1504,-5680:
+                world: Killer_Island
+                markup: false
+                x: 1504.0
+                icon: structures.ruinedportal
+                y: 64.0
+                z: -5680.0
                 label: Ruined Portal
             netherfossil,-1568,-992:
                 world: Killer_Island_nether
@@ -4479,6 +4599,14 @@ sets:
                 y: 64.0
                 z: 3008.0
                 label: Nether Fossil
+            pillageroutpost,2384,-5280:
+                world: Killer_Island
+                markup: false
+                x: 2384.0
+                icon: structures.pillageroutpost
+                y: 64.0
+                z: -5280.0
+                label: Pillager Outpost
             ruinedportal,-400,-720:
                 world: Killer_Island_nether
                 markup: false
@@ -4975,14 +5103,6 @@ sets:
                 y: 64.0
                 z: 1824.0
                 label: Ruined Portal
-            netherfossil,832,512:
-                world: Killer_Island_nether
-                markup: false
-                x: 832.0
-                icon: structures.netherfossil
-                y: 64.0
-                z: 512.0
-                label: Nether Fossil
             ruinedportal,-352,-6288:
                 world: Killer_Island
                 markup: false
@@ -4991,6 +5111,14 @@ sets:
                 y: 64.0
                 z: -6288.0
                 label: Ruined Portal
+            netherfossil,832,512:
+                world: Killer_Island_nether
+                markup: false
+                x: 832.0
+                icon: structures.netherfossil
+                y: 64.0
+                z: 512.0
+                label: Nether Fossil
             ruinedportal,-8640,-2368:
                 world: Killer_Island
                 markup: false
@@ -5647,6 +5775,14 @@ sets:
                 y: 64.0
                 z: -976.0
                 label: Ocean Monument
+            ruinedportal,48,-4768:
+                world: Killer_Island
+                markup: false
+                x: 48.0
+                icon: structures.ruinedportal
+                y: 64.0
+                z: -4768.0
+                label: Ruined Portal
             bastionremnant,256,-1904:
                 world: Killer_Island_nether
                 markup: false
@@ -5687,6 +5823,14 @@ sets:
                 y: 64.0
                 z: -3808.0
                 label: Desert Pyramid
+            ruinedportal,10464,7936:
+                world: Killer_Island
+                markup: false
+                x: 10464.0
+                icon: structures.ruinedportal
+                y: 64.0
+                z: 7936.0
+                label: Ruined Portal
             ruinedportal,7728,7920:
                 world: Killer_Island
                 markup: false
@@ -5999,6 +6143,14 @@ sets:
                 y: 64.0
                 z: 352.0
                 label: Nether Fossil
+            village,2752,-4288:
+                world: Killer_Island
+                markup: false
+                x: 2752.0
+                icon: structures.village
+                y: 64.0
+                z: -4288.0
+                label: Village
             bastionremnant,-1376,-128:
                 world: Killer_Island_nether
                 markup: false
@@ -6391,6 +6543,14 @@ sets:
                 y: 64.0
                 z: -192.0
                 label: Nether Fossil
+            ruinedportal,960,-5392:
+                world: Killer_Island
+                markup: false
+                x: 960.0
+                icon: structures.ruinedportal
+                y: 64.0
+                z: -5392.0
+                label: Ruined Portal
             village,1680,-2816:
                 world: Killer_Island
                 markup: false
@@ -6975,6 +7135,14 @@ sets:
                 y: 64.0
                 z: 5952.0
                 label: Jungle Pyramid
+            ruinedportal,11104,10544:
+                world: Killer_Island
+                markup: false
+                x: 11104.0
+                icon: structures.ruinedportal
+                y: 64.0
+                z: 10544.0
+                label: Ruined Portal
             stronghold,-7672,8600:
                 world: Killer_Island
                 markup: false
@@ -8023,6 +8191,14 @@ sets:
                 y: 64.0
                 z: -320.0
                 label: Nether Fossil
+            ruinedportal,1472,-5040:
+                world: Killer_Island
+                markup: false
+                x: 1472.0
+                icon: structures.ruinedportal
+                y: 64.0
+                z: -5040.0
+                label: Ruined Portal
             netherfossil,128,896:
                 world: Killer_Island_nether
                 markup: false
@@ -8335,6 +8511,14 @@ sets:
                 y: 64.0
                 z: 5360.0
                 label: Ocean Monument
+            ruinedportal,11616,10240:
+                world: Killer_Island
+                markup: false
+                x: 11616.0
+                icon: structures.ruinedportal
+                y: 64.0
+                z: 10240.0
+                label: Ruined Portal
             ruinedportal,-10784,-11968:
                 world: Killer_Island
                 markup: false
@@ -8391,6 +8575,14 @@ sets:
                 y: 64.0
                 z: 1056.0
                 label: Nether Fossil
+            fortress,112,-2832:
+                world: Killer_Island_nether
+                markup: false
+                x: 112.0
+                icon: structures.fortress
+                y: 64.0
+                z: -2832.0
+                label: Nether Fortress
             netherfossil,864,192:
                 world: Killer_Island_nether
                 markup: false
@@ -8638,6 +8830,14 @@ sets:
                 icon: structures.ruinedportal
                 y: 64.0
                 z: 16.0
+                label: Ruined Portal
+            ruinedportal,-1040,3856:
+                world: Killer_Island
+                markup: false
+                x: -1040.0
+                icon: structures.ruinedportal
+                y: 64.0
+                z: 3856.0
                 label: Ruined Portal
             ruinedportal,560,-2384:
                 world: Killer_Island_nether
@@ -9255,6 +9455,14 @@ sets:
                 y: 64.0
                 z: 5840.0
                 label: Ruined Portal
+            ruinedportal,832,-6384:
+                world: Killer_Island
+                markup: false
+                x: 832.0
+                icon: structures.ruinedportal
+                y: 64.0
+                z: -6384.0
+                label: Ruined Portal
             ruinedportal,-7584,2912:
                 world: Killer_Island
                 markup: false
@@ -9407,6 +9615,14 @@ sets:
                 y: 64.0
                 z: -576.0
                 label: Nether Fossil
+            ruinedportal,-2528,2928:
+                world: Killer_Island
+                markup: false
+                x: -2528.0
+                icon: structures.ruinedportal
+                y: 64.0
+                z: 2928.0
+                label: Ruined Portal
             desertpyramid,-4432,-4416:
                 world: Killer_Island
                 markup: false
@@ -9559,6 +9775,14 @@ sets:
                 y: 64.0
                 z: 5664.0
                 label: Village
+            junglepyramid,-1872,3904:
+                world: Killer_Island
+                markup: false
+                x: -1872.0
+                icon: structures.junglepyramid
+                y: 64.0
+                z: 3904.0
+                label: Jungle Pyramid
             ruinedportal,4768,-2560:
                 world: Killer_Island
                 markup: false
@@ -10071,6 +10295,14 @@ sets:
                 y: 64.0
                 z: 640.0
                 label: Nether Fossil
+            ruinedportal,0,-5408:
+                world: Killer_Island
+                markup: false
+                x: 0.0
+                icon: structures.ruinedportal
+                y: 64.0
+                z: -5408.0
+                label: Ruined Portal
             bastionremnant,944,-384:
                 world: Killer_Island_nether
                 markup: false
@@ -10126,6 +10358,14 @@ sets:
                 icon: structures.ruinedportal
                 y: 64.0
                 z: 3456.0
+                label: Ruined Portal
+            ruinedportal,1952,-5648:
+                world: Killer_Island
+                markup: false
+                x: 1952.0
+                icon: structures.ruinedportal
+                y: 64.0
+                z: -5648.0
                 label: Ruined Portal
             village,-704,-448:
                 world: creative
@@ -10775,6 +11015,14 @@ sets:
                 y: 64.0
                 z: 6064.0
                 label: Ruined Portal
+            ruinedportal,2272,-4736:
+                world: Killer_Island
+                markup: false
+                x: 2272.0
+                icon: structures.ruinedportal
+                y: 64.0
+                z: -4736.0
+                label: Ruined Portal
             village,-3856,-10896:
                 world: Killer_Island
                 markup: false
@@ -10887,6 +11135,14 @@ sets:
                 y: 64.0
                 z: -1072.0
                 label: Ruined Portal
+            pillageroutpost,3088,-3808:
+                world: Killer_Island
+                markup: false
+                x: 3088.0
+                icon: structures.pillageroutpost
+                y: 64.0
+                z: -3808.0
+                label: Pillager Outpost
             ruinedportal,-10496,6096:
                 world: Killer_Island
                 markup: false
@@ -11911,6 +12167,14 @@ sets:
                 y: 64.0
                 z: 800.0
                 label: Village
+            desertpyramid,2704,-3728:
+                world: Killer_Island
+                markup: false
+                x: 2704.0
+                icon: structures.desertpyramid
+                y: 64.0
+                z: -3728.0
+                label: Desert Pyramid
             stronghold,312,-1400:
                 world: Killer_Island
                 markup: false
@@ -12167,6 +12431,14 @@ sets:
                 y: 64.0
                 z: 1616.0
                 label: Ocean Monument
+            village,240,-6560:
+                world: Killer_Island
+                markup: false
+                x: 240.0
+                icon: structures.village
+                y: 64.0
+                z: -6560.0
+                label: Village
             ruinedportal,-3728,-4480:
                 world: Killer_Island
                 markup: false
@@ -12175,6 +12447,14 @@ sets:
                 y: 64.0
                 z: -4480.0
                 label: Ruined Portal
+            village,2864,-3440:
+                world: Killer_Island
+                markup: false
+                x: 2864.0
+                icon: structures.village
+                y: 64.0
+                z: -3440.0
+                label: Village
             netherfossil,992,1120:
                 world: Killer_Island_nether
                 markup: false
@@ -12319,6 +12599,14 @@ sets:
                 y: 64.0
                 z: -672.0
                 label: Nether Fossil
+            village,10784,10544:
+                world: Killer_Island
+                markup: false
+                x: 10784.0
+                icon: structures.village
+                y: 64.0
+                z: 10544.0
+                label: Village
             ruinedportal,-3696,-3504:
                 world: Killer_Island
                 markup: false
@@ -12815,6 +13103,14 @@ sets:
                 y: 64.0
                 z: -3744.0
                 label: Ruined Portal
+            junglepyramid,-2512,3392:
+                world: Killer_Island
+                markup: false
+                x: -2512.0
+                icon: structures.junglepyramid
+                y: 64.0
+                z: 3392.0
+                label: Jungle Pyramid
             ruinedportal,7760,8576:
                 world: Killer_Island
                 markup: false
@@ -13127,6 +13423,14 @@ sets:
                 y: 64.0
                 z: -1600.0
                 label: Bastion Remnant
+            ruinedportal,-1536,4016:
+                world: Killer_Island
+                markup: false
+                x: -1536.0
+                icon: structures.ruinedportal
+                y: 64.0
+                z: 4016.0
+                label: Ruined Portal
             netherfossil,-1760,-928:
                 world: Killer_Island_nether
                 markup: false
@@ -13399,6 +13703,14 @@ sets:
                 y: 64.0
                 z: 864.0
                 label: Pillager Outpost
+            bastionremnant,160,-2576:
+                world: Killer_Island_nether
+                markup: false
+                x: 160.0
+                icon: structures.bastionremnant
+                y: 64.0
+                z: -2576.0
+                label: Bastion Remnant
             netherfossil,-1664,-896:
                 world: Killer_Island_nether
                 markup: false
@@ -13663,6 +13975,14 @@ sets:
                 y: 64.0
                 z: -1376.0
                 label: Village
+            ruinedportal,2096,-4112:
+                world: Killer_Island
+                markup: false
+                x: 2096.0
+                icon: structures.ruinedportal
+                y: 64.0
+                z: -4112.0
+                label: Ruined Portal
             fortress,-2432,-336:
                 world: Killer_Island_nether
                 markup: false
@@ -14055,6 +14375,14 @@ sets:
                 y: 64.0
                 z: 176.0
                 label: Nether Fortress
+            junglepyramid,-1456,4160:
+                world: Killer_Island
+                markup: false
+                x: -1456.0
+                icon: structures.junglepyramid
+                y: 64.0
+                z: 4160.0
+                label: Jungle Pyramid
             ruinedportal,2640,-8608:
                 world: Killer_Island
                 markup: false
@@ -14351,6 +14679,14 @@ sets:
                 y: 64.0
                 z: 9648.0
                 label: Ruined Portal
+            village,2064,-3248:
+                world: Killer_Island
+                markup: false
+                x: 2064.0
+                icon: structures.village
+                y: 64.0
+                z: -3248.0
+                label: Village
             netherfossil,1216,3040:
                 world: Killer_Island_nether
                 markup: false

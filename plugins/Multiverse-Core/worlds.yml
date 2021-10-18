@@ -46,53 +46,6 @@ worlds:
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
-  skyworld_nether:
-    ==: MVWorld
-    hidden: 'false'
-    alias: skyworld_nether
-    color: WHITE
-    style: NORMAL
-    pvp: 'true'
-    scale: '1.0'
-    respawnWorld: skyworld
-    allowWeather: 'true'
-    difficulty: HARD
-    spawning:
-      ==: MVSpawnSettings
-      animals:
-        ==: MVSpawnSubSettings
-        spawn: 'true'
-        spawnrate: '-1'
-        exceptions: []
-      monsters:
-        ==: MVSpawnSubSettings
-        spawn: 'true'
-        spawnrate: '-1'
-        exceptions: []
-    entryfee:
-      ==: MVEntryFee
-      amount: '0.0'
-    hunger: 'true'
-    autoHeal: 'true'
-    adjustSpawn: 'false'
-    portalForm: ALL
-    gameMode: SURVIVAL
-    keepSpawnInMemory: 'true'
-    spawnLocation:
-      ==: MVSpawnLocation
-      x: 0.0
-      y: 75.0
-      z: 0.0
-      pitch: 0.0
-      yaw: 0.0
-    autoLoad: 'true'
-    bedRespawn: 'true'
-    worldBlacklist: []
-    environment: NETHER
-    seed: '8590371532699219739'
-    generator: uSkyBlock
-    playerLimit: '-1'
-    allowFlight: 'true'
   creative_nether:
     ==: MVWorld
     hidden: 'false'
@@ -140,10 +93,10 @@ worlds:
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
-  skyworld:
+  skyworld_nether:
     ==: MVWorld
     hidden: 'false'
-    alias: skyworld
+    alias: skyworld_nether
     color: WHITE
     style: NORMAL
     pvp: 'true'
@@ -175,15 +128,15 @@ worlds:
     spawnLocation:
       ==: MVSpawnLocation
       x: 0.0
-      y: 150.0
+      y: 75.0
       z: 0.0
       pitch: 0.0
       yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
-    environment: NORMAL
-    seed: '-9109939628885075828'
+    environment: NETHER
+    seed: '8590371532699219739'
     generator: uSkyBlock
     playerLimit: '-1'
     allowFlight: 'true'
@@ -232,6 +185,53 @@ worlds:
     environment: NORMAL
     seed: '-8695823550320135936'
     generator: 'null'
+    playerLimit: '-1'
+    allowFlight: 'true'
+  skyworld:
+    ==: MVWorld
+    hidden: 'false'
+    alias: skyworld
+    color: WHITE
+    style: NORMAL
+    pvp: 'true'
+    scale: '1.0'
+    respawnWorld: skyworld
+    allowWeather: 'true'
+    difficulty: HARD
+    spawning:
+      ==: MVSpawnSettings
+      animals:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+      monsters:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+    entryfee:
+      ==: MVEntryFee
+      amount: '0.0'
+    hunger: 'true'
+    autoHeal: 'true'
+    adjustSpawn: 'false'
+    portalForm: ALL
+    gameMode: SURVIVAL
+    keepSpawnInMemory: 'true'
+    spawnLocation:
+      ==: MVSpawnLocation
+      x: 0.0
+      y: 150.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
+    autoLoad: 'true'
+    bedRespawn: 'true'
+    worldBlacklist: []
+    environment: NORMAL
+    seed: '-9109939628885075828'
+    generator: uSkyBlock
     playerLimit: '-1'
     allowFlight: 'true'
   creative:
@@ -422,53 +422,6 @@ worlds:
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
-  Spawn:
-    ==: MVWorld
-    hidden: 'false'
-    alias: Spawn
-    color: WHITE
-    style: NORMAL
-    pvp: 'true'
-    scale: '1.0'
-    respawnWorld: Spawn
-    allowWeather: 'true'
-    difficulty: PEACEFUL
-    spawning:
-      ==: MVSpawnSettings
-      animals:
-        ==: MVSpawnSubSettings
-        spawn: 'true'
-        spawnrate: '-1'
-        exceptions: []
-      monsters:
-        ==: MVSpawnSubSettings
-        spawn: 'false'
-        spawnrate: '-1'
-        exceptions: []
-    entryfee:
-      ==: MVEntryFee
-      amount: '0.0'
-    hunger: 'false'
-    autoHeal: 'true'
-    adjustSpawn: 'false'
-    portalForm: ALL
-    gameMode: ADVENTURE
-    keepSpawnInMemory: 'true'
-    spawnLocation:
-      ==: MVSpawnLocation
-      x: -376.5095
-      y: 4.0
-      z: -154.59187
-      pitch: -2.140335
-      yaw: -83.322845
-    autoLoad: 'true'
-    bedRespawn: 'true'
-    worldBlacklist: []
-    environment: NORMAL
-    seed: '557367866946247531'
-    generator: 'null'
-    playerLimit: '-1'
-    allowFlight: 'false'
   creative_the_end:
     ==: MVWorld
     hidden: 'false'
@@ -516,17 +469,17 @@ worlds:
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
-  Killer_Island_nether:
+  Spawn:
     ==: MVWorld
     hidden: 'false'
-    alias: Killer_Island_nether
+    alias: Spawn
     color: WHITE
     style: NORMAL
     pvp: 'true'
-    scale: '8.0'
-    respawnWorld: Killer_Island
+    scale: '1.0'
+    respawnWorld: Spawn
     allowWeather: 'true'
-    difficulty: HARD
+    difficulty: PEACEFUL
     spawning:
       ==: MVSpawnSettings
       animals:
@@ -536,33 +489,33 @@ worlds:
         exceptions: []
       monsters:
         ==: MVSpawnSubSettings
-        spawn: 'true'
+        spawn: 'false'
         spawnrate: '-1'
         exceptions: []
     entryfee:
       ==: MVEntryFee
       amount: '0.0'
-    hunger: 'true'
+    hunger: 'false'
     autoHeal: 'true'
-    adjustSpawn: 'true'
+    adjustSpawn: 'false'
     portalForm: ALL
-    gameMode: SURVIVAL
+    gameMode: ADVENTURE
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      x: 0.47225434
-      y: 115.0
-      z: 0.6512626
-      pitch: 46.593445
-      yaw: -45.372955
+      x: -376.5095
+      y: 4.0
+      z: -154.59187
+      pitch: -2.140335
+      yaw: -83.322845
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
-    environment: NETHER
-    seed: '3283888'
+    environment: NORMAL
+    seed: '557367866946247531'
     generator: 'null'
     playerLimit: '-1'
-    allowFlight: 'true'
+    allowFlight: 'false'
   supersurvival:
     ==: MVWorld
     hidden: 'false'
@@ -607,6 +560,53 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '6116606995777965047'
+    generator: 'null'
+    playerLimit: '-1'
+    allowFlight: 'true'
+  Killer_Island_nether:
+    ==: MVWorld
+    hidden: 'false'
+    alias: Killer_Island_nether
+    color: WHITE
+    style: NORMAL
+    pvp: 'true'
+    scale: '8.0'
+    respawnWorld: Killer_Island
+    allowWeather: 'true'
+    difficulty: HARD
+    spawning:
+      ==: MVSpawnSettings
+      animals:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+      monsters:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+    entryfee:
+      ==: MVEntryFee
+      amount: '0.0'
+    hunger: 'true'
+    autoHeal: 'true'
+    adjustSpawn: 'true'
+    portalForm: ALL
+    gameMode: SURVIVAL
+    keepSpawnInMemory: 'true'
+    spawnLocation:
+      ==: MVSpawnLocation
+      x: 0.47225434
+      y: 115.0
+      z: 0.6512626
+      pitch: 46.593445
+      yaw: -45.372955
+    autoLoad: 'true'
+    bedRespawn: 'true'
+    worldBlacklist: []
+    environment: NETHER
+    seed: '3283888'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'

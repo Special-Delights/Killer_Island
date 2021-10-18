@@ -11,31 +11,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1634475136001
+  lastteleport: 1634542451347
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1634475225302
-  login: 1634460435898
-money: '17707.8889821018573502'
+  logout: 1634545685614
+  login: 1634532945085
+money: '23112.3167345720951549'
 last-account-name: mr_matthews
 lastlocation:
   world: e7230443-6d71-40f5-9c81-adf10de976c9
   world-name: Killer_Island
-  x: -589.7667675611312
-  y: 38.0
-  z: -3343.7096533820713
-  yaw: -11.871124267578125
-  pitch: 4.500077247619629
+  x: -311.30000001192093
+  y: 49.49129689605622
+  z: -1846.0683582064617
+  yaw: -56.09588623046875
+  pitch: 16.499935150146484
 logoutlocation:
   world: e7230443-6d71-40f5-9c81-adf10de976c9
   world-name: Killer_Island
-  x: -354.00175473653246
-  y: 57.0
-  z: -1781.1724855863372
-  yaw: -89.39929962158203
-  pitch: 21.599994659423828
+  x: -309.87797448140844
+  y: 41.5
+  z: -1848.1978847911566
+  yaw: 23.529296875
+  pitch: 11.400150299072266
 homes:
   base:
     world: e7230443-6d71-40f5-9c81-adf10de976c9

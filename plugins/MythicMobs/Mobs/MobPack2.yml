@@ -1,0 +1,248 @@
+#---------------------------------------------------------------------------#
+#                          Made by: ButterflyBullets                        #
+#---------------------------------------------------------------------------#
+
+
+
+#---------------------------------------------------------------------------#
+#                          {Mob Pack 2 MOBS}                                #
+#---------------------------------------------------------------------------#
+
+WeakGuard:
+  Mobtype: SKELETON
+  Disguise:
+    Type: player
+    Player: '&8Weak Town Guard'
+    Skin: ButterflyBullets
+  Health: 20
+  Damage: 5
+  Drops:
+  - WeakGuardDrops
+  Equipment:
+  - WStoneSword:0
+  Faction: Guard
+  AIGoalSelectors:
+  - 0 clear
+  - 1 opendoors
+  - 2 meleeattack
+  AITargetSelectors:
+  - 0 clear
+  - 1 hurtbytarget
+  - 2 otherfactionmonsters
+  Options:
+    Disguise: villager
+    Despawn: true
+    FollowRange: 5
+    AlwaysShowName: false
+    MovementSpeed: 0.35
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    PreventRandomEquipment: true
+  KillMessages:
+  - '<target.name> messed with a <mob.name>'
+
+
+
+ModerateGuard:
+  Mobtype: SKELETON
+  Disguise:
+    Type: player
+    Player: '&8Moderate Town Guard'
+    Skin: Dream
+  Health: 40
+  Damage: 10
+  Drops:
+  - ModerateGuardDrops
+  Equipment:
+  - MIronSword:0
+   Skills:
+  - skill{s=GuardsPower} @self
+  Options:
+    Disguise: villager
+    Despawn: true
+    FollowRange: 5
+    AlwaysShowName: false
+    MovementSpeed: 0.35
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    PreventRandomEquipment: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 opendoors
+  - 2 meleeattack
+  AITargetSelectors:
+  - 0 clear
+  - 1 hurtbytarget
+  - 2 otherfactionmonsters
+  KillMessages:
+  - '<target.name> messed with a <mob.name>'
+
+
+
+StrongGuard:
+  Mobtype: SKELETON
+  Disguise:
+    Type: player
+    Player: '&4Strong Town Guard'
+    Skin: Technoblade
+  Health: 80
+  Damage: 20
+  Drops:
+  - StrongGuardDrops
+  Equipment:
+  - SDiamondSword:0
+  - SDiamondChestplate:0
+   Skills:
+  - skill{s=SuperGuardsPower} @self
+  - skill{s=SuperGuardsAB} @Target
+
+  Options:
+    Disguise: villager
+    Despawn: true
+    FollowRange: 5
+    AlwaysShowName: false
+    MovementSpeed: 0.35
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    PreventRandomEquipment: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 opendoors
+  - 2 meleeattack
+  AITargetSelectors:
+  - 0 clear
+  - 1 hurtbytarget
+  - 2 otherfactionmonsters
+  KillMessages:
+  - '<target.name> messed with a <mob.name>'
+
+#---------------------------------------------------------------------------#
+#                          {Mob Pack 2 SKILLS}                              #
+#---------------------------------------------------------------------------#
+
+GuardsPower:
+  Cooldown: 0.0001
+  Skills:
+  - potion{type=REGENERATION;duration=3;level=1} @PIR{r=5}
+  
+SuperGuardsPower:
+  Cooldown: 0.0001
+  Skills:
+  - potion{type=REGENERATION;duration=5;level=3} @PIR{r=10}
+
+SuperGuardsAB:
+  Cooldown: 15
+  Skills:
+  - leap{velocity=200} @target
+  - delay 20
+  - jump{velocity=-100}
+  - effect:explosion @self
+  - lightning @Target
+  - delay 1
+  - damage{amount=10} @Target
+  
+#---------------------------------------------------------------------------#
+#                          {Mob pack 2 ITEMS}                               #
+#---------------------------------------------------------------------------#
+
+WStoneSword:
+  id: STONE_SWORD
+  Data: 0
+  Amount: 1
+  Display: 'Rough Sword'
+  Options:
+  - Unbreakable: true
+  Lore:
+  - 'A very jagged sword'
+  Enchantments:
+  - SHARPNESS:2
+  
+MIronSword:
+  id: IRON_SWORD
+  Data: 0
+  Amount: 1
+  Display: 'Sharp Sword'
+  Options:
+  - Unbreakable: true
+  Lore:
+  - 'A very pointy sword'
+  Enchantments:
+  - SHARPNESS:5
+  - KNOCKBACK:2
+
+SDiamondSword:
+  id: DIAMOND_SWORD
+  Data: 0
+  Amount: 1
+  Display: 'Shiny Sword'
+  Options:
+  - Unbreakable: true
+  Lore:
+  - 'A very clean sword'
+  Enchantments:
+  - SHARPNESS:7
+  - KNOCKBACK:5
+  - FIRE_ASPECT:3
+  
+SDiamondChestplate:
+  id: DIAMOND_CHESTPLATE
+  Data: 0
+  Amount: 1
+  Display: 'Shiny Shirt'
+  Options:
+  - Unbreakable: true
+  Lore:
+  - 'A very clean shirt'
+  Enchantments:
+  - PROTECTION:3
+  - THORNS:2
+
+
+#---------------------------------------------------------------------------#
+#                           {Mob Pack 2 DROPS}                              #
+#---------------------------------------------------------------------------#
+
+WeakGuardDrops:
+  Conditions:
+  - playerwithin 10
+  Drops:
+  - WeakGuardItemDrops 1
+  - experience 25
+WeakGuardItemDrops:
+  MinItems: 1
+  MaxItems: 2
+  Drops:
+  - WStoneSword 1 0.5
+  - EMERALD 1-5 1
+  
+  
+ModerateGuardDrops:
+  Conditions:
+  - playerwithin 10
+  Drops:
+  - ModerateGuardItemDrops 1
+  - experience 50
+ModerateGuardItemDrops:
+  MinItems: 2
+  MaxItems: 3
+  Drops:
+  - MIronSword 1 0.5
+  - EMERALD 1-7 1
+  - IRON 1-5 1
+
+  
+StrongGuardDrops:
+  Conditions:
+  - playerwithin 10
+  Drops:
+  - StrongGuardItemDrops 1
+  - experience 100
+StrongGuardItemDrops:
+  MinItems: 2
+  MaxItems: 4
+  Drops:
+  - SDiamondSword 1 0.5
+  - SDiamondChestplate 1 0.5
+  - EMERALD 1-10 1
+  - DIAMOND 1-5 1
+

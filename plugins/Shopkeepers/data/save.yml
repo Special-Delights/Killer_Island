@@ -957,6 +957,12 @@ data-version: 2|2730
           stored-enchants:
             SILK_TOUCH: 1
       price: 1
+    '10':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: NETHERITE_INGOT
+      price: 12
 '20':
   uniqueId: 7c7991da-4122-4601-ac1e-cabf3bb4be46
   name: Hank

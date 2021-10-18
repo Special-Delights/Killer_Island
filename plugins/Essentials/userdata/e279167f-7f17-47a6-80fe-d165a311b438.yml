@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1633653563566
-  login: 1633652370103
+  logout: 1634513629830
+  login: 1634512232464
 money: '2750.2866265062844552'
 last-account-name: muribaka89
 lastlocation:
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: e7230443-6d71-40f5-9c81-adf10de976c9
   world-name: Killer_Island
-  x: 177.16466490968813
-  y: 64.5625
-  z: -2633.387036035126
-  yaw: -89.24432373046875
-  pitch: 30.75042724609375
+  x: 173.97961767845592
+  y: 64.0
+  z: -2610.300000011921
+  yaw: -167.10084533691406
+  pitch: 46.199668884277344

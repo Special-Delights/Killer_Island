@@ -1,0 +1,279 @@
+MagicianIllusionerProjectile:
+  Skills:
+  - effect:particles{particle=reddust;color=#a2ffff;a=100;hs=1;vs=1}
+  - effect:particles{particle=reddust;color=#a2daff;a=100;hs=1;vs=1}
+  - delay 5
+  - effect:particles{particle=reddust;color=#a2ffff;a=100;hs=1;vs=1}
+  - effect:particles{particle=reddust;color=#a2daff;a=100;hs=1;vs=1}
+  - delay 5
+  - effect:particles{particle=reddust;color=#a2ffff;a=100;hs=1;vs=1}
+  - effect:particles{particle=reddust;color=#a2daff;a=100;hs=1;vs=1}
+  - delay 5
+  - effect:particles{particle=reddust;color=#a2ffff;a=100;hs=1;vs=1}
+  - effect:particles{particle=reddust;color=#a2daff;a=100;hs=1;vs=1}
+  - delay 5
+  - effect:particles{particle=reddust;color=#a2ffff;a=100;hs=1;vs=1}
+  - effect:particles{particle=reddust;color=#a2daff;a=100;hs=1;vs=1}
+  - projectile{onTick=MagicianIllusionerProjectile-Tick;onHit=MagicianIllusionerProjectile-Hit;i=1;v=20;ho=0;sB=false;sE=false} @NearestPlayer{r=50}
+MagicianIllusionerProjectile-Tick:
+  Skills:
+  - effect:particles{particle=reddust;color=#a2ffff;a=50;hs=0.2;vs=0.2}
+  - effect:particles{particle=reddust;color=#a2daff;a=50;hs=0.2;vs=0.2}
+MagicianIllusionerProjectile-Hit:
+  Skills:
+  - damage{a=14}
+FalseMagicianIllusionerProjectile:
+  Skills:
+  - effect:particles{particle=reddust;color=#990099;a=100;hs=1;vs=1}
+  - effect:particles{particle=reddust;color=#cc33cc;a=100;hs=1;vs=1}
+  - delay 5
+  - effect:particles{particle=reddust;color=#990099;a=100;hs=1;vs=1}
+  - effect:particles{particle=reddust;color=#cc33cc;a=100;hs=1;vs=1}
+  - delay 5
+  - effect:particles{particle=reddust;color=#990099;a=100;hs=1;vs=1}
+  - effect:particles{particle=reddust;color=#cc33cc;a=100;hs=1;vs=1}
+  - delay 5
+  - effect:particles{particle=reddust;color=#990099;a=100;hs=1;vs=1}
+  - effect:particles{particle=reddust;color=#cc33cc;a=100;hs=1;vs=1}
+  - delay 5
+  - effect:particles{particle=reddust;color=#990099;a=100;hs=1;vs=1}
+  - effect:particles{particle=reddust;color=#cc33cc;a=100;hs=1;vs=1}
+  - projectile{onTick=FalseMagicianIllusionerProjectile-Tick;onHit=FalseMagicianIllusionerProjectile-Hit;i=1;v=20;ho=0;sB=false;sE=false} @NearestPlayer{r=50}
+FalseMagicianIllusionerProjectile-Tick:
+  Skills:
+  - effect:particles{particle=reddust;color=#990099;a=50;hs=0.2;vs=0.2}
+  - effect:particles{particle=reddust;color=#cc33cc;a=50;hs=0.2;vs=0.2}
+FalseMagicianIllusionerProjectile-Hit:
+  Skills:
+  - damage{a=7}
+MagicianCycleStart:
+  Skills:
+  - delay 20
+  - signal{s=CycleOne} @MobsInRadius{r=100;t=FalseMagician}	
+  - signal{s=CycleOne} @MobsInRadius{r=100;t=TwoFalseMagician}
+  - randomskill{Skills=MagicianIllusionerProjectile}
+  - delay 60
+  - teleportto{c=-1949.5,160,1257.5} @self
+  - delay 40
+  - randomskill{Skills=MagicianIllusionerProjectile}
+  - delay 60
+  - teleportto{c=-1956.5,160,1272.5} @self
+  - delay 40
+  - randomskill{Skills=MagicianIllusionerProjectile}
+  - delay 60
+  - teleportto{c=-1942.5,160,1272.5} @self
+  - delay 40
+  - randomskill{Skills=MagicianIllusionerProjectile}
+  - delay 60
+  - teleportto{c=-1949.5,160,1257.5} @self
+  - delay 40
+  - randomskill{Skills=MagicianIllusionerProjectile}
+  - delay 60
+  - setgravity{g=true} @self
+  - delay 100
+  - setgravity{g=false} @self
+  - teleportto{c=-1949.5,160,1257.5} @self
+  - delay 100
+  - randomskill{Skills=MagicianSecondCycleStart,MagicianThirdCycleStart}
+FalseMagicianCycleStart:
+  Skills:
+  - randomskill{Skills=FalseMagicianIllusionerProjectile}
+  - delay 60
+  - teleportto{c=-1956.5,160,1272.5} @self
+  - delay 40
+  - randomskill{Skills=FalseMagicianIllusionerProjectile}
+  - delay 60
+  - teleportto{c=-1942.5,160,1272.5} @self
+  - delay 40
+  - randomskill{Skills=FalseMagicianIllusionerProjectile}
+  - delay 60
+  - teleportto{c=-1949.5,160,1257.5} @self
+  - delay 40
+  - randomskill{Skills=FalseMagicianIllusionerProjectile}
+  - delay 60
+  - teleportto{c=-1956.5,160,1272.5} @self
+  - delay 40
+  - randomskill{Skills=FalseMagicianIllusionerProjectile}
+  - delay 60
+  - setgravity{g=true} @self
+  - delay 100
+  - setgravity{g=false} @self
+  - teleportto{c=-1956.5,160,1272.5} @self
+TwoFalseMagicianCycleStart:
+  Skills:
+  - randomskill{Skills=FalseMagicianIllusionerProjectile}
+  - delay 60
+  - teleportto{c=-1942.5,160,1272.5} @self
+  - delay 40
+  - randomskill{Skills=FalseMagicianIllusionerProjectile}
+  - delay 60
+  - teleportto{c=-1949.5,160,1257.5} @self
+  - delay 40
+  - randomskill{Skills=FalseMagicianIllusionerProjectile}
+  - delay 60
+  - teleportto{c=-1956.5,160,1272.5} @self
+  - delay 40
+  - randomskill{Skills=FalseMagicianIllusionerProjectile}
+  - delay 60
+  - teleportto{c=-1942.5,160,1272.5} @self
+  - delay 40
+  - randomskill{Skills=FalseMagicianIllusionerProjectile}
+  - delay 60
+  - setgravity{g=true} @self
+  - delay 100
+  - setgravity{g=false} @self
+  - teleportto{c=-1942.5,160,1272.5} @self
+MagicianSecondCycleStart:
+  Skills:
+  - delay 20
+  - signal{s=CycleTwo} @MobsInRadius{r=50;t=FalseMagician}
+  - signal{s=CycleTwo} @MobsInRadius{r=50;t=YwoFalseMagician}
+  - randomskill{Skills=MagicianIllusionerProjectile}
+  - delay 60
+  - teleportto{c=-1956.5,160,1272.5} @self
+  - delay 40
+  - randomskill{Skills=MagicianIllusionerProjectile}
+  - delay 60
+  - teleportto{c=-1942.5,160,1272.5} @self
+  - delay 40
+  - randomskill{Skills=MagicianIllusionerProjectile}
+  - delay 60
+  - teleportto{c=-1949.5,160,1257.5} @self
+  - delay 40
+  - randomskill{Skills=MagicianIllusionerProjectile}
+  - delay 60
+  - teleportto{c=-1956.5,160,1272.5} @self
+  - delay 40
+  - randomskill{Skills=MagicianIllusionerProjectile}
+  - delay 60
+  - setgravity{g=true} @self
+  - delay 100
+  - setgravity{g=false} @self
+  - teleportto{c=-1956.5,160,1272.5} @self
+  - delay 100
+  - randomskill{Skills=MagicianCycleStart,MagicianThirdCycleStart}
+FalseMagicianSecondCycleStart:
+  Skills:
+  - randomskill{Skills=FalseMagicianIllusionerProjectile}
+  - delay 60
+  - teleportto{c=-1942.5,160,1272.5} @self
+  - delay 40
+  - randomskill{Skills=FalseMagicianIllusionerProjectile}
+  - delay 60
+  - teleportto{c=-1949.5,160,1257.5} @self
+  - delay 40
+  - randomskill{Skills=FalseMagicianIllusionerProjectile}
+  - delay 60
+  - teleportto{c=-1956.5,160,1272.5} @self
+  - delay 40
+  - randomskill{Skills=FalseMagicianIllusionerProjectile}
+  - delay 60
+  - teleportto{c=-1942.5,160,1272.5} @self
+  - delay 40
+  - randomskill{Skills=FalseMagicianIllusionerProjectile}
+  - delay 60
+  - setgravity{g=true} @self
+  - delay 100
+  - setgravity{g=false} @self
+  - teleportto{c=-1942.5,160,1272.5} @self
+TwoFalseMagicianSecondCycleStart:
+  Skills:
+  - randomskill{Skills=FalseMagicianIllusionerProjectile}
+  - delay 60
+  - teleportto{c=-1949.5,160,1257.5} @self
+  - delay 40
+  - randomskill{Skills=FalseMagicianIllusionerProjectile}
+  - delay 60
+  - teleportto{c=-1956.5,160,1272.5} @self
+  - delay 40
+  - randomskill{Skills=FalseMagicianIllusionerProjectile}
+  - delay 60
+  - teleportto{c=-1942.5,160,1272.5} @self
+  - delay 40
+  - randomskill{Skills=FalseMagicianIllusionerProjectile}
+  - delay 60
+  - teleportto{c=-1949.5,160,1257.5} @self
+  - delay 40
+  - randomskill{Skills=FalseMagicianIllusionerProjectile}
+  - delay 60
+  - setgravity{g=true} @self
+  - delay 100
+  - setgravity{g=false} @self
+  - teleportto{c=-1949.5,160,1257.5} @self
+MagicianThirdCycleStart:
+  Skills:
+  - delay 20
+  - signal{s=CycleThree} @MobsInRadius{r=50;t=FalseMagician}
+  - signal{s=CycleThree} @MobsInRadius{r=50;t=TwoFalseMagician}
+  - randomskill{Skills=MagicianIllusionerProjectile}
+  - delay 60
+  - teleportto{c=-1942.5,160,1272.5} @self
+  - delay 40
+  - randomskill{Skills=MagicianIllusionerProjectile}
+  - delay 60
+  - teleportto{c=-1949.5,160,1257.5} @self
+  - delay 40
+  - randomskill{Skills=MagicianIllusionerProjectile}
+  - delay 60
+  - teleportto{c=-1956.5,160,1272.5} @self
+  - delay 40
+  - randomskill{Skills=MagicianIllusionerProjectile}
+  - delay 60
+  - teleportto{c=-1942.5,160,1272.5} @self
+  - delay 40
+  - randomskill{Skills=MagicianIllusionerProjectile}
+  - delay 60
+  - setgravity{g=true} @self
+  - delay 100
+  - setgravity{g=false} @self
+  - teleportto{c=-1942.5,160,1272.5} @self
+  - delay 100
+  - randomskill{Skills=MagicianCycleStart,MagicianSecondCycleStart}
+FalseMagicianThirdCycleStart:
+  Skills:
+  - randomskill{Skills=FalseMagicianIllusionerProjectile}
+  - delay 60
+  - teleportto{c=-1949.5,160,1257.5} @self
+  - delay 40
+  - randomskill{Skills=FalseMagicianIllusionerProjectile}
+  - delay 60
+  - teleportto{c=-1956.5,160,1272.5} @self
+  - delay 40
+  - randomskill{Skills=FalseMagicianIllusionerProjectile}
+  - delay 60
+  - teleportto{c=-1942.5,160,1272.5} @self
+  - delay 40
+  - randomskill{Skills=FalseMagicianIllusionerProjectile}
+  - delay 60
+  - teleportto{c=-1949.5,160,1257.5} @self
+  - delay 40
+  - randomskill{Skills=FalseMagicianIllusionerProjectile}
+  - delay 60
+  - setgravity{g=true} @self
+  - delay 100
+  - setgravity{g=false} @self
+  - teleportto{c=-1949.5,160,1257.5} @self
+TwoFalseMagicianThirdCycleStart:
+  Skills:
+  - randomskill{Skills=FalseMagicianIllusionerProjectile}
+  - delay 60
+  - teleportto{c=-1956.5,160,1272.5} @self
+  - delay 40
+  - randomskill{Skills=FalseMagicianIllusionerProjectile}
+  - delay 60
+  - teleportto{c=-1942.5,160,1272.5} @self
+  - delay 40
+  - randomskill{Skills=FalseMagicianIllusionerProjectile}
+  - delay 60
+  - teleportto{c=-1949.5,160,1257.5} @self
+  - delay 40
+  - randomskill{Skills=FalseMagicianIllusionerProjectile}
+  - delay 60
+  - teleportto{c=-1956.5,160,1272.5} @self
+  - delay 40
+  - randomskill{Skills=FalseMagicianIllusionerProjectile}
+  - delay 60
+  - setgravity{g=true} @self
+  - delay 100
+  - setgravity{g=false} @self
+  - teleportto{c=-1956.5,160,1272.5} @self

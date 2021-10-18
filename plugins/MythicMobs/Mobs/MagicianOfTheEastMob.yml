@@ -1,0 +1,113 @@
+MagicianSpawner:
+  Type: ARMOR_STAND
+  Display: '&b&lM&3&la&b&lg&3&li&b&lc&3&li&b&la&3&ln &b&lO&3&lf &b&lT&3&lh&b&le &3&lE&b&la&3&ls&b&lt'
+  Skills:
+  - remove{d=20} ~onSpawn @self
+  - summon{type=TrueMagician;amount=1;radius=0} ~onSpawn @self
+  - summon{type=FalseMagician;amount=1;radius=0} ~onSpawn @self
+  - summon{type=TwoFalseMagician;amount=1;radius=0} ~onSpawn @self
+TrueMagician:
+  Type: ZOMBIE
+  Display: '&b&lM&3&la&b&lg&3&li&b&lc&3&li&b&la&3&ln &b&lO&3&lf &b&lT&3&lh&b&le &3&lE&b&la&3&ls&b&lt'
+  Health: 250
+  Damage: 1
+  Disguise:
+    Type: player
+    Player: Dexterkat
+    Skin: Dexterkat
+  Equipment:
+  - STONE_BUTTON HEAD
+  Skills:
+  - setgravity{g=false} @self ~onSpawn
+  - randomskill{skills=MagicianCycleStart} @self ~onSpawn
+  - teleportto{c=-1949.5,160,1257.5} @self ~onSpawn
+  Options:
+    PreventTransformation: true
+    PreventJockeyMounts: true
+    PreventOtherDrops: true
+    PreventMobKillDrops: true
+    Silent: true
+    SetGravity: false
+    KnockbackResistance: 99999999999
+    MovementSpeed: -999999
+    AttackSpeed: 999
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  BossBar:
+    Enabled: true
+    Title: '&1&l* [&1&l&k+&1&l] * &9&l* [&9&l&k+&9&l] * &b&lM&3&la&b&lg&3&li&b&lc&3&li&b&la&3&ln &b&lO&3&lf &b&lT&3&lh&b&le &3&lE&b&la&3&ls&b&lt &9&l* [&9&l&k+&9&l] * &1&l* [&1&l&k+&1&l] *'
+    Range: 50
+    Color: BLUE
+    Style: SEGMENTED_20
+  Drops:
+  - MagiciansOldArtifact 1to1 1
+FalseMagician:
+  Type: ZOMBIE
+  Display: '&b&lM&3&la&b&lg&3&li&b&lc&3&li&b&la&3&ln &b&lO&3&lf &b&lT&3&lh&b&le &3&lE&b&la&3&ls&b&lt'
+  Health: 99999
+  Damage: 1
+  Disguise:
+    Type: player
+    Player: Dexterkat
+    Skin: Dexterkat
+  Equipment:
+  - STONE_BUTTON HEAD
+  Skills:
+  - setgravity{g=false} @self ~onSpawn
+  - skill{s=FalseMagicianCycleStart} @self ~onSignal:CycleOne
+  - skill{s=FalseMagicianSecondCycleStart} @self ~onSignal:CycleTwo
+  - skill{s=FalseMagicianThirdCycleStart} @self ~onSignal:CycleThree
+  - teleportto{c=-1956.5,160,1272.5} @self ~onSpawn
+  Options:
+    PreventTransformation: true
+    PreventJockeyMounts: true
+    PreventOtherDrops: true
+    PreventMobKillDrops: true
+    Silent: true
+    SetGravity: false
+    KnockbackResistance: 9999999999999
+    MovementSpeed: -999999
+    AttackSpeed: 999
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+TwoFalseMagician:
+  Type: ZOMBIE
+  Display: '&b&lM&3&la&b&lg&3&li&b&lc&3&li&b&la&3&ln &b&lO&3&lf &b&lT&3&lh&b&le &3&lE&b&la&3&ls&b&lt'
+  Health: 99999
+  Damage: 1
+  Disguise:
+    Type: player
+    Player: Dexterkat
+    Skin: Dexterkat
+  Equipment:
+  - STONE_BUTTON HEAD
+  Skills:
+  - setgravity{g=false} @self ~onSpawn
+  - skill{s=TwoFalseMagicianCycleStart} @self ~onSignal:CycleOne
+  - skill{s=TwoFalseMagicianSecondCycleStart} @self ~onSignal:CycleTwo
+  - skill{s=TwoFalseMagicianThirdCycleStart} @self ~onSignal:CycleThree
+  - teleportto{c=-1942.5,160,1272.5} @self ~onSpawn
+  Options:
+    PreventTransformation: true
+    PreventJockeyMounts: true
+    PreventOtherDrops: true
+    PreventMobKillDrops: true
+    Silent: true
+    SetGravity: false
+    KnockbackResistance: 9999999999999
+    MovementSpeed: -999999
+    AttackSpeed: 999
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  AITargetSelectors:
+  - 0 clear
+  - 1 players

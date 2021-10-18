@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1634484671181
+  lastteleport: 1634528647935
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1634484898679
-  login: 1634477481350
-money: '846.79378207455368984'
+  logout: 1634528659443
+  login: 1634524419030
+money: '855.19586928361619094'
 last-account-name: shadowy__duckie
 lastlocation:
   world: de51b376-9cec-448c-9231-b3b573852bb7
   world-name: Killer_Island_the_end
-  x: 103.69999998807907
-  y: 1.0
-  z: 202.7844910681542
-  yaw: 4.085565090179443
-  pitch: 26.43741798400879
+  x: 104.43514631533492
+  y: 6.0
+  z: 224.51436604704372
+  yaw: 136.43853759765625
+  pitch: 39.15716552734375
 logoutlocation:
   world: e7230443-6d71-40f5-9c81-adf10de976c9
   world-name: Killer_Island
-  x: -1684.4929417917656
-  y: 69.0
-  z: 887.694835727288
-  yaw: -136.9354248046875
-  pitch: 17.14011573791504
+  x: -1694.7064553752518
+  y: 73.0
+  z: 888.566894387959
+  yaw: -98.82621002197266
+  pitch: 33.882083892822266

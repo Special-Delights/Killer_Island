@@ -16,9 +16,9 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1634462250539
-  login: 1634449945298
-money: '108777.31588657351762400'
+  logout: 1634513963735
+  login: 1634512253796
+money: '108805.12276495164261798'
 last-account-name: BigBeast89
 lastlocation:
   world: e7230443-6d71-40f5-9c81-adf10de976c9
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: e7230443-6d71-40f5-9c81-adf10de976c9
   world-name: Killer_Island
-  x: 300.3949235924217
-  y: 68.0
-  z: -2594.9928486877957
-  yaw: 85.9505615234375
-  pitch: 23.09967041015625
+  x: 259.4461048608337
+  y: 61.0
+  z: -2591.067128170129
+  yaw: 105.30211639404297
+  pitch: 4.649796962738037
