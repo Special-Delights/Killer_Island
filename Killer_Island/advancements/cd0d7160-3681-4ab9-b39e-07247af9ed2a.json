@@ -589,7 +589,8 @@
       "minecraft:cave_spider": "2021-10-17 08:36:26 -0700",
       "minecraft:piglin": "2021-10-14 15:03:26 -0700",
       "minecraft:enderman": "2021-10-14 13:22:08 -0700",
-      "minecraft:zombie": "2021-10-14 13:13:52 -0700"
+      "minecraft:zombie": "2021-10-14 13:13:52 -0700",
+      "minecraft:drowned": "2021-10-17 11:59:05 -0700"
     },
     "done": false
   },
@@ -1035,6 +1036,7 @@
       "minecraft:lukewarm_ocean": "2021-10-16 09:16:56 -0700",
       "minecraft:wooded_mountains": "2021-10-16 06:15:18 -0700",
       "minecraft:wooded_hills": "2021-10-14 14:36:16 -0700",
+      "minecraft:stone_shore": "2021-10-17 11:42:51 -0700",
       "minecraft:swamp": "2021-10-16 16:08:20 -0700",
       "minecraft:plains": "2021-10-14 12:26:12 -0700"
     },
@@ -1127,6 +1129,12 @@
   "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2021-10-14 13:58:07 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2021-10-17 11:59:06 -0700"
     },
     "done": true
   },
