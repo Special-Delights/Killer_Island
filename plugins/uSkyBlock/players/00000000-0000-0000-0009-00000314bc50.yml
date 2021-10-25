@@ -1,0 +1,13 @@
+player:
+  islandX: 0
+  islandY: 150
+  islandZ: -256
+  homeX: 3
+  homeY: 146
+  homeZ: -260
+  homeYaw: 120.26489
+  homePitch: 23.00055
+  uuid: 00000000-0000-0000-0009-00000314bc50
+  displayName: -TurningCupid
+version: 1
+clearInventoryOnNextEntry: true

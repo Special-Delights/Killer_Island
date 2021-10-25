@@ -11,28 +11,53 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1634528647935
+  lastteleport: 1634759755841
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1634528659443
-  login: 1634524419030
-money: '855.19586928361619094'
+  logout: 1634760610361
+  login: 1634758335044
+money: '1093.72398847861624644'
 last-account-name: shadowy__duckie
 lastlocation:
-  world: de51b376-9cec-448c-9231-b3b573852bb7
-  world-name: Killer_Island_the_end
-  x: 104.43514631533492
-  y: 6.0
-  z: 224.51436604704372
-  yaw: 136.43853759765625
-  pitch: 39.15716552734375
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer_Island
+  x: 569.671676483108
+  y: 64.0
+  z: 603.2933925888868
+  yaw: 78.51663208007812
+  pitch: 17.764989852905273
 logoutlocation:
   world: e7230443-6d71-40f5-9c81-adf10de976c9
   world-name: Killer_Island
-  x: -1694.7064553752518
+  x: -1696.3443879955798
   y: 73.0
-  z: 888.566894387959
-  yaw: -98.82621002197266
-  pitch: 33.882083892822266
+  z: 890.7027213675718
+  yaw: -142.69482421875
+  pitch: 10.638936042785645
+homes:
+  house:
+    world: e7230443-6d71-40f5-9c81-adf10de976c9
+    world-name: Killer_Island
+    x: -1699.5
+    y: 73.0
+    z: 885.5
+    yaw: 120.99102783203125
+    pitch: 0.0
+  mom:
+    world: e7230443-6d71-40f5-9c81-adf10de976c9
+    world-name: Killer_Island
+    x: -1980.2565330013626
+    y: 70.0
+    z: 1019.1082581317114
+    yaw: -151.45933532714844
+    pitch: 35.19840621948242
+  spawn:
+    world: e7230443-6d71-40f5-9c81-adf10de976c9
+    world-name: Killer_Island
+    x: -1217.5994017212292
+    y: 87.0
+    z: 1253.7551086745073
+    yaw: -176.34423828125
+    pitch: 17.587085723876953

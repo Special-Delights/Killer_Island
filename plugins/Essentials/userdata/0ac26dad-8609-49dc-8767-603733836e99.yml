@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1634073255801
-  login: 1634072830837
+  logout: 1634792870742
+  login: 1634792792823
 money: '0'
 last-account-name: MrzPricey73
 logoutlocation:
   world: e7230443-6d71-40f5-9c81-adf10de976c9
   world-name: Killer_Island
-  x: 364.24060200569903
-  y: 71.89549714046592
-  z: -2672.2836381379884
-  yaw: -4.3692626953125
-  pitch: 20.716814041137695
+  x: 345.77896559951125
+  y: 127.00349321871222
+  z: -2726.2732831768876
+  yaw: -26.123756408691406
+  pitch: 58.237308502197266
 lastlocation:
   world: e7230443-6d71-40f5-9c81-adf10de976c9
   world-name: Killer_Island

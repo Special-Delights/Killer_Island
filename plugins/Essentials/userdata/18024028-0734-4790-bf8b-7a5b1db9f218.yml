@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1634454816593
+  lastteleport: 1635138110570
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1634454820867
-  login: 1634447783523
-money: '88906.76650851710451025'
+  logout: 1635138113403
+  login: 1635134210244
+money: '105968.68108700777238572'
 last-account-name: Athwee
 lastlocation:
   world: 95fd92ff-5ca6-47c0-a4db-233da6afee27
   world-name: Killer_Island_nether
-  x: -150.81889198423866
-  y: 116.69810289801141
-  z: 2.6171665024083257
-  yaw: -100.07571411132812
-  pitch: 44.249752044677734
+  x: -272.3284599697658
+  y: 117.0
+  z: -2.3272483478215578
+  yaw: 90.59576416015625
+  pitch: 57.1499137878418
 logoutlocation:
   world: e7230443-6d71-40f5-9c81-adf10de976c9
   world-name: Killer_Island
   x: -2285.5
   y: 68.0
-  z: -1318.5
-  yaw: -123.75135040283203
-  pitch: 52.500083923339844
+  z: -1320.5
+  yaw: 11.845817565917969
+  pitch: 5.700002193450928

@@ -1,0 +1,35 @@
+general:
+  level: 123.1775
+  warpLocationX: 0
+  warpLocationY: 0
+  warpLocationZ: 0
+  warpActive: true
+  regionVersion: 14 en
+  schematicName: default
+blocks:
+  leafBreaks: 1
+  hopperCount: 0
+version: 3
+log:
+- 1635040479291;§b{0}§d activated the island warp.;spenceronline
+- 1634946859985;{0} created an area with {1} biome;spenceronline;FOREST
+- 1634941863998;The island has been created.
+- 1634941861880;The island has been created.
+party:
+  leader: spenceronline
+  leader-uuid: 7343c5cd-ba9e-4b4c-8c98-16021be1e06e
+  members:
+    7343c5cd-ba9e-4b4c-8c98-16021be1e06e:
+      canChangeBiome: true
+      canToggleLock: true
+      canChangeWarp: true
+      canToggleWarp: true
+      canInviteOthers: true
+      canKickOthers: true
+      canBanOthers: true
+      name: spenceronline
+      maxAnimals: 64
+      maxMonsters: 50
+      maxVillagers: 16
+      maxGolems: 5
+  currentSize: 1

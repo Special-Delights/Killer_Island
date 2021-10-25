@@ -1019,6 +1019,12 @@
     },
     "done": true
   },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2021-10-19 20:11:00 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/stone_sword": {
     "criteria": {
       "has_cobblestone": "2021-08-18 19:37:37 -0700"
@@ -1136,6 +1142,12 @@
   "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_brick_stonecutting": {
     "criteria": {
       "has_end_stone_brick": "2021-09-29 23:04:35 -0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "tropical_fish": "2021-10-24 16:57:50 -0700"
     },
     "done": true
   },
@@ -1320,6 +1332,12 @@
   "minecraft:recipes/building_blocks/magenta_concrete_powder": {
     "criteria": {
       "has_sand": "2021-08-18 19:31:52 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_carpet": {
+    "criteria": {
+      "has_lime_wool": "2021-10-20 22:28:13 -0700"
     },
     "done": true
   },
@@ -2213,6 +2231,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/netherite_ingot_from_netherite_block": {
+    "criteria": {
+      "has_netherite_block": "2021-10-20 19:19:51 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_chestplate": {
     "criteria": {
       "has_leather": "2021-08-18 18:31:14 -0700"
@@ -2678,6 +2702,12 @@
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2021-08-19 20:39:50 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/beehive": {
+    "criteria": {
+      "has_honeycomb": "2021-10-20 21:25:38 -0700"
     },
     "done": true
   },
@@ -3878,6 +3908,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/lime_banner": {
+    "criteria": {
+      "has_lime_wool": "2021-10-20 22:28:13 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/green_dye": {
     "criteria": {
       "has_cactus": "2021-08-18 18:00:49 -0700"
@@ -4004,6 +4040,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/packed_ice": {
+    "criteria": {
+      "has_ice": "2021-10-24 15:23:15 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
       "in_water": "2021-08-18 18:15:29 -0700"
@@ -4077,6 +4119,7 @@
       "cooked_mutton": "2021-10-12 18:44:29 -0700",
       "sweet_berries": "2021-08-26 22:48:22 -0700",
       "cooked_beef": "2021-08-19 19:59:54 -0700",
+      "baked_potato": "2021-10-20 21:17:16 -0700",
       "apple": "2021-09-09 20:01:41 -0700",
       "potato": "2021-09-22 15:06:32 -0700",
       "bread": "2021-08-19 21:19:47 -0700",
@@ -4211,6 +4254,12 @@
   "minecraft:recipes/building_blocks/hay_block": {
     "criteria": {
       "has_wheat": "2021-08-19 19:17:53 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_bed": {
+    "criteria": {
+      "has_lime_wool": "2021-10-20 22:28:13 -0700"
     },
     "done": true
   },
@@ -4970,6 +5019,12 @@
     },
     "done": true
   },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2021-10-22 01:53:12 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/birch_stairs": {
     "criteria": {
       "has_planks": "2021-08-18 18:16:19 -0700"
@@ -5021,6 +5076,12 @@
   "minecraft:recipes/building_blocks/purpur_pillar": {
     "criteria": {
       "has_purpur_block": "2021-09-29 22:56:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honeycomb_block": {
+    "criteria": {
+      "has_honeycomb": "2021-10-20 21:25:38 -0700"
     },
     "done": true
   },

@@ -11,23 +11,23 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1634442210740
+  lastteleport: 1635159453409
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1634516720718
-  login: 1634502593617
-money: '7781.42962781610328761'
+  logout: 1635159547957
+  login: 1635145385520
+money: '16346.57378510718650271'
 last-account-name: -Vampires_Heart6
 logoutlocation:
   world: e7230443-6d71-40f5-9c81-adf10de976c9
   world-name: Killer_Island
-  x: -1188.8923
+  x: -1231.4296
   y: 62.9375
-  z: -10991.545
-  yaw: 39.824615478515625
-  pitch: 20.149551391601562
+  z: -10947.377
+  yaw: -112.21859741210938
+  pitch: 12.519775390625
 homes:
   home:
     world: e7230443-6d71-40f5-9c81-adf10de976c9
@@ -37,11 +37,27 @@ homes:
     z: -10991.511
     yaw: -89.36642456054688
     pitch: 16.673019409179688
+  mine:
+    world: e7230443-6d71-40f5-9c81-adf10de976c9
+    world-name: Killer_Island
+    x: -5731.939
+    y: 11.0
+    z: 5730.686
+    yaw: 46.39338684082031
+    pitch: 23.169448852539062
+  nether:
+    world: 95fd92ff-5ca6-47c0-a4db-233da6afee27
+    world-name: Killer_Island_nether
+    x: 108.94805
+    y: 67.0
+    z: -1450.0166
+    yaw: -84.770263671875
+    pitch: 29.334060668945312
 lastlocation:
   world: e7230443-6d71-40f5-9c81-adf10de976c9
   world-name: Killer_Island
-  x: -1165.9789
-  y: 63.9375
-  z: -10978.589
-  yaw: 171.52700805664062
-  pitch: 16.653274536132812
+  x: -1260.69999
+  y: 63.0625
+  z: -10956.953
+  yaw: 10.07122802734375
+  pitch: 21.60479736328125

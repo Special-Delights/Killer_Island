@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1634354262412
+  lastteleport: 1635137037949
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1634364723225
-  login: 1634353822339
-money: '55214.96410450291460987'
+  logout: 1635140464576
+  login: 1635140459233
+money: '65942.16808559147819038'
 last-account-name: BlackCats96
 lastlocation:
   world: e7230443-6d71-40f5-9c81-adf10de976c9
   world-name: Killer_Island
-  x: 341.6119165939357
-  y: 5.200000047683716
-  z: -2064.70080228546
-  yaw: 2.199183702468872
-  pitch: 16.350536346435547
+  x: 391.92329805102054
+  y: 59.0
+  z: -2036.2358509492822
+  yaw: -175.322265625
+  pitch: 19.9497127532959
 logoutlocation:
   world: e7230443-6d71-40f5-9c81-adf10de976c9
   world-name: Killer_Island
-  x: 390.32328384825297
-  y: 56.875
-  z: -2056.699999988079
-  yaw: -23.42236328125
-  pitch: 15.29996109008789
+  x: 396.55585414285196
+  y: 64.0
+  z: -2036.5436467081765
+  yaw: -172.18536376953125
+  pitch: 21.45001792907715

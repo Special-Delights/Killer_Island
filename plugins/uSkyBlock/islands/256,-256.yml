@@ -1,0 +1,37 @@
+general:
+  level: 0
+  warpLocationX: 0
+  warpLocationY: 0
+  warpLocationZ: 0
+  warpActive: true
+  regionVersion: 14 en
+  schematicName: default
+  locked: false
+blocks:
+  leafBreaks: 1
+  hopperCount: 0
+version: 3
+log:
+- 1635018710596;§b{0}§d activated the island warp.;-Sierralovesyou2
+- 1635004391743;§b{0}§d unlocked the island.;-Sierralovesyou2
+- 1635003262153;§b{0}§d locked the island.;-Sierralovesyou2
+- 1635001089519;The island has been created.
+- 1635001086681;The island has been created.
+party:
+  leader: -Sierralovesyou2
+  leader-uuid: 00000000-0000-0000-0009-01f819623247
+  members:
+    00000000-0000-0000-0009-01f819623247:
+      canChangeBiome: true
+      canToggleLock: true
+      canChangeWarp: true
+      canToggleWarp: true
+      canInviteOthers: true
+      canKickOthers: true
+      canBanOthers: true
+      name: -Sierralovesyou2
+      maxAnimals: 64
+      maxMonsters: 50
+      maxVillagers: 16
+      maxGolems: 5
+  currentSize: 1

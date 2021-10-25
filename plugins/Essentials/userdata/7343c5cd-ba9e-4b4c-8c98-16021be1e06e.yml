@@ -16,26 +16,26 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1634475008653
-  login: 1634470584099
-money: '0'
+  logout: 1635123531349
+  login: 1635116609646
+money: '865.0'
 last-account-name: spenceronline
 lastlocation:
-  world: e7230443-6d71-40f5-9c81-adf10de976c9
-  world-name: Killer_Island
-  x: -617.3209141395084
-  y: 39.0
-  z: -3391.218203338541
-  yaw: 6.125077247619629
-  pitch: 18.450057983398438
+  world: ab3ac0c2-7d6a-40c8-82cc-e34d108d8f95
+  world-name: skyworld
+  x: 197.617965780949
+  y: 148.9034525452329
+  z: -1.9237311829904384
+  yaw: -101.9910888671875
+  pitch: 38.25050735473633
 logoutlocation:
-  world: e7230443-6d71-40f5-9c81-adf10de976c9
-  world-name: Killer_Island
-  x: -416.5
-  y: 64.0
-  z: -3137.5
-  yaw: 79.09056854248047
-  pitch: 19.949954986572266
+  world: ab3ac0c2-7d6a-40c8-82cc-e34d108d8f95
+  world-name: skyworld
+  x: 252.69067993151586
+  y: 146.0
+  z: 0.30000001192092896
+  yaw: 179.84881591796875
+  pitch: 12.30062484741211
 homes:
   home:
     world: e7230443-6d71-40f5-9c81-adf10de976c9

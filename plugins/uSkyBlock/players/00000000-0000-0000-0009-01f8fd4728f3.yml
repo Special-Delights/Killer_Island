@@ -1,0 +1,13 @@
+player:
+  islandX: 256
+  islandY: 150
+  islandZ: -128
+  homeX: 261
+  homeY: 150
+  homeZ: -132
+  homeYaw: -71.855896
+  homePitch: 22.58191
+  uuid: 00000000-0000-0000-0009-01f8fd4728f3
+  displayName: -Dazed6977
+version: 1
+clearInventoryOnNextEntry: true

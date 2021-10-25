@@ -1,0 +1,14 @@
+player:
+  islandX: 256
+  islandY: 150
+  islandZ: 256
+  homeX: 261
+  homeY: 146
+  homeZ: 253
+  homeYaw: 105.46121
+  homePitch: -24.0289
+  uuid: 00000000-0000-0000-0009-0000055f81cc
+  displayName: -BLINKANDURDEAD0
+  perms: []
+version: 1
+trustedOn: []

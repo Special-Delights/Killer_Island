@@ -1,0 +1,50 @@
+general:
+  level: 0
+  warpLocationX: 0
+  warpLocationY: 0
+  warpLocationZ: 0
+  warpActive: false
+  regionVersion: 14 en
+  schematicName: default
+blocks:
+  leafBreaks: 1
+  hopperCount: 0
+version: 3
+log:
+- 1635128902861;§b{0}§d has joined your island group.;§7[§8TOURIST§7]§2-BeardedCocaire§r
+- 1635128887335;{0}§d invited {1};§7[§eVIP§7]§2-TurningCupid§r;§7[§8TOURIST§7]§2-BeardedCocaire§r
+- 1635096782987;{0} created an area with {1} biome;-TurningCupid;FLOWER_FOREST
+- 1635096779241;{0} created an area with {1} biome;-TurningCupid;FLOWER_FOREST
+- 1635041171871;The island has been created.
+- 1635041169017;The island has been created.
+party:
+  leader: -TurningCupid
+  leader-uuid: 00000000-0000-0000-0009-00000314bc50
+  members:
+    00000000-0000-0000-0009-00000314bc50:
+      canChangeBiome: true
+      canToggleLock: true
+      canChangeWarp: true
+      canToggleWarp: true
+      canInviteOthers: false
+      canKickOthers: true
+      canBanOthers: true
+      name: -TurningCupid
+      maxAnimals: 64
+      maxMonsters: 50
+      maxVillagers: 16
+      maxGolems: 5
+    00000000-0000-0000-0009-01f7176db5cd:
+      name: -BeardedCocaire
+      canChangeBiome: false
+      canToggleLock: false
+      canChangeWarp: false
+      canToggleWarp: false
+      canInviteOthers: false
+      canKickOthers: false
+      canBanOthers: false
+      maxAnimals: 64
+      maxMonsters: 50
+      maxVillagers: 16
+      maxGolems: 5
+  currentSize: 2

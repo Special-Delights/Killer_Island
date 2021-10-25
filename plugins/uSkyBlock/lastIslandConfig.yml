@@ -1,4 +1,4 @@
 options:
   general:
-    lastIslandX: 0
-    lastIslandZ: 256
+    lastIslandX: -256
+    lastIslandZ: -256
