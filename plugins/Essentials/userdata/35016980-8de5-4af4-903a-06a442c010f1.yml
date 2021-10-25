@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1633668935593
+  lastteleport: 1635051413182
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1634513963735
-  login: 1634512253796
-money: '108805.12276495164261798'
+  logout: 1635052314379
+  login: 1635044898065
+money: '109157.79319956570507764'
 last-account-name: BigBeast89
 lastlocation:
-  world: e7230443-6d71-40f5-9c81-adf10de976c9
-  world-name: Killer_Island
-  x: -2247.8506614624516
-  y: 106.7983329608901
-  z: -4584.3723187899905
-  yaw: -42.65252685546875
-  pitch: 36.15187072753906
+  world: ab3ac0c2-7d6a-40c8-82cc-e34d108d8f95
+  world-name: skyworld
+  x: 0.0
+  y: 150.0
+  z: 0.0
+  yaw: 3.0000007152557373
+  pitch: 12.449995040893555
 logoutlocation:
-  world: e7230443-6d71-40f5-9c81-adf10de976c9
-  world-name: Killer_Island
-  x: 259.4461048608337
-  y: 61.0
-  z: -2591.067128170129
-  yaw: 105.30211639404297
-  pitch: 4.649796962738037
+  world: ab3ac0c2-7d6a-40c8-82cc-e34d108d8f95
+  world-name: skyworld
+  x: -130.35427543389085
+  y: 146.0
+  z: -259.074840003175
+  yaw: 88.65570068359375
+  pitch: 25.04997444152832

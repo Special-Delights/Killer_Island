@@ -118,12 +118,12 @@ npc:
                 pitch: '0.0'
         provider: linear
       location:
-        bodyYaw: 56.00389
+        bodyYaw: -24.555489
         world: Spawn
         x: '-318.6721'
         y: '4.0'
         z: '-143.4394'
-        yaw: '70.5331'
+        yaw: '8.8613'
         pitch: '0.0'
       sneak:
         sneaking: false
@@ -150,7 +150,7 @@ npc:
         signature: EO+Hr7ORSFeNKe63sZGSamf2KhSQHEgj6qYlWyAfiOBBrRQAE7I2l53U+yXxPAde7RaNaN89MhkKkmBSPJCDDJenHc19YlArdXt5Q+MI1w+igWNmwJHXJSIUS7reQJOHjzwF5AcWlLUKKsmNdoA1kOQKlPVtPEe/aWHkqYTNtTQ0zbpBU0WxsPBLfyf6tlzukI1CNGt33T6wDoBrpYA7Aqq7WE/wSD3iP263oRyHaAO4XjRiHK3dbSDRWU9hlTknPWM6ApSW8U1gTUxzYiISSWwjXAYugBM6KHyFQo6J7Qe08kOG8L4e/BU+Up65pi4uXljlY73DwBrN5d1IPjyUmPZMfeUBYfWeUg5jrpGrNekNC8eS7NIOKzMrTYArYFquT6he9y4fYHc8Oy2KV6HxnV0KVra4HMU7+yyj7bC9EqVw9dAfGGYktiDBr6dx2dSEFh7B+tcyJMVfRoFn2x4EXkJAa7BxihsxImS1+81QCcJ0mEQcZ5KhMvZQzITkSqVABgScFMBtH/PASYnwiaKHPnZEv7tcTPy/N3kV6Xy+r7zx5t3Rw+T+CHOnAJZt3vcDJLqIqbsdoWWZGwkfMLR3CjlPuaFqoH6GipI1Jn8L0Ifli6qVLXBMpFnKxRy8zg3pmRFBGQOWnWx0TCa++xxsBxBUdLwk4u5wvpQoC8mlCDM=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYzNDU2MTQwNDM0NiwKICAicHJvZmlsZUlkIiA6ICI0MTc5NDhjMzVlYWQ0ZjgwODVjNGQwNTNkYWM0OTE4ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJXYXJkZW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWQ3NDU5YjgwM2YwMzM5YjU4M2Y4NmNhYmZhNzljZjA4MWU0YjU2OThjNTNhNTY1YzIwMjYyMGU1MjVmMjI0ZCIKICAgIH0KICB9Cn0=
         updateSkins: false
-    traitnames: spawned,lookclose,owner,mounttrait,waypoints,location,sneak,inventory,scoreboardtrait,type,npcpolice,skintrait,equipment
+    traitnames: mounttrait,type,sneak,equipment,skintrait,scoreboardtrait,lookclose,waypoints,owner,npcpolice,spawned,inventory,location
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -317,13 +317,13 @@ npc:
                 pitch: '0.0'
         provider: linear
       location:
-        bodyYaw: 221.57318
+        bodyYaw: 129.36108
         world: Spawn
-        x: '-340.3828'
+        x: '-361.6395'
         y: '4.0'
-        z: '-147.5048'
-        yaw: '-138.4268'
-        pitch: '0.0'
+        z: '-140.7941'
+        yaw: '129.3611'
+        pitch: '-2.8181'
       sneak:
         sneaking: false
       type: PLAYER
@@ -350,8 +350,8 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYzNDU2MDgwNTI3NSwKICAicHJvZmlsZUlkIiA6ICI1MjA2YmU1YmMxMDM0M2U5Yjg2NmY5ZGZjMWNlOTg3MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHdWFyZCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81MTE4MmNmNjVkMTgwZWNmMDhmYWIyMzExYWJlZDBjZmNlZTk2MGU2ZGY1YTNiYTUyOGY3ZWE0N2NjNDFmMGEyIgogICAgfQogIH0KfQ==
         updateSkins: false
       sentinel:
-        stats_ticksSpawned: 88757
-        stats_timesSpawned: 1
+        stats_ticksSpawned: 12380225
+        stats_timesSpawned: 15
         stats_arrowsFired: 0
         stats_potionsThrow: 0
         stats_fireballsFired: 0
@@ -362,10 +362,10 @@ npc:
         stats_shulkerBulletsShot: 0
         stats_evokerFangsSpawned: 0
         stats_pearlsUsed: 0
-        stats_punches: 7
-        stats_attackAttempts: 22
-        stats_damageTaken: 6.847999930381775
-        stats_damageGiven: 40.0
+        stats_punches: 23
+        stats_attackAttempts: 124
+        stats_damageTaken: 25.543999791145325
+        stats_damageGiven: 144.0
         avoidRange: 10.0
         range: 20.0
         damage: 8.0
@@ -405,7 +405,7 @@ npc:
         disable_teleporting: false
         reaction_slowdown: 0
         allow_knockback: true
-    traitnames: spawned,owner,mounttrait,waypoints,location,sneak,inventory,scoreboardtrait,type,npcpolice,skintrait,equipment,sentinel
+    traitnames: mounttrait,type,sneak,equipment,skintrait,scoreboardtrait,waypoints,npcpolice,owner,sentinel,spawned,inventory,location
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -425,96 +425,96 @@ npc:
         enabled: true
         enableRandomLook: false
         randomLookDelay: 60
+        realisticlooking: false
         randomPitchRange:
           '0': -10.0
           '1': 0.0
         randomYawRange:
           '0': 0.0
           '1': 360.0
-        realisticlooking: false
       owner:
         uuid: cd0d7160-3681-4ab9-b39e-07247af9ed2a
       waypoints:
         linear:
           cachePaths: false
-          cycle: false
+          cycle: true
           points:
             '0':
               location:
                 world: Killer_Island
-                x: '-1113.0'
+                x: '-1146.0'
                 y: '66.0'
-                z: '1056.0'
+                z: '1014.0'
                 yaw: '0.0'
                 pitch: '0.0'
             '1':
               location:
                 world: Killer_Island
-                x: '-1130.0'
+                x: '-1146.0'
                 y: '66.0'
-                z: '1054.0'
+                z: '1014.0'
                 yaw: '0.0'
                 pitch: '0.0'
             '2':
               location:
                 world: Killer_Island
-                x: '-1146.0'
+                x: '-1140.0'
                 y: '66.0'
-                z: '1054.0'
+                z: '1008.0'
                 yaw: '0.0'
                 pitch: '0.0'
             '3':
               location:
                 world: Killer_Island
-                x: '-1145.0'
+                x: '-1140.0'
                 y: '66.0'
-                z: '1044.0'
+                z: '1008.0'
                 yaw: '0.0'
                 pitch: '0.0'
             '4':
               location:
                 world: Killer_Island
-                x: '-1145.0'
+                x: '-1130.0'
                 y: '66.0'
-                z: '1036.0'
+                z: '1008.0'
                 yaw: '0.0'
                 pitch: '0.0'
             '5':
               location:
                 world: Killer_Island
-                x: '-1146.0'
+                x: '-1130.0'
                 y: '66.0'
-                z: '1032.0'
+                z: '1008.0'
                 yaw: '0.0'
                 pitch: '0.0'
             '6':
               location:
                 world: Killer_Island
-                x: '-1144.0'
+                x: '-1106.0'
                 y: '66.0'
-                z: '1030.0'
+                z: '1008.0'
                 yaw: '0.0'
                 pitch: '0.0'
             '7':
               location:
                 world: Killer_Island
-                x: '-1144.0'
+                x: '-1106.0'
                 y: '66.0'
-                z: '1025.0'
+                z: '1008.0'
                 yaw: '0.0'
                 pitch: '0.0'
             '8':
               location:
                 world: Killer_Island
-                x: '-1147.0'
+                x: '-1130.0'
                 y: '66.0'
-                z: '1020.0'
+                z: '1018.0'
                 yaw: '0.0'
                 pitch: '0.0'
             '9':
               location:
                 world: Killer_Island
-                x: '-1141.0'
+                x: '-1130.0'
                 y: '66.0'
                 z: '1018.0'
                 yaw: '0.0'
@@ -522,25 +522,25 @@ npc:
             '10':
               location:
                 world: Killer_Island
-                x: '-1145.0'
+                x: '-1130.0'
                 y: '66.0'
-                z: '1013.0'
+                z: '1036.0'
                 yaw: '0.0'
                 pitch: '0.0'
             '11':
               location:
                 world: Killer_Island
-                x: '-1140.0'
+                x: '-1130.0'
                 y: '66.0'
-                z: '1009.0'
+                z: '1036.0'
                 yaw: '0.0'
                 pitch: '0.0'
             '12':
               location:
                 world: Killer_Island
-                x: '-1132.0'
+                x: '-1130.0'
                 y: '66.0'
-                z: '1008.0'
+                z: '1054.0'
                 yaw: '0.0'
                 pitch: '0.0'
             '13':
@@ -548,74 +548,26 @@ npc:
                 world: Killer_Island
                 x: '-1130.0'
                 y: '66.0'
-                z: '1012.0'
+                z: '1054.0'
                 yaw: '0.0'
                 pitch: '0.0'
             '14':
               location:
                 world: Killer_Island
-                x: '-1130.0'
+                x: '-1115.0'
                 y: '66.0'
-                z: '1020.0'
+                z: '1054.0'
                 yaw: '0.0'
                 pitch: '0.0'
             '15':
               location:
                 world: Killer_Island
-                x: '-1130.0'
+                x: '-1115.0'
                 y: '66.0'
-                z: '1028.0'
+                z: '1054.0'
                 yaw: '0.0'
                 pitch: '0.0'
             '16':
-              location:
-                world: Killer_Island
-                x: '-1130.0'
-                y: '66.0'
-                z: '1036.0'
-                yaw: '0.0'
-                pitch: '0.0'
-            '17':
-              location:
-                world: Killer_Island
-                x: '-1139.0'
-                y: '66.0'
-                z: '1036.0'
-                yaw: '0.0'
-                pitch: '0.0'
-            '18':
-              location:
-                world: Killer_Island
-                x: '-1130.0'
-                y: '66.0'
-                z: '1035.0'
-                yaw: '0.0'
-                pitch: '0.0'
-            '19':
-              location:
-                world: Killer_Island
-                x: '-1130.0'
-                y: '66.0'
-                z: '1044.0'
-                yaw: '0.0'
-                pitch: '0.0'
-            '20':
-              location:
-                world: Killer_Island
-                x: '-1130.0'
-                y: '66.0'
-                z: '1052.0'
-                yaw: '0.0'
-                pitch: '0.0'
-            '21':
-              location:
-                world: Killer_Island
-                x: '-1117.0'
-                y: '66.0'
-                z: '1052.0'
-                yaw: '0.0'
-                pitch: '0.0'
-            '22':
               location:
                 world: Killer_Island
                 x: '-1114.0'
@@ -623,143 +575,55 @@ npc:
                 z: '1035.0'
                 yaw: '0.0'
                 pitch: '0.0'
-            '23':
+            '17':
               location:
                 world: Killer_Island
-                x: '-1108.0'
+                x: '-1114.0'
                 y: '66.0'
-                z: '1024.0'
+                z: '1035.0'
                 yaw: '0.0'
                 pitch: '0.0'
-            '24':
-              location:
-                world: Killer_Island
-                x: '-1104.0'
-                y: '66.0'
-                z: '1016.0'
-                yaw: '0.0'
-                pitch: '0.0'
-            '25':
-              location:
-                world: Killer_Island
-                x: '-1103.0'
-                y: '66.0'
-                z: '1009.0'
-                yaw: '0.0'
-                pitch: '0.0'
-            '26':
-              location:
-                world: Killer_Island
-                x: '-1111.0'
-                y: '66.0'
-                z: '1008.0'
-                yaw: '0.0'
-                pitch: '0.0'
-            '27':
-              location:
-                world: Killer_Island
-                x: '-1122.0'
-                y: '66.0'
-                z: '1008.0'
-                yaw: '0.0'
-                pitch: '0.0'
-            '28':
-              location:
-                world: Killer_Island
-                x: '-1134.0'
-                y: '66.0'
-                z: '1009.0'
-                yaw: '0.0'
-                pitch: '0.0'
-            '29':
-              location:
-                world: Killer_Island
-                x: '-1143.0'
-                y: '66.0'
-                z: '1011.0'
-                yaw: '0.0'
-                pitch: '0.0'
-            '30':
+            '18':
               location:
                 world: Killer_Island
                 x: '-1145.0'
                 y: '66.0'
-                z: '1015.0'
+                z: '1054.0'
                 yaw: '0.0'
                 pitch: '0.0'
-            '31':
+            '19':
               location:
                 world: Killer_Island
-                x: '-1146.0'
-                y: '66.0'
-                z: '1015.0'
-                yaw: '0.0'
-                pitch: '0.0'
-            '32':
-              location:
-                world: Killer_Island
-                x: '-1146.0'
-                y: '66.0'
-                z: '1016.0'
-                yaw: '0.0'
-                pitch: '0.0'
-            '33':
-              location:
-                world: Killer_Island
-                x: '-1146.0'
-                y: '66.0'
-                z: '1027.0'
-                yaw: '0.0'
-                pitch: '0.0'
-            '34':
-              location:
-                world: Killer_Island
-                x: '-1146.0'
-                y: '66.0'
-                z: '1040.0'
-                yaw: '0.0'
-                pitch: '0.0'
-            '35':
-              location:
-                world: Killer_Island
-                x: '-1146.0'
-                y: '66.0'
-                z: '1041.0'
-                yaw: '0.0'
-                pitch: '0.0'
-            '36':
-              location:
-                world: Killer_Island
-                x: '-1141.0'
-                y: '66.0'
-                z: '1053.0'
-                yaw: '0.0'
-                pitch: '0.0'
-            '37':
-              location:
-                world: Killer_Island
-                x: '-1124.0'
+                x: '-1145.0'
                 y: '66.0'
                 z: '1054.0'
                 yaw: '0.0'
                 pitch: '0.0'
-            '38':
+            '20':
               location:
                 world: Killer_Island
-                x: '-1115.0'
+                x: '-1145.0'
                 y: '66.0'
-                z: '1053.0'
+                z: '1036.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '21':
+              location:
+                world: Killer_Island
+                x: '-1145.0'
+                y: '66.0'
+                z: '1036.0'
                 yaw: '0.0'
                 pitch: '0.0'
         provider: linear
       location:
-        bodyYaw: 88.057556
+        bodyYaw: 6.6024094
         world: Killer_Island
-        x: '-1130.6833'
+        x: '-1129.4284'
         y: '65.9375'
-        z: '1034.4723'
-        yaw: '88.0576'
-        pitch: '0.0'
+        z: '1030.8811'
+        yaw: '6.6024'
+        pitch: '-5.3301'
       sneak:
         sneaking: false
       type: PLAYER
@@ -769,8 +633,8 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYzNDU2MDgwNTI3NSwKICAicHJvZmlsZUlkIiA6ICI1MjA2YmU1YmMxMDM0M2U5Yjg2NmY5ZGZjMWNlOTg3MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHdWFyZCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81MTE4MmNmNjVkMTgwZWNmMDhmYWIyMzExYWJlZDBjZmNlZTk2MGU2ZGY1YTNiYTUyOGY3ZWE0N2NjNDFmMGEyIgogICAgfQogIH0KfQ==
         updateSkins: false
       sentinel:
-        stats_ticksSpawned: 38689
-        stats_timesSpawned: 1
+        stats_ticksSpawned: 10248545
+        stats_timesSpawned: 12
         stats_arrowsFired: 0
         stats_potionsThrow: 0
         stats_fireballsFired: 0
@@ -781,16 +645,13 @@ npc:
         stats_shulkerBulletsShot: 0
         stats_evokerFangsSpawned: 0
         stats_pearlsUsed: 0
-        stats_punches: 0
-        stats_attackAttempts: 0
-        stats_damageTaken: 0.0
-        stats_damageGiven: 0.0
-        allIgnores:
-          targets:
-            '0': OWNER
+        stats_punches: 23
+        stats_attackAttempts: 221
+        stats_damageTaken: 141.26143741607666
+        stats_damageGiven: 219.02399587631226
         avoidRange: 10.0
         range: 20.0
-        damage: -1.0
+        damage: 15.0
         armor: -1.0
         health: 20.0
         ranged_chase: false
@@ -815,7 +676,7 @@ npc:
         greeting_text: ''
         greet_range: 10.0
         greet_rate: 100
-        autoswitch: false
+        autoswitch: true
         accuracy: 0.0
         realistic: false
         ignore_los: false
@@ -827,7 +688,10 @@ npc:
         disable_teleporting: false
         reaction_slowdown: 0
         allow_knockback: true
-    traitnames: spawned,lookclose,owner,mounttrait,waypoints,location,sneak,inventory,scoreboardtrait,type,skintrait,equipment,sentinel
+        allIgnores:
+          targets:
+            '0': OWNER
+    traitnames: mounttrait,type,equipment,sneak,skintrait,scoreboardtrait,lookclose,waypoints,owner,sentinel,spawned,inventory,location
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -847,13 +711,13 @@ npc:
         enabled: true
         enableRandomLook: false
         randomLookDelay: 60
+        realisticlooking: false
         randomPitchRange:
           '0': -10.0
           '1': 0.0
         randomYawRange:
           '0': 0.0
           '1': 360.0
-        realisticlooking: false
       owner:
         uuid: cd0d7160-3681-4ab9-b39e-07247af9ed2a
       waypoints:
@@ -871,12 +735,12 @@ npc:
                 pitch: '0.0'
         provider: linear
       location:
-        bodyYaw: -91.522194
+        bodyYaw: -166.78938
         world: Killer_Island
-        x: '-1154.5426'
+        x: '-1156.0'
         y: '66.0'
-        z: '1057.5402'
-        yaw: '-79.17'
+        z: '1058.0'
+        yaw: '153.2106'
         pitch: '0.0'
       sneak:
         sneaking: false
@@ -904,8 +768,8 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYzNDU2MDgwNTI3NSwKICAicHJvZmlsZUlkIiA6ICI1MjA2YmU1YmMxMDM0M2U5Yjg2NmY5ZGZjMWNlOTg3MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHdWFyZCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81MTE4MmNmNjVkMTgwZWNmMDhmYWIyMzExYWJlZDBjZmNlZTk2MGU2ZGY1YTNiYTUyOGY3ZWE0N2NjNDFmMGEyIgogICAgfQogIH0KfQ==
         updateSkins: false
       sentinel:
-        stats_ticksSpawned: 39163
-        stats_timesSpawned: 1
+        stats_ticksSpawned: 10521590
+        stats_timesSpawned: 9
         stats_arrowsFired: 0
         stats_potionsThrow: 0
         stats_fireballsFired: 0
@@ -916,16 +780,13 @@ npc:
         stats_shulkerBulletsShot: 0
         stats_evokerFangsSpawned: 0
         stats_pearlsUsed: 0
-        stats_punches: 0
-        stats_attackAttempts: 0
-        stats_damageTaken: 0.0
-        stats_damageGiven: 0.0
-        allIgnores:
-          targets:
-            '0': OWNER
+        stats_punches: 19
+        stats_attackAttempts: 117
+        stats_damageTaken: 82.5
+        stats_damageGiven: 281.99999809265137
         avoidRange: 10.0
         range: 20.0
-        damage: -1.0
+        damage: 15.0
         armor: -1.0
         health: 20.0
         ranged_chase: false
@@ -950,7 +811,7 @@ npc:
         greeting_text: ''
         greet_range: 10.0
         greet_rate: 100
-        autoswitch: false
+        autoswitch: true
         accuracy: 0.0
         realistic: false
         ignore_los: false
@@ -962,7 +823,10 @@ npc:
         disable_teleporting: false
         reaction_slowdown: 0
         allow_knockback: true
-    traitnames: spawned,lookclose,owner,mounttrait,waypoints,location,sneak,inventory,scoreboardtrait,type,npcpolice,skintrait,equipment,sentinel
+        allIgnores:
+          targets:
+            '0': OWNER
+    traitnames: mounttrait,type,sneak,equipment,skintrait,scoreboardtrait,lookclose,waypoints,owner,npcpolice,sentinel,spawned,inventory,location
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

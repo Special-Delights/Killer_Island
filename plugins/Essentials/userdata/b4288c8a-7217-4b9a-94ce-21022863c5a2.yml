@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1634151512190
+  lastteleport: 1634587794504
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1634151852547
-  login: 1634141881792
+  logout: 1634588548763
+  login: 1634584188778
 money: '0'
 last-account-name: t0iiialuminati
 logoutlocation:
   world: e7230443-6d71-40f5-9c81-adf10de976c9
   world-name: Killer_Island
-  x: -90.85151347474999
-  y: 71.9375
-  z: 971.7217288094408
-  yaw: 164.50852966308594
-  pitch: 17.80726432800293
+  x: -106.29307786850204
+  y: 73.0
+  z: 936.4609540081432
+  yaw: 74.88818359375
+  pitch: 41.650630950927734
 lastlocation:
-  world: e7230443-6d71-40f5-9c81-adf10de976c9
-  world-name: Killer_Island
-  x: -123.90644956246305
-  y: 16.0
-  z: 1003.9147812514801
-  yaw: 122.86268615722656
-  pitch: 14.826770782470703
+  world: de51b376-9cec-448c-9231-b3b573852bb7
+  world-name: Killer_Island_the_end
+  x: 107.76249998807907
+  y: 6.0
+  z: 228.58217977110533
+  yaw: 155.4893798828125
+  pitch: 13.502391815185547
