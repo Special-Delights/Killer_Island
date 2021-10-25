@@ -1,0 +1,55 @@
+{
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "sweet_berries": "2021-10-20 23:34:37 -0700",
+      "baked_potato": "2021-10-20 23:31:13 -0700",
+      "bread": "2021-10-20 23:39:08 -0700"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2021-10-20 23:31:13 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2021-10-20 23:26:38 -0700"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2021-10-20 23:28:36 -0700"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2021-10-20 23:28:36 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2021-10-20 23:39:53 -0700",
+      "minecraft:taiga": "2021-10-20 23:30:39 -0700",
+      "minecraft:birch_forest": "2021-10-20 23:40:23 -0700",
+      "minecraft:beach": "2021-10-20 23:31:30 -0700",
+      "minecraft:wooded_hills": "2021-10-20 23:27:37 -0700",
+      "minecraft:plains": "2021-10-20 23:26:20 -0700"
+    },
+    "done": false
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2021-10-20 23:38:16 -0700",
+      "minecraft:nether_wastes": "2021-10-20 23:29:30 -0700",
+      "minecraft:warped_forest": "2021-10-20 23:28:48 -0700",
+      "minecraft:basalt_deltas": "2021-10-20 23:28:37 -0700"
+    },
+    "done": false
+  },
+  "DataVersion": 2730
+}

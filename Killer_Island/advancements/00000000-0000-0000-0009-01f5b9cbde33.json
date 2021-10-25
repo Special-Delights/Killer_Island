@@ -1,0 +1,57 @@
+{
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_beef": "2021-10-21 08:38:34 -0700",
+      "cooked_cod": "2021-10-21 08:36:23 -0700"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2021-10-21 08:36:23 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2021-10-21 08:41:25 -0700"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2021-10-21 08:34:24 -0700"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2021-10-21 08:34:24 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:jungle": "2021-10-21 08:46:30 -0700",
+      "minecraft:plains": "2021-10-21 08:18:51 -0700"
+    },
+    "done": false
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2021-10-21 08:36:40 -0700",
+      "minecraft:nether_wastes": "2021-10-21 08:37:44 -0700",
+      "minecraft:soul_sand_valley": "2021-10-21 08:45:48 -0700",
+      "minecraft:warped_forest": "2021-10-21 08:34:51 -0700",
+      "minecraft:basalt_deltas": "2021-10-21 08:34:25 -0700"
+    },
+    "done": true
+  },
+  "minecraft:nether/fast_travel": {
+    "criteria": {
+      "travelled": "2021-10-21 08:46:30 -0700"
+    },
+    "done": true
+  },
+  "DataVersion": 2730
+}

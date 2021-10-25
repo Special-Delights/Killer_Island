@@ -723,6 +723,17 @@ data-version: 2|2730
           stored-enchants:
             DIG_SPEED: 5
       price: 1
+    '13':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            ARROW_INFINITE: 1
+      price: 1
 '16':
   uniqueId: 5eed3362-93c5-4619-9c7e-d8359bba6763
   name: BigBeasts Shop of Wonders
@@ -874,7 +885,7 @@ data-version: 2|2730
   object:
     type: villager
     baby: false
-    profession: NONE
+    profession: WEAPONSMITH
     villagerType: PLAINS
     villagerLevel: 1
   owner uuid: 211e16ad-bbca-4b93-8f85-9fd61bd241f7
@@ -887,82 +898,55 @@ data-version: 2|2730
       item:
         ==: org.bukkit.inventory.ItemStack
         v: 2730
-        type: DARK_PRISMARINE
-        amount: 32
-      price: 1
-    '2':
-      item:
-        ==: org.bukkit.inventory.ItemStack
-        v: 2730
-        type: PRISMARINE
-        amount: 64
-      price: 1
-    '3':
-      item:
-        ==: org.bukkit.inventory.ItemStack
-        v: 2730
-        type: PRISMARINE_BRICKS
-        amount: 64
-      price: 1
-    '4':
-      item:
-        ==: org.bukkit.inventory.ItemStack
-        v: 2730
         type: SEA_LANTERN
         amount: 64
       price: 1
-    '5':
+    '2':
       item:
         ==: org.bukkit.inventory.ItemStack
         v: 2730
         type: BLAZE_ROD
         amount: 64
       price: 1
-    '6':
+    '3':
       item:
         ==: org.bukkit.inventory.ItemStack
         v: 2730
         type: ENDER_CHEST
       price: 1
-    '7':
+    '4':
       item:
         ==: org.bukkit.inventory.ItemStack
         v: 2730
-        type: ENCHANTED_BOOK
-        meta:
-          ==: ItemMeta
-          meta-type: ENCHANTED
-          stored-enchants:
-            MENDING: 1
+        type: COPPER_BLOCK
       price: 1
-    '8':
-      item:
-        ==: org.bukkit.inventory.ItemStack
-        v: 2730
-        type: ENCHANTED_BOOK
-        meta:
-          ==: ItemMeta
-          meta-type: ENCHANTED
-          stored-enchants:
-            DIG_SPEED: 5
-      price: 2
-    '9':
-      item:
-        ==: org.bukkit.inventory.ItemStack
-        v: 2730
-        type: ENCHANTED_BOOK
-        meta:
-          ==: ItemMeta
-          meta-type: ENCHANTED
-          stored-enchants:
-            SILK_TOUCH: 1
-      price: 1
-    '10':
+    '5':
       item:
         ==: org.bukkit.inventory.ItemStack
         v: 2730
         type: NETHERITE_INGOT
       price: 12
+    '6':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: COAL_ORE
+      price: 1
+    '7':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":true,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Reaper''s
+            Head"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"player:Deathhhh"}],"text":""}'
+          internal: H4sIAAAAAAAA/2VUSa7bRhSkDQf4/gkQINfQQpz1CcQIKFEiKYnz3DuS4swmJVLi0MtcIBfJBXyIwJscISfICcJvGzGC9KaBV69fVVc1+hnDnrEfrOpR13rXpkWdPGHv1BAm2JOQhPd8Wc/Y8wJdk+5eJP177OmeTPdHl/TPGIa9ecLeW0XWhK+Vt793SXSp9uW6S8F23+KdTWdoY/mkWYbVrWFoZUffjmKyXq8PXpsXiBJXXeXqxWpXtfhajev9SjH4S51nMbDk0+yD1j90lR/OxaSBWTm9bB+DrUvCaFRq3jzGm1OJVyM6dEJz5l3FtCLlvKLMqdagmNTG5PeRHohUZHVhqCK7VuCRQaeY3V9jyX0ELWttvHqS06G5s0njeXSKHGebcsRtz4hy5505wbIrOKQBQp4p5fer0VovYrcf8NtG5V9YxcHXDhG7kU3UlUyXtvNwKh6KW4F5qWPXzImzkYy0Fk5q4fl+6KZ3IdHlFm1M0hKSutuRqWcLvMuCgQJNVtGmeU2O91PLVrYpIzcWtpz9MjOxfrOrUpXp6h4JKKFXHAI1HYX5yuGv4xZBYnMbJ2Hv7ZQmD3hvFNTcoFg1N4HYpVIWUpSsbjntTCPcaIe0WntadLD7c6pt8kPEGhHUNhGK4cH1Y/u0Z2+zDCsgxSwXapnS2/QVDn2oT/XE4zy+AmkwUE4/wdRqvKTQ1e2pV8LCQ1Oj2/u1e1Q2WUV0+H3gUMmZnmsR2sic41RnnRRuhIbEoxOZxb5E3X2cFkK4Pl/cB4lqTa7wDZT0Q4fYq86tu4kTHMY0ucShT1bvUPdGGG6jzXeqnu08ar1CA9GUB9vmLkmq726uPN24k0Eez0DSMvKcMGY23/xUzoetf0Ekkx0s/MMT9p0b1o/kzV/J2Gby7oiHHlHHlJlHPl/IQpspdoBUISDVhV6xjVmxxpO844tYOg4A1j1wlsgLnl3OlkBUoSYcoVLmULFlXBNlJiirEZQqVNAeBYjHAxJU6k7udwWfyc12jkhwjURXCxber3P2wDvgoZi34b996hWQTH6R3Bm4xzr23WsM3S+8kjlfPOdrn1knkkksGPqC9a9aX+9lW/ji6X9qr/3uHO3kTCv4IpRMPBba4Ux9m3GGxDWCbrm8B3jZMQ/gG8NFdOnPOiwuX3QWAVJGFbklKI0JlAoNbFCBcj8rCBSa7ZaBd4ABecwV71gDW54DZDBAyEZ18UYVZEoVMjpAR6hCZwQeKOVi/KYPEvVFPFSBb+b/075kEHlcBbzxc06LR33o4cVnH15xCT9927fcrsE/YNj32Fv5snxZ7/749Ovfv/0kffz44y/Ez+8+/Ylh/wDbpbnOBQUAAA==
+          skull-owner: Deathhhh
+      price: 1
 '20':
   uniqueId: 7c7991da-4122-4601-ac1e-cabf3bb4be46
   name: Hank
@@ -1131,3 +1115,147 @@ data-version: 2|2730
           - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"code:eyJ0ZXh0dXJlcyI6..."}],"text":""}'
           internal: H4sIAAAAAAAA/02PO07DQBRFX1CQgpMWsQ0by0YpQOIX2VZmDM74N11iT+TPmxASO2S8BXpKVsFaqKlZBS7p7j33NFcD0GCyqFvEp93LukShgdanrdg1pdifwagRx6bdib0GAIMRnEZLbAV8CeXpPCn0PPEwU67dd7bQ0Xer7ZW7idTq3rVd2e/OrT1X03+u1SxjC1PTK/jmuV3JSJ+bAQonMDIZHjiblbTLlM9mSFhokpjXpMprHtOCxMSknYe8CqTPHk1ehVbKsKYMe5a9kSo9+uxOEpZe0o4Y5CGXREZIlTddJ/o1wBhO3Lw/Mrz5uHj9PDec99/B989wPAH4Azk/iJkKAQAA
       price: 2
+'24':
+  uniqueId: f4c29612-1ed8-4ab9-95fd-96f10009ce26
+  name: Tarzan
+  world: Killer_Island
+  x: -1119
+  y: 66
+  z: 1013
+  type: sell
+  object:
+    type: villager
+    baby: false
+    profession: SHEPHERD
+    villagerType: JUNGLE
+    villagerLevel: 4
+  owner uuid: 00000000-0000-0000-0009-00000314bc50
+  owner: -TurningCupid
+  chestx: -1120
+  chesty: 64
+  chestz: 1010
+  offers:
+    '1':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: JUNGLE_SAPLING
+        amount: 16
+      price: 1
+    '2':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: JUNGLE_LOG
+        amount: 64
+      price: 1
+    '3':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: BAMBOO
+        amount: 64
+      price: 1
+    '4':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: MOSSY_COBBLESTONE
+        amount: 64
+      price: 2
+'25':
+  uniqueId: 40490260-bc0c-499a-970d-64282dbf0fd8
+  name: Black00Widow Book Shop
+  world: Killer_Island
+  x: -1141
+  y: 66
+  z: 1039
+  type: sell
+  object:
+    type: villager
+    baby: false
+    profession: NONE
+    villagerType: SWAMP
+    villagerLevel: 4
+  owner uuid: b6488ad1-76fd-4964-adad-f7e2fb616511
+  owner: Black00Widow
+  chestx: -1142
+  chesty: 63
+  chestz: 1041
+  offers:
+    '1':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: WRITABLE_BOOK
+      price: 45
+    '2':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: BOOK
+      price: 27
+    '3':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            DIG_SPEED: 4
+      price: 90
+    '4':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            SILK_TOUCH: 1
+      price: 90
+    '5':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            DIG_SPEED: 5
+      price: 90
+    '6':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            MENDING: 1
+      price: 90
+    '7':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:night_vision
+      price: 27
+    '8':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:healing
+      price: 27

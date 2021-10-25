@@ -1,0 +1,39 @@
+general:
+  level: 0
+  warpLocationX: 0
+  warpLocationY: 0
+  warpLocationZ: 0
+  warpActive: false
+  regionVersion: 14 en
+  schematicName: default
+  warpYaw: -180.0
+  warpPitch: 0.0
+blocks:
+  leafBreaks: 1
+  hopperCount: 0
+version: 3
+log:
+- 1634880470129;The island has been created.
+- 1634880468160;The island has been created.
+- 1634879528685;{0} created an area with {1} biome;-lowerlevelll;FLOWER_FOREST
+- 1634764915900;§b{0}§d changed the island warp location.;-lowerlevelll
+- 1634764866539;The island has been created.
+- 1634764863254;The island has been created.
+party:
+  leader: -lowerlevelll
+  leader-uuid: 00000000-0000-0000-0009-000007ff375b
+  members:
+    00000000-0000-0000-0009-000007ff375b:
+      canChangeBiome: true
+      canToggleLock: true
+      canChangeWarp: true
+      canToggleWarp: true
+      canInviteOthers: true
+      canKickOthers: true
+      canBanOthers: true
+      name: -lowerlevelll
+      maxAnimals: 64
+      maxMonsters: 50
+      maxVillagers: 16
+      maxGolems: 5
+  currentSize: 1

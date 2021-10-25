@@ -1,0 +1,48 @@
+general:
+  level: 213.2925
+  warpLocationX: 251
+  warpLocationY: 139
+  warpLocationZ: 123
+  warpActive: true
+  regionVersion: 14 en
+  schematicName: default
+  warpYaw: -11.335632
+  warpPitch: 9.279007
+  locked: false
+blocks:
+  leafBreaks: 1
+  hopperCount: 0
+version: 3
+log:
+- 1635119957558;{0} created an area with {1} biome;Stabaho187;DEEP_OCEAN
+- 1635107671651;§a{0} trusted {1} on the island;Stabaho187;-BLINKANDURDEAD0
+- 1634871423053;{0} created an area with {1} biome;Stabaho187;PLAINS
+- 1634871262479;{0} created an area with {1} biome;Stabaho187;HELL
+- 1634866330048;{0} created an area with {1} biome;Stabaho187;FLOWER_FOREST
+- 1634856044847;§b{0}§d changed the island warp location.;Stabaho187
+- 1634856037782;§b{0}§d unlocked the island.;Stabaho187
+- 1634856033855;§b{0}§d deactivated the island warp.;Stabaho187
+- 1634856033854;§b{0}§d locked the island.;Stabaho187
+- 1634855500608;{0} created an area with {1} biome;Stabaho187;FLOWER_FOREST
+party:
+  leader: Stabaho187
+  leader-uuid: cd0d7160-3681-4ab9-b39e-07247af9ed2a
+  members:
+    cd0d7160-3681-4ab9-b39e-07247af9ed2a:
+      canChangeBiome: true
+      canToggleLock: true
+      canChangeWarp: true
+      canToggleWarp: true
+      canInviteOthers: true
+      canKickOthers: true
+      canBanOthers: true
+      name: Stabaho187
+      maxPartySizePermission: 5
+      maxAnimals: 84
+      maxMonsters: 60
+      maxVillagers: 20
+      maxGolems: 6
+  currentSize: 1
+trust:
+  list:
+  - 00000000-0000-0000-0009-0000055f81cc

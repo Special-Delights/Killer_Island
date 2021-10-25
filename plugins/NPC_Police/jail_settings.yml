@@ -200,14 +200,25 @@ Spawn:
     npc_murdered: []
     bounty_maximum: []
   jails:
-    myjail:
-      jail_id: 6e56b012-7795-40df-ab66-35f19bdc441a
+    spawnjail:
+      jail_id: d3424912-99fa-41b3-b2e2-59b41f73d691
       displayname: TownJail
       region: jaila
       times:
         jailed_bounty: 4.9E-324
         outofcell_day: 4.9E-324
         outofcell_night: 4.9E-324
+      cell_locations:
+        '0':
+          world: Spawn
+          x: -313
+          y: 5
+          z: -139
+        '1':
+          world: Spawn
+          x: -313
+          y: 5
+          z: -143
       event_commands:
         player_arrested: []
         player_escaped: []
@@ -215,12 +226,20 @@ Spawn:
       wanted:
         min: NONE
         max: HIGH
+      inventory:
+        takeonarrest: true
+        returnonescape: false
+        chestlocation:
+          world: Spawn
+          x: -319
+          y: 4
+          z: -137
       spawns:
         exitlocation:
           world: Spawn
-          x: -319.5
+          x: -318.5
           y: 5.5
-          z: -140.5
+          z: -138.5
 Cloud_World:
   event_commands:
     player_arrested: []

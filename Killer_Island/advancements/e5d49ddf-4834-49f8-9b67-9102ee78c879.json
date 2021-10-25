@@ -353,6 +353,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/nether_wart_block": {
+    "criteria": {
+      "has_nether_wart": "2021-10-20 12:35:44 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/shield": {
     "criteria": {
       "has_iron_ingot": "2021-10-01 19:31:25 -0700"
@@ -1480,6 +1486,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2021-10-18 12:49:56 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_boots": {
     "criteria": {
       "has_leather": "2021-10-01 19:38:06 -0700"
@@ -1933,6 +1945,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_bowl": "2021-10-18 13:06:41 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/gray_wool": {
     "criteria": {
       "has_white_wool": "2021-10-01 19:47:38 -0700"
@@ -1963,7 +1981,8 @@
       "cooked_beef": "2021-10-01 20:14:23 -0700",
       "beef": "2021-10-01 19:38:10 -0700",
       "porkchop": "2021-10-01 19:37:38 -0700",
-      "apple": "2021-10-01 21:11:29 -0700"
+      "apple": "2021-10-01 21:11:29 -0700",
+      "suspicious_stew": "2021-10-18 13:06:41 -0700"
     },
     "done": false
   },
@@ -2224,6 +2243,12 @@
   "minecraft:recipes/building_blocks/andesite_stairs": {
     "criteria": {
       "has_andesite": "2021-10-01 19:41:29 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_bricks": {
+    "criteria": {
+      "has_nether_wart": "2021-10-20 12:35:44 -0700"
     },
     "done": true
   },
@@ -3088,6 +3113,12 @@
   "minecraft:recipes/food/pumpkin_pie": {
     "criteria": {
       "has_pumpkin": "2021-10-02 21:06:55 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2021-10-20 12:50:49 -0700"
     },
     "done": true
   },

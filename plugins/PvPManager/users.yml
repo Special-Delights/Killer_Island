@@ -36,3 +36,18 @@ players:
     newbie: false
     pvpstatus: false
     toggletime: 1634351984367
+  00000000-0000-0000-0009-01fcebff2a4d:
+    newbie_timeleft: 149658
+    newbie: true
+    pvpstatus: true
+    toggletime: 0
+  00000000-0000-0000-0009-000007282a61:
+    newbie_timeleft: 0
+    newbie: false
+    pvpstatus: false
+    toggletime: 1634669103975
+  f967640b-fefd-4ed8-b7cf-b7c264bbccb5:
+    newbie_timeleft: 285293
+    newbie: true
+    pvpstatus: true
+    toggletime: 0

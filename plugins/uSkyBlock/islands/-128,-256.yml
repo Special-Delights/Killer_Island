@@ -1,0 +1,33 @@
+general:
+  level: 0
+  warpLocationX: 0
+  warpLocationY: 0
+  warpLocationZ: 0
+  warpActive: false
+  regionVersion: 14 en
+  schematicName: default
+blocks:
+  leafBreaks: 1
+  hopperCount: 0
+version: 3
+log:
+- 1635046547665;The island has been created.
+- 1635046545038;The island has been created.
+party:
+  leader: BigBeast89
+  leader-uuid: 35016980-8de5-4af4-903a-06a442c010f1
+  members:
+    35016980-8de5-4af4-903a-06a442c010f1:
+      canChangeBiome: true
+      canToggleLock: true
+      canChangeWarp: true
+      canToggleWarp: true
+      canInviteOthers: true
+      canKickOthers: true
+      canBanOthers: true
+      name: BigBeast89
+      maxAnimals: 64
+      maxMonsters: 50
+      maxVillagers: 16
+      maxGolems: 5
+  currentSize: 1

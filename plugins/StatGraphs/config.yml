@@ -1,0 +1,10 @@
+# Send anonymous data statistics
+# e.g. player count, minecraft version
+metrics-enabled: true
+
+# Chart settings
+chart:
+  # Chart width in characters
+  width: 20
+  # Chart height in characters
+  height: 10

@@ -1,0 +1,13 @@
+player:
+  islandX: 256
+  islandY: 150
+  islandZ: 0
+  homeX: 245
+  homeY: 146
+  homeZ: 2
+  homeYaw: 167.56879
+  homePitch: 14.852567
+  uuid: 7343c5cd-ba9e-4b4c-8c98-16021be1e06e
+  displayName: spenceronline
+version: 1
+clearInventoryOnNextEntry: true

@@ -1,0 +1,61 @@
+{
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2021-10-19 21:43:24 -0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_cod": "2021-10-19 21:41:40 -0700"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2021-10-19 21:43:24 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2021-10-19 21:44:42 -0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2021-10-19 21:41:40 -0700"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2021-10-19 21:41:03 -0700"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2021-10-19 21:41:03 -0700"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2021-10-19 21:47:06 -0700",
+      "minecraft:nether_wastes": "2021-10-19 21:45:44 -0700",
+      "minecraft:warped_forest": "2021-10-19 21:41:16 -0700",
+      "minecraft:basalt_deltas": "2021-10-19 21:41:04 -0700"
+    },
+    "done": false
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:mushroom_fields": "2021-10-19 21:39:53 -0700",
+      "minecraft:plains": "2021-10-19 21:37:13 -0700"
+    },
+    "done": false
+  },
+  "DataVersion": 2730
+}

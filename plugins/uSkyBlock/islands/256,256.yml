@@ -1,0 +1,41 @@
+general:
+  level: 184.8605
+  warpLocationX: 0
+  warpLocationY: 0
+  warpLocationZ: 0
+  warpActive: false
+  regionVersion: 14 en
+  schematicName: default
+blocks:
+  leafBreaks: 1
+  hopperCount: 0
+version: 3
+log:
+- 1634940270509;{0} created an area with {1} biome;-BLINKANDURDEAD0;FLOWER_FOREST
+- 1634883916863;{0} created an area with {1} biome;-BLINKANDURDEAD0;FLOWER_FOREST
+- 1634865783188;{0}§d invited {1};§7[§3MEMBER§7]§f-BLINKANDURDEAD0§r;§7[§6MVP§7]§4Stabaho187§r
+- 1634863732572;{0} created an area with {1} biome;-BLINKANDURDEAD0;FLOWER_FOREST
+- 1634857015529;{0} created an area with {1} biome;-BLINKANDURDEAD0;FLOWER_FOREST
+- 1634855338307;{0} created an area with {1} biome;-BLINKANDURDEAD0;FLOWER_FOREST
+- 1634855337090;{0} created an area with {1} biome;-BLINKANDURDEAD0;FLOWER_FOREST
+- 1634855337036;{0} created an area with {1} biome;-BLINKANDURDEAD0;FLOWER_FOREST
+- 1634855335907;{0} created an area with {1} biome;-BLINKANDURDEAD0;FLOWER_FOREST
+- 1634855333607;{0} created an area with {1} biome;-BLINKANDURDEAD0;FLOWER_FOREST
+party:
+  leader: -BLINKANDURDEAD0
+  leader-uuid: 00000000-0000-0000-0009-0000055f81cc
+  members:
+    00000000-0000-0000-0009-0000055f81cc:
+      canChangeBiome: true
+      canToggleLock: true
+      canChangeWarp: true
+      canToggleWarp: true
+      canInviteOthers: false
+      canKickOthers: true
+      canBanOthers: true
+      name: -BLINKANDURDEAD0
+      maxAnimals: 64
+      maxMonsters: 50
+      maxVillagers: 16
+      maxGolems: 5
+  currentSize: 1
