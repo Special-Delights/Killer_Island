@@ -189,20 +189,29 @@ Formatting:
 # World aliases can be used to rename worlds and to combine multiple worlds into a group.
 # -----------------------------------------------------
 World_aliases:
-    world: world
-    Killer_Island_the_end: Killer_Island_the_end
-    Killer_Island_nether: Killer_Island_nether
-    Killer_Island: Killer_Island
-    Spawn: Spawn
-    creative: creative
-    creative_nether: creative
-    creative_the_end: creative
-    supersurvival: supersurvival
-    supersurvival_the_end: supersurvival
-    supersurvival_nether: supersurvival
-    skyworld: skyworld
-    flat: flat
-    skyworld_nether: skyworld_nether
+    # -----------------------------------------------------
+    # World aliases can be used to rename worlds and to combine multiple worlds into a group.
+    # -----------------------------------------------------
+    List:
+        world: world
+        Killer_Island_the_end: Killer_Island_the_end
+        Killer_Island_nether: Killer_Island_nether
+        Killer_Island: Killer_Island
+        Spawn: Spawn
+        creative: creative
+        creative_nether: creative
+        creative_the_end: creative
+        supersurvival: supersurvival
+        supersurvival_the_end: supersurvival
+        supersurvival_nether: supersurvival
+        skyworld: skyworld
+        flat: flat
+        skyworld_nether: skyworld_nether
+        oneeight: oneeight
+        ki: ki
+    # List of - "alias:regex" rules, Set alias of multiple worlds that match regex to group them
+    Regex:
+      - "Alias for world:^abc$"
 # -----------------------------------------------------
 # These settings will make Plan write .js, .css, .json and .html files to some location on disk.
 # Relative path will render to /plugins/Plan/path
@@ -252,6 +261,8 @@ Plugins:
     Towny:
         HideTowns:
           - ExampleTown
+    ViaVersion:
+        Enabled: true
     mcMMO:
         Enabled: true
 # The files are placed in /Plan/web/ if the setting is 'true' when accessed.
@@ -277,6 +288,7 @@ Customized_files:
         js/xmlhttprequests,js: false
         player,html: false
         query,html: false
+        robots,txt: false
         server,html: false
         vendor/datatables/datatables,min,css: false
         vendor/datatables/datatables,min,js: false
@@ -287,10 +299,19 @@ Customized_files:
         vendor/fullcalendar/fullcalendar,min,css: false
         vendor/fullcalendar/fullcalendar,min,js: false
         vendor/highcharts/drilldown,js: false
+        vendor/highcharts/highcharts,js: false
         vendor/highcharts/highcharts-more,js: false
         vendor/highcharts/highstock,js: false
         vendor/highcharts/map,js: false
+        vendor/highcharts/mapdata/world,js: false
+        vendor/highcharts/modules/drilldown,js: false
+        vendor/highcharts/modules/map,js: false
+        vendor/highcharts/modules/no-data-to-display,js: false
+        vendor/highcharts/modules/stock,js: false
         vendor/highcharts/no-data-to-display,js: false
         vendor/highcharts/world,js: false
         vendor/masonry/masonry,pkgd,min,js: false
         vendor/momentjs/moment,js: false
+    Path: "web"
+    # Web dev mode enables all customized files and disables webserver resource cache for instant changes on browser refresh.
+    Enable_web_dev_mode: false

@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 75.139.1.148
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1635460956083
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1639011254782
+  login: 1639011254295
+money: '0'
+last-account-name: Trixe
+homes:
+  home:
+    world: e7230443-6d71-40f5-9c81-adf10de976c9
+    world-name: Killer_Island
+    x: 608.6888078498953
+    y: 70.0
+    z: 3511.1864278668672
+    yaw: 108.76966094970703
+    pitch: 9.450628280639648
+lastlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer_Island
+  x: 1281.1208371404402
+  y: 72.0
+  z: 3444.3093685171593
+  yaw: 146.7437744140625
+  pitch: 44.55012893676758
+logoutlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer_Island
+  x: 611.1471377930726
+  y: 73.0
+  z: 3538.0921046864764
+  yaw: 173.416015625
+  pitch: 10.34982967376709

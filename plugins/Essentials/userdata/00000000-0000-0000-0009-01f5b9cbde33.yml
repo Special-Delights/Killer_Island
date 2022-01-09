@@ -16,15 +16,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1634831399990
-  login: 1634830300503
+  logout: 1636679954114
+  login: 1636679173260
 money: '0'
 last-account-name: -charahc
 logoutlocation:
   world: e7230443-6d71-40f5-9c81-adf10de976c9
   world-name: Killer_Island
-  x: 9845.665
-  y: 62.9375
-  z: 7595.213
-  yaw: 173.89334106445312
-  pitch: -4.7826385498046875
+  x: 9860.678
+  y: 71.0
+  z: 7412.13749
+  yaw: 11.602828979492188
+  pitch: 27.6116943359375
+lastlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer_Island
+  x: 9812.755
+  y: 64.0
+  z: 7520.1704
+  yaw: 60.152191162109375
+  pitch: -4.091278076171875

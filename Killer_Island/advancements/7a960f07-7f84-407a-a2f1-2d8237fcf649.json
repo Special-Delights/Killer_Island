@@ -1545,6 +1545,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+    "criteria": {
+      "has_mossy_cobblestone": "2021-12-14 02:14:33 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/glass": {
     "criteria": {
       "has_sand": "2021-09-20 00:54:21 -0700"
@@ -2602,6 +2608,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2021-12-14 02:14:33 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
     "criteria": {
       "has_polished_blackstone_bricks": "2021-11-02 11:37:15 -0700"
@@ -2707,6 +2719,12 @@
   "minecraft:recipes/building_blocks/deepslate_tiles_from_deepslate_bricks_stonecutting": {
     "criteria": {
       "has_deepslate_bricks": "2021-09-26 23:48:02 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2021-12-14 02:14:33 -0800"
     },
     "done": true
   },
@@ -3215,6 +3233,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/moss_carpet": {
+    "criteria": {
+      "has_moss_block": "2021-12-14 02:06:05 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_diorite_slab_from_polished_diorite_stonecutting": {
     "criteria": {
       "has_polished_diorite": "2021-10-16 20:07:21 -0700"
@@ -3541,37 +3565,42 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:jungle_edge": "2021-10-09 19:44:24 -0700",
-      "minecraft:cold_ocean": "2021-10-09 19:41:12 -0700",
-      "minecraft:forest": "2021-09-19 22:07:38 -0700",
-      "minecraft:mountains": "2021-09-19 23:37:12 -0700",
       "minecraft:mushroom_fields": "2021-10-06 23:55:02 -0700",
-      "minecraft:badlands_plateau": "2021-11-05 10:41:33 -0700",
-      "minecraft:taiga": "2021-09-19 22:02:09 -0700",
-      "minecraft:desert_hills": "2021-10-12 22:45:37 -0700",
-      "minecraft:deep_cold_ocean": "2021-10-16 01:33:44 -0700",
-      "minecraft:taiga_hills": "2021-09-19 23:56:06 -0700",
-      "minecraft:desert": "2021-10-09 19:54:27 -0700",
-      "minecraft:deep_frozen_ocean": "2021-10-09 19:41:27 -0700",
-      "minecraft:jungle": "2021-09-25 14:38:10 -0700",
-      "minecraft:birch_forest": "2021-10-09 20:32:26 -0700",
-      "minecraft:jungle_hills": "2021-09-25 14:38:20 -0700",
+      "minecraft:taiga": "2021-09-19 23:56:06 -0700",
+      "minecraft:deep_ocean": "2021-12-15 00:51:46 -0800",
+      "minecraft:frozen_river": "2021-12-14 02:26:08 -0800",
+      "minecraft:sunflower_plains": "2021-12-14 02:13:04 -0800",
+      "minecraft:birch_forest": "2021-10-12 22:27:00 -0700",
+      "minecraft:windswept_hills": "2021-09-19 23:37:12 -0700",
       "minecraft:bamboo_jungle": "2021-10-09 19:43:40 -0700",
-      "minecraft:warm_ocean": "2021-10-12 22:25:33 -0700",
-      "minecraft:deep_lukewarm_ocean": "2021-10-09 19:48:05 -0700",
+      "minecraft:wooded_badlands": "2021-11-05 10:56:56 -0700",
       "minecraft:badlands": "2021-11-05 10:38:37 -0700",
       "minecraft:savanna_plateau": "2021-10-12 22:50:51 -0700",
       "minecraft:beach": "2021-09-19 23:57:53 -0700",
       "minecraft:dark_forest": "2021-10-16 00:50:18 -0700",
+      "minecraft:sparse_jungle": "2021-10-09 19:44:24 -0700",
       "minecraft:river": "2021-09-19 22:25:37 -0700",
       "minecraft:lukewarm_ocean": "2021-10-09 19:47:53 -0700",
+      "minecraft:stony_shore": "2021-10-07 01:14:35 -0700",
+      "minecraft:snowy_plains": "2021-12-14 02:23:38 -0800",
       "minecraft:snowy_taiga": "2021-10-23 18:43:23 -0700",
-      "minecraft:birch_forest_hills": "2021-10-12 22:27:00 -0700",
-      "minecraft:wooded_mountains": "2021-09-19 23:36:17 -0700",
-      "minecraft:wooded_hills": "2021-09-19 22:14:15 -0700",
-      "minecraft:stone_shore": "2021-10-07 01:14:35 -0700",
-      "minecraft:wooded_badlands_plateau": "2021-11-05 10:56:56 -0700",
+      "minecraft:dripstone_caves": "2021-12-14 02:28:28 -0800",
       "minecraft:swamp": "2021-09-19 23:59:23 -0700",
+      "minecraft:cold_ocean": "2021-10-09 19:41:12 -0700",
+      "minecraft:forest": "2021-09-19 22:14:15 -0700",
+      "minecraft:lush_caves": "2021-12-14 02:03:51 -0800",
+      "minecraft:deep_cold_ocean": "2021-10-16 01:33:44 -0700",
+      "minecraft:frozen_ocean": "2021-12-14 02:17:51 -0800",
+      "minecraft:desert": "2021-10-09 19:54:27 -0700",
+      "minecraft:deep_frozen_ocean": "2021-10-09 19:41:27 -0700",
+      "minecraft:windswept_forest": "2021-09-19 23:36:17 -0700",
+      "minecraft:jungle": "2021-09-25 14:38:20 -0700",
+      "minecraft:ocean": "2021-12-14 02:08:14 -0800",
+      "minecraft:snowy_beach": "2021-12-14 02:23:35 -0800",
+      "minecraft:warm_ocean": "2021-10-12 22:25:33 -0700",
+      "minecraft:deep_lukewarm_ocean": "2021-10-09 19:48:05 -0700",
+      "minecraft:flower_forest": "2021-12-14 02:28:45 -0800",
+      "minecraft:meadow": "2021-12-14 02:25:49 -0800",
       "minecraft:savanna": "2021-10-06 23:55:55 -0700",
       "minecraft:plains": "2021-09-19 21:40:54 -0700"
     },
@@ -4082,6 +4111,12 @@
     },
     "done": true
   },
+  "minecraft:nether/fast_travel": {
+    "criteria": {
+      "travelled": "2021-12-14 02:03:23 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_stairs": {
     "criteria": {
       "has_cobblestone": "2021-09-19 22:26:19 -0700"
@@ -4175,6 +4210,12 @@
   "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
     "criteria": {
       "has_rose_red": "2021-10-10 11:45:36 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2021-12-14 02:14:33 -0800"
     },
     "done": true
   },
@@ -4586,6 +4627,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2021-12-14 02:06:05 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2021-09-20 00:06:08 -0700"
@@ -4613,6 +4660,12 @@
   "minecraft:recipes/tools/stone_shovel": {
     "criteria": {
       "has_cobblestone": "2021-09-19 22:26:19 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+    "criteria": {
+      "has_mossy_cobblestone": "2021-12-14 02:14:33 -0800"
     },
     "done": true
   },
@@ -4685,6 +4738,12 @@
   "minecraft:recipes/building_blocks/polished_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2021-09-20 00:14:01 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2021-12-14 02:06:05 -0800"
     },
     "done": true
   },
@@ -5042,6 +5101,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+    "criteria": {
+      "has_mossy_cobblestone": "2021-12-14 02:14:33 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/light_gray_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2021-09-20 00:02:04 -0700"
@@ -5054,5 +5119,5 @@
     },
     "done": true
   },
-  "DataVersion": 2730
+  "DataVersion": 2865
 }

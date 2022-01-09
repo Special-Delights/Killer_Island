@@ -1710,36 +1710,31 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:jungle_edge": "2021-09-24 00:57:03 -0700",
-      "minecraft:cold_ocean": "2021-09-29 20:19:53 -0700",
-      "minecraft:forest": "2021-09-20 20:43:01 -0700",
-      "minecraft:mountains": "2021-09-20 21:37:19 -0700",
-      "minecraft:badlands_plateau": "2021-09-23 23:57:35 -0700",
-      "minecraft:taiga": "2021-09-23 22:57:35 -0700",
-      "minecraft:desert_hills": "2021-10-02 00:21:23 -0700",
-      "minecraft:deep_cold_ocean": "2021-09-29 20:19:33 -0700",
-      "minecraft:taiga_hills": "2021-10-02 17:38:07 -0700",
-      "minecraft:desert": "2021-09-24 14:08:02 -0700",
-      "minecraft:deep_frozen_ocean": "2021-10-02 00:06:49 -0700",
-      "minecraft:jungle": "2021-09-24 00:21:48 -0700",
-      "minecraft:birch_forest": "2021-09-20 20:54:31 -0700",
-      "minecraft:jungle_hills": "2021-09-24 00:56:56 -0700",
-      "minecraft:bamboo_jungle": "2021-10-02 00:08:21 -0700",
-      "minecraft:warm_ocean": "2021-09-25 00:43:52 -0700",
-      "minecraft:deep_lukewarm_ocean": "2021-09-21 22:13:34 -0700",
+      "minecraft:taiga": "2021-10-02 17:38:07 -0700",
+      "minecraft:deep_ocean": "2021-12-19 14:30:09 -0800",
+      "minecraft:birch_forest": "2021-09-20 21:54:42 -0700",
+      "minecraft:windswept_hills": "2021-09-20 21:37:19 -0700",
+      "minecraft:bamboo_jungle": "2021-10-04 00:56:44 -0700",
+      "minecraft:wooded_badlands": "2021-10-07 21:27:50 -0700",
       "minecraft:badlands": "2021-09-23 23:57:52 -0700",
       "minecraft:savanna_plateau": "2021-10-02 00:20:26 -0700",
       "minecraft:beach": "2021-09-20 20:54:46 -0700",
       "minecraft:dark_forest": "2021-09-25 00:28:28 -0700",
+      "minecraft:sparse_jungle": "2021-09-24 00:57:03 -0700",
       "minecraft:river": "2021-09-20 20:53:29 -0700",
       "minecraft:lukewarm_ocean": "2021-09-20 22:53:22 -0700",
-      "minecraft:birch_forest_hills": "2021-09-20 21:54:42 -0700",
-      "minecraft:wooded_mountains": "2021-09-20 21:38:29 -0700",
-      "minecraft:bamboo_jungle_hills": "2021-10-04 00:56:44 -0700",
-      "minecraft:wooded_hills": "2021-09-20 21:33:48 -0700",
-      "minecraft:stone_shore": "2021-09-25 00:45:02 -0700",
-      "minecraft:wooded_badlands_plateau": "2021-10-07 21:27:50 -0700",
+      "minecraft:stony_shore": "2021-09-25 00:45:02 -0700",
       "minecraft:swamp": "2021-09-20 23:32:30 -0700",
+      "minecraft:cold_ocean": "2021-09-29 20:19:53 -0700",
+      "minecraft:forest": "2021-09-20 21:33:48 -0700",
+      "minecraft:deep_cold_ocean": "2021-09-29 20:19:33 -0700",
+      "minecraft:desert": "2021-09-24 14:08:02 -0700",
+      "minecraft:deep_frozen_ocean": "2021-10-02 00:06:49 -0700",
+      "minecraft:windswept_forest": "2021-09-20 21:38:29 -0700",
+      "minecraft:jungle": "2021-09-24 00:56:56 -0700",
+      "minecraft:ocean": "2021-12-19 14:24:43 -0800",
+      "minecraft:warm_ocean": "2021-09-25 00:43:52 -0700",
+      "minecraft:deep_lukewarm_ocean": "2021-09-21 22:13:34 -0700",
       "minecraft:savanna": "2021-10-02 00:20:23 -0700",
       "minecraft:plains": "2021-09-20 20:42:25 -0700"
     },
@@ -3770,6 +3765,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2021-12-19 14:39:39 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_button": {
     "criteria": {
       "has_planks": "2021-09-20 20:51:14 -0700"
@@ -4155,5 +4156,5 @@
     },
     "done": true
   },
-  "DataVersion": 2730
+  "DataVersion": 2865
 }

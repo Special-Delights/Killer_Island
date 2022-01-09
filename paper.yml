@@ -12,7 +12,7 @@
 
 verbose: false
 use-display-name-in-quit-message: false
-config-version: 22
+config-version: 24
 messages:
   no-permission: '&cI''m sorry, but you do not have permission to perform this command.
     Please contact the server administrators if you believe that this is in error.'
@@ -22,6 +22,7 @@ messages:
     flying-vehicle: Flying is not enabled on this server
     connection-throttle: Connection throttled! Please wait before reconnecting.
 settings:
+  log-player-ip-addresses: true
   lag-compensate-block-breaking: true
   send-full-pos-for-hard-colliding-entities: true
   bungee-online-mode: true
@@ -117,6 +118,11 @@ timings:
   server-name: Unknown Server
 world-settings:
   default:
+    anticheat:
+      obfuscation:
+        items:
+          hide-itemmeta: false
+          hide-durability: false
     piglins-guard-chests: true
     map-item-frame-cursor-update-interval: 10
     allow-player-cramming-damage: false
@@ -244,8 +250,30 @@ world-settings:
     viewdistances:
       no-tick-view-distance: -1
     despawn-ranges:
-      soft: 32
-      hard: 128
+      monster:
+        soft: 32
+        hard: 128
+      creature:
+        soft: 32
+        hard: 128
+      ambient:
+        soft: 32
+        hard: 128
+      axolotls:
+        soft: 32
+        hard: 128
+      underground_water_creature:
+        soft: 32
+        hard: 128
+      water_creature:
+        soft: 32
+        hard: 128
+      water_ambient:
+        soft: 32
+        hard: 64
+      misc:
+        soft: 32
+        hard: 128
     max-growth-height:
       cactus: 3
       reeds: 3
@@ -301,13 +329,16 @@ world-settings:
       ender_pearl: -1
       arrow: -1
     hopper:
+      ignore-occluding-blocks: true
       cooldown-when-full: true
       disable-move-event: false
     spawn-limits:
-      monsters: -1
-      animals: -1
-      water-animals: -1
-      water-ambient: -1
+      monster: -1
+      creature: -1
+      axolotls: -1
+      underground_water_creature: -1
+      water_creature: -1
+      water_ambient: -1
       ambient: -1
     mobs-can-always-pick-up-loot:
       zombies: true

@@ -11,28 +11,45 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1635138110570
+  lastteleport: 1641265043247
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1635138113403
-  login: 1635134210244
-money: '105968.68108700777238572'
+  logout: 1641267289451
+  login: 1641264926668
+money: '220703.84833724336627785'
 last-account-name: Athwee
 lastlocation:
-  world: 95fd92ff-5ca6-47c0-a4db-233da6afee27
-  world-name: Killer_Island_nether
-  x: -272.3284599697658
-  y: 117.0
-  z: -2.3272483478215578
-  yaw: 90.59576416015625
-  pitch: 57.1499137878418
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer_Island
+  x: -2202.37004008283
+  y: 76.5
+  z: -1312.256575840697
+  yaw: 4.049988269805908
+  pitch: 63.00022888183594
 logoutlocation:
   world: e7230443-6d71-40f5-9c81-adf10de976c9
   world-name: Killer_Island
-  x: -2285.5
-  y: 68.0
-  z: -1320.5
-  yaw: 11.845817565917969
-  pitch: 5.700002193450928
+  x: -3387.374685525196
+  y: 131.0
+  z: -25221.25898023953
+  yaw: 150.272705078125
+  pitch: 82.05101013183594
+homes:
+  ocean:
+    world: e7230443-6d71-40f5-9c81-adf10de976c9
+    world-name: Killer_Island
+    x: -3375.4944367744156
+    y: 151.5
+    z: -25227.137608836838
+    yaw: 38.086578369140625
+    pitch: 90.0
+  home:
+    world: e7230443-6d71-40f5-9c81-adf10de976c9
+    world-name: Killer_Island
+    x: -2285.5744725415493
+    y: 68.5625
+    z: -1320.0294374920215
+    yaw: 84.47484588623047
+    pitch: 46.09735107421875

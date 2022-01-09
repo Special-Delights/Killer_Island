@@ -65,20 +65,11 @@ info:
   FromConsole: '&cYou can only use this in the console!'
   NotOnline: '&cThe player is not online!'
   NobodyOnline: '&cThere is no one online!'
-  Same: '&cCan''t open your own inventory for editing!'
-  cantLoginWithDifCap: '&cCan''t login with different name capitalization! Old name:
-    &e[oldName]&c. Current: &e[currentName]'
-  Searching: '&eSearching for player data, please wait, this can take some time to
-    finish!'
   NoPlayer: '&cCan''t find player with this name!'
   NoCommand: '&cThere is no command by this name!'
-  NoCommandWhileSleeping: '&cCan''t perform commands while sleeping!'
   cantFindCommand: '&5Couldn''t find &7[%1]&5 command, did you mean &7[%2]&5?'
   nolocation: '&4Can''t find suitable location'
-  PurgeNotEnabled: '&cPurge function is not enabled in config file!'
   FeatureNotEnabled: '&cThis feature is not enabled!'
-  TeamManagementDisabled: '&7This feature will have limited functionalaty while DisableTeamManagement
-    is set to true!'
   ModuleNotEnabled: '&cThis module is not enabled!'
   versionNotSupported: '&cServer version is not supported for this feature'
   spigotNotSupported: '&cYou need Paper branch type server'
@@ -90,34 +81,8 @@ info:
   UseBoolean: '&4Please use True or False!'
   NoLessThan: '&4Number can''t be less than [amount]!'
   NoMoreThan: '&4Value can''t be more than [amount]'
-  NoGameMode: '&cPlease use 0/1/2/3 or Survival/Creative/Adventure/Spectator or s/c/a/sp!'
   NoWorld: '&4Can''t find world with this name!'
   IncorrectLocation: '&4Location defined incorrectly!'
-  NameChange: '&6[playerDisplayName] &elogged in, also known as: &6[namelist]'
-  Cooldowns: '&eThis command is on cooldown for another &6[time]'
-  specializedCooldowns: '&eCooldown in motion for this command, please wait &6[time]'
-  specializedRunning: '&eCommand still running, please wait &6[time]'
-  CooldownOneTime: '&eThis command can only be used once!'
-  WarmUp:
-    canceled: '&eCommand was cancelled due to your movement'
-    counter: '!actionbar!&6--> Wait &e[time] &6seconds <--'
-    DontMove: '!title!&6Don''t move!!subtitle!&7Wait &c[time] &7seconds'
-    Boss:
-      DontMove: '&4Don''t move for &7[autoTimeLeft] &4seconds!'
-      WaitFor: '&4Wait for &7[autoTimeLeft] &4seconds!'
-  Spawner: '&r[type] Spawner'
-  FailedSpawnerMine: '!actionbar!&cFailed to mine spawner. &7[percent]% &cdrop chance'
-  ClickSpawner: '!actionbar!&7[percent]% &eDrop chance'
-  Elevator:
-    created: '&eCreated elevator sign'
-  CantPlaceSpawner: '&eCan''t place spawner so close to another spawner (&6[range]&e)'
-  ChunksLoading: '&eWorld chunk data is still being loaded. Please wait a bit and
-    try again.'
-  ShulkerBox: Shulker Box
-  CantUseNonEncrypted: '!actionbar!&cCommands on this item are not encrypted. Can''t
-    use them!'
-  CantDecode: '!actionbar!&cCan''t decode message/command. Key file contains wrong
-    key for this task. Inform server administration about this'
   Show: '&eShow'
   Remove: '&cRemove'
   Back: '&eBack'
@@ -131,11 +96,8 @@ info:
   ClickToPaste: '&eClick to paste into chat'
   CantTeleportWorld: '&eYou can''t teleport to this world'
   CantTeleportNoWorld: '&cTarget world doesn''t exist. Teleportation canceled'
-  CantTeleport: '&eYou can''t teleport because you have too many limited items. Scroll
-    over this line to see the maximum amount of items allowed.'
   ClickToConfirmDelete: '&eClick to confirm removal of &6[name]'
   teleported: '&eYou have been teleported.'
-  BlackList: '&e[material] [amount] &6Max: [max]'
   PlayerSpliter: '&e----- &6[playerDisplayName] &e-----'
   Spliter: '&e--------------------------------------------------'
   SpliterValue: '&e------------------ &6[value] &e------------------'
@@ -150,11 +112,8 @@ info:
   noItem: '&cCan''t find item'
   dontHaveItem: '&cYou don''t have &6[amount]x [itemName] &cin your inventory'
   wrongWorld: '&cCan''t do this in this world'
-  wrongPortal: '&cYou are in incorrect area of effect'
   differentWorld: '&cDifferent worlds'
   HaveItem: '&cYou have &6[amount]x [itemName] &cin your inventory'
-  ItemWillBreak: '!actionbar!&eYour item (&6[itemName]&e) will break soon! &e[current]&6/&e[max]'
-  ArmorWillBreak: '!actionbar!&eYour [itemName] will break soon! &e[current]&6/&e[max]'
   cantDoInGamemode: '&eYou can''t do this in this game mode'
   cantDoForPlayer: '&eYou can''t do this to &6[playerDisplayName]'
   cantDoForYourSelf: '&eYou can''t do this to yourself'
@@ -169,46 +128,12 @@ info:
   dontexist: '&4Nothing found by this name'
   worldDontExist: '&cTarget world can''t be accessed anymore. Can''t teleport you
     there!'
-  flyingToHigh: '&cYou can''t fly so high, max height is &6[max]&c!'
-  specializedItemFail: '&cCan''t determine specialized item requirement by value:
-    &7[value]'
-  sunSpeeding: Sleeping [count] of [total] [hour] hour [speed]X speed
-  sleepersRequired: '!actionbar!&f[sleeping] &7of &f[required] &7sleeping from required
-    for night time speedup'
-  sunSpeedingTitle: '&7[hour]'
-  skippingNight: '!title!&7Skipping entire night'
-  sunSpeedingSubTitle: '&f[count]&7/&f[total] &7(&f[speed]X&7)'
-  repairConfirm: '&eClick to confirm &7[items] &eitem repair for &7[cost]'
-  bookDate: '&7Written at &f[date]'
-  maintenance: '&7Maintenance mode'
   notSet: not set
-  mapLimit: '&cCant go beyond 30 000 000 blocks'
-  startedEditingPainting: '&eYou started editing painting. Click any other block to
-    cancel.'
-  canceledEditingPainting: '&eYou canceled painting editing mode'
-  changedPainting: '!actionbar!&eChanged painting to &6[name] &ewith id of &6[id]'
-  noSpam: '!title!&cNo spamming!'
-  noCmdSpam: '!title!&cNo command spamming!'
-  spamConsoleInform: '&cPlayer (&7[playerName]&c) triggered (&7[rules]&c) chat filter
-    with:&r [message]'
   lookAtSign: '&eLook at sign'
   lookAtBlock: '&eLook at block'
   lookAtEntity: '&eLook at entity'
   noSpace: '&eNot enough free space'
   notOnGround: '&eYou can''t perform this while flying'
-  # This line can have extra variables: [totalUsers] [onlinePlayers]
-  FirstJoin: '&eWelcome &6[playerDisplayName] &eto our server!'
-  LogoutCustom: ' &6[playerDisplayName] &eleft the game'
-  LoginCustom: ' &6[playerDisplayName] &ejoined the game'
-  deathlocation: '&eYou died at x:&6[x]&e, y:&6[y]&e, z:&6[z]&e in &6[world]'
-  book:
-    exploit: '&cYou cant create book with more than [amount] pages'
-  combat:
-    CantUseShulkerBox: '&cCan''t use shulker box while you are in combat with player.
-      Wait: [time]'
-    CantUseCommand: '!actionbar!&cCan''t use command while in combat mobe. Wait: [time]'
-    bossBarPvp: '&cCombat mode [autoTimeLeft]'
-    bossBarPve: '&2Combat mode [autoTimeLeft]'
   bungee:
     Online: '&6Online'
     Offline: '&cOffline'
@@ -232,13 +157,120 @@ info:
     spectator: '&6Spectator'
     flying: '&6Flying'
     notflying: '&6Not flying'
+  Inventory:
+    FullDrop: '&5Not all items fit in your inventory. They have been dropped on ground'
+  TimeNotRecorded: '&e-No record-'
+  years: '&e[years] &6years '
+  oneYear: '&e[years] &6year '
+  day: '&e[days] &6days '
+  oneDay: '&e[days] &6day '
+  hour: '&e[hours] &6hours '
+  oneHour: '&e[hours] &6hour '
+  min: '&e[mins] &6min '
+  sec: '&e[secs] &6sec '
+  nextPageConsole: '&fFor next page perform &5[command]'
+  prevPage: '&2----<< &6Prev '
+  prevPageGui: '&6Previous page '
+  prevPageClean: '&6Prev '
+  prevPageOff: '&2----<< &7Prev '
+  prevPageHover: '&7<<<'
+  firstPageHover: '&7|<'
+  nextPage: '&6 Next &2>>----'
+  nextPageGui: '&6Next Page'
+  nextPageClean: '&6 Next'
+  nextPageOff: '&7 Next &2>>----'
+  nextPageHover: '&7>>>'
+  lastPageHover: '&7>|'
+  pageCount: '&2[current]&7/&2[total]'
+  pageCountHover: '&e[totalEntries] entries'
+  skullOwner: '!actionbar!&7Owner:&r [playerName]'
+  circle: '&3Circle'
+  square: '&5Square'
+  clear: '&7Clear'
+  protectedArea: '&cProtected area. Can''t do this here.'
+  valueToLong: '&eValue is too high. Max: [max]'
+  valueToShort: '&eValue is too low. Min: [min]'
+  pickIcon: '&8Pick icon'
+  # Following locale lines got moved to CMI folder and will be removed in future updates from this file. If you want to modify those lines check CMI locale directory
+  Same: '&cCan''t open your own inventory for editing!'
+  cantLoginWithDifCap: '&cCan''t login with different name capitalization! Old name:
+    &e[oldName]&c. Current: &e[currentName]'
+  Searching: '&eSearching for player data, please wait, this can take some time to
+    finish!'
+  NoCommandWhileSleeping: '&cCan''t perform commands while sleeping!'
+  PurgeNotEnabled: '&cPurge function is not enabled in config file!'
+  TeamManagementDisabled: '&7This feature will have limited functionalaty while DisableTeamManagement
+    is set to true!'
+  NoGameMode: '&cPlease use 0/1/2/3 or Survival/Creative/Adventure/Spectator or s/c/a/sp!'
+  NameChange: '&6[playerDisplayName] &elogged in, also known as: &6[namelist]'
+  Cooldowns: '&eThis command is on cooldown for another &6[time]'
+  specializedCooldowns: '&eCooldown in motion for this command, please wait &6[time]'
+  specializedRunning: '&eCommand still running, please wait &6[time]'
+  CooldownOneTime: '&eThis command can only be used once!'
+  WarmUp:
+    canceled: '&eCommand was cancelled due to your movement'
+    counter: '!actionbar!&6--> Wait &e[time] &6seconds <--'
+    DontMove: '!title!&6Don''t move!!subtitle!&7Wait &c[time] &7seconds'
+    Boss:
+      DontMove: '&4Don''t move for &7[autoTimeLeft] &4seconds!'
+      WaitFor: '&4Wait for &7[autoTimeLeft] &4seconds!'
+  Spawner: '&r[type] Spawner'
+  FailedSpawnerMine: '!actionbar!&cFailed to mine spawner. &7[percent]% &cdrop chance'
+  ClickSpawner: '!actionbar!&7[percent]% &eDrop chance'
+  Elevator:
+    created: '&eCreated elevator sign'
+  CantPlaceSpawner: '&eCan''t place spawner so close to another spawner (&6[range]&e)'
+  ChunksLoading: '&eWorld chunk data is still being loaded. Please wait a bit and
+    try again.'
+  CantUseNonEncrypted: '!actionbar!&cCommands on this item are not encrypted. Can''t
+    use them!'
+  CantDecode: '!actionbar!&cCan''t decode message/command. Key file contains wrong
+    key for this task. Inform server administration about this'
+  CantTeleport: '&eYou can''t teleport because you have too many limited items. Scroll
+    over this line to see the maximum amount of items allowed.'
+  BlackList: '&e[material] [amount] &6Max: [max]'
+  wrongPortal: '&cYou are in incorrect area of effect'
+  ItemWillBreak: '!actionbar!&eYour item (&6[itemName]&e) will break soon! &e[current]&6/&e[max]'
+  ArmorWillBreak: '!actionbar!&eYour [itemName] will break soon! &e[current]&6/&e[max]'
+  flyingToHigh: '&cYou can''t fly so high, max height is &6[max]&c!'
+  specializedItemFail: '&cCan''t determine specialized item requirement by value:
+    &7[value]'
+  sunSpeeding: Sleeping [count] of [total] [hour] hour [speed]X speed
+  sleepersRequired: '!actionbar!&f[sleeping] &7of &f[required] &7sleeping from required
+    for night time speedup'
+  sunSpeedingTitle: '&7[hour]'
+  skippingNight: '!title!&7Skipping entire night'
+  sunSpeedingSubTitle: '&f[count]&7/&f[total] &7(&f[speed]X&7)'
+  repairConfirm: '&eClick to confirm &7[items] &eitem repair for &7[cost]'
+  bookDate: '&7Written at &f[date]'
+  maintenance: '&7Maintenance mode'
+  mapLimit: '&cCant go beyond 30 000 000 blocks'
+  startedEditingPainting: '&eYou started editing painting. Click any other block to
+    cancel.'
+  canceledEditingPainting: '&eYou canceled painting editing mode'
+  changedPainting: '!actionbar!&eChanged painting to &6[name] &ewith id of &6[id]'
+  noSpam: '!title!&cNo spamming!'
+  noCmdSpam: '!title!&cNo command spamming!'
+  spamConsoleInform: '&cPlayer (&7[playerName]&c) triggered (&7[rules]&c) chat filter
+    with:&r [message]'
+  # This line can have extra variables: [totalUsers] [onlinePlayers]
+  FirstJoin: '&eWelcome &6[playerDisplayName] &eto our server!'
+  LogoutCustom: ' &6[playerDisplayName] &eleft the game'
+  LoginCustom: ' &6[playerDisplayName] &ejoined the game'
+  deathlocation: '&eYou died at x:&6[x]&e, y:&6[y]&e, z:&6[z]&e in &6[world]'
+  book:
+    exploit: '&cYou cant create book with more than [amount] pages'
+  combat:
+    CantUseShulkerBox: '&cCan''t use shulker box while you are in combat with player.
+      Wait: [time]'
+    CantUseCommand: '!actionbar!&cCan''t use command while in combat mobe. Wait: [time]'
+    bossBarPvp: '&cCombat mode [autoTimeLeft]'
+    bossBarPve: '&2Combat mode [autoTimeLeft]'
   noSchedule: '&cSchedule by this name is not found'
   totem:
     cooldown: '&eTotem cooldown: [time]'
     warmup: '&eTotem effect: [time]'
     cantConsume: '&eTotem usage was denied due to its cooldown time'
-  Inventory:
-    FullDrop: '&5Not all items fit in your inventory. They have been dropped on ground'
   InventorySave:
     info: '&8Info: &8[playerDisplayName]'
     saved: '&e[time] &eInventory saved with id: &e[id]'
@@ -260,42 +292,11 @@ info:
     PreviousInventory: '&ePrevious inventory'
     Editable: '&eEdit mode enabled'
     NonEditable: '&eEdit mode disabled'
-  TimeNotRecorded: '&e-No record-'
-  years: '&e[years] &6years '
-  oneYear: '&e[years] &6year '
-  day: '&e[days] &6days '
-  oneDay: '&e[days] &6day '
-  hour: '&e[hours] &6hours '
-  oneHour: '&e[hours] &6hour '
-  min: '&e[mins] &6min '
-  sec: '&e[secs] &6sec '
   vanishSymbolOn: '&8[&7H&8]&r'
   vanishSymbolOff: ''
   afkSymbolOn: '&8[&7Afk&8]&r'
   afkSymbolOff: ''
-  nextPageConsole: '&fFor next page perform &5[command]'
-  prevPage: '&2----<< &6Prev '
-  prevPageGui: '&6Previous page '
-  prevPageClean: '&6Prev '
-  prevPageOff: '&2----<< &7Prev '
-  prevPageHover: '&7<<<'
-  firstPageHover: '&7|<'
-  nextPage: '&6 Next &2>>----'
-  nextPageGui: '&6Next Page'
-  nextPageClean: '&6 Next'
-  nextPageOff: '&7 Next &2>>----'
-  nextPageHover: '&7>>>'
-  lastPageHover: '&7>|'
-  pageCount: '&2[current]&7/&2[total]'
-  pageCountHover: '&e[totalEntries] entries'
-  skullOwner: '!actionbar!&7Owner:&r [playerName]'
   beeinfo: '!actionbar!&7Honey level: &e[level]&7/&e[maxlevel] &7Bees inside: &e[count]&7/&e[maxcount]'
-  circle: '&3Circle'
-  square: '&5Square'
-  clear: '&7Clear'
-  protectedArea: '&cProtected area. Can''t do this here.'
-  valueToLong: '&eValue is too high. Max: [max]'
-  valueToShort: '&eValue is too low. Min: [min]'
   pvp:
     noGodDamage: '!actionbar!&cYou can''t damage players while being immortal'
   pve:
@@ -311,7 +312,6 @@ info:
     quickbarslots: '&eYour quick bar should have atleast &6[count] &eempty slots!'
     subinv: '&eYour sub inventory should be empty!'
     subinvslots: '&eYour  sub inventory should have atleast &6[count] &eempty slots!'
-  pickIcon: '&8Pick icon'
   DamageCause:
     block_explosion: Explosion
     contact: Block Damage
@@ -344,26 +344,19 @@ info:
     wither: Wither
   Biomes:
     BADLANDS: Badlands
-    BADLANDS_PLATEAU: Badlands plateau
     BAMBOO_JUNGLE: Bamboo jungle
-    BAMBOO_JUNGLE_HILLS: Bamboo jungle hills
     BASALT_DELTAS: Basalt deltas
     BEACH: Beach
     BIRCH_FOREST: Birch forest
-    BIRCH_FOREST_HILLS: Birch forest hills
     COLD_OCEAN: Cold ocean
     CRIMSON_FOREST: Crimson forest
     CUSTOM: Custom
     DARK_FOREST: Dark forest
-    DARK_FOREST_HILLS: Dark forest hills
     DEEP_COLD_OCEAN: Deep cold ocean
     DEEP_FROZEN_OCEAN: Deep frozen ocean
     DEEP_LUKEWARM_OCEAN: Deep lukewarm ocean
     DEEP_OCEAN: Deep ocean
-    DEEP_WARM_OCEAN: Deep warm ocean
     DESERT: Desert
-    DESERT_HILLS: Desert hills
-    DESERT_LAKES: Desert lakes
     DRIPSTONE_CAVES: Dripstone caves
     END_BARRENS: End barrens
     END_HIGHLANDS: End highlands
@@ -372,59 +365,46 @@ info:
     FLOWER_FOREST: Flower forest
     FOREST: Forest
     FROZEN_OCEAN: Frozen ocean
+    FROZEN_PEAKS: Frozen peaks
     FROZEN_RIVER: Frozen river
-    GIANT_SPRUCE_TAIGA: Giant spruce taiga
-    GIANT_SPRUCE_TAIGA_HILLS: Giant spruce taiga hills
-    GIANT_TREE_TAIGA: Giant tree taiga
-    GIANT_TREE_TAIGA_HILLS: Giant tree taiga hills
-    GRAVELLY_MOUNTAINS: Gravelly mountains
+    GROVE: Grove
     ICE_SPIKES: Ice spikes
+    JAGGED_PEAKS: Jagged peaks
     JUNGLE: Jungle
-    JUNGLE_EDGE: Jungle edge
-    JUNGLE_HILLS: Jungle hills
     LUKEWARM_OCEAN: Lukewarm ocean
     LUSH_CAVES: Lush caves
-    MODIFIED_BADLANDS_PLATEAU: Modified badlands plateau
-    MODIFIED_GRAVELLY_MOUNTAINS: Modified gravelly mountains
-    MODIFIED_JUNGLE: Modified jungle
-    MODIFIED_JUNGLE_EDGE: Modified jungle edge
-    MODIFIED_WOODED_BADLANDS_PLATEAU: Modified wooded badlands plateau
-    MOUNTAINS: Mountains
-    MOUNTAIN_EDGE: Mountain edge
+    MEADOW: Meadow
     MUSHROOM_FIELDS: Mushroom fields
-    MUSHROOM_FIELD_SHORE: Mushroom field shore
     NETHER_WASTES: Nether wastes
     OCEAN: Ocean
+    OLD_GROWTH_BIRCH_FOREST: Old growth birch forest
+    OLD_GROWTH_PINE_TAIGA: Old growth pine taiga
+    OLD_GROWTH_SPRUCE_TAIGA: Old growth spruce taiga
     PLAINS: Plains
     RIVER: River
     SAVANNA: Savanna
     SAVANNA_PLATEAU: Savanna plateau
-    SHATTERED_SAVANNA: Shattered savanna
-    SHATTERED_SAVANNA_PLATEAU: Shattered savanna plateau
     SMALL_END_ISLANDS: Small end islands
     SNOWY_BEACH: Snowy beach
-    SNOWY_MOUNTAINS: Snowy mountains
+    SNOWY_PLAINS: Snowy plains
+    SNOWY_SLOPES: Snowy slopes
     SNOWY_TAIGA: Snowy taiga
-    SNOWY_TAIGA_HILLS: Snowy taiga hills
-    SNOWY_TAIGA_MOUNTAINS: Snowy taiga mountains
-    SNOWY_TUNDRA: Snowy tundra
     SOUL_SAND_VALLEY: Soul sand valley
-    STONE_SHORE: Stone shore
+    SPARSE_JUNGLE: Sparse jungle
+    STONY_PEAKS: Stony peaks
+    STONY_SHORE: Stony shore
     SUNFLOWER_PLAINS: Sunflower plains
     SWAMP: Swamp
-    SWAMP_HILLS: Swamp hills
     TAIGA: Taiga
-    TAIGA_HILLS: Taiga hills
-    TAIGA_MOUNTAINS: Taiga mountains
-    TALL_BIRCH_FOREST: Tall birch forest
-    TALL_BIRCH_HILLS: Tall birch hills
     THE_END: The end
     THE_VOID: The void
     WARM_OCEAN: Warm ocean
     WARPED_FOREST: Warped forest
-    WOODED_BADLANDS_PLATEAU: Wooded badlands plateau
-    WOODED_HILLS: Wooded hills
-    WOODED_MOUNTAINS: Wooded mountains
+    WINDSWEPT_FOREST: Windswept forest
+    WINDSWEPT_GRAVELLY_HILLS: Windswept gravelly hills
+    WINDSWEPT_HILLS: Windswept hills
+    WINDSWEPT_SAVANNA: Windswept savanna
+    WOODED_BADLANDS: Wooded badlands
   EntityType:
     area_effect_cloud: Area effect cloud
     armor_stand: Armor stand
@@ -743,15 +723,44 @@ modify:
   commandEditInfo: '&eClick to paste old text. Type &6cancel &eto cancel action'
   listLimit: '&eList can''t be bigger than &6[amount] &eentries'
   commandEditInfoHover: '&eClick to paste old text'
-warp:
-  list: '&e[pos]. &6[warpName] &f- &7[worldName] ([x]:[y]:[z])'
 teleportation:
   relocation: '!actionbar!&4Your teleport location was obstructed. You have been teleported
     to a safe location.'
+econ:
+  noMoney: '&cYou have no money'
+  charged: '!actionbar!&fCharged: &6[amount]'
+  notEnoughMoney: '&cYou dont have enough money. Required (&6[amount]&c)'
+  tooMuchMoney: '&cYou have too much money'
+  disabled: '&cCan''t use this command while economy support is disabled'
+  commandCost: '&7This command cost is &6[cost] &7repeat it or click here to confirm'
+Selection:
+  SelectPoints: '&cSelect 2 points with selection tool! AKA: &6[tool]'
+  PrimaryPoint: '&ePlaced &6Primary &eSelection Point [point]'
+  SecondaryPoint: '&ePlaced &6Secondary &eSelection Point [point]'
+  CoordsTop: '&eX:&6[x] &eY:&6[y] &eZ:&6[z]'
+  CoordsBottom: '&eX:&6[x] &eY:&6[y] &eZ:&6[z]'
+  Area: '&7[world] &f(&6[x1]:[y1]:[z1] &e[x2]:[y2]:[z2]&f)'
+Location:
+  Title: '&8Players location'
+  Killer: '&eKiller: &6[killer]'
+  OneLiner: '&eLocation: &6[location]'
+  DeathReason: '&eDeath Reason: &6[reason]'
+  Full: '&7[world] &f[x]&7:&f[y]&7:&f[z]'
+  World: '&eWorld: &6[world]'
+  X: '&eX: &6[x]'
+  Y: '&eY: &6[y]'
+  Z: '&eZ: &6[z]'
+  Pitch: '&ePitch: &6[pitch]'
+  Yaw: '&eYaw: &6[yaw]'
+  WorldNames:
+  - Killer Island-&2Killer Island
+  - Killer Island_nether-&2Killer Island Nether
+  - Killer Island_the_end-&2Killer Island The End
+Locations: '&7Locations: '
+warp:
+  list: '&e[pos]. &6[warpName] &f- &7[worldName] ([x]:[y]:[z])'
 afk:
-  'on': '&6AFK'
   'off': '&7Playing'
-  left: '&6[playerDisplayName] &eis no longer AFK'
   MayNotRespond: '&ePlayer is AFK and may not respond'
   MayNotRespondStaff: '&eStaff member is AFK and may not respond. Try contacting us
     through discord'
@@ -775,23 +784,13 @@ Information:
   BadGameMode: '&cYou can''t do this in your current game mode'
   BadArea: '&cYou can''t perform this action in this area'
   GameMode: '&eGameMode: &6[GameMode]'
-  GodMode: '&eGodMode: &6[GodMode]'
   Flying: '&eFlying: &6[Flying]'
-  CanFly: '&eCan Fly: &6[CanFly]'
   Uuid: '&6[uuid]'
-  ip: '&eIp address: &6[address]'
   FirstConnection: '&eFirst connection: &6[time]'
   Lastseen: '&eLast seen: &6[time]'
   Onlinesince: '&eOnline since: &6[time]'
   Money: '&eBalance: &6[money]'
   Group: '&eGroup: &6[group]'
-econ:
-  disabled: '&cCan''t use this command while economy support is disabled'
-  noMoney: '&cYou have no money'
-  charged: '!actionbar!&fCharged: &6[amount]'
-  notEnoughMoney: '&cYou dont have enough money. Required (&6[amount]&c)'
-  tooMuchMoney: '&cYou have too much money'
-  commandCost: '&7This command cost is &6[cost] &7repeat it or click here to confirm'
 Elytra:
   Speed: '&eSpeed: &6[speed]&ekm/h'
   SpeedBoost: ' &a+ '
@@ -799,36 +798,11 @@ Elytra:
   CanUse: '&cCan''t equip elytra without permission!'
   CantGlide: '&cCan''t use elytra here!'
   Charging: '&eCharging &f[percentage]&e%'
-Selection:
-  SelectPoints: '&cSelect 2 points with selection tool! AKA: &6[tool]'
-  PrimaryPoint: '&ePlaced &6Primary &eSelection Point [point]'
-  SecondaryPoint: '&ePlaced &6Secondary &eSelection Point [point]'
-  CoordsTop: '&eX:&6[x] &eY:&6[y] &eZ:&6[z]'
-  CoordsBottom: '&eX:&6[x] &eY:&6[y] &eZ:&6[z]'
-  Area: '&7[world] &f(&6[x1]:[y1]:[z1] &e[x2]:[y2]:[z2]&f)'
 NetherPortal:
   ToHigh: '&cPortal is to big, max height is &6[max]&c!'
   ToWide: '&cPortal is to wide, max width is &6[max]&c!'
   Creation: '!actionbar!&7Created [height]x[width] nether portal!'
   Disabled: '&cPortal creation disabled!'
-Location:
-  Title: '&8Players location'
-  Killer: '&eKiller: &6[killer]'
-  OneLiner: '&eLocation: &6[location]'
-  DeathReason: '&eDeath Reason: &6[reason]'
-  Full: '&7[world] &f[x]&7:&f[y]&7:&f[z]'
-  World: '&eWorld: &6[world]'
-  X: '&eX: &6[x]'
-  Y: '&eY: &6[y]'
-  Z: '&eZ: &6[z]'
-  Pitch: '&ePitch: &6[pitch]'
-  Yaw: '&eYaw: &6[yaw]'
-  # Mainly used in %cmi_user_world_formatted% placeholder
-  WorldNames:
-  - Killer Island-&2Killer Island
-  - Killer Island_nether-&2Killer Island Nether
-  - Killer Island_the_end-&2Killer Island The End
-Locations: '&7Locations: '
 Ender:
   Title: '&7Open ender chest'
 Chat:
@@ -857,10 +831,6 @@ command:
   nocmd:
     help:
       info: '&eShows all available commands'
-      args: ''
-  actionbarmsg:
-    help:
-      info: ''
       args: ''
   reload:
     help:

@@ -1,0 +1,19 @@
+22fdb0784a - Last occurred: 2021-12-29 Occurrences: 1
+---- Context 1 ----
+Plan v5.4 build 1494
+Paper git-Paper-74 (MC: 1.18.1)
+Server v1.18.1-R0.1-SNAPSHOT
+
+
+---- Stacktrace ----
+com.djrapitops.plan.exceptions.database.DBOpException: Transaction tried to execute although database is closed.
+   Plan-5.4-build-1494.jar//com.djrapitops.plan.storage.database.SQLDB.executeTransaction(SQLDB.java:281)
+   Plan-5.4-build-1494.jar//com.djrapitops.plan.extension.implementation.providers.gathering.DataValueGatherer.updateValues(DataValueGatherer.java:304)
+   Plan-5.4-build-1494.jar//com.djrapitops.plan.extension.ExtensionSvc.updatePlayerValues(ExtensionSvc.java:171)
+   Plan-5.4-build-1494.jar//com.djrapitops.plan.extension.ExtensionSvc.updatePlayerValues(ExtensionSvc.java:156)
+   Plan-5.4-build-1494.jar//com.djrapitops.plan.gathering.listeners.bukkit.PlayerOnlineListener.lambda$beforePlayerQuit$6(PlayerOnlineListener.java:216)
+   Plan-5.4-build-1494.jar//com.djrapitops.plan.processing.Processing.lambda$submitNonCritical$1(Processing.java:78)
+   java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+   java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+   java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+   java.base/java.lang.Thread.run(Thread.java:833)

@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1634794530666
-  login: 1634794225514
+  logout: 1637290376269
+  login: 1637289658743
 money: '70887.24850772796856456'
 last-account-name: TurtleDuck840
 lastlocation:
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: e7230443-6d71-40f5-9c81-adf10de976c9
   world-name: Killer_Island
-  x: -198.9508322638838
-  y: 63.0
-  z: -1580.138018804553
-  yaw: 147.8400115966797
-  pitch: -11.784261703491211
+  x: -1145.3952941839884
+  y: 65.9375
+  z: 1025.1919330752876
+  yaw: 113.19146728515625
+  pitch: 13.592082023620605
