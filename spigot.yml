@@ -63,6 +63,9 @@ commands:
   - tellraw
 world-settings:
   default:
+    below-zero-generation-in-existing-chunks: true
+    simulation-distance: default
+    thunder-chance: 100000
     verbose: false
     item-despawn-rate: 6000
     enable-zombie-pigmen-portal-spawns: true
@@ -105,6 +108,10 @@ world-settings:
       misc: 32
       other: 64
     growth:
+      twistingvines-modifier: 100
+      weepingvines-modifier: 100
+      cavevines-modifier: 100
+      glowberry-modifier: 100
       cactus-modifier: 100
       cane-modifier: 100
       melon-modifier: 100

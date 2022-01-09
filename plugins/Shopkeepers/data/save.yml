@@ -680,28 +680,16 @@ data-version: 2|2730
           ==: ItemMeta
           meta-type: ENCHANTED
           stored-enchants:
-            LOOT_BONUS_MOBS: 2
-            PIERCING: 4
-      price: 1
-    '9':
-      item:
-        ==: org.bukkit.inventory.ItemStack
-        v: 2730
-        type: ENCHANTED_BOOK
-        meta:
-          ==: ItemMeta
-          meta-type: ENCHANTED
-          stored-enchants:
             LOYALTY: 2
       price: 1
-    '10':
+    '9':
       item:
         ==: org.bukkit.inventory.ItemStack
         v: 2730
         type: MOSS_BLOCK
         amount: 64
       price: 1
-    '11':
+    '10':
       item:
         ==: org.bukkit.inventory.ItemStack
         v: 2730
@@ -712,7 +700,7 @@ data-version: 2|2730
           enchants:
             LOOT_BONUS_BLOCKS: 2
       price: 1
-    '12':
+    '11':
       item:
         ==: org.bukkit.inventory.ItemStack
         v: 2730
@@ -723,16 +711,33 @@ data-version: 2|2730
           stored-enchants:
             DIG_SPEED: 5
       price: 1
+    '12':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: COBBLED_DEEPSLATE
+        amount: 64
+      price: 1
     '13':
       item:
         ==: org.bukkit.inventory.ItemStack
         v: 2730
-        type: ENCHANTED_BOOK
-        meta:
-          ==: ItemMeta
-          meta-type: ENCHANTED
-          stored-enchants:
-            ARROW_INFINITE: 1
+        type: DEEPSLATE_TILES
+        amount: 64
+      price: 1
+    '14':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: POLISHED_BLACKSTONE_BRICKS
+        amount: 64
+      price: 1
+    '15':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: BLACKSTONE
+        amount: 64
       price: 1
 '16':
   uniqueId: 5eed3362-93c5-4619-9c7e-d8359bba6763
@@ -912,27 +917,21 @@ data-version: 2|2730
       item:
         ==: org.bukkit.inventory.ItemStack
         v: 2730
-        type: ENDER_CHEST
+        type: COPPER_BLOCK
       price: 1
     '4':
       item:
         ==: org.bukkit.inventory.ItemStack
         v: 2730
-        type: COPPER_BLOCK
-      price: 1
-    '5':
-      item:
-        ==: org.bukkit.inventory.ItemStack
-        v: 2730
         type: NETHERITE_INGOT
       price: 12
-    '6':
+    '5':
       item:
         ==: org.bukkit.inventory.ItemStack
         v: 2730
         type: COAL_ORE
       price: 1
-    '7':
+    '6':
       item:
         ==: org.bukkit.inventory.ItemStack
         v: 2730
@@ -946,6 +945,19 @@ data-version: 2|2730
           - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"player:Deathhhh"}],"text":""}'
           internal: H4sIAAAAAAAA/2VUSa7bRhSkDQf4/gkQINfQQpz1CcQIKFEiKYnz3DuS4swmJVLi0MtcIBfJBXyIwJscISfICcJvGzGC9KaBV69fVVc1+hnDnrEfrOpR13rXpkWdPGHv1BAm2JOQhPd8Wc/Y8wJdk+5eJP177OmeTPdHl/TPGIa9ecLeW0XWhK+Vt793SXSp9uW6S8F23+KdTWdoY/mkWYbVrWFoZUffjmKyXq8PXpsXiBJXXeXqxWpXtfhajev9SjH4S51nMbDk0+yD1j90lR/OxaSBWTm9bB+DrUvCaFRq3jzGm1OJVyM6dEJz5l3FtCLlvKLMqdagmNTG5PeRHohUZHVhqCK7VuCRQaeY3V9jyX0ELWttvHqS06G5s0njeXSKHGebcsRtz4hy5505wbIrOKQBQp4p5fer0VovYrcf8NtG5V9YxcHXDhG7kU3UlUyXtvNwKh6KW4F5qWPXzImzkYy0Fk5q4fl+6KZ3IdHlFm1M0hKSutuRqWcLvMuCgQJNVtGmeU2O91PLVrYpIzcWtpz9MjOxfrOrUpXp6h4JKKFXHAI1HYX5yuGv4xZBYnMbJ2Hv7ZQmD3hvFNTcoFg1N4HYpVIWUpSsbjntTCPcaIe0WntadLD7c6pt8kPEGhHUNhGK4cH1Y/u0Z2+zDCsgxSwXapnS2/QVDn2oT/XE4zy+AmkwUE4/wdRqvKTQ1e2pV8LCQ1Oj2/u1e1Q2WUV0+H3gUMmZnmsR2sic41RnnRRuhIbEoxOZxb5E3X2cFkK4Pl/cB4lqTa7wDZT0Q4fYq86tu4kTHMY0ucShT1bvUPdGGG6jzXeqnu08ar1CA9GUB9vmLkmq726uPN24k0Eez0DSMvKcMGY23/xUzoetf0Ekkx0s/MMT9p0b1o/kzV/J2Gby7oiHHlHHlJlHPl/IQpspdoBUISDVhV6xjVmxxpO844tYOg4A1j1wlsgLnl3OlkBUoSYcoVLmULFlXBNlJiirEZQqVNAeBYjHAxJU6k7udwWfyc12jkhwjURXCxber3P2wDvgoZi34b996hWQTH6R3Bm4xzr23WsM3S+8kjlfPOdrn1knkkksGPqC9a9aX+9lW/ji6X9qr/3uHO3kTCv4IpRMPBba4Ux9m3GGxDWCbrm8B3jZMQ/gG8NFdOnPOiwuX3QWAVJGFbklKI0JlAoNbFCBcj8rCBSa7ZaBd4ABecwV71gDW54DZDBAyEZ18UYVZEoVMjpAR6hCZwQeKOVi/KYPEvVFPFSBb+b/075kEHlcBbzxc06LR33o4cVnH15xCT9927fcrsE/YNj32Fv5snxZ7/749Ovfv/0kffz44y/Ez+8+/Ylh/wDbpbnOBQUAAA==
           skull-owner: Deathhhh
+      price: 1
+    '7':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: GLOW_INK_SAC
+        amount: 64
+      price: 1
+    '8':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: ENDER_CHEST
       price: 1
 '20':
   uniqueId: 7c7991da-4122-4601-ac1e-cabf3bb4be46

@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1634705318575
-  login: 1634704633749
+  logout: 1639451913475
+  login: 1639451785894
 money: '0'
 last-account-name: monaxide
 lastlocation:
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: 95fd92ff-5ca6-47c0-a4db-233da6afee27
   world-name: Killer_Island_nether
-  x: 263.55899612604526
+  x: -472.548816267004
   y: 114.55000001192093
-  z: 0.75
-  yaw: 94.8056640625
-  pitch: 49.05022430419922
+  z: 0.3644191403211399
+  yaw: 92.67977905273438
+  pitch: 11.550111770629883

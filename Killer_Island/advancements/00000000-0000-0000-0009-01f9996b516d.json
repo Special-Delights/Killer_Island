@@ -286,13 +286,13 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
+  "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
     "criteria": {
       "has_gravel": "2021-09-25 11:32:52 -0700"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
+  "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
     "criteria": {
       "has_gravel": "2021-09-25 11:32:52 -0700"
     },
@@ -1140,17 +1140,16 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:cold_ocean": "2021-09-25 10:19:58 -0700",
-      "minecraft:forest": "2021-09-24 14:55:43 -0700",
-      "minecraft:mountains": "2021-09-25 09:35:20 -0700",
-      "minecraft:deep_lukewarm_ocean": "2021-10-09 10:46:28 -0700",
+      "minecraft:windswept_hills": "2021-09-25 09:35:20 -0700",
       "minecraft:beach": "2021-10-08 17:54:14 -0700",
       "minecraft:dark_forest": "2021-10-10 08:04:43 -0700",
       "minecraft:river": "2021-09-25 09:20:40 -0700",
       "minecraft:lukewarm_ocean": "2021-10-09 10:45:54 -0700",
-      "minecraft:wooded_mountains": "2021-10-08 17:58:34 -0700",
-      "minecraft:wooded_hills": "2021-09-25 09:20:01 -0700",
-      "minecraft:stone_shore": "2021-10-08 17:58:02 -0700",
+      "minecraft:stony_shore": "2021-10-08 17:58:02 -0700",
+      "minecraft:cold_ocean": "2021-09-25 10:19:58 -0700",
+      "minecraft:forest": "2021-09-25 09:20:01 -0700",
+      "minecraft:windswept_forest": "2021-10-08 17:58:34 -0700",
+      "minecraft:deep_lukewarm_ocean": "2021-10-09 10:46:28 -0700",
       "minecraft:plains": "2021-09-24 14:50:53 -0700"
     },
     "done": false
@@ -1391,5 +1390,5 @@
     },
     "done": true
   },
-  "DataVersion": 2730
+  "DataVersion": 2865
 }

@@ -118,13 +118,13 @@ npc:
                 pitch: '0.0'
         provider: linear
       location:
-        bodyYaw: -24.555489
+        bodyYaw: 10.399109
         world: Spawn
         x: '-318.6721'
         y: '4.0'
         z: '-143.4394'
-        yaw: '8.8613'
-        pitch: '0.0'
+        yaw: '13.0434'
+        pitch: '-37.1906'
       sneak:
         sneaking: false
       type: PLAYER
@@ -150,7 +150,7 @@ npc:
         signature: EO+Hr7ORSFeNKe63sZGSamf2KhSQHEgj6qYlWyAfiOBBrRQAE7I2l53U+yXxPAde7RaNaN89MhkKkmBSPJCDDJenHc19YlArdXt5Q+MI1w+igWNmwJHXJSIUS7reQJOHjzwF5AcWlLUKKsmNdoA1kOQKlPVtPEe/aWHkqYTNtTQ0zbpBU0WxsPBLfyf6tlzukI1CNGt33T6wDoBrpYA7Aqq7WE/wSD3iP263oRyHaAO4XjRiHK3dbSDRWU9hlTknPWM6ApSW8U1gTUxzYiISSWwjXAYugBM6KHyFQo6J7Qe08kOG8L4e/BU+Up65pi4uXljlY73DwBrN5d1IPjyUmPZMfeUBYfWeUg5jrpGrNekNC8eS7NIOKzMrTYArYFquT6he9y4fYHc8Oy2KV6HxnV0KVra4HMU7+yyj7bC9EqVw9dAfGGYktiDBr6dx2dSEFh7B+tcyJMVfRoFn2x4EXkJAa7BxihsxImS1+81QCcJ0mEQcZ5KhMvZQzITkSqVABgScFMBtH/PASYnwiaKHPnZEv7tcTPy/N3kV6Xy+r7zx5t3Rw+T+CHOnAJZt3vcDJLqIqbsdoWWZGwkfMLR3CjlPuaFqoH6GipI1Jn8L0Ifli6qVLXBMpFnKxRy8zg3pmRFBGQOWnWx0TCa++xxsBxBUdLwk4u5wvpQoC8mlCDM=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYzNDU2MTQwNDM0NiwKICAicHJvZmlsZUlkIiA6ICI0MTc5NDhjMzVlYWQ0ZjgwODVjNGQwNTNkYWM0OTE4ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJXYXJkZW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWQ3NDU5YjgwM2YwMzM5YjU4M2Y4NmNhYmZhNzljZjA4MWU0YjU2OThjNTNhNTY1YzIwMjYyMGU1MjVmMjI0ZCIKICAgIH0KICB9Cn0=
         updateSkins: false
-    traitnames: mounttrait,type,sneak,equipment,skintrait,scoreboardtrait,lookclose,waypoints,owner,npcpolice,spawned,inventory,location
+    traitnames: sneak,mounttrait,npcpolice,lookclose,location,scoreboardtrait,skintrait,spawned,equipment,inventory,type,owner,waypoints
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -317,13 +317,13 @@ npc:
                 pitch: '0.0'
         provider: linear
       location:
-        bodyYaw: 129.36108
+        bodyYaw: 175.61185
         world: Spawn
-        x: '-361.6395'
+        x: '-351.4321'
         y: '4.0'
-        z: '-140.7941'
-        yaw: '129.3611'
-        pitch: '-2.8181'
+        z: '-126.6155'
+        yaw: '175.6118'
+        pitch: '37.4079'
       sneak:
         sneaking: false
       type: PLAYER
@@ -350,8 +350,8 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYzNDU2MDgwNTI3NSwKICAicHJvZmlsZUlkIiA6ICI1MjA2YmU1YmMxMDM0M2U5Yjg2NmY5ZGZjMWNlOTg3MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHdWFyZCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81MTE4MmNmNjVkMTgwZWNmMDhmYWIyMzExYWJlZDBjZmNlZTk2MGU2ZGY1YTNiYTUyOGY3ZWE0N2NjNDFmMGEyIgogICAgfQogIH0KfQ==
         updateSkins: false
       sentinel:
-        stats_ticksSpawned: 12380225
-        stats_timesSpawned: 15
+        stats_ticksSpawned: 96301938
+        stats_timesSpawned: 39
         stats_arrowsFired: 0
         stats_potionsThrow: 0
         stats_fireballsFired: 0
@@ -362,10 +362,10 @@ npc:
         stats_shulkerBulletsShot: 0
         stats_evokerFangsSpawned: 0
         stats_pearlsUsed: 0
-        stats_punches: 23
-        stats_attackAttempts: 124
-        stats_damageTaken: 25.543999791145325
-        stats_damageGiven: 144.0
+        stats_punches: 34
+        stats_attackAttempts: 194
+        stats_damageTaken: 34.543999791145325
+        stats_damageGiven: 208.0
         avoidRange: 10.0
         range: 20.0
         damage: 8.0
@@ -405,7 +405,7 @@ npc:
         disable_teleporting: false
         reaction_slowdown: 0
         allow_knockback: true
-    traitnames: mounttrait,type,sneak,equipment,skintrait,scoreboardtrait,waypoints,npcpolice,owner,sentinel,spawned,inventory,location
+    traitnames: sneak,mounttrait,npcpolice,location,sentinel,scoreboardtrait,skintrait,spawned,equipment,inventory,type,owner,waypoints
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -617,13 +617,13 @@ npc:
                 pitch: '0.0'
         provider: linear
       location:
-        bodyYaw: 6.6024094
+        bodyYaw: 274.1993
         world: Killer_Island
-        x: '-1129.4284'
+        x: '-1131.3596'
         y: '65.9375'
-        z: '1030.8811'
-        yaw: '6.6024'
-        pitch: '-5.3301'
+        z: '1044.4369'
+        yaw: '-85.8007'
+        pitch: '0.0'
       sneak:
         sneaking: false
       type: PLAYER
@@ -633,8 +633,8 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYzNDU2MDgwNTI3NSwKICAicHJvZmlsZUlkIiA6ICI1MjA2YmU1YmMxMDM0M2U5Yjg2NmY5ZGZjMWNlOTg3MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHdWFyZCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81MTE4MmNmNjVkMTgwZWNmMDhmYWIyMzExYWJlZDBjZmNlZTk2MGU2ZGY1YTNiYTUyOGY3ZWE0N2NjNDFmMGEyIgogICAgfQogIH0KfQ==
         updateSkins: false
       sentinel:
-        stats_ticksSpawned: 10248545
-        stats_timesSpawned: 12
+        stats_ticksSpawned: 94170343
+        stats_timesSpawned: 39
         stats_arrowsFired: 0
         stats_potionsThrow: 0
         stats_fireballsFired: 0
@@ -645,10 +645,10 @@ npc:
         stats_shulkerBulletsShot: 0
         stats_evokerFangsSpawned: 0
         stats_pearlsUsed: 0
-        stats_punches: 23
-        stats_attackAttempts: 221
-        stats_damageTaken: 141.26143741607666
-        stats_damageGiven: 219.02399587631226
+        stats_punches: 90
+        stats_attackAttempts: 741
+        stats_damageTaken: 374.9601258635521
+        stats_damageGiven: 1068.9592928886414
         avoidRange: 10.0
         range: 20.0
         damage: 15.0
@@ -691,7 +691,7 @@ npc:
         allIgnores:
           targets:
             '0': OWNER
-    traitnames: mounttrait,type,equipment,sneak,skintrait,scoreboardtrait,lookclose,waypoints,owner,sentinel,spawned,inventory,location
+    traitnames: sneak,mounttrait,lookclose,location,sentinel,scoreboardtrait,skintrait,spawned,equipment,inventory,type,owner,waypoints
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -735,13 +735,13 @@ npc:
                 pitch: '0.0'
         provider: linear
       location:
-        bodyYaw: -166.78938
+        bodyYaw: 106.58658
         world: Killer_Island
         x: '-1156.0'
         y: '66.0'
         z: '1058.0'
-        yaw: '153.2106'
-        pitch: '0.0'
+        yaw: '114.7204'
+        pitch: '-18.4771'
       sneak:
         sneaking: false
       type: PLAYER
@@ -768,8 +768,8 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYzNDU2MDgwNTI3NSwKICAicHJvZmlsZUlkIiA6ICI1MjA2YmU1YmMxMDM0M2U5Yjg2NmY5ZGZjMWNlOTg3MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHdWFyZCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81MTE4MmNmNjVkMTgwZWNmMDhmYWIyMzExYWJlZDBjZmNlZTk2MGU2ZGY1YTNiYTUyOGY3ZWE0N2NjNDFmMGEyIgogICAgfQogIH0KfQ==
         updateSkins: false
       sentinel:
-        stats_ticksSpawned: 10521590
-        stats_timesSpawned: 9
+        stats_ticksSpawned: 91999408
+        stats_timesSpawned: 22254
         stats_arrowsFired: 0
         stats_potionsThrow: 0
         stats_fireballsFired: 0
@@ -780,10 +780,10 @@ npc:
         stats_shulkerBulletsShot: 0
         stats_evokerFangsSpawned: 0
         stats_pearlsUsed: 0
-        stats_punches: 19
-        stats_attackAttempts: 117
-        stats_damageTaken: 82.5
-        stats_damageGiven: 281.99999809265137
+        stats_punches: 65
+        stats_attackAttempts: 361
+        stats_damageTaken: 319.06608748435974
+        stats_damageGiven: 948.5440053939819
         avoidRange: 10.0
         range: 20.0
         damage: 15.0
@@ -826,7 +826,7 @@ npc:
         allIgnores:
           targets:
             '0': OWNER
-    traitnames: mounttrait,type,sneak,equipment,skintrait,scoreboardtrait,lookclose,waypoints,owner,npcpolice,sentinel,spawned,inventory,location
+    traitnames: sneak,mounttrait,lookclose,npcpolice,location,sentinel,scoreboardtrait,skintrait,spawned,equipment,inventory,type,owner,waypoints
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

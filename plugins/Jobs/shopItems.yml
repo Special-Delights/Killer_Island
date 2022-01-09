@@ -111,3 +111,45 @@ Items:
     GiveItems:
       Elytra:
         Id: elytra
+  Dirt:
+    Price: 100.0
+    Icon:
+      Id: dirt
+      Name: "&eDirt"
+      HideWithoutPermission: true
+    RequiredPermission:
+    - jobs.item.elytra
+    PerformCommands:
+    - "msg &eThanks [player] for buying dirt!"
+    # (Optional) Gives items by defined criteria
+    GiveItems:
+      Dirt:
+        Id: dirt
+  Netherrack:
+    Price: 100.0
+    Icon:
+      Id: netherrack
+      Name: "&eNetherrack"
+      HideWithoutPermission: true
+    RequiredPermission:
+    - jobs.item.elytra
+    PerformCommands:
+    - "msg &eThanks [player] for buying nether rack!"
+    # (Optional) Gives items by defined criteria
+    GiveItems:
+      Netherrack:
+        Id: netherrack
+  Oak_Sapling:
+    Price: 100.0
+    Icon:
+      Id: oak_sapling
+      Name: "&eOak_Sapling"
+      HideWithoutPermission: true
+    RequiredPermission:
+    - jobs.item.elytra
+    PerformCommands:
+    - "msg &eThanks [player] for buying oak sapling!"
+    # (Optional) Gives items by defined criteria
+    GiveItems:
+      Oak_Sapling:
+        Id: oak_sapling

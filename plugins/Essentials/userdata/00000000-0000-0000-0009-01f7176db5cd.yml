@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1634665337994
+  lastteleport: 1635863867718
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1635136183575
-  login: 1635128371925
-money: '7342.0585609244447198'
+  logout: 1637815340063
+  login: 1637814783977
+money: '9015.59848583687621377'
 last-account-name: -BeardedCocaire
 logoutlocation:
-  world: ab3ac0c2-7d6a-40c8-82cc-e34d108d8f95
-  world-name: skyworld
-  x: 4.210941
-  y: 146.0
-  z: -256.1951
-  yaw: 169.11553955078125
-  pitch: 3.101287841796875
-lastlocation:
   world: e7230443-6d71-40f5-9c81-adf10de976c9
   world-name: Killer_Island
-  x: 9807.606
-  y: 11.0
-  z: 8232.616
-  yaw: 150.48675537109375
-  pitch: 31.985626220703125
+  x: 9798.69999
+  y: 8.0
+  z: 7482.69999
+  yaw: -175.603515625
+  pitch: 18.478439331054688
+lastlocation:
+  world: de51b376-9cec-448c-9231-b3b573852bb7
+  world-name: Killer_Island_the_end
+  x: 103.649704
+  y: 3.5
+  z: 220.85883
+  yaw: 176.36083984375
+  pitch: 29.525131225585938

@@ -486,13 +486,13 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
+  "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
     "criteria": {
       "has_sand": "2021-09-22 15:14:15 -0700"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
+  "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
     "criteria": {
       "has_sand": "2021-09-22 15:14:15 -0700"
     },
@@ -1669,23 +1669,21 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:forest": "2021-09-22 15:41:06 -0700",
-      "minecraft:mountains": "2021-09-24 00:26:28 -0700",
       "minecraft:taiga": "2021-09-24 00:26:47 -0700",
-      "minecraft:desert_hills": "2021-09-22 15:48:08 -0700",
-      "minecraft:desert": "2021-09-22 15:46:21 -0700",
-      "minecraft:birch_forest": "2021-09-22 15:02:01 -0700",
-      "minecraft:deep_lukewarm_ocean": "2021-09-22 15:39:20 -0700",
+      "minecraft:birch_forest": "2021-10-01 03:17:11 -0700",
+      "minecraft:windswept_hills": "2021-09-24 00:26:28 -0700",
       "minecraft:savanna_plateau": "2021-09-22 15:51:39 -0700",
       "minecraft:beach": "2021-09-22 15:04:50 -0700",
       "minecraft:dark_forest": "2021-09-24 00:29:43 -0700",
       "minecraft:river": "2021-09-22 15:03:23 -0700",
       "minecraft:lukewarm_ocean": "2021-09-22 15:39:15 -0700",
-      "minecraft:birch_forest_hills": "2021-10-01 03:17:11 -0700",
-      "minecraft:wooded_mountains": "2021-09-29 23:38:15 -0700",
-      "minecraft:wooded_hills": "2021-09-22 15:41:24 -0700",
-      "minecraft:stone_shore": "2021-09-29 23:29:40 -0700",
+      "minecraft:stony_shore": "2021-09-29 23:29:40 -0700",
+      "minecraft:dripstone_caves": "2021-12-13 14:52:44 -0800",
       "minecraft:swamp": "2021-09-22 15:41:16 -0700",
+      "minecraft:forest": "2021-09-22 15:41:24 -0700",
+      "minecraft:desert": "2021-09-22 15:46:21 -0700",
+      "minecraft:windswept_forest": "2021-09-29 23:38:15 -0700",
+      "minecraft:deep_lukewarm_ocean": "2021-09-22 15:39:20 -0700",
       "minecraft:savanna": "2021-09-22 15:50:58 -0700",
       "minecraft:plains": "2021-09-22 14:53:53 -0700"
     },
@@ -2055,5 +2053,5 @@
     },
     "done": true
   },
-  "DataVersion": 2730
+  "DataVersion": 2865
 }

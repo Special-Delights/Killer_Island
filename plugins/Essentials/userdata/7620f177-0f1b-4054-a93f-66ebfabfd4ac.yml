@@ -1,0 +1,55 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 96.40.246.204
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1635357361714
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1635382990429
+  login: 1635382804086
+money: '0'
+last-account-name: Czar_Penguin
+lastlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer_Island
+  x: -1337.0768088776779
+  y: 64.39080258554839
+  z: -10731.55289995815
+  yaw: -116.53791046142578
+  pitch: 36.449195861816406
+logoutlocation:
+  world: e7230443-6d71-40f5-9c81-adf10de976c9
+  world-name: Killer_Island
+  x: -1228.4695109906297
+  y: 63.0
+  z: -10969.596446660782
+  yaw: 87.7484130859375
+  pitch: 45.30000305175781
+homes:
+  home:
+    world: e7230443-6d71-40f5-9c81-adf10de976c9
+    world-name: Killer_Island
+    x: -1230.1387085153772
+    y: 63.0
+    z: -10981.554403043156
+    yaw: -179.699951171875
+    pitch: 17.849605560302734
+  mine:
+    world: e7230443-6d71-40f5-9c81-adf10de976c9
+    world-name: Killer_Island
+    x: 1366.111076028461
+    y: 71.0
+    z: 10519.347275864904
+    yaw: -173.69940185546875
+    pitch: 19.0498046875

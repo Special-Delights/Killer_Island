@@ -10,46 +10,46 @@ chestData:
   chestDate: 2021-09-25T17:22:33.193Z
   inventory:
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_SWORD
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 7
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_AXE
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_PICKAXE
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 14
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_HOE
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_SHOVEL
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: COBBLESTONE
     amount: 15
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: COOKED_BEEF
     amount: 12
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: AMETHYST_BLOCK
     amount: 10
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: SMOOTH_BASALT
     amount: 2
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: CALCITE
     amount: 11
   - null
@@ -79,16 +79,16 @@ chestData:
   - null
   - null
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_BOOTS
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_LEGGINGS
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_CHESTPLATE
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_HELMET
   - null
   chestLocation: Killer_Island_nether;-3.0;89.0;-135.0
@@ -103,17 +103,17 @@ chestData:
   chestDate: 2021-09-25T17:25:50.893Z
   inventory:
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: SPRUCE_BOAT
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: CHICKEN
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: ROTTEN_FLESH
     amount: 2
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: WRITTEN_BOOK
     meta:
       ==: ItemMeta
@@ -128,53 +128,53 @@ chestData:
         /ExtendClaim\n/IgnorePlayer\n\n/SubdivideClaims\n/AccessTrust\n/ContainerTrust\n/PermissionTrust"}],"text":""}'
       resolved: true
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: ARROW
     amount: 2
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: COBBLESTONE
     amount: 40
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: STONE_PICKAXE
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 3
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: STONE_AXE
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 2
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: GOLDEN_SHOVEL
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 6
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: BONE
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: OAK_PLANKS
     amount: 7
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: WHEAT_SEEDS
     amount: 3
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: CRAFTING_TABLE
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: SMOOTH_BASALT
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: LANTERN
   - null
   - null
@@ -214,36 +214,36 @@ chestData:
   chestDate: 2021-09-27T15:06:56.188Z
   inventory:
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_SWORD
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 44
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_PICKAXE
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 143
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: WOODEN_SHOVEL
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 12
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: COAL
     amount: 13
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: COBBLESTONE
     amount: 15
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: STONE_SWORD
     meta:
       ==: ItemMeta
@@ -252,7 +252,7 @@ chestData:
   - null
   - null
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: TORCH
     amount: 5
   - null
@@ -299,64 +299,64 @@ chestData:
   chestDate: 2021-09-27T15:26:35.466Z
   inventory:
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: STONE_SWORD
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 23
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: STONE_PICKAXE
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 116
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: OAK_PLANKS
     amount: 7
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: COAL
     amount: 53
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: COBBLESTONE
     amount: 5
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: RAW_IRON
     amount: 30
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: ARROW
     amount: 2
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: COOKED_BEEF
     amount: 62
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: BONE
     amount: 2
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: DIORITE
     amount: 4
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: GRAVEL
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: GRANITE
     amount: 3
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: OAK_FENCE
     amount: 3
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: STRING
   - null
   - null
@@ -381,21 +381,21 @@ chestData:
   - null
   - null
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_BOOTS
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 20
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_LEGGINGS
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 22
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_CHESTPLATE
     meta:
       ==: ItemMeta
@@ -415,7 +415,7 @@ chestData:
   chestDate: 2021-10-04T17:26:05.543Z
   inventory:
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: WRITTEN_BOOK
     meta:
       ==: ItemMeta
@@ -430,126 +430,126 @@ chestData:
         /ExtendClaim\n/IgnorePlayer\n\n/SubdivideClaims\n/AccessTrust\n/ContainerTrust\n/PermissionTrust"}],"text":""}'
       resolved: true
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: DIRT
     amount: 33
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: BEEF
     amount: 18
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_PICKAXE
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 108
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: BROWN_MUSHROOM
     amount: 8
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_SWORD
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 67
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_INGOT
     amount: 64
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: COOKED_CHICKEN
     amount: 36
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_SHOVEL
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 14
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: OAK_LOG
     amount: 57
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: BIRCH_PLANKS
     amount: 60
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: STICKY_PISTON
     amount: 13
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: STICK
     amount: 18
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: SMOKER
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: BIRCH_PLANKS
     amount: 12
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: OAK_SAPLING
     amount: 14
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: JUNGLE_LOG
     amount: 64
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: WHEAT_SEEDS
     amount: 64
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: BIRCH_PLANKS
     amount: 64
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: BIRCH_PLANKS
     amount: 64
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_INGOT
     amount: 64
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_INGOT
     amount: 49
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: SUNFLOWER
     amount: 44
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_INGOT
     amount: 59
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: JUNGLE_LEAVES
     amount: 3
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: JUNGLE_LOG
     amount: 64
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: APPLE
     amount: 8
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_SWORD
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 101
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_PICKAXE
     meta:
       ==: ItemMeta
@@ -559,15 +559,15 @@ chestData:
         DURABILITY: 2
       repair-cost: 3
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: COAL
     amount: 64
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: COD
     amount: 7
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_SWORD
     meta:
       ==: ItemMeta
@@ -575,42 +575,42 @@ chestData:
       enchants:
         DAMAGE_UNDEAD: 1
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: COAL
     amount: 64
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: COBBLESTONE
     amount: 64
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: WATER_BUCKET
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: WATER_BUCKET
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_BOOTS
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 3
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_LEGGINGS
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 3
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_CHESTPLATE
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 3
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_HELMET
     meta:
       ==: ItemMeta
@@ -629,7 +629,7 @@ chestData:
   chestDate: 2021-10-12T00:51:39.184Z
   inventory:
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_SWORD
     meta:
       ==: ItemMeta
@@ -637,51 +637,51 @@ chestData:
       repair-cost: 1
       Damage: 56
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_AXE
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 9
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_PICKAXE
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: OAK_LOG
     amount: 10
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: OAK_SAPLING
     amount: 6
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: APPLE
     amount: 2
   - null
   - null
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: CRAFTING_TABLE
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: DARK_OAK_LOG
     amount: 6
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: DARK_OAK_PLANKS
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: STICK
     amount: 6
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: DIRT
   - null
   - null
   - null
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: WRITTEN_BOOK
     meta:
       ==: ItemMeta
@@ -696,11 +696,11 @@ chestData:
         /ExtendClaim\n/IgnorePlayer\n\n/SubdivideClaims\n/AccessTrust\n/ContainerTrust\n/PermissionTrust"}],"text":""}'
       resolved: true
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: MAGENTA_WOOL
     amount: 58
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_INGOT
     amount: 45
   - null
@@ -711,21 +711,21 @@ chestData:
   - null
   - null
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: MAGENTA_BED
   - null
   - null
   - null
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: COOKED_BEEF
     amount: 16
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: FEATHER
     amount: 64
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: POPPY
     amount: 6
   - null
@@ -748,66 +748,66 @@ chestData:
   chestDate: 2021-10-12T01:20:30.605Z
   inventory:
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: SAND
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: OAK_SAPLING
     amount: 6
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: WOODEN_AXE
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 40
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: WOODEN_SWORD
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 20
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: WOODEN_PICKAXE
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 9
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: STICK
     amount: 14
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: CRAFTING_TABLE
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: OAK_LOG
     amount: 24
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: MUTTON
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: LILY_PAD
     amount: 2
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: FEATHER
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: CHICKEN
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: DIRT
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: COAL
     amount: 7
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: WHITE_WOOL
     amount: 5
   - null
@@ -848,11 +848,11 @@ chestData:
   chestDate: 2021-10-12T09:41:51.595Z
   inventory:
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: BREAD
     amount: 10
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: RED_BED
   - null
   - null
@@ -862,33 +862,33 @@ chestData:
   - null
   - null
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: HAY_BLOCK
     amount: 29
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: COBBLESTONE
     amount: 8
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: COAL
     amount: 7
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: ACACIA_PLANKS
     amount: 36
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: STONE_SWORD
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 2
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: STONE_AXE
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: STONE_PICKAXE
     meta:
       ==: ItemMeta
@@ -896,20 +896,20 @@ chestData:
       Damage: 16
   - null
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: STRING
     amount: 12
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: STICK
     amount: 9
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: ACACIA_LOG
     amount: 5
   - null
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: WHEAT
     amount: 2
   - null
@@ -943,7 +943,7 @@ chestData:
   chestDate: 2021-10-13T17:16:22.147Z
   inventory:
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: LIME_BED
   - null
   - null
@@ -997,14 +997,14 @@ chestData:
   chestDate: 2021-10-16T07:10:33.763Z
   inventory:
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_SWORD
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 9
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: COBBLESTONE
     amount: 6
   - null
@@ -1042,28 +1042,28 @@ chestData:
   - null
   - null
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_BOOTS
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 12
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_LEGGINGS
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 12
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_CHESTPLATE
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 12
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_HELMET
     meta:
       ==: ItemMeta
@@ -1082,7 +1082,7 @@ chestData:
   chestDate: 2021-10-17T16:23:19.448Z
   inventory:
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: CROSSBOW
     meta:
       ==: ItemMeta
@@ -1095,7 +1095,7 @@ chestData:
       Damage: 10
       charged: false
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: CROSSBOW
     meta:
       ==: ItemMeta
@@ -1109,18 +1109,18 @@ chestData:
       Damage: 8
       charged: false
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: ENDER_CHEST
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: COBBLESTONE
     amount: 40
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: ENDER_PEARL
     amount: 2
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: DIAMOND_PICKAXE
     meta:
       ==: ItemMeta
@@ -1133,7 +1133,7 @@ chestData:
       repair-cost: 31
       Damage: 837
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: BOW
     meta:
       ==: ItemMeta
@@ -1145,7 +1145,7 @@ chestData:
       repair-cost: 15
       Damage: 120
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: DIAMOND_SWORD
     meta:
       ==: ItemMeta
@@ -1159,19 +1159,19 @@ chestData:
       repair-cost: 7
       Damage: 230
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: ARROW
     amount: 64
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: NETHER_GOLD_ORE
     amount: 8
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: COOKED_BEEF
     amount: 43
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: FIREWORK_ROCKET
     amount: 42
     meta:
@@ -1179,17 +1179,17 @@ chestData:
       meta-type: FIREWORK
       power: 1
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: BASALT
     amount: 2
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: GOLDEN_APPLE
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: GOLD_BLOCK
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: DIAMOND_BOOTS
     meta:
       ==: ItemMeta
@@ -1202,28 +1202,28 @@ chestData:
       repair-cost: 3
       Damage: 8
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: GOLDEN_CARROT
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: ANCIENT_DEBRIS
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: COOKED_PORKCHOP
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_BLOCK
     amount: 2
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: SPECTRAL_ARROW
     amount: 11
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: ARROW
     amount: 3
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: BONE_BLOCK
     amount: 3
   - null
@@ -1240,7 +1240,7 @@ chestData:
   - null
   - null
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: GOLDEN_BOOTS
     meta:
       ==: ItemMeta
@@ -1253,7 +1253,7 @@ chestData:
       repair-cost: 3
       Damage: 26
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: NETHERITE_LEGGINGS
     meta:
       ==: ItemMeta
@@ -1265,7 +1265,7 @@ chestData:
       repair-cost: 1
       Damage: 7
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: ELYTRA
     meta:
       ==: ItemMeta
@@ -1276,7 +1276,7 @@ chestData:
       repair-cost: 3
       Damage: 25
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: DIAMOND_HELMET
     meta:
       ==: ItemMeta
@@ -1289,7 +1289,7 @@ chestData:
       repair-cost: 3
       Damage: 20
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: SHIELD
     meta:
       ==: ItemMeta
@@ -1298,7 +1298,7 @@ chestData:
         MENDING: 1
         DURABILITY: 3
       repair-cost: 7
-      internal: H4sIAAAAAAAA/3XLvQqAIBSG4Y/sx4Tsnor2hm5ARDKyhDxLd19Dw3FofHl4FaCghxDtPp200b2YVaAcTHIAdAs5GyJ3nUm9XUs0X6OwSaAaY4jXKz04ec9IZ3T8X8Sp4yQoM5lvIduAB5H6qjXUAAAA
+      internal: H4sIAAAAAAAA/3XNOw7CMBCE4VHMw7GUwHkog+hTcIGNMcTCWUv2Nrl9EKKwC8rRp19jAIN+CNG+byxe1ju9NBr/wHnx7Gyip1wmYnaphR5JxCXOBsBB4/jbaGxW2F9jiOkjJ5Q0zwX1FS3/KympK0lJZbrOQpUp7AbK7nuMDYFCTmXrAAAA
       blockMaterial: SHIELD
   chestLocation: Killer_Island_nether;-1280.0;25.0;1044.0
 - ==: ChestData
@@ -1312,77 +1312,77 @@ chestData:
   chestDate: 2021-10-18T11:03:02.330Z
   inventory:
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_SWORD
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 16
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: COOKED_COD
     amount: 46
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_PICKAXE
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 44
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_AXE
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 1
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: GOLD_INGOT
     amount: 64
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: MELON_SLICE
     amount: 7
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: BEEF
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: EGG
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: ROTTEN_FLESH
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: CRAFTING_TABLE
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: COOKED_COD
     amount: 64
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: COOKED_COD
     amount: 64
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_INGOT
     amount: 24
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: STICK
     amount: 27
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: BUCKET
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_SHOVEL
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_HOE
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: LEATHER_CHESTPLATE
     meta:
       ==: ItemMeta
@@ -1392,44 +1392,44 @@ chestData:
         DURABILITY: 2
       Damage: 60
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: ARROW
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: LEATHER_LEGGINGS
     meta:
       ==: ItemMeta
       meta-type: LEATHER_ARMOR
       Damage: 45
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: COBBLESTONE
     amount: 64
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: DIRT
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: ANDESITE
     amount: 3
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: COBBLESTONE
     amount: 64
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: COBBLESTONE
     amount: 64
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: COBBLESTONE
     amount: 64
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: COBBLESTONE
     amount: 32
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: GRANITE
     amount: 2
   - null
@@ -1440,31 +1440,31 @@ chestData:
   - null
   - null
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_PICKAXE
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_BOOTS
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 16
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_LEGGINGS
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 16
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_CHESTPLATE
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 16
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_HELMET
     meta:
       ==: ItemMeta
@@ -1472,110 +1472,6 @@ chestData:
       Damage: 16
   - null
   chestLocation: Killer_Island;-44.0;70.0;2061.0
-- ==: ChestData
-  playerUUID: 00000000-0000-0000-0009-01f819623247
-  holographicTimer: Killer_Island;-1085.5;57.799999952316284;272.5
-  worldName: Killer_Island
-  as_timer_id: ec08f4fa-b73b-4694-a8a9-40a4d758a9b5
-  playerName: -Sierralovesyou2
-  isInfinity: false
-  as_owner_id: 86043672-cb4f-40b1-bdfe-f6e9c448133f
-  chestDate: 2021-10-19T17:23:30.603Z
-  inventory:
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: DIRT
-    amount: 4
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: WHEAT_SEEDS
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: STRING
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: ROTTEN_FLESH
-    amount: 18
-  - null
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: COBBLESTONE
-    amount: 64
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: COBBLESTONE
-    amount: 64
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: DARK_OAK_PLANKS
-    amount: 64
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: DARK_OAK_WOOD
-    amount: 22
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: AMETHYST_BLOCK
-    amount: 48
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: COBBLESTONE
-    amount: 34
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: COPPER_INGOT
-    amount: 51
-  - null
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: COBBLESTONE
-    amount: 64
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: IRON_BOOTS
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      Damage: 192
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: IRON_LEGGINGS
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      Damage: 57
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: IRON_CHESTPLATE
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      Damage: 192
-  - null
-  - null
-  chestLocation: Killer_Island;-1086.0;57.0;272.0
 - ==: ChestData
   playerUUID: cab9e78e-beb8-452b-ae73-549429d9f86a
   holographicTimer: Killer_Island;376.5;64.79999995231628;-2026.5
@@ -1587,7 +1483,7 @@ chestData:
   chestDate: 2021-10-21T06:40:35.614Z
   inventory:
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: WRITTEN_BOOK
     meta:
       ==: ItemMeta
@@ -1602,14 +1498,14 @@ chestData:
         /ExtendClaim\n/IgnorePlayer\n\n/SubdivideClaims\n/AccessTrust\n/ContainerTrust\n/PermissionTrust"}],"text":""}'
       resolved: true
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: SWEET_BERRIES
     amount: 23
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: DARK_OAK_BOAT
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: BREAD
     amount: 17
   - null
@@ -1661,7 +1557,7 @@ chestData:
   chestDate: 2021-10-21T15:54:52.432Z
   inventory:
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: STONE_SWORD
     meta:
       ==: ItemMeta
@@ -1720,14 +1616,14 @@ chestData:
   inventory:
   - null
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: FEATHER
     amount: 2
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: ROTTEN_FLESH
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: GOLDEN_SWORD
     meta:
       ==: ItemMeta
@@ -1736,65 +1632,65 @@ chestData:
   - null
   - null
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: BREAD
     amount: 18
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: COOKED_COD
     amount: 58
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: COOKED_COD
     amount: 64
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: GOLD_NUGGET
     amount: 64
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: GOLD_NUGGET
     amount: 64
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: EGG
     amount: 16
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: EGG
     amount: 16
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: EGG
     amount: 16
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: GOLD_NUGGET
     amount: 64
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: GOLD_NUGGET
     amount: 64
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: GOLD_NUGGET
     amount: 16
   - null
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: EGG
     amount: 16
   - null
   - null
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: FEATHER
     amount: 64
   - null
   - null
   - null
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: DEEPSLATE_GOLD_ORE
     amount: 8
   - null
@@ -1803,7 +1699,7 @@ chestData:
   - null
   - null
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: GOLD_INGOT
     amount: 4
   - null
@@ -1812,14 +1708,14 @@ chestData:
   - null
   - null
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_LEGGINGS
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 77
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_CHESTPLATE
     meta:
       ==: ItemMeta
@@ -1839,13 +1735,13 @@ chestData:
   chestDate: 2021-10-21T16:19:59.346Z
   inventory:
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_SWORD
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_PICKAXE
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_SHOVEL
   - null
   - null
@@ -1853,7 +1749,7 @@ chestData:
   - null
   - null
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: COOKED_COD
     amount: 32
   - null
@@ -1876,7 +1772,7 @@ chestData:
   - null
   - null
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_PICKAXE
   - null
   - null
@@ -1886,28 +1782,28 @@ chestData:
   - null
   - null
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_BOOTS
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 11
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_LEGGINGS
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 11
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_CHESTPLATE
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 11
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: IRON_HELMET
     meta:
       ==: ItemMeta
@@ -1915,146 +1811,6 @@ chestData:
       Damage: 11
   - null
   chestLocation: Killer_Island;-1065.0;11.0;496.0
-- ==: ChestData
-  playerUUID: 00000000-0000-0000-0009-01f819623247
-  holographicTimer: skyworld;249.5;150.79999995231628;-122.5
-  worldName: skyworld
-  as_timer_id: e8a565a8-fd0e-4885-b7cc-2e1a4a5bc93a
-  playerName: -Sierralovesyou2
-  isInfinity: false
-  as_owner_id: 3b4b6a02-1860-4f37-948a-001f4d9e1932
-  chestDate: 2021-10-24T17:45:47.304Z
-  inventory:
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: DARK_OAK_PLANKS
-    amount: 64
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: DARK_OAK_PLANKS
-    amount: 47
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: CHICKEN_SPAWN_EGG
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: WOODEN_PICKAXE
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      Damage: 34
-  - null
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: COBBLESTONE
-    amount: 26
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: WOODEN_SHOVEL
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      Damage: 44
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: IRON_INGOT
-    amount: 4
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: OAK_SAPLING
-    amount: 10
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: PUMPKIN_SEEDS
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: CACTUS
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: OAK_PLANKS
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: SPRUCE_SAPLING
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: BIRCH_SAPLING
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: SUGAR_CANE
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: JUNGLE_SAPLING
-    amount: 4
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: SAND
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: MELON_SLICE
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: BOOK
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: TORCH
-    amount: 4
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: DIRT
-    amount: 21
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: LEATHER
-    amount: 3
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: STICK
-    amount: 2
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: ACACIA_SAPLING
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: COBBLESTONE_WALL
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: DARK_OAK_SAPLING
-    amount: 4
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: BUCKET
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: OAK_SIGN
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: ACACIA_LOG
-    amount: 6
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: SPRUCE_LOG
-    amount: 5
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: JUNGLE_LOG
-    amount: 8
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: OAK_LOG
-    amount: 7
-  - ==: org.bukkit.inventory.ItemStack
-    v: 2730
-    type: BIRCH_LOG
-    amount: 9
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  chestLocation: skyworld;249.0;150.0;-123.0
 - ==: ChestData
   playerUUID: 18024028-0734-4790-bf8b-7a5b1db9f218
   holographicTimer: skyworld;-194.5;1.7999999523162842;-253.5
@@ -2066,25 +1822,25 @@ chestData:
   chestDate: 2021-10-24T22:42:27.957Z
   inventory:
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: STONE_PICKAXE
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 32
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: COBBLESTONE_SLAB
   - null
   - null
   - null
   - null
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: COBBLESTONE_SLAB
     amount: 64
   - ==: org.bukkit.inventory.ItemStack
-    v: 2730
+    v: 2865
     type: COBBLESTONE_SLAB
     amount: 64
   - null
@@ -2121,3 +1877,689 @@ chestData:
   - null
   - null
   chestLocation: skyworld;-195.0;1.0;-254.0
+- ==: ChestData
+  playerUUID: 00000000-0000-0000-0009-00000de63ca4
+  holographicTimer: Killer_Island;-1206.5;58.799999952316284;1226.5
+  worldName: Killer_Island
+  as_timer_id: de6acda0-169a-4a53-96aa-f7a1baad3ce4
+  playerName: -hexx590
+  isInfinity: false
+  as_owner_id: e9cfd356-44af-4af5-8dff-0dc123727cfe
+  chestDate: 2021-11-07T18:55:34.582Z
+  inventory:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: STONE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 4
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: STONE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 20
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: OAK_SAPLING
+    amount: 7
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: CRAFTING_TABLE
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: OAK_LOG
+    amount: 15
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: COBBLESTONE
+    amount: 12
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: SUGAR_CANE
+    amount: 11
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: COAL
+    amount: 19
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: WRITTEN_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: BOOK_SIGNED
+      title: How to Claim Land
+      author: BigScary
+      pages:
+      - '{"extra":[{"text":"Click: "},{"bold":false,"italic":false,"underlined":true,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","clickEvent":{"action":"open_url","value":"http://bit.ly/mcgpuser"},"text":"bit.ly/mcgpuser"},{"italic":false,"underlined":false,"text":"\n\nClaim
+        land to protect your stuff!  Click the link above to learn land claims in
+        3 minutes or less.  :)\n\nOur claim tools are golden shovel and stick."}],"text":""}'
+      - '{"extra":[{"text":"Useful Commands:\n\n/Trust /UnTrust /TrustList\n/ClaimsList\n/AbandonClaim\n\n/Claim
+        /ExtendClaim\n/IgnorePlayer\n\n/SubdivideClaims\n/AccessTrust\n/ContainerTrust\n/PermissionTrust"}],"text":""}'
+      resolved: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: OAK_PLANKS
+    amount: 8
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: STICK
+    amount: 32
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: STICK
+    amount: 8
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: WOODEN_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 17
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: WOODEN_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 16
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  chestLocation: Killer_Island;-1207.0;58.0;1226.0
+- ==: ChestData
+  playerUUID: 00000000-0000-0000-0009-01fcade98e81
+  holographicTimer: Killer_Island;-817.5;66.79999995231628;1532.5
+  worldName: Killer_Island
+  as_timer_id: 172eacc4-5850-4e7a-abc6-00c72445c339
+  playerName: -III_Skrt_III926
+  isInfinity: false
+  as_owner_id: bce7330d-5523-4dbb-8b78-5980dfa6750e
+  chestDate: 2021-11-27T04:51:53.697Z
+  inventory:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: COOKED_COD
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: COOKED_COD
+    amount: 63
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: COOKED_COD
+    amount: 61
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: EGG
+    amount: 14
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: IRON_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        KNOCKBACK: 2
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: IRON_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DAMAGE_ARTHROPODS: 4
+        KNOCKBACK: 2
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: IRON_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 4
+        DURABILITY: 3
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: LIME_WOOL
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: LIME_WOOL
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: LIME_WOOL
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: EGG
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: EGG
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: LIME_WOOL
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: IRON_INGOT
+    amount: 29
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: POPPY
+    amount: 50
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: IRON_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: LIME_WOOL
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: WHEAT_SEEDS
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: OAK_PLANKS
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: MUSIC_DISC_13
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: BONE_MEAL
+    amount: 32
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: IRON_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 3
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: LEATHER_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: LEATHER_ARMOR
+      Damage: 31
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: LEATHER_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: LEATHER_ARMOR
+      enchants:
+        PROTECTION_PROJECTILE: 1
+        DURABILITY: 1
+      Damage: 68
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: LEATHER_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: LEATHER_ARMOR
+      enchants:
+        PROTECTION_FIRE: 1
+      Damage: 39
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: MUSIC_DISC_CAT
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: SLIME_BLOCK
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: SLIME_BLOCK
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: SLIME_BLOCK
+    amount: 41
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: IRON_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_PROJECTILE: 4
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: IRON_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_FALL: 4
+        FROST_WALKER: 2
+      repair-cost: 15
+      Damage: 26
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: IRON_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_FIRE: 3
+        DURABILITY: 3
+      Damage: 4
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: IRON_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_FIRE: 3
+        DURABILITY: 3
+      Damage: 4
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: IRON_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        WATER_WORKER: 1
+        PROTECTION_FIRE: 4
+      Damage: 6
+  - null
+  chestLocation: Killer_Island;-818.0;66.0;1532.0
+- ==: ChestData
+  playerUUID: 00000000-0000-0000-0009-01fcade98e81
+  holographicTimer: Killer_Island;-1112.5;66.79999995231628;1007.5
+  worldName: Killer_Island
+  as_timer_id: 77aa09df-03b5-41b1-b6f3-bf151b0b503e
+  playerName: -III_Skrt_III926
+  isInfinity: false
+  as_owner_id: 836bdc7d-4793-448c-9621-47d4eeb48e67
+  chestDate: 2021-11-27T04:53:32.812Z
+  inventory:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: WRITTEN_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: BOOK_SIGNED
+      title: How to Claim Land
+      author: BigScary
+      pages:
+      - '{"extra":[{"text":"Click: "},{"bold":false,"italic":false,"underlined":true,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","clickEvent":{"action":"open_url","value":"http://bit.ly/mcgpuser"},"text":"bit.ly/mcgpuser"},{"italic":false,"underlined":false,"text":"\n\nClaim
+        land to protect your stuff!  Click the link above to learn land claims in
+        3 minutes or less.  :)\n\nOur claim tools are golden shovel and stick."}],"text":""}'
+      - '{"extra":[{"text":"Useful Commands:\n\n/Trust /UnTrust /TrustList\n/ClaimsList\n/AbandonClaim\n\n/Claim
+        /ExtendClaim\n/IgnorePlayer\n\n/SubdivideClaims\n/AccessTrust\n/ContainerTrust\n/PermissionTrust"}],"text":""}'
+      resolved: true
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  chestLocation: Killer_Island;-1113.0;66.0;1007.0
+- ==: ChestData
+  playerUUID: 00000000-0000-0000-0009-0000055f81cc
+  holographicTimer: skyworld;267.5;148.79999995231628;238.5
+  worldName: skyworld
+  as_timer_id: 0be913de-9916-4ec2-add7-6daeee79871f
+  playerName: -BLINKANDURDEAD0
+  isInfinity: false
+  as_owner_id: 01f19018-060d-4874-8c3e-fb0e1d345a55
+  chestDate: 2021-12-14T14:12:06.006Z
+  inventory:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: SMOOTH_STONE
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: SPRUCE_TRAPDOOR
+    amount: 4
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: EGG
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: DARK_OAK_DOOR
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: IRON_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 243
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: COBBLESTONE
+    amount: 18
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: PINK_CARPET
+    amount: 13
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: COBBLESTONE_SLAB
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: GOLDEN_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DAMAGE_ALL: 2
+      Damage: 30
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: EGG
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: SPRUCE_PLANKS
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: MELON_SLICE
+    amount: 34
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: STICK
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: SPRUCE_LOG
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: SAND
+    amount: 58
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: DIRT
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: JUNGLE_LOG
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: EGG
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: DIRT
+    amount: 9
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: EGG
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: KELP
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: ROTTEN_FLESH
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: KELP
+    amount: 55
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: SPRUCE_LOG
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: EGG
+    amount: 16
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: COOKED_COD
+    amount: 15
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: SPRUCE_LOG
+    amount: 64
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: SHEARS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 30
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: SMOOTH_STONE_SLAB
+    amount: 19
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: ARROW
+    amount: 3
+  chestLocation: skyworld;267.0;148.0;238.0
+- ==: ChestData
+  playerUUID: 00000000-0000-0000-0009-01f819623247
+  holographicTimer: Killer_Island;-932.5;32.799999952316284;260.5
+  worldName: Killer_Island
+  as_timer_id: e2461f68-db8c-4c37-a888-5d2885559d20
+  playerName: -Sierralovesyou2
+  isInfinity: false
+  as_owner_id: 2b5c5946-ae29-4252-b909-05b73d5cd9eb
+  chestDate: 2021-12-23T17:27:21.166Z
+  inventory:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: DIAMOND_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 4
+        LOOT_BONUS_BLOCKS: 3
+        DURABILITY: 3
+      Damage: 151
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DURABILITY: 3
+      Damage: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 4
+        LOOT_BONUS_BLOCKS: 3
+        DURABILITY: 3
+      Damage: 52
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: COOKED_BEEF
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: COOKED_COD
+    amount: 54
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: ENDER_PEARL
+    amount: 13
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: ENDER_PEARL
+    amount: 12
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: COBBLESTONE
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: DIORITE
+    amount: 43
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: OXIDIZED_COPPER
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: IRON_HELMET
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: EXPOSED_COPPER
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: COPPER_BLOCK
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: IRON_BOOTS
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: IRON_CHESTPLATE
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: IRON_INGOT
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: IRON_LEGGINGS
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: IRON_BLOCK
+    amount: 2
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: IRON_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 82
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: IRON_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 217
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: IRON_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 23
+  - null
+  chestLocation: Killer_Island;-933.0;32.0;260.0
