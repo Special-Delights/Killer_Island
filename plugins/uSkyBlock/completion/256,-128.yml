@@ -31,9 +31,9 @@ expertfarmer:
   timesCompleted: 0
   timesCompletedSinceTimer: 0
 torchmaker:
-  firstCompleted: 0
-  timesCompleted: 0
-  timesCompletedSinceTimer: 0
+  firstCompleted: 1636278997851
+  timesCompleted: 1
+  timesCompletedSinceTimer: 1
 cobblestonegenerator:
   firstCompleted: 1635088221451
   timesCompleted: 2
@@ -59,9 +59,9 @@ baker:
   timesCompleted: 0
   timesCompletedSinceTimer: 0
 woolcollector:
-  firstCompleted: 0
-  timesCompleted: 0
-  timesCompletedSinceTimer: 0
+  firstCompleted: 1635688317662
+  timesCompleted: 2
+  timesCompletedSinceTimer: 1
 deepseafisherman:
   firstCompleted: 0
   timesCompleted: 0
@@ -79,16 +79,16 @@ netherportal:
   timesCompleted: 1
   timesCompletedSinceTimer: 1
 sawmill:
-  firstCompleted: 0
-  timesCompleted: 0
-  timesCompletedSinceTimer: 0
+  firstCompleted: 1635279740134
+  timesCompleted: 1
+  timesCompletedSinceTimer: 1
 poseidonshalls:
   firstCompleted: 0
   timesCompleted: 0
   timesCompletedSinceTimer: 0
 applecollector:
-  firstCompleted: 1635106990411
-  timesCompleted: 2
+  firstCompleted: 1635733962887
+  timesCompleted: 3
   timesCompletedSinceTimer: 1
 carrotfarmer:
   firstCompleted: 0
@@ -163,8 +163,8 @@ fishandchips:
   timesCompleted: 0
   timesCompletedSinceTimer: 0
 cactusfarmer:
-  firstCompleted: 1635167468156
-  timesCompleted: 1
+  firstCompleted: 1636489332649
+  timesCompleted: 3
   timesCompletedSinceTimer: 1
 stonebrickmaker:
   firstCompleted: 1635081880320
@@ -195,9 +195,9 @@ animalfarm:
   timesCompleted: 0
   timesCompletedSinceTimer: 0
 expertbuilder:
-  firstCompleted: 0
-  timesCompleted: 0
-  timesCompletedSinceTimer: 0
+  firstCompleted: 1635782737911
+  timesCompleted: 1
+  timesCompletedSinceTimer: 1
 ironfarm:
   firstCompleted: 0
   timesCompleted: 0

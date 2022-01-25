@@ -1,0 +1,67 @@
+general:
+  level: 5.64
+  warpLocationX: 0
+  warpLocationY: 0
+  warpLocationZ: 0
+  warpActive: false
+  regionVersion: 14 en
+  schematicName: default
+blocks:
+  leafBreaks: 1
+  hopperCount: 0
+version: 3
+log:
+- 1635446913300;{0} created an area with {1} biome;Jarons;FOREST
+- 1635439856864;{0} created an area with {1} biome;Trixe;FLOWER_FOREST
+- 1635439808741;{0} created an area with {1} biome;Trixe;FOREST
+- 1635439794682;{0} created an area with {1} biome;Jarons;FOREST
+- 1635439735674;{0} created an area with {1} biome;Jarons;PLAINS
+- 1635439720922;{0} created an area with {1} biome;Jarons;FOREST
+- 1635439654362;{0} created an area with {1} biome;Jarons;FOREST
+- 1635439303992;{0} created an area with {1} biome;Jarons;FOREST
+- 1635438706844;§b{0}§d has joined your island group.;§7[§3MEMBER§7]§fSquishieDragon§r
+- 1635438607840;{0}§d invited {1};§7[§3MEMBER§7]§fJarons§r;§7[§3MEMBER§7]§fSquishieDragon§r
+party:
+  leader: Jarons
+  leader-uuid: 1e8cd8aa-cc0e-43d7-839f-03443d198794
+  members:
+    1e8cd8aa-cc0e-43d7-839f-03443d198794:
+      canChangeBiome: true
+      canToggleLock: true
+      canChangeWarp: true
+      canToggleWarp: true
+      canInviteOthers: true
+      canKickOthers: true
+      canBanOthers: true
+      name: Jarons
+      maxAnimals: 64
+      maxMonsters: 50
+      maxVillagers: 16
+      maxGolems: 5
+    3cfc693f-d814-42d9-b115-542364ca7e1c:
+      name: Trixe
+      canChangeBiome: true
+      canToggleLock: true
+      canChangeWarp: true
+      canToggleWarp: true
+      canInviteOthers: true
+      canKickOthers: false
+      canBanOthers: false
+      maxAnimals: 64
+      maxMonsters: 50
+      maxVillagers: 16
+      maxGolems: 5
+    687cdac7-f97f-4a19-a900-1d8e9ab88748:
+      name: SquishieDragon
+      canChangeBiome: true
+      canToggleLock: true
+      canChangeWarp: true
+      canToggleWarp: true
+      canInviteOthers: true
+      canKickOthers: false
+      canBanOthers: false
+      maxAnimals: 64
+      maxMonsters: 50
+      maxVillagers: 16
+      maxGolems: 5
+  currentSize: 3

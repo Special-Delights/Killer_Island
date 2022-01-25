@@ -95,6 +95,9 @@ worldsAliaz:
   new_island: new_island
   new_island_the_end: new_island_the_end
   new_island_nether: new_island_nether
+  ki: ki
+  oneeight_the_end: oneeight_the_end
+  oneeight_nether: oneeight_nether
 overrides: {}
 Bypass:
   cooldown:

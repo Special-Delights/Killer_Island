@@ -19,9 +19,9 @@ pastafunghi:
   timesCompleted: 0
   timesCompletedSinceTimer: 0
 homeowner:
-  firstCompleted: 0
-  timesCompleted: 0
-  timesCompletedSinceTimer: 0
+  firstCompleted: 1635301476546
+  timesCompleted: 1
+  timesCompletedSinceTimer: 1
 apfelstrudel:
   firstCompleted: 0
   timesCompleted: 0
@@ -31,9 +31,9 @@ expertfarmer:
   timesCompleted: 0
   timesCompletedSinceTimer: 0
 torchmaker:
-  firstCompleted: 0
-  timesCompleted: 0
-  timesCompletedSinceTimer: 0
+  firstCompleted: 1635283865817
+  timesCompleted: 1
+  timesCompletedSinceTimer: 1
 cobblestonegenerator:
   firstCompleted: 1635059857121
   timesCompleted: 1
@@ -71,17 +71,17 @@ slimefarmer:
   timesCompleted: 0
   timesCompletedSinceTimer: 0
 melonfarmer:
-  firstCompleted: 1635124335839
-  timesCompleted: 2
+  firstCompleted: 1635281964472
+  timesCompleted: 3
   timesCompletedSinceTimer: 1
 netherportal:
   firstCompleted: 0
   timesCompleted: 0
   timesCompletedSinceTimer: 0
 sawmill:
-  firstCompleted: 0
-  timesCompleted: 0
-  timesCompletedSinceTimer: 0
+  firstCompleted: 1635282246643
+  timesCompleted: 1
+  timesCompletedSinceTimer: 1
 poseidonshalls:
   firstCompleted: 0
   timesCompleted: 0
@@ -103,8 +103,8 @@ sugarplanter:
   timesCompleted: 1
   timesCompletedSinceTimer: 1
 potatofarmer:
-  firstCompleted: 1635165114581
-  timesCompleted: 1
+  firstCompleted: 1635260088764
+  timesCompleted: 2
   timesCompletedSinceTimer: 1
 pumpkinfarmer:
   firstCompleted: 1635100565806
@@ -123,8 +123,8 @@ hutspot:
   timesCompleted: 0
   timesCompletedSinceTimer: 0
 sugarfarmer:
-  firstCompleted: 1635112997324
-  timesCompleted: 1
+  firstCompleted: 1635258445487
+  timesCompleted: 2
   timesCompletedSinceTimer: 1
 nethermining:
   firstCompleted: 0
@@ -151,9 +151,9 @@ witherhunter:
   timesCompleted: 0
   timesCompletedSinceTimer: 0
 toolmaker:
-  firstCompleted: 0
-  timesCompleted: 0
-  timesCompletedSinceTimer: 0
+  firstCompleted: 1635280827827
+  timesCompleted: 1
+  timesCompletedSinceTimer: 1
 masterbuilder:
   firstCompleted: 0
   timesCompleted: 0
@@ -163,8 +163,8 @@ fishandchips:
   timesCompleted: 0
   timesCompletedSinceTimer: 0
 cactusfarmer:
-  firstCompleted: 1635164934782
-  timesCompleted: 1
+  firstCompleted: 1635257175901
+  timesCompleted: 2
   timesCompletedSinceTimer: 1
 stonebrickmaker:
   firstCompleted: 1635094081453
@@ -175,17 +175,17 @@ technician:
   timesCompleted: 0
   timesCompletedSinceTimer: 0
 shroompicker:
-  firstCompleted: 0
-  timesCompleted: 0
-  timesCompletedSinceTimer: 0
+  firstCompleted: 1635258725717
+  timesCompleted: 1
+  timesCompletedSinceTimer: 1
 adeptbuilder:
-  firstCompleted: 0
-  timesCompleted: 0
-  timesCompletedSinceTimer: 0
+  firstCompleted: 1635280718152
+  timesCompleted: 1
+  timesCompletedSinceTimer: 1
 wheatfarmer:
-  firstCompleted: 0
-  timesCompleted: 0
-  timesCompletedSinceTimer: 0
+  firstCompleted: 1635256638580
+  timesCompleted: 1
+  timesCompletedSinceTimer: 1
 netherfortress:
   firstCompleted: 0
   timesCompleted: 0

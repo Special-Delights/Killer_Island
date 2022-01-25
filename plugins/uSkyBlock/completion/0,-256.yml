@@ -35,8 +35,8 @@ torchmaker:
   timesCompleted: 0
   timesCompletedSinceTimer: 0
 cobblestonegenerator:
-  firstCompleted: 1635086663649
-  timesCompleted: 3
+  firstCompleted: 1635481701799
+  timesCompleted: 1
   timesCompletedSinceTimer: 1
 pearlcollector:
   firstCompleted: 0
@@ -47,9 +47,9 @@ endportal:
   timesCompleted: 0
   timesCompletedSinceTimer: 0
 novicebuilder:
-  firstCompleted: 0
-  timesCompleted: 0
-  timesCompletedSinceTimer: 0
+  firstCompleted: 1635512408595
+  timesCompleted: 1
+  timesCompletedSinceTimer: 1
 horsingaround:
   firstCompleted: 0
   timesCompleted: 0
@@ -71,7 +71,7 @@ slimefarmer:
   timesCompleted: 0
   timesCompletedSinceTimer: 0
 melonfarmer:
-  firstCompleted: 1635161208844
+  firstCompleted: 1635510448918
   timesCompleted: 1
   timesCompletedSinceTimer: 1
 netherportal:
@@ -87,7 +87,7 @@ poseidonshalls:
   timesCompleted: 0
   timesCompletedSinceTimer: 0
 applecollector:
-  firstCompleted: 1635068132217
+  firstCompleted: 1635460042619
   timesCompleted: 1
   timesCompletedSinceTimer: 1
 carrotfarmer:
@@ -99,7 +99,7 @@ chocolate:
   timesCompleted: 0
   timesCompletedSinceTimer: 0
 sugarplanter:
-  firstCompleted: 1635120337475
+  firstCompleted: 1635510505307
   timesCompleted: 1
   timesCompletedSinceTimer: 1
 potatofarmer:
@@ -107,7 +107,7 @@ potatofarmer:
   timesCompleted: 0
   timesCompletedSinceTimer: 0
 pumpkinfarmer:
-  firstCompleted: 1635202546116
+  firstCompleted: 1635512362246
   timesCompleted: 1
   timesCompletedSinceTimer: 1
 skylord:
@@ -123,7 +123,7 @@ hutspot:
   timesCompleted: 0
   timesCompletedSinceTimer: 0
 sugarfarmer:
-  firstCompleted: 1635165407866
+  firstCompleted: 1635510508619
   timesCompleted: 1
   timesCompletedSinceTimer: 1
 nethermining:
@@ -163,11 +163,11 @@ fishandchips:
   timesCompleted: 0
   timesCompletedSinceTimer: 0
 cactusfarmer:
-  firstCompleted: 0
-  timesCompleted: 0
-  timesCompletedSinceTimer: 0
+  firstCompleted: 1635510366817
+  timesCompleted: 1
+  timesCompletedSinceTimer: 1
 stonebrickmaker:
-  firstCompleted: 1635159073480
+  firstCompleted: 1635512406844
   timesCompleted: 1
   timesCompletedSinceTimer: 1
 technician:
@@ -211,9 +211,9 @@ monsterfarm:
   timesCompleted: 0
   timesCompletedSinceTimer: 0
 lumberjack:
-  firstCompleted: 0
-  timesCompleted: 0
-  timesCompletedSinceTimer: 0
+  firstCompleted: 1635512909520
+  timesCompleted: 1
+  timesCompletedSinceTimer: 1
 maestro:
   firstCompleted: 0
   timesCompleted: 0

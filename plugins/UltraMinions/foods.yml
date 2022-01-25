@@ -1,0 +1,61 @@
+foods:
+  '0':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: COOKED_PORKCHOP
+    amount: 10
+  '1':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: APPLE
+    amount: 3
+  '2':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: MUSHROOM_STEW
+    amount: 7
+  '3':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: BREAD
+    amount: 4
+  '4':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: PORKCHOP
+    amount: 2
+  '5':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: GOLDEN_APPLE
+    amount: 15
+  '6':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: ENCHANTED_GOLDEN_APPLE
+    amount: 100
+  '7':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: COD
+    amount: 6
+  '8':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: SALMON
+    amount: 6
+  '9':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: TROPICAL_FISH
+    amount: 8

@@ -1,0 +1,328 @@
+upgrades:
+  autoSell:
+    default:
+      name: default
+      sell: 25.0
+      isCraft: true
+      result:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: HOPPER
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Auto
+            Sell"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"This
+            is a default"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"lore
+            to AutoSell."}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Percent:
+            "},{"italic":false,"color":"green","text":"25.0%"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Put
+            in minion!"}],"text":""}'
+          blockMaterial: HOPPER
+      craft:
+        permission: none
+        items:
+          '0':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: IRON_INGOT
+          '1':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: AIR
+            amount: 0
+          '2':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: IRON_INGOT
+          '3':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: IRON_INGOT
+          '4':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: GOLD_INGOT
+          '5':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: IRON_INGOT
+          '6':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: AIR
+            amount: 0
+          '7':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: IRON_INGOT
+          '8':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: AIR
+            amount: 0
+  compressor:
+    default:
+      name: default
+      amount: 9
+      isCraft: true
+      result:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: DISPENSER
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Compressor"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"This
+            is a default"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"lore
+            to Compressor."}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Put
+            in minion!"}],"text":""}'
+          blockMaterial: DISPENSER
+      craft:
+        permission: none
+        items:
+          '0':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: INFESTED_COBBLESTONE
+          '1':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: INFESTED_COBBLESTONE
+          '2':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: INFESTED_COBBLESTONE
+          '3':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: STICKY_PISTON
+          '4':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: REDSTONE
+          '5':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: STICKY_PISTON
+          '6':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: INFESTED_COBBLESTONE
+          '7':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: INFESTED_COBBLESTONE
+          '8':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: INFESTED_COBBLESTONE
+  autoSmelt:
+    default:
+      name: default
+      percent: 100.0
+      isCraft: true
+      result:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: FURNACE
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"AutoSmelt"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"This
+            is a default"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"lore
+            to AutoSmelt."}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Put
+            in minion!"}],"text":""}'
+          blockMaterial: FURNACE
+      craft:
+        permission: none
+        items:
+          '0':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: INFESTED_COBBLESTONE
+          '1':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: FIRE_CHARGE
+          '2':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: INFESTED_COBBLESTONE
+          '3':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: INFESTED_COBBLESTONE
+          '4':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: FURNACE
+          '5':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: INFESTED_COBBLESTONE
+          '6':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: INFESTED_COBBLESTONE
+          '7':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: INFESTED_COBBLESTONE
+          '8':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: INFESTED_COBBLESTONE
+  fuel:
+    default:
+      name: default
+      duration: 600
+      percent: 15.0
+      isCraft: true
+      result:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: BREAD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Mini
+            Fuel"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"This
+            is a default"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"lore
+            to Fuel."}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Duration:
+            "},{"italic":false,"color":"green","text":"5m"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Reduction:
+            "},{"italic":false,"color":"green","text":"15%"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Restant
+            Time: "},{"italic":false,"color":"green","text":"<time>"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+          - '{"extra":[{"text":"<status>"}],"text":""}'
+      craft:
+        permission: none
+        items:
+          '0':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: AIR
+            amount: 0
+          '1':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: AIR
+            amount: 0
+          '2':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: AIR
+            amount: 0
+          '3':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: WHEAT
+          '4':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: WHEAT
+          '5':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: WHEAT
+          '6':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: WHEAT
+          '7':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: WHEAT
+          '8':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: WHEAT
+    unlimited:
+      name: unlimited
+      duration: -1
+      percent: 15.0
+      isCraft: true
+      result:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: LAVA_BUCKET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Unlimited
+            Fuel"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"This
+            is a default"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"lore
+            to Fuel."}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Duration:
+            "},{"italic":false,"color":"green","text":"Unlimited"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Reduction:
+            "},{"italic":false,"color":"green","text":"15%"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+          - '{"extra":[{"text":"<status>"}],"text":""}'
+      craft:
+        permission: none
+        items:
+          '0':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: DIAMOND
+          '1':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: DIAMOND
+          '2':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: DIAMOND
+          '3':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: WHEAT
+          '4':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: WHEAT
+          '5':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: WHEAT
+          '6':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: WHEAT
+          '7':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: WHEAT
+          '8':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2730
+            type: WHEAT

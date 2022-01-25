@@ -31,12 +31,12 @@ expertfarmer:
   timesCompleted: 0
   timesCompletedSinceTimer: 0
 torchmaker:
-  firstCompleted: 0
-  timesCompleted: 0
-  timesCompletedSinceTimer: 0
+  firstCompleted: 1635831446208
+  timesCompleted: 5
+  timesCompletedSinceTimer: 1
 cobblestonegenerator:
-  firstCompleted: 1635070563309
-  timesCompleted: 3
+  firstCompleted: 1635302757981
+  timesCompleted: 7
   timesCompletedSinceTimer: 1
 pearlcollector:
   firstCompleted: 0
@@ -71,9 +71,9 @@ slimefarmer:
   timesCompleted: 0
   timesCompletedSinceTimer: 0
 melonfarmer:
-  firstCompleted: 1635148220176
-  timesCompleted: 5
-  timesCompletedSinceTimer: 5
+  firstCompleted: 1635331610499
+  timesCompleted: 6
+  timesCompletedSinceTimer: 1
 netherportal:
   firstCompleted: 0
   timesCompleted: 0
@@ -87,13 +87,13 @@ poseidonshalls:
   timesCompleted: 0
   timesCompletedSinceTimer: 0
 applecollector:
-  firstCompleted: 1635085803305
-  timesCompleted: 3
+  firstCompleted: 1635281187274
+  timesCompleted: 4
   timesCompletedSinceTimer: 1
 carrotfarmer:
-  firstCompleted: 0
-  timesCompleted: 0
-  timesCompletedSinceTimer: 0
+  firstCompleted: 1635341496317
+  timesCompleted: 3
+  timesCompletedSinceTimer: 1
 chocolate:
   firstCompleted: 0
   timesCompleted: 0
@@ -103,13 +103,13 @@ sugarplanter:
   timesCompleted: 1
   timesCompletedSinceTimer: 1
 potatofarmer:
-  firstCompleted: 1635189135435
-  timesCompleted: 3
-  timesCompletedSinceTimer: 3
+  firstCompleted: 1635331632033
+  timesCompleted: 7
+  timesCompletedSinceTimer: 1
 pumpkinfarmer:
   firstCompleted: 1635151406799
   timesCompleted: 2
-  timesCompletedSinceTimer: 2
+  timesCompletedSinceTimer: 1
 skylord:
   firstCompleted: 0
   timesCompleted: 0
@@ -123,8 +123,8 @@ hutspot:
   timesCompleted: 0
   timesCompletedSinceTimer: 0
 sugarfarmer:
-  firstCompleted: 1635139271949
-  timesCompleted: 2
+  firstCompleted: 1635341467592
+  timesCompleted: 3
   timesCompletedSinceTimer: 1
 nethermining:
   firstCompleted: 0
@@ -155,16 +155,16 @@ toolmaker:
   timesCompleted: 0
   timesCompletedSinceTimer: 0
 masterbuilder:
-  firstCompleted: 0
-  timesCompleted: 0
-  timesCompletedSinceTimer: 0
+  firstCompleted: 1635487004675
+  timesCompleted: 1
+  timesCompletedSinceTimer: 1
 fishandchips:
   firstCompleted: 0
   timesCompleted: 0
   timesCompletedSinceTimer: 0
 cactusfarmer:
-  firstCompleted: 1635136247931
-  timesCompleted: 3
+  firstCompleted: 1635489657191
+  timesCompleted: 7
   timesCompletedSinceTimer: 1
 stonebrickmaker:
   firstCompleted: 1635138149927
@@ -195,9 +195,9 @@ animalfarm:
   timesCompleted: 0
   timesCompletedSinceTimer: 0
 expertbuilder:
-  firstCompleted: 0
-  timesCompleted: 0
-  timesCompletedSinceTimer: 0
+  firstCompleted: 1635486999356
+  timesCompleted: 1
+  timesCompletedSinceTimer: 1
 ironfarm:
   firstCompleted: 0
   timesCompleted: 0
@@ -213,7 +213,7 @@ monsterfarm:
 lumberjack:
   firstCompleted: 1635194358259
   timesCompleted: 2
-  timesCompletedSinceTimer: 2
+  timesCompletedSinceTimer: 1
 maestro:
   firstCompleted: 0
   timesCompleted: 0

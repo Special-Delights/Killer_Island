@@ -1,0 +1,1079 @@
+minions:
+  fisher_minion:
+    key: fisher_minion
+    title: '&9Fisher Minion'
+    place:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: COBBLESTONE
+    lore:
+    - §7This is a default lore
+    - §7of Minion.
+    - §7
+    - §eRight click to place
+    type: FISHER
+    spawn: COD
+    compressor:
+      '0':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2730
+          type: COBBLESTONE
+    smelt:
+      '0':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2730
+          type: COOKED_SALMON
+    giveInInv:
+      '0':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2730
+          type: SALMON
+          amount: 5
+      '1':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2730
+          type: PUFFERFISH
+          amount: 3
+      '2':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2730
+          type: COD
+          amount: 5
+      '3':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2730
+          type: TROPICAL_FISH
+      '4':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2730
+          type: INK_SAC
+          amount: 5
+    priceNormalSell: 2.0
+    priceSmeltedSell: 4.0
+    priceCompressedSell: 2.0
+    compressorEnabled: false
+    smeltEnabled: true
+    autoSellEnabled: true
+    fuelEnabled: true
+    red: 92
+    blue: 92
+    green: 92
+    levels:
+      '0':
+        levelTitle: §9Fisher Minion I
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        level: 1
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM5ZmFmNTgxODBkOGMzMjI4YzZkNmQxMDdiMjhjNzQ4ZGQxMWI5YTE4YTRjYjE2ODFkMmZlZmY3NTQ5ZTg4OCJ9fX0=
+        delay: 127
+        max: 64
+        upgradeCoins: 100000
+        upgradeLevels: 10
+        food: 100
+        health: 100
+        workTime: 3600
+        sleep: 600
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM5ZmFmNTgxODBkOGMzMjI4YzZkNmQxMDdiMjhjNzQ4ZGQxMWI5YTE4YTRjYjE2ODFkMmZlZmY3NTQ5ZTg4OCJ9fX0=
+          permission: none
+          items:
+            '0':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '1':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '2':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '3':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: FISHING_ROD
+            '5':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '6':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '7':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '8':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+        isCraftingTable: true
+      '1':
+        levelTitle: §9Fisher Minion II
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        level: 2
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM5ZmFmNTgxODBkOGMzMjI4YzZkNmQxMDdiMjhjNzQ4ZGQxMWI5YTE4YTRjYjE2ODFkMmZlZmY3NTQ5ZTg4OCJ9fX0=
+        delay: 119
+        max: 128
+        upgradeCoins: 138000
+        upgradeLevels: 10
+        food: 100
+        health: 100
+        workTime: 3600
+        sleep: 600
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM5ZmFmNTgxODBkOGMzMjI4YzZkNmQxMDdiMjhjNzQ4ZGQxMWI5YTE4YTRjYjE2ODFkMmZlZmY3NTQ5ZTg4OCJ9fX0=
+          permission: none
+          items:
+            '0':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '1':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '2':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '3':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: FISHING_ROD
+            '5':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '6':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '7':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '8':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+        isCraftingTable: true
+      '2':
+        levelTitle: §9Fisher Minion III
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        level: 3
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM5ZmFmNTgxODBkOGMzMjI4YzZkNmQxMDdiMjhjNzQ4ZGQxMWI5YTE4YTRjYjE2ODFkMmZlZmY3NTQ5ZTg4OCJ9fX0=
+        delay: 111
+        max: 192
+        upgradeCoins: 200000
+        upgradeLevels: 10
+        food: 100
+        health: 100
+        workTime: 3600
+        sleep: 600
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM5ZmFmNTgxODBkOGMzMjI4YzZkNmQxMDdiMjhjNzQ4ZGQxMWI5YTE4YTRjYjE2ODFkMmZlZmY3NTQ5ZTg4OCJ9fX0=
+          permission: none
+          items:
+            '0':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '1':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '2':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '3':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: FISHING_ROD
+            '5':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '6':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '7':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '8':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+        isCraftingTable: true
+      '3':
+        levelTitle: §9Fisher Minion IV
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        level: 4
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM5ZmFmNTgxODBkOGMzMjI4YzZkNmQxMDdiMjhjNzQ4ZGQxMWI5YTE4YTRjYjE2ODFkMmZlZmY3NTQ5ZTg4OCJ9fX0=
+        delay: 103
+        max: 256
+        upgradeCoins: 238000
+        upgradeLevels: 10
+        food: 100
+        health: 100
+        workTime: 3600
+        sleep: 600
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM5ZmFmNTgxODBkOGMzMjI4YzZkNmQxMDdiMjhjNzQ4ZGQxMWI5YTE4YTRjYjE2ODFkMmZlZmY3NTQ5ZTg4OCJ9fX0=
+          permission: none
+          items:
+            '0':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '1':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '2':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '3':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: FISHING_ROD
+            '5':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '6':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '7':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '8':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+        isCraftingTable: true
+      '4':
+        levelTitle: §9Fisher Minion V
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        level: 5
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM5ZmFmNTgxODBkOGMzMjI4YzZkNmQxMDdiMjhjNzQ4ZGQxMWI5YTE4YTRjYjE2ODFkMmZlZmY3NTQ5ZTg4OCJ9fX0=
+        delay: 95
+        max: 320
+        upgradeCoins: 300000
+        upgradeLevels: 10
+        food: 100
+        health: 100
+        workTime: 3600
+        sleep: 600
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM5ZmFmNTgxODBkOGMzMjI4YzZkNmQxMDdiMjhjNzQ4ZGQxMWI5YTE4YTRjYjE2ODFkMmZlZmY3NTQ5ZTg4OCJ9fX0=
+          permission: none
+          items:
+            '0':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '1':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '2':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '3':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: FISHING_ROD
+            '5':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '6':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '7':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '8':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+        isCraftingTable: true
+      '5':
+        levelTitle: §9Fisher Minion VI
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        level: 6
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM5ZmFmNTgxODBkOGMzMjI4YzZkNmQxMDdiMjhjNzQ4ZGQxMWI5YTE4YTRjYjE2ODFkMmZlZmY3NTQ5ZTg4OCJ9fX0=
+        delay: 87
+        max: 384
+        upgradeCoins: 338000
+        upgradeLevels: 10
+        food: 100
+        health: 100
+        workTime: 3600
+        sleep: 600
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM5ZmFmNTgxODBkOGMzMjI4YzZkNmQxMDdiMjhjNzQ4ZGQxMWI5YTE4YTRjYjE2ODFkMmZlZmY3NTQ5ZTg4OCJ9fX0=
+          permission: none
+          items:
+            '0':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '1':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '2':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '3':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: FISHING_ROD
+            '5':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '6':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '7':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '8':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+        isCraftingTable: true
+      '6':
+        levelTitle: §9Fisher Minion VII
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        level: 7
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM5ZmFmNTgxODBkOGMzMjI4YzZkNmQxMDdiMjhjNzQ4ZGQxMWI5YTE4YTRjYjE2ODFkMmZlZmY3NTQ5ZTg4OCJ9fX0=
+        delay: 79
+        max: 448
+        upgradeCoins: 400000
+        upgradeLevels: 10
+        food: 100
+        health: 100
+        workTime: 3600
+        sleep: 600
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM5ZmFmNTgxODBkOGMzMjI4YzZkNmQxMDdiMjhjNzQ4ZGQxMWI5YTE4YTRjYjE2ODFkMmZlZmY3NTQ5ZTg4OCJ9fX0=
+          permission: none
+          items:
+            '0':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '1':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '2':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '3':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: FISHING_ROD
+            '5':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '6':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '7':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '8':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+        isCraftingTable: true
+      '7':
+        levelTitle: §9Fisher Minion VIII
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        level: 8
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM5ZmFmNTgxODBkOGMzMjI4YzZkNmQxMDdiMjhjNzQ4ZGQxMWI5YTE4YTRjYjE2ODFkMmZlZmY3NTQ5ZTg4OCJ9fX0=
+        delay: 71
+        max: 512
+        upgradeCoins: 438000
+        upgradeLevels: 10
+        food: 100
+        health: 100
+        workTime: 3600
+        sleep: 600
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM5ZmFmNTgxODBkOGMzMjI4YzZkNmQxMDdiMjhjNzQ4ZGQxMWI5YTE4YTRjYjE2ODFkMmZlZmY3NTQ5ZTg4OCJ9fX0=
+          permission: none
+          items:
+            '0':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '1':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '2':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '3':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: FISHING_ROD
+            '5':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '6':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '7':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '8':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+        isCraftingTable: true
+      '8':
+        levelTitle: §9Fisher Minion IX
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        level: 9
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM5ZmFmNTgxODBkOGMzMjI4YzZkNmQxMDdiMjhjNzQ4ZGQxMWI5YTE4YTRjYjE2ODFkMmZlZmY3NTQ5ZTg4OCJ9fX0=
+        delay: 63
+        max: 576
+        upgradeCoins: 500000
+        upgradeLevels: 10
+        food: 100
+        health: 100
+        workTime: 3600
+        sleep: 600
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM5ZmFmNTgxODBkOGMzMjI4YzZkNmQxMDdiMjhjNzQ4ZGQxMWI5YTE4YTRjYjE2ODFkMmZlZmY3NTQ5ZTg4OCJ9fX0=
+          permission: none
+          items:
+            '0':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '1':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '2':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '3':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: FISHING_ROD
+            '5':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '6':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '7':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '8':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+        isCraftingTable: true
+      '9':
+        levelTitle: §9Fisher Minion X
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        level: 10
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM5ZmFmNTgxODBkOGMzMjI4YzZkNmQxMDdiMjhjNzQ4ZGQxMWI5YTE4YTRjYjE2ODFkMmZlZmY3NTQ5ZTg4OCJ9fX0=
+        delay: 55
+        max: 640
+        upgradeCoins: 538000
+        upgradeLevels: 10
+        food: 100
+        health: 100
+        workTime: 3600
+        sleep: 600
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM5ZmFmNTgxODBkOGMzMjI4YzZkNmQxMDdiMjhjNzQ4ZGQxMWI5YTE4YTRjYjE2ODFkMmZlZmY3NTQ5ZTg4OCJ9fX0=
+          permission: none
+          items:
+            '0':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '1':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '2':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '3':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: FISHING_ROD
+            '5':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '6':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '7':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '8':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+        isCraftingTable: true
+      '10':
+        levelTitle: §9Fisher Minion XI
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        level: 11
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM5ZmFmNTgxODBkOGMzMjI4YzZkNmQxMDdiMjhjNzQ4ZGQxMWI5YTE4YTRjYjE2ODFkMmZlZmY3NTQ5ZTg4OCJ9fX0=
+        delay: 47
+        max: 704
+        upgradeCoins: 600000
+        upgradeLevels: 10
+        food: 100
+        health: 100
+        workTime: 3600
+        sleep: 600
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM5ZmFmNTgxODBkOGMzMjI4YzZkNmQxMDdiMjhjNzQ4ZGQxMWI5YTE4YTRjYjE2ODFkMmZlZmY3NTQ5ZTg4OCJ9fX0=
+          permission: none
+          items:
+            '0':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '1':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '2':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '3':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: FISHING_ROD
+            '5':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '6':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '7':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '8':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+        isCraftingTable: true
+      '11':
+        levelTitle: §9Fisher Minion XII
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        level: 12
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM5ZmFmNTgxODBkOGMzMjI4YzZkNmQxMDdiMjhjNzQ4ZGQxMWI5YTE4YTRjYjE2ODFkMmZlZmY3NTQ5ZTg4OCJ9fX0=
+        delay: 39
+        max: 768
+        upgradeCoins: 638000
+        upgradeLevels: 10
+        food: 100
+        health: 100
+        workTime: 3600
+        sleep: 600
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM5ZmFmNTgxODBkOGMzMjI4YzZkNmQxMDdiMjhjNzQ4ZGQxMWI5YTE4YTRjYjE2ODFkMmZlZmY3NTQ5ZTg4OCJ9fX0=
+          permission: none
+          items:
+            '0':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '1':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '2':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '3':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: FISHING_ROD
+            '5':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '6':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '7':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '8':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+        isCraftingTable: true
+      '12':
+        levelTitle: §9Fisher Minion XIII
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        level: 13
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM5ZmFmNTgxODBkOGMzMjI4YzZkNmQxMDdiMjhjNzQ4ZGQxMWI5YTE4YTRjYjE2ODFkMmZlZmY3NTQ5ZTg4OCJ9fX0=
+        delay: 31
+        max: 832
+        upgradeCoins: 700000
+        upgradeLevels: 10
+        food: 100
+        health: 100
+        workTime: 3600
+        sleep: 600
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM5ZmFmNTgxODBkOGMzMjI4YzZkNmQxMDdiMjhjNzQ4ZGQxMWI5YTE4YTRjYjE2ODFkMmZlZmY3NTQ5ZTg4OCJ9fX0=
+          permission: none
+          items:
+            '0':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '1':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '2':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '3':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: FISHING_ROD
+            '5':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '6':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '7':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '8':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+        isCraftingTable: true
+      '13':
+        levelTitle: §9Fisher Minion XIV
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        level: 14
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM5ZmFmNTgxODBkOGMzMjI4YzZkNmQxMDdiMjhjNzQ4ZGQxMWI5YTE4YTRjYjE2ODFkMmZlZmY3NTQ5ZTg4OCJ9fX0=
+        delay: 23
+        max: 896
+        upgradeCoins: 738000
+        upgradeLevels: 10
+        food: 100
+        health: 100
+        workTime: 3600
+        sleep: 600
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM5ZmFmNTgxODBkOGMzMjI4YzZkNmQxMDdiMjhjNzQ4ZGQxMWI5YTE4YTRjYjE2ODFkMmZlZmY3NTQ5ZTg4OCJ9fX0=
+          permission: none
+          items:
+            '0':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '1':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '2':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '3':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: FISHING_ROD
+            '5':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '6':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '7':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '8':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+        isCraftingTable: true
+      '14':
+        levelTitle: §9Fisher Minion XV
+        isCraft: true
+        isLevel: false
+        isCoins: true
+        level: 15
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM5ZmFmNTgxODBkOGMzMjI4YzZkNmQxMDdiMjhjNzQ4ZGQxMWI5YTE4YTRjYjE2ODFkMmZlZmY3NTQ5ZTg4OCJ9fX0=
+        delay: 15
+        max: 960
+        upgradeCoins: 1000000
+        upgradeLevels: 10
+        food: 100
+        health: 100
+        workTime: 3600
+        sleep: 600
+        craft:
+          result: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM5ZmFmNTgxODBkOGMzMjI4YzZkNmQxMDdiMjhjNzQ4ZGQxMWI5YTE4YTRjYjE2ODFkMmZlZmY3NTQ5ZTg4OCJ9fX0=
+          permission: none
+          items:
+            '0':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '1':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '2':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '3':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '4':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: FISHING_ROD
+            '5':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '6':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '7':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+            '8':
+              ==: org.bukkit.inventory.ItemStack
+              v: 2730
+              type: SALMON
+              amount: 8
+        isCraftingTable: true
+      '15':
+        levelTitle: §9Fisher Minion XVI
+        isCraft: false
+        isLevel: false
+        isCoins: true
+        level: 16
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGMxNzU0ODUxZTM2N2U4YmViYTJhNmQ4ZjdjMmZlZGU4N2FlNzkzYWM1NDZiMGYyOTlkNjczMjE1YjI5MyJ9fX0=
+        delay: 20
+        max: 64
+        upgradeCoins: 500
+        upgradeLevels: 10
+        food: 100
+        health: 100
+        workTime: 3600
+        sleep: 600
+        isCraftingTable: true
+      '16':
+        levelTitle: §9Fisher Minion XVII
+        isCraft: false
+        isLevel: false
+        isCoins: true
+        level: 17
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGMxNzU0ODUxZTM2N2U4YmViYTJhNmQ4ZjdjMmZlZGU4N2FlNzkzYWM1NDZiMGYyOTlkNjczMjE1YjI5MyJ9fX0=
+        delay: 3
+        max: 64
+        upgradeCoins: 500
+        upgradeLevels: 10
+        food: 100
+        health: 100
+        workTime: 3600
+        sleep: 600
+        isCraftingTable: true
+      '17':
+        levelTitle: §9Fisher Minion XVIII
+        isCraft: false
+        isLevel: false
+        isCoins: true
+        level: 18
+        url: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGMxNzU0ODUxZTM2N2U4YmViYTJhNmQ4ZjdjMmZlZGU4N2FlNzkzYWM1NDZiMGYyOTlkNjczMjE1YjI5MyJ9fX0=
+        delay: 30
+        max: 200
+        upgradeCoins: 500
+        upgradeLevels: 10
+        food: 100
+        health: 100
+        workTime: 3600
+        sleep: 600
+        isCraftingTable: true
+    damage: 5
+    animation: picar.animc
+    handItem: FISHING_ROD

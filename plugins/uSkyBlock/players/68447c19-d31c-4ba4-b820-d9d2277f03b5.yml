@@ -1,0 +1,11 @@
+player:
+  islandX: -256
+  islandY: 150
+  islandZ: 128
+  homeX: -256
+  homeY: 150
+  homeZ: 128
+  homeYaw: 180.0
+  homePitch: -0.0
+  uuid: 68447c19-d31c-4ba4-b820-d9d2277f03b5
+version: 1

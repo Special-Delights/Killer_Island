@@ -3,7 +3,7 @@ general:
   warpLocationX: 0
   warpLocationY: 0
   warpLocationZ: 0
-  warpActive: true
+  warpActive: false
   regionVersion: 14 en
   schematicName: default
   locked: false
@@ -12,6 +12,9 @@ blocks:
   hopperCount: 0
 version: 3
 log:
+- 1635708211093;§b{0}§d unlocked the island.;-Sierralovesyou2
+- 1635708208005;§b{0}§d deactivated the island warp.;-Sierralovesyou2
+- 1635708208005;§b{0}§d locked the island.;-Sierralovesyou2
 - 1635018710596;§b{0}§d activated the island warp.;-Sierralovesyou2
 - 1635004391743;§b{0}§d unlocked the island.;-Sierralovesyou2
 - 1635003262153;§b{0}§d locked the island.;-Sierralovesyou2

@@ -3,10 +3,10 @@ player:
   islandY: 150
   islandZ: 256
   homeX: 128
-  homeY: 150
-  homeZ: 256
-  homeYaw: 180.0
-  homePitch: -0.0
+  homeY: 155
+  homeZ: 245
+  homeYaw: 2.3763123
+  homePitch: 25.567307
   uuid: 00000000-0000-0000-0009-000007ff375b
   displayName: -lowerlevelll
 version: 1

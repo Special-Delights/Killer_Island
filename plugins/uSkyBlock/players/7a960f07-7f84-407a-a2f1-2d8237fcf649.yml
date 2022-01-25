@@ -8,5 +8,7 @@ player:
   homeYaw: 180.0
   homePitch: -0.0
   uuid: 7a960f07-7f84-407a-a2f1-2d8237fcf649
+  displayName: mr_matthews
 version: 1
 clearInventoryOnNextEntry: true
+trustedOn: []

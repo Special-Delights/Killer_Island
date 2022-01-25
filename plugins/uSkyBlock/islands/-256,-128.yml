@@ -1,0 +1,34 @@
+general:
+  level: 8.067499999999999
+  warpLocationX: 0
+  warpLocationY: 0
+  warpLocationZ: 0
+  warpActive: false
+  regionVersion: 14 en
+  schematicName: default
+blocks:
+  leafBreaks: 1
+  hopperCount: 0
+version: 3
+log:
+- 1635811507961;{0} created an area with {1} biome;Black00Widow;PLAINS
+- 1635288626781;The island has been created.
+- 1635288624582;The island has been created.
+party:
+  leader: Black00Widow
+  leader-uuid: b6488ad1-76fd-4964-adad-f7e2fb616511
+  members:
+    b6488ad1-76fd-4964-adad-f7e2fb616511:
+      canChangeBiome: true
+      canToggleLock: true
+      canChangeWarp: true
+      canToggleWarp: true
+      canInviteOthers: true
+      canKickOthers: true
+      canBanOthers: true
+      name: Black00Widow
+      maxAnimals: 64
+      maxMonsters: 50
+      maxVillagers: 16
+      maxGolems: 5
+  currentSize: 1
